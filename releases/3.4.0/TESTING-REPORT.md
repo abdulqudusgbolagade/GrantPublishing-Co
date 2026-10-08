@@ -61,4 +61,4 @@ All 17 public responses contained two `<title>` tags in the document head. Revie
 - [Internal action inventory](evidence/route-action-3.4.json), [read-only live route observations](evidence/live-route-results.json), [preservation/package checks](evidence/package-validation.txt)
 - [Reference audit](evidence/REFERENCE-AUDIT.md). Reference images are labelled local mirrors of downloaded public assets, not live Chromium navigation.
 
-The plugin ZIP has one `grant-publishing-site/` root with 49 files. The separate evidence ZIP is for review, not WordPress installation. Both archive hashes are in [SHA256SUMS.txt](SHA256SUMS.txt).
+The plugin ZIP has one `grant-publishing-site/` root with 49 files. The separate evidence ZIP is for review, not WordPress installation. Both archive hashes are in [SHA256SUMS.txt on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/3.4.0/SHA256SUMS.txt).

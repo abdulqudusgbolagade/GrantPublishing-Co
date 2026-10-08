@@ -38,4 +38,4 @@ These are local plugin fixture captures with the intended Grant fonts. “Before
 
 ![Grant Contact 3.4 phone](evidence/after-contact-390.png)
 
-See [all 17 pages in the screenshot gallery](GALLERY.md), [installation instructions](INSTALLATION.md), and the [downloadable plugin ZIP](grant-publishing-site-3.4.0.zip). Existing Web3Forms provider/key settings remain saved when the plugin is replaced.
+See [all 17 pages in the screenshot gallery](GALLERY.md), [installation instructions](INSTALLATION.md), and the [downloadable plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/3.4.0/grant-publishing-site-3.4.0.zip). Existing Web3Forms provider/key settings remain saved when the plugin is replaced.
