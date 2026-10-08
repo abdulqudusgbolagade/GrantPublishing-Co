@@ -75,3 +75,22 @@
 @media(prefers-reduced-motion:reduce){.gpc-site *{animation:none!important}.gpc-site :is(.gp-insight-card,.gp-article-row){transition:none}}
 .gpc-site :is(.gp-footer,.gp-proof) :is(a,button):focus-visible{outline-color:#fffefa}
 .gpc-site :is(.gp-stars,.gp-hero-footnote) p{color:inherit}
+
+/* 3.3: a full portrait column within the existing founder sections. */
+.gpc-site .gp-portrait{background:linear-gradient(155deg,#efedf5,#e9edf0);border-radius:18px;box-shadow:0 12px 32px #1821390a}
+.gpc-site #about .gp-split{grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:24px 80px;align-items:center}
+.gpc-site #about .gp-section-intro{grid-column:1;grid-row:1;align-self:end}
+.gpc-site #about .gp-section-intro .gp-heading{margin-bottom:0}
+.gpc-site #about .gp-body-copy{display:contents}
+.gpc-site #about .gp-body-copy:after{display:none}
+.gpc-site .gp-portrait-home{float:none;width:380px;max-width:100%;margin:0;grid-column:2;grid-row:1 / span 3;justify-self:center;align-self:center}
+.gpc-site #about .gp-body-copy>.gp-copy{grid-column:1;grid-row:2;max-width:52ch}
+.gpc-site #about .gp-body-copy>.gp-action{grid-column:1;grid-row:3;justify-self:start;align-self:start}
+.gpc-site .gp-biography{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.9fr);gap:24px 64px;align-items:center}
+.gpc-site .gp-portrait-about{float:none;width:420px;max-width:100%;margin:0;grid-column:2;grid-row:1 / span 3;justify-self:center}
+.gpc-site .gp-biography>.gp-heading{grid-column:1;grid-row:1;margin:0;align-self:end}
+.gpc-site .gp-biography>.gp-copy{grid-column:1;max-width:58ch}
+.gpc-site .gp-biography>.gp-copy+.gp-copy{margin-top:0;align-self:start}
+.gpc-site .gp-biography:after{display:none}
+@media(max-width:980px){.gpc-site #about .gp-split,.gpc-site .gp-biography{column-gap:36px}}
+@media(max-width:720px){.gpc-site #about .gp-split,.gpc-site .gp-biography{grid-template-columns:minmax(0,1fr);gap:24px}.gpc-site #about .gp-section-intro{grid-column:auto;grid-row:auto}.gpc-site #about .gp-body-copy{display:block;min-width:0}.gpc-site .gp-portrait-home,.gpc-site .gp-portrait-about{width:340px;max-width:100%;grid-column:auto;grid-row:auto;margin:0 auto 24px}.gpc-site .gp-biography>.gp-heading,.gpc-site .gp-biography>.gp-copy{grid-column:auto;grid-row:auto}.gpc-site .gp-biography>.gp-portrait-about{margin-bottom:0}.gpc-site #about .gp-body-copy>.gp-action{margin-top:24px}.gpc-site .gp-biography>.gp-copy{max-width:none}}

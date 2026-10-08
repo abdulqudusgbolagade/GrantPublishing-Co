@@ -1,0 +1,3 @@
+Audited 102 page/layout/viewport combinations
+[]
+PASS: mobile opening, Escape/focus return, outside click, desktop resize; 4 before/after screenshots.

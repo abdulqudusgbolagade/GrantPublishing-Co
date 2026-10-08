@@ -2,16 +2,17 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 3.2.0
+ * Version: 3.3.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '3.2.0');
+define('GPC_VERSION', '3.3.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
+require_once __DIR__ . '/includes/web3forms.php';
 require_once __DIR__ . '/includes/setup.php';
 function gpc_services() {
     return array('Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Book formatting','Cover design','Publishing consultation','Not sure yet');
@@ -52,7 +53,7 @@ function gpc_site_form($default = 'project') {
         <button class="gpc-audit-submit" type="submit"><?php echo $request === 'assessment' ? 'Request free assessment' : 'Send project enquiry'; ?></button>
         <p class="gpc-form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
         <p>Prefer a direct conversation? <a href="https://wa.me/<?php echo esc_attr($contact['whatsapp']); ?>">Message on WhatsApp</a> or <a href="mailto:<?php echo esc_attr($contact['email']); ?>">send an email</a>.</p>
-        <p class="gpc-audit-form-disclaimer">Your enquiry is emailed to Grant Publishing Co. so we can respond. This form does not subscribe you to a mailing list. You can request deletion by emailing <?php echo esc_html($contact['email']); ?>.</p>
+        <p class="gpc-audit-form-disclaimer"><?php echo esc_html(gpc_form_privacy_text()); ?> You can request deletion by emailing <?php echo esc_html($contact['email']); ?>.</p>
     </form>
     <?php
     return ob_get_clean();
@@ -60,14 +61,14 @@ function gpc_site_form($default = 'project') {
 function gpc_site_value($key) {
     return isset($_POST[$key]) && is_string($_POST[$key]) ? trim(wp_unslash($_POST[$key])) : '';
 }
-function gpc_site_reply($ok, $message, $status = 200) {
+function gpc_site_reply($ok, $message, $status = 200, $uncertain = false) {
     if (gpc_site_value('gpc_ajax') === '1') {
         if ($ok) { wp_send_json_success(array('message' => $message), $status); }
         wp_send_json_error(array('message' => $message), $status);
     }
     $body = '<p>' . esc_html($message) . '</p><p><a href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Return to the enquiry page</a></p>';
     if (!$ok) { $body .= '<p>Use your browser Back button to return to your completed form, or email ' . esc_html(gpc_contact_details()['email']) . '.</p>'; }
-    wp_die($body, $ok ? 'Enquiry submitted' : 'Enquiry not sent', array('response' => $status, 'back_link' => false));
+    wp_die($body, $ok ? 'Enquiry submitted' : ($uncertain ? 'Enquiry delivery unconfirmed' : 'Enquiry not sent'), array('response' => $status, 'back_link' => false));
 }
 function gpc_site_send() {
     if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') { gpc_site_reply(false, 'Please use the enquiry form.', 405); }
@@ -101,7 +102,23 @@ function gpc_site_send() {
     if ($count >= 5) { gpc_site_reply(false, 'Too many attempts in a short time. Please try again in 15 minutes or contact us directly.', 429); }
     set_transient($rate_key, $count + 1, 15 * MINUTE_IN_SECONDS);
     $dedupe_key = 'gpc_sent_' . hash_hmac('sha256', wp_json_encode(array($values, $message)), wp_salt('auth'));
-    if (get_transient($dedupe_key)) { gpc_site_reply(true, 'This enquiry has already been submitted. Thank you.'); }
+    $previous = get_transient($dedupe_key);
+    if (is_array($previous) && ($previous['state'] ?? '') === 'uncertain') {
+        gpc_site_reply(false, 'A recent attempt to send this enquiry is awaiting confirmation. Your details are still here. Please contact us by email or WhatsApp to check before submitting it again.', 503, true);
+    }
+    if ($previous) { gpc_site_reply(true, 'This enquiry has already been submitted. Thank you.'); }
+    $delivery = gpc_form_delivery_settings();
+    if ($delivery['provider'] === 'web3forms') {
+        // Record an in-flight attempt so an uncertain response is never retried silently.
+        set_transient($dedupe_key, array('state' => 'uncertain'), 10 * MINUTE_IN_SECONDS);
+        $result = gpc_web3forms_send($values, $message, $delivery['access_key']);
+        if ($result['state'] !== 'sent') {
+            if ($result['state'] === 'failed') { delete_transient($dedupe_key); }
+            gpc_site_reply(false, $result['message'], $result['status'], $result['state'] === 'uncertain');
+        }
+        set_transient($dedupe_key, 1, 10 * MINUTE_IN_SECONDS);
+        gpc_site_reply(true, 'Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp.');
+    }
     $body = "New Grant Publishing Co. website enquiry\n\n";
     foreach ($values as $label => $value) { $body .= $label . ': ' . ($value !== '' ? $value : 'Not provided') . "\n"; }
     $body .= "\nMessage:\n" . $message . "\n\nContact permission: Yes\n";

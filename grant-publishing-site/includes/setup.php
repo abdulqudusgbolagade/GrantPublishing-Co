@@ -7,7 +7,7 @@ function gpc_setup_screen() {
     if (!current_user_can('manage_options')) { return; }
     $results = get_transient('gpc_setup_result_' . get_current_user_id());
     delete_transient('gpc_setup_result_' . get_current_user_id());
-    echo '<div class="wrap"><h1>Grant Website Setup</h1><p>Editorial website design, version ' . esc_html(GPC_VERSION) . '. Complete the two steps below, then edit your pages with Elementor.</p>';
+    echo '<div class="wrap"><h1>Grant Website Setup</h1><p>Editorial website design, version ' . esc_html(GPC_VERSION) . '. Existing pages and Elementor edits are preserved when you update the plugin. To connect Web3Forms, use Enquiry delivery below; page creation and design conversion are not needed for this update.</p>';
     if (is_array($results)) {
         echo '<div class="notice notice-info"><ul>';
         foreach ($results as $result) { echo '<li>' . esc_html($result) . '</li>'; }
@@ -40,7 +40,7 @@ function gpc_setup_screen() {
     }
     echo '</tbody></table><p>If a page says Existing content preserved, save its current layout as an Elementor template, then replace its body with a Shortcode widget using the code in that row. Run step 2 again. Keep the page layout set to Grant Publishing Full Page after conversion.</p>';
     $c = gpc_contact_details();
-    echo '<h2>Shared contact details</h2><p>These details update the footer, contact links and form. The email below is also the enquiry recipient.</p><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_save_contact">';
+    echo '<h2>Shared contact details</h2><p>These details update the footer, contact links and form. The email below receives enquiries when WordPress email is selected. With Web3Forms, delivery uses the inbox connected to your access key.</p><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_save_contact">';
     wp_nonce_field('gpc_save_contact');
     echo '<table class="form-table">';
     foreach (array('email'=>'Email and enquiry recipient','whatsapp'=>'WhatsApp number, digits with country code','linkedin'=>'LinkedIn profile URL','upwork'=>'Upwork profile URL') as $key=>$label) {
@@ -49,7 +49,11 @@ function gpc_setup_screen() {
     }
     echo '</table>';
     submit_button('Save shared contact details');
-    echo '</form><h2>Finish the live checks</h2><ol><li>Clear your site cache. Check the home, service, article and contact pages on desktop and phone.</li><li>Edit navigation labels and order under Appearance > Menus, using the Grant Publishing primary navigation location.</li><li>Exclude Contact and Book Assessment from page caching, because their form tokens expire.</li><li>Send a clearly labelled test enquiry and confirm inbox delivery to ' . esc_html($c['email']) . '.</li></ol><p>The enquiry form uses WordPress email delivery. It does not save message bodies in the database. A success message confirms acceptance for sending, not inbox delivery.</p></div>';
+    echo '</form>';
+    gpc_delivery_settings_screen();
+    $delivery = gpc_form_delivery_settings();
+    $destination = $delivery['provider'] === 'web3forms' ? 'the inbox connected to your Web3Forms key' : $c['email'];
+    echo '<h2>Finish the live checks</h2><ol><li>Clear your site cache. Check the home, service, article and contact pages on desktop and phone.</li><li>Edit navigation labels and order under Appearance > Menus, using the Grant Publishing primary navigation location.</li><li>Exclude Contact and Book Assessment from page caching, because their form tokens expire.</li><li>Send a clearly labelled test enquiry and confirm inbox delivery to ' . esc_html($destination) . '.</li></ol><p>The active delivery method is ' . ($delivery['provider'] === 'web3forms' ? 'Web3Forms' : 'WordPress email') . '. This plugin does not save message bodies in the WordPress database. Short-lived hashed identifiers support abuse and duplicate checks. A success message confirms acceptance for sending, not inbox delivery. If delivery cannot be confirmed, check with us before resending the same enquiry.</p></div>';
 }
 function gpc_setup_pages() {
     if (!current_user_can('manage_options') || !current_user_can('publish_pages')) { wp_die('You do not have permission to create these pages.', '', array('response'=>403)); }

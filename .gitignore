@@ -1,0 +1,3 @@
+qa/node_modules
+qa/php-lint-results.json
+qa/__pycache__/

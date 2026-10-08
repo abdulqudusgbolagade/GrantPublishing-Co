@@ -1,0 +1,60 @@
+PASS: Existing installs default to WordPress mail
+PASS: WordPress email failure remains visible
+PASS: Web3Forms sends once without email fallback
+PASS: Fixed HTTPS provider endpoint, TLS and no redirect
+PASS: Server JSON transport completes before browser timeout
+PASS: Name, email, reply address and message included
+PASS: Every optional field and consent included
+PASS: Confirmed duplicate submission does not send again
+PASS: HTTP 400 rejection is visible without fallback
+PASS: HTTP 400 confirmed rejection permits intentional retry
+PASS: HTTP 401 rejection is visible without fallback
+PASS: HTTP 401 confirmed rejection permits intentional retry
+PASS: HTTP 403 rejection is visible without fallback
+PASS: HTTP 403 confirmed rejection permits intentional retry
+PASS: HTTP 422 rejection is visible without fallback
+PASS: HTTP 422 confirmed rejection permits intentional retry
+PASS: HTTP 429 rejection is visible without fallback
+PASS: HTTP 429 confirmed rejection permits intentional retry
+PASS: Provider negative success is confirmed rejection
+PASS: Uncertain response 500/{"success":false} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 503/<html>Unavailable</html> preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/not json preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/{"success":"true"} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/{} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 302/ preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Transport error/timeout is uncertain
+PASS: Transport-error duplicate is held
+PASS: Missing key does not send or fall back
+PASS: Validation blocks invalid fax
+PASS: Validation blocks invalid consent
+PASS: Validation blocks invalid email
+PASS: Validation blocks invalid book_url
+PASS: Validation blocks invalid request
+PASS: Validation blocks invalid message
+PASS: Expired form nonce blocks send
+PASS: GET cannot submit enquiry
+PASS: Existing address rate limit retained
+PASS: Access key is absent from public form markup
+PASS: Active provider disclosed in form privacy text
+PASS: WordPress mode retains email disclosure
+PASS: Admin key field is masked and never prefilled
+PASS: Saving a valid key selects provider and disables autoload
+PASS: Blank key preserves existing credential
+PASS: Provider can be paused without removing key
+PASS: Removal clears credential and restores email delivery
+PASS: Invalid key cannot overwrite saved settings
+PASS: Web3Forms cannot be activated without credential
+PASS: Administrator capability protects delivery settings
+PASS: CSRF nonce protects delivery settings
+PASS: Delivery changes require POST
+PASS: Unsupported provider rejected
+PASS: No-JavaScript uncertain delivery preserves uncertainty in title and body
+
+58 backend assertions passed. No real HTTP request or email was sent.
