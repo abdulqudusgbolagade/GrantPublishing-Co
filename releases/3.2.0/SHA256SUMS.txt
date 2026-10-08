@@ -1,0 +1,2 @@
+0601c110db6ec538a0e3bb8ac508a83d7a1a64a52563c646f92a8d6408cf9d52  grant-publishing-site-3.2.0.zip
+6cd37682aaa871bcf4693b7b908d8c1e39aca3f6d6e2c16f806cd5fadf28bce9  grant-publishing-3.2.0-evidence.zip

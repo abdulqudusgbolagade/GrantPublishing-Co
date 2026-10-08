@@ -1,0 +1,347 @@
+{
+  "title": "Free Initial Book Assessment",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "content": [
+    {
+      "id": "bccff7d6",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "gp-page-hero",
+        "content_width": "full",
+        "flex_direction": "column",
+        "_title": "Page Hero",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "8a17f609",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "_title": "Wrap",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "49efe091",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_css_classes": "gp-label",
+                "_title": "Text Editor",
+                "editor": "<p>START WITH YOUR BOOK</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "593d7807",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_css_classes": "gp-page-title",
+                "_title": "Heading",
+                "title": "A fresh look at<br><em>your book’s presence.</em>",
+                "header_size": "h1"
+              },
+              "elements": []
+            },
+            {
+              "id": "c7edc3a9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_css_classes": "gp-lead",
+                "_title": "Text Editor",
+                "editor": "<p>Request a free initial review of your public Amazon book listing. We start with what readers can see and identify the questions worth exploring.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "90ceb3df",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "css_classes": "gp-section",
+        "content_width": "full",
+        "flex_direction": "column",
+        "_title": "Section",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "2a250834",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "_title": "Wrap",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "b8f480fb",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "css_classes": "gp-contact-layout",
+                "content_width": "full",
+                "flex_direction": "column",
+                "_title": "Contact Layout",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "a314cfb5",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "css_classes": "gp-contact-aside",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "_title": "Contact Aside",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "06586042",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-label",
+                        "_title": "Text Editor",
+                        "editor": "<p>WHAT HAPPENS NEXT</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0d349a1d",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-brief-title",
+                        "_title": "Heading",
+                        "title": "A useful conversation.<br>A clear next step.",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "c9ea2459",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-copy",
+                        "_title": "Text Editor",
+                        "editor": "<p>We review the information you share and clarify your needs before proposing paid work.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "06d94188",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-item-title",
+                        "_title": "Heading",
+                        "title": "Prefer a direct message?",
+                        "header_size": "h3"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "888136a1",
+                      "elType": "widget",
+                      "widgetType": "shortcode",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-contact-links",
+                        "_title": "Shortcode",
+                        "shortcode": "[grant_contact_links]"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "50405ff9",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-item-title",
+                        "_title": "Heading",
+                        "title": "The scope of the assessment",
+                        "header_size": "h3"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ee4fa4a6",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-small",
+                        "_title": "Text Editor",
+                        "editor": "<p>The free initial assessment uses public Amazon information only. It does not include a manuscript review or private sales and advertising data.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "72d45e57",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "css_classes": "gp-form-panel",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "_title": "Form Panel",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "37a2083e",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-label",
+                        "_title": "Text Editor",
+                        "editor": "<p>FREE INITIAL ASSESSMENT</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "1d5dae9a",
+                      "elType": "widget",
+                      "widgetType": "shortcode",
+                      "isInner": false,
+                      "settings": {
+                        "_css_classes": "gp-form-widget",
+                        "_title": "Shortcode",
+                        "shortcode": "[grant_enquiry_form request=\"assessment\"]"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

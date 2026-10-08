@@ -1,0 +1,114 @@
+{
+  "home": {
+    "title": "Grant Publishing Co.",
+    "slug": "",
+    "shortcode": "grant_home",
+    "description": "Book marketing strategy, Amazon visibility and publishing support for independent authors and publishers."
+  },
+  "services": {
+    "title": "Book Marketing Services",
+    "slug": "services",
+    "shortcode": "grant_services",
+    "description": "Explore Amazon visibility, book descriptions, launch planning, author platforms and publishing support."
+  },
+  "enquiry": {
+    "title": "Free Initial Book Assessment",
+    "slug": "book-marketing-audit",
+    "shortcode": "grant_enquiry_page",
+    "description": "Request an initial assessment based on your public Amazon book listing, or discuss a book marketing project."
+  },
+  "about": {
+    "title": "About Grant Publishing Co.",
+    "slug": "about",
+    "shortcode": "grant_about",
+    "description": "Meet AbdulQudus Tella, Book Marketing Strategist, and learn how Grant Publishing Co. approaches author projects."
+  },
+  "feedback": {
+    "title": "Client Feedback",
+    "slug": "client-feedback",
+    "shortcode": "grant_feedback",
+    "description": "Read feedback from three completed projects with author Nadine Laman."
+  },
+  "insights": {
+    "title": "Insights for Authors",
+    "slug": "insights",
+    "shortcode": "grant_insights",
+    "description": "Practical thinking on book discovery, product page presentation and author catalog strategy."
+  },
+  "contact": {
+    "title": "Contact Grant Publishing Co.",
+    "slug": "contact",
+    "shortcode": "grant_contact",
+    "description": "Discuss a book marketing or publishing project by enquiry form, email or WhatsApp."
+  },
+  "amazon-visibility": {
+    "title": "Amazon Book Visibility",
+    "slug": "amazon-visibility",
+    "parent": "services",
+    "shortcode": "grant_amazon_visibility",
+    "description": "Help the right reader recognise where your book belongs. Explore the scope and next step with Grant Publishing Co."
+  },
+  "book-presentation": {
+    "title": "Book Descriptions & A+ Content",
+    "slug": "book-presentation",
+    "parent": "services",
+    "shortcode": "grant_book_presentation",
+    "description": "Make the book’s promise easier to understand. Explore the scope and next step with Grant Publishing Co."
+  },
+  "launch-promotion": {
+    "title": "Book Launch & Promotion",
+    "slug": "launch-promotion",
+    "parent": "services",
+    "shortcode": "grant_launch_promotion",
+    "description": "Build a promotion plan around the book and its reader. Explore the scope and next step with Grant Publishing Co."
+  },
+  "author-platform": {
+    "title": "Author Platform",
+    "slug": "author-platform",
+    "parent": "services",
+    "shortcode": "grant_author_platform",
+    "description": "Give interested readers a clear way to stay connected. Explore the scope and next step with Grant Publishing Co."
+  },
+  "catalog-strategy": {
+    "title": "Series & Catalog Strategy",
+    "slug": "catalog-strategy",
+    "parent": "services",
+    "shortcode": "grant_catalog_strategy",
+    "description": "Think beyond a single book. Explore the scope and next step with Grant Publishing Co."
+  },
+  "book-strategy": {
+    "title": "Book Marketing Strategy",
+    "slug": "book-strategy",
+    "parent": "services",
+    "shortcode": "grant_book_strategy",
+    "description": "Choose the work that matters before spending on more activity. Explore the scope and next step with Grant Publishing Co."
+  },
+  "publishing-support": {
+    "title": "Publishing Support",
+    "slug": "publishing-support",
+    "parent": "services",
+    "shortcode": "grant_publishing_support",
+    "description": "Prepare the book’s presentation and files for its next step. Explore the scope and next step with Grant Publishing Co."
+  },
+  "book-discovery": {
+    "title": "Why publishing a book does not guarantee discovery",
+    "slug": "book-discovery",
+    "parent": "insights",
+    "shortcode": "grant_book_discovery",
+    "description": "Publication makes a book available. The next question is whether the right reader can recognise it."
+  },
+  "book-product-page": {
+    "title": "The pieces of a strong book product page",
+    "slug": "book-product-page",
+    "parent": "insights",
+    "shortcode": "grant_book_product_page",
+    "description": "Review the page as a reader would: what is this book, who is it for and why should I keep reading?"
+  },
+  "connected-catalog": {
+    "title": "Your second book changes the marketing equation",
+    "slug": "connected-catalog",
+    "parent": "insights",
+    "shortcode": "grant_connected_catalog",
+    "description": "With more than one title, the reader’s next step becomes part of the marketing plan."
+  }
+}
