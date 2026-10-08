@@ -1,0 +1,372 @@
+/* Grant Publishing 3.4: editorial navy, warm paper and restrained gold.
+   Inspired by the reference's visual hierarchy; Grant's content, fonts and
+   supplied assets remain its own. All rules stay inside the plugin surface. */
+.gpc-site {
+  --gp-paper: #fdfaf5;
+  --gp-white: #fffefa;
+  --gp-ink: #14213d;
+  --gp-muted: #4c5568;
+  --gp-line: #e5dccb;
+  --gp-panel: #f3eee5;
+  --gp-gold: #d4a24a;
+  --gp-gold-light: #e4c884;
+  --gp-gold-text: #785719;
+  --gp-purple: #785719;
+  --e-global-color-primary: #14213d;
+  --e-global-color-secondary: #4c5568;
+  --e-global-color-text: #4c5568;
+  -webkit-font-smoothing: antialiased;
+}
+.gpc-site .gp-section { padding-block: 88px; }
+.gpc-site .gp-label { font-weight: 600; letter-spacing: .12em; }
+.gpc-site :is(.gp-heading,.gp-hero-title,.gp-page-title) em { color: var(--gp-gold-text); }
+.gpc-site .gp-title-link { text-decoration-color: var(--gp-gold); text-underline-offset: 6px; }
+.gpc-site .gp-title-link:hover { color: var(--gp-blue); text-decoration-color: currentColor; }
+
+/* Clear action hierarchy; dark text on gold is deliberate for contrast. */
+.gpc-site :is(.gp-action .elementor-button,.gp-button,.gpc-audit-submit) {
+  background: var(--gp-gold); border-color: var(--gp-gold); color: var(--gp-ink);
+  border-radius: 999px; min-height: 52px; padding: 14px 24px;
+  font-size: 15px; font-weight: 600; box-shadow: 0 8px 22px -14px #14213d66;
+}
+.gpc-site :is(.gp-action .elementor-button,.gp-button,.gpc-audit-submit):hover {
+  background: var(--gp-gold-light); border-color: var(--gp-gold-light); color: var(--gp-ink);
+  box-shadow: 0 10px 24px -13px #14213d66;
+}
+.gpc-site :is(.gp-secondary .elementor-button,.gp-button-secondary) {
+  background: transparent; border-color: #8c929f; color: var(--gp-ink); box-shadow: none;
+}
+.gpc-site :is(.gp-secondary .elementor-button,.gp-button-secondary):hover {
+  background: var(--gp-ink); border-color: var(--gp-ink); color: #fffefa; box-shadow: none;
+}
+.gpc-site :is(.gp-action .elementor-button,.gp-button) :is(span,i) { color: inherit; }
+.gpc-site .gpc-audit-submit:disabled {
+  background: #555b80; border-color: #555b80; color: #fff; box-shadow: none; transform: none;
+}
+
+/* A compact sticky navigation band with the supplied logo on paper. */
+.gpc-site .gp-header { position: sticky; top: 0; background: #0f1a31; border-bottom-color: #31405c; }
+.gpc-site .gp-header-inner { min-height: 84px; gap: 22px; }
+.gpc-site .gp-wordmark { padding: 4px 10px; background: var(--gp-paper); border-radius: 12px; }
+.gpc-site .gp-wordmark .gp-logo { width: 154px; height: 55px; }
+.gpc-site .gp-nav { gap: 20px; color: #d4dcec; font-size: 13px; }
+.gpc-site .gp-nav>ul { gap: 20px; }
+.gpc-site .gp-nav a { color: #d4dcec; padding-block: 13px; }
+.gpc-site .gp-nav :is(a:hover,a[aria-current],.current-menu-item>a,.current-page-ancestor>a) {
+  color: var(--gp-gold-light); border-bottom-color: var(--gp-gold);
+}
+.gpc-site .gp-header-cta .gp-button { color: var(--gp-ink); min-height: 46px; }
+.gpc-site .gp-mobile-nav summary { background: #14213d; border-color: #65738b; color: #fffefa; }
+.gpc-site .gp-mobile-nav nav { background: #0f1a31; border-color: #31405c; }
+.gpc-site .gp-mobile-nav nav a { color: #eaf0fa; }
+.gpc-site .gp-mobile-nav :is(a[aria-current],.current-menu-item>a) { color: var(--gp-gold-light); }
+.gpc-site .gp-mobile-nav nav .gp-button { color: var(--gp-ink); }
+.gpc-site :is(main#gpc-main,[id]) { scroll-margin-top: 108px; }
+.admin-bar .gpc-site .gp-header { top: 32px; }
+.admin-bar .gpc-site [id] { scroll-margin-top: 144px; }
+
+/* Existing heroes become a strong opening band; their markup is unchanged. */
+.gpc-site :is(.gp-home-hero,.gp-page-hero) {
+  background: radial-gradient(ellipse at 85% 0%,#d4a24a16,transparent 65%),#0f1a31;
+  color: #eaf0fa;
+}
+.gpc-site .gp-home-hero { padding: 78px 0 40px; }
+.gpc-site .gp-page-hero { padding-block: 76px 68px; }
+.gpc-site :is(.gp-home-hero,.gp-page-hero) :is(.gp-hero-title,.gp-page-title) h1 { color: #fffefa; }
+.gpc-site :is(.gp-home-hero,.gp-page-hero) :is(.gp-hero-title,.gp-page-title) em { color: var(--gp-gold-light); }
+.gpc-site .gp-hero-copy>.gp-label { display: inline-block; padding: 7px 14px; border: 1px solid #d4a24a66; border-radius: 999px; background: #d4a24a14; }
+.gpc-site .gp-hero-copy>.gp-label p,
+.gpc-site .gp-page-hero>.gp-wrap>.gp-label p { color: var(--gp-gold-light); }
+.gpc-site :is(.gp-home-hero,.gp-page-hero) .gp-lead p { color: #c9d3e5; }
+.gpc-site .gp-hero-copy>.gp-lead { font-size: 17px; }
+.gpc-site .gp-hero-title h1 { font-size: clamp(50px,5.8vw,80px); }
+.gpc-site .gp-reputation { border-top-color: #40506b; }
+.gpc-site .gp-reputation .gp-stars { color: var(--gp-gold-light); }
+.gpc-site .gp-rating-text { color: #c9d3e5; }
+.gpc-site .gp-rating-text strong { color: #fffefa; }
+.gpc-site .gp-hero-footnote { color: #c9d3e5; font-size: 11px; }
+.gpc-site .gp-breadcrumb { color: #c9d3e5; font-size: 13px; }
+.gpc-site .gp-breadcrumb a { color: #eaf0fa; }
+.gpc-site .gp-project {
+  background: var(--gp-paper); color: var(--gp-ink); border: 1px solid #fdfaf544;
+  border-radius: 22px; padding: 30px; box-shadow: 0 20px 46px -24px #0009;
+}
+.gpc-site .gp-project-caption { border-top-color: var(--gp-line); }
+.gpc-site .gp-project-top .gp-label p { color: var(--gp-muted); }
+.gpc-site .gp-proof { background: #14213d; padding-block: 56px; }
+.gpc-site .gp-proof :is(.gp-label p,.gp-small p,.gp-attribution p) { color: #c9d3e5; }
+.gpc-site :is(.gp-home-hero,.gp-page-hero,.gp-proof,.gp-footer) .gp-secondary .elementor-button {
+  background: transparent; border-color: #c8aa6c; color: #fdfaf5;
+}
+.gpc-site :is(.gp-home-hero,.gp-page-hero,.gp-proof,.gp-footer) .gp-secondary .elementor-button:hover {
+  background: #d4a24a22; border-color: var(--gp-gold-light); color: #fffefa;
+}
+.gpc-site .gp-cta { background: #f0e8d9; }
+.gpc-site .gp-footer { background: #0f1a31; border-top: 1px solid #31405c; padding-top: 72px; }
+.gpc-site .gp-footer .gp-button { color: var(--gp-ink); }
+.gpc-site .gp-footer :is(p,p span) { color: #c9d3e5; }
+.gpc-site .gp-footer h3 { color: var(--gp-gold-light); }
+.gpc-site .gp-footer-links a { min-height: 28px; font-size: 14px; }
+.gpc-site .gp-footer a:hover { text-decoration-color: var(--gp-gold); }
+.gpc-site .gp-footer-fine { border-top-color: #31405c; }
+.gpc-site .gp-portrait { background: linear-gradient(150deg,#f2e5c9,#edf0f3); border-color: #ded4c2; box-shadow: 0 20px 44px -24px #14213d88; }
+.gpc-site :is(.gp-home-hero,.gp-page-hero,.gp-header,.gp-proof,.gp-footer) :is(a,button,summary):focus-visible { outline-color: #fffefa; }
+.gpc-site :is(.gp-home-hero,.gp-page-hero,.gp-header,.gp-proof,.gp-footer) :is(.gp-action .elementor-button,.gp-button,button,summary):focus-visible { outline-color: #fffefa; }
+
+@media(max-width:1050px) {
+  .gpc-site .gp-hero-grid { gap: 36px; }
+  .gpc-site .gp-nav,.gpc-site .gp-nav>ul { gap: 16px; }
+}
+@media(max-width:782px) { .admin-bar .gpc-site .gp-header { top: 46px; } }
+@media(max-width:720px) {
+  .gpc-site .gp-section { padding-block: 56px; }
+  .gpc-site .gp-header-inner { min-height: 80px; }
+  .gpc-site .gp-wordmark .gp-logo { width: 140px; height: 50px; }
+  .gpc-site .gp-home-hero { padding: 48px 0 32px; }
+  .gpc-site .gp-page-hero { padding-block: 48px; }
+  .gpc-site .gp-hero-title h1 { font-size: clamp(46px,10.5vw,65px); }
+  .gpc-site .gp-hero-copy>.gp-lead { font-size: 16px; }
+  .gpc-site .gp-project { padding: 24px; }
+  .gpc-site .gp-proof { padding-block: 40px; }
+  .gpc-site .gp-footer { padding-top: 48px; }
+}
+@media(max-width:600px) { .admin-bar .gpc-site .gp-header { top: 0; } }
+@media(max-width:380px) {
+  .gpc-site .gp-header-inner { gap: 12px; }
+  .gpc-site .gp-wordmark { padding-inline: 8px; }
+  .gpc-site .gp-wordmark .gp-logo { width: 128px; height: 46px; }
+  .gpc-site .gp-hero-copy>.gp-label { padding-inline: 10px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .gpc-site :is(.gp-action .elementor-button,.gp-button,.gpc-audit-submit):hover { transform: none; }
+}
+
+/* 3.4: warm, clearly grouped component surfaces inspired by OW Publishing.
+   Keep existing content, order, native links and form behaviour intact. */
+.gpc-site :is(.gp-service-list,.gp-three-columns,.gp-service-main,.gp-service-copy,.gp-contact-aside,.gp-form-widget,.gp-quote-column){min-width:0}
+.gpc-site .gp-three-columns{gap:24px}
+
+/* Services keep their existing editorial rows and explicit destinations. */
+.gpc-site .gp-service-list-full{display:grid;gap:18px}
+.gpc-site #services .gp-service-list:not(.gp-service-list-full){gap:18px}
+.gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row){
+  padding:30px;
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-left:3px solid var(--gp-gold);
+  border-radius:16px;
+  box-shadow:0 6px 20px -16px #14213d32;
+  transition:border-color .18s ease,box-shadow .18s ease;
+}
+.gpc-site #services .gp-service-row{grid-template-columns:32px minmax(0,1fr);column-gap:18px}
+.gpc-site .gp-service-list-full .gp-service-row{grid-template-columns:36px minmax(0,1fr) auto;gap:26px;align-items:center}
+.gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row):focus-within{
+  border-color:var(--gp-gold-text);
+  background:var(--gp-white);
+  box-shadow:0 8px 26px -18px #14213d50;
+  transform:none;
+}
+.gpc-site #services .gp-service-row:hover{transform:none}
+.gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row) .gp-index{
+  color:var(--gp-gold-text);
+  font-size:13px;
+  font-weight:600;
+  padding-top:5px;
+}
+.gpc-site .gp-service-copy .gp-copy{font-size:16px;line-height:1.8;max-width:64ch;margin-top:13px}
+.gpc-site .gp-service-list-full .gp-row-title :is(h2,h3){font-size:clamp(29px,3.1vw,37px);line-height:1.2}
+.gpc-site .gp-service-list-full .gp-row-action{grid-column:3;max-width:100%;margin:0}
+.gpc-site #services .gp-service-row .gp-row-action{margin-top:22px}
+.gpc-site .gp-title-link{
+  color:var(--gp-ink);
+  text-decoration:underline;
+  text-decoration-color:var(--gp-gold);
+  text-underline-offset:6px;
+  text-decoration-thickness:1px;
+  transition:color .18s ease,text-decoration-color .18s ease;
+}
+.gpc-site .gp-title-link:hover{color:var(--gp-blue);text-decoration-color:currentColor}
+
+/* Informational process panels have no motion or clickable affordance. */
+.gpc-site .gp-step{
+  min-width:0;
+  padding:28px;
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-top:3px solid var(--gp-gold);
+  border-radius:16px;
+}
+.gpc-site .gp-step>.gp-label{
+  display:grid;
+  place-items:center;
+  width:48px;
+  min-height:48px;
+  border-radius:50%;
+  background:var(--gp-ink);
+  color:#f2d391;
+  font-size:13px;
+  font-weight:600;
+  letter-spacing:.06em;
+  margin-bottom:20px;
+}
+.gpc-site .gp-step>.gp-label p{color:inherit}
+.gpc-site .gp-step .gp-item-title{margin:0 0 14px}
+.gpc-site .gp-step .gp-copy{font-size:15px;line-height:1.85}
+
+/* The brief separates scope and the next action from long service copy. */
+.gpc-site .gp-service-layout{grid-template-columns:minmax(0,1.55fr) minmax(275px,1fr);gap:clamp(36px,5vw,74px)}
+.gpc-site .gp-project-brief{
+  min-width:0;
+  background:#f5efe3;
+  padding:34px;
+  border:1px solid var(--gp-line);
+  border-top:3px solid var(--gp-gold);
+  border-radius:18px;
+  box-shadow:0 8px 28px -24px #14213d35;
+}
+.gpc-site .gp-project-brief .gp-copy{font-size:16px;line-height:1.8}
+.gpc-site .gp-project-brief .gp-small{font-size:13px;line-height:1.8}
+.gpc-site .gp-project-brief .gp-action{margin-top:26px}
+.gpc-site .gp-deliverables li{padding-top:17px;padding-bottom:17px}
+.gpc-site .gp-deliverables li:before{color:var(--gp-gold-text)}
+
+/* Articles retain actual title links; panels only react to link focus. */
+.gpc-site .gp-insight-card{
+  min-width:0;
+  padding:30px 28px;
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-top:3px solid var(--gp-gold);
+  border-radius:16px;
+  box-shadow:0 6px 20px -16px #14213d32;
+  transition:border-color .18s ease,box-shadow .18s ease;
+}
+.gpc-site .gp-insight-card .gp-item-title{margin-top:16px;margin-bottom:15px}
+.gpc-site .gp-insight-card .gp-copy{font-size:15px;line-height:1.85}
+.gpc-site .gp-insight-card .gp-action{margin-top:26px}
+.gpc-site .gp-insight-index{display:grid;gap:20px}
+.gpc-site .gp-article-row{
+  min-width:0;
+  grid-template-columns:36px minmax(0,1fr);
+  gap:28px;
+  padding:34px;
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-left:3px solid var(--gp-gold);
+  border-radius:16px;
+}
+.gpc-site .gp-article-row .gp-index{color:var(--gp-gold-text);font-size:13px;font-weight:600}
+.gpc-site .gp-article-row .gp-row-title h2{font-size:clamp(31px,3.5vw,40px);line-height:1.2}
+.gpc-site .gp-article-row .gp-copy{font-size:16px;line-height:1.85;max-width:74ch}
+.gpc-site :is(.gp-insight-card,.gp-article-row):focus-within{
+  border-color:var(--gp-gold-text);
+  background:var(--gp-white);
+  box-shadow:0 8px 26px -18px #14213d50;
+}
+.gpc-site .gp-article-body .gp-copy{color:var(--gp-muted)}
+
+/* Static testimonials are readable quotation panels, never linked cards. */
+.gpc-site .gp-review-layout{
+  grid-template-columns:minmax(0,.8fr) minmax(0,1.6fr);
+  gap:clamp(30px,5vw,64px);
+  padding:clamp(26px,3.5vw,42px);
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-left:3px solid var(--gp-gold);
+  border-radius:18px;
+}
+.gpc-site .gp-review-caption .gp-brief-title h2{font-size:clamp(30px,3vw,36px);line-height:1.15}
+.gpc-site .gp-review-caption .gp-stars{color:var(--gp-gold-text)}
+.gpc-site .gp-review-layout .gp-quote blockquote{font-size:clamp(27px,2.7vw,36px);line-height:1.35}
+.gpc-site .gp-review-layout .gp-attribution{font-size:13px;margin-top:24px}
+
+/* Contact has separate explanatory and form surfaces without changing fields. */
+.gpc-site .gp-contact-layout{grid-template-columns:minmax(0,.82fr) minmax(0,1.2fr);gap:clamp(30px,4vw,56px)}
+.gpc-site .gp-contact-aside{
+  padding:32px;
+  background:#f5efe3;
+  border:1px solid var(--gp-line);
+  border-radius:18px;
+}
+.gpc-site .gp-contact-aside .gp-copy{font-size:16px}
+.gpc-site .gp-contact-aside .gp-item-title{padding-top:27px;border-top:1px solid var(--gp-line);margin-top:29px}
+.gpc-site .gp-contact-links-list{gap:9px;font-size:15px}
+.gpc-site .gp-contact-links-list a{min-height:44px;max-width:100%;overflow-wrap:anywhere;text-decoration-color:var(--gp-gold-text)}
+.gpc-site .gp-form-panel{
+  min-width:0;
+  padding:36px;
+  background:var(--gp-white);
+  border:1px solid var(--gp-line);
+  border-top:3px solid var(--gp-gold);
+  border-radius:18px;
+  box-shadow:0 12px 36px -30px #14213d55;
+}
+.gpc-site .gp-form-panel>.gp-label{margin-bottom:29px}
+.gpc-site .gpc-audit-form-row{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.gpc-site .gpc-audit-field{margin-bottom:23px}
+.gpc-site .gpc-audit-field label{font-size:14px;line-height:1.65;margin-bottom:9px}
+.gpc-site .gpc-audit-field :is(input:not([type=checkbox]),select,textarea){
+  min-width:0;
+  max-width:100%;
+  min-height:52px;
+  background:#fff;
+  color:var(--gp-ink);
+  border-color:#9095a1;
+  border-radius:9px;
+  padding:13px 14px;
+  font-size:16px;
+  line-height:1.5;
+}
+.gpc-site .gpc-audit-field select{padding-right:34px}
+.gpc-site .gpc-audit-field textarea{min-height:170px}
+.gpc-site .gpc-audit-field :is(input,textarea)::placeholder{color:var(--gp-muted);opacity:1}
+.gpc-site .gpc-audit-field :is(input,select,textarea):focus{border-color:var(--gp-blue);box-shadow:0 0 0 2px #363caf18}
+.gpc-site .gpc-enquiry-form p{font-size:14px;line-height:1.8}
+.gpc-site .gpc-enquiry-form .gpc-consent{font-size:13px;line-height:1.8;gap:12px;margin-top:26px}
+.gpc-site .gpc-enquiry-form .gpc-form-status{font-size:14px;border-radius:9px;overflow-wrap:anywhere}
+
+@media(hover:hover){
+  .gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row,.gp-insight-card,.gp-article-row):hover{border-color:var(--gp-gold-text);box-shadow:0 8px 26px -18px #14213d50}
+}
+@media(max-width:1050px){
+  .gpc-site :is(.gp-step,.gp-insight-card){padding:25px 23px}
+  .gpc-site .gp-service-layout{gap:36px}
+  .gpc-site .gp-project-brief{padding:28px}
+  .gpc-site .gp-contact-aside{padding:28px}
+  .gpc-site .gp-form-panel{padding:28px}
+  .gpc-site .gpc-audit-form-row{grid-template-columns:minmax(0,1fr);gap:0}
+}
+@media(max-width:980px){
+  .gpc-site .gp-service-list-full .gp-service-row{grid-template-columns:32px minmax(0,1fr);gap:20px}
+  .gpc-site .gp-service-list-full .gp-row-action{grid-column:2;justify-self:start}
+}
+@media(max-width:720px){
+  .gpc-site .gp-three-columns{gap:22px}
+  .gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row){padding:26px 23px;grid-template-columns:24px minmax(0,1fr);column-gap:14px;row-gap:20px}
+  .gpc-site #services .gp-service-row .gp-row-title h3{font-size:30px;line-height:1.2}
+  .gpc-site .gp-service-copy .gp-copy{font-size:15px}
+  .gpc-site .gp-service-layout,.gpc-site .gp-contact-layout,.gpc-site .gp-review-layout{grid-template-columns:minmax(0,1fr);gap:30px}
+  .gpc-site .gp-review-layout{padding:28px 24px}
+  .gpc-site .gp-review-layout .gp-quote blockquote{font-size:29px}
+  .gpc-site .gp-article-row{grid-template-columns:24px minmax(0,1fr);gap:16px;padding:28px 23px}
+  .gpc-site .gp-article-row .gp-row-title h2{font-size:33px}
+  .gpc-site .gp-contact-aside,.gpc-site .gp-project-brief{padding:28px 24px}
+  .gpc-site .gp-form-panel{padding:28px 24px}
+}
+@media(max-width:380px){
+  .gpc-site :is(#services .gp-service-row,.gp-service-list-full .gp-service-row){padding:24px 18px;grid-template-columns:20px minmax(0,1fr);column-gap:12px}
+  .gpc-site #services .gp-service-row .gp-row-title h3,.gpc-site .gp-service-list-full .gp-row-title :is(h2,h3){font-size:28px}
+  .gpc-site :is(.gp-step,.gp-insight-card,.gp-review-layout,.gp-project-brief,.gp-contact-aside,.gp-form-panel){padding:25px 20px}
+  .gpc-site .gp-article-row{padding:25px 19px;grid-template-columns:20px minmax(0,1fr);gap:12px}
+  .gpc-site .gp-article-row .gp-row-title h2{font-size:29px}
+  .gpc-site .gp-review-layout .gp-quote blockquote{font-size:27px}
+}
+@media(prefers-reduced-motion:reduce){
+  .gpc-site :is(.gp-service-row,.gp-insight-card,.gp-article-row,.gp-title-link){transition:none}
+}
+
+.gpc-site .gp-footer .gp-button:visited{color:var(--gp-ink)}
+/* The footer also styles visited text links; keep its gold action text navy. */
+.gpc-site .gp-footer a.gp-button{color:var(--gp-ink)}
+/* Keep the message area generous despite the shared input-size rule. */
+.gpc-site .gpc-audit-field textarea[name=message]{min-height:170px}

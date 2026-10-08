@@ -133,4 +133,19 @@ reset_test(); $_POST=array('provider'=>'other','access_key'=>''); $result=save_s
 check(!$result->ok && $result->status === 400 && gpc_form_delivery_settings()['provider'] === 'web3forms', 'Unsupported provider rejected');
 reset_test(); $_POST['gpc_ajax'] = ''; $GLOBALS['test_response'] = new WP_Error(); $result = send_form();
 check(!$result->ok && $GLOBALS['test_die_title'] === 'Enquiry delivery unconfirmed' && strpos($result->text, 'could not confirm') !== false, 'No-JavaScript uncertain delivery preserves uncertainty in title and body');
+// Verify both normal and late shortcode asset paths for the 3.4 design layer.
+$GLOBALS['test_styles'] = array(); $GLOBALS['test_styles_done'] = false;
+function wp_style_is($handle, $state = 'enqueued') { return $state === 'done' ? $GLOBALS['test_styles_done'] : ($state === 'registered' && $handle === 'elementor-frontend'); }
+function wp_enqueue_style($handle, $url, $deps, $version) { $GLOBALS['test_styles'][$handle] = array($url, $deps, $version); }
+function has_nav_menu(...$args) { return false; }
+function add_query_arg($key, $value, $url) { return $url . '?' . urlencode($key) . '=' . urlencode($value); }
+function wp_date($format) { return '2026'; }
+gpc_enqueue_assets();
+check(isset($GLOBALS['test_styles']['gpc-design']) && $GLOBALS['test_styles']['gpc-design'][1] === array('gpc-site') && $GLOBALS['test_styles']['gpc-design'][2] === GPC_VERSION, 'Design layer enqueues after base styles with current cache version');
+check(is_file(dirname(__DIR__) . '/grant-publishing-site/assets/design.css'), 'Design stylesheet exists in plugin source');
+$html = gpc_site_page('home');
+check(strpos($html, 'assets/site.css?ver=' . GPC_VERSION) !== false && strpos($html, 'assets/design.css?ver=' . GPC_VERSION) !== false, 'Shortcode rendered after wp_head includes both stylesheet links');
+$GLOBALS['test_styles_done'] = true; $html = gpc_site_page('home');
+check(strpos($html, '<link rel="stylesheet"') === false, 'Already-printed styles do not add duplicate fallback links');
+
 echo "\n" . $GLOBALS['passed'] . " backend assertions passed. No real HTTP request or email was sent.\n";

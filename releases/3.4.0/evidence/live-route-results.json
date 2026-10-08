@@ -1,0 +1,223 @@
+[
+  {
+    "key": "home",
+    "url": "https://grantpublishingco.com/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.2.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "services",
+    "url": "https://grantpublishingco.com/services/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "enquiry",
+    "url": "https://grantpublishingco.com/book-marketing-audit/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "about",
+    "url": "https://grantpublishingco.com/about/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.2.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "feedback",
+    "url": "https://grantpublishingco.com/client-feedback/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "insights",
+    "url": "https://grantpublishingco.com/insights/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "contact",
+    "url": "https://grantpublishingco.com/contact/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "amazon-visibility",
+    "url": "https://grantpublishingco.com/services/amazon-visibility/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "book-presentation",
+    "url": "https://grantpublishingco.com/services/book-presentation/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "launch-promotion",
+    "url": "https://grantpublishingco.com/services/launch-promotion/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "author-platform",
+    "url": "https://grantpublishingco.com/services/author-platform/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "catalog-strategy",
+    "url": "https://grantpublishingco.com/services/catalog-strategy/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "book-strategy",
+    "url": "https://grantpublishingco.com/services/book-strategy/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "publishing-support",
+    "url": "https://grantpublishingco.com/services/publishing-support/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "book-discovery",
+    "url": "https://grantpublishingco.com/insights/book-discovery/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "book-product-page",
+    "url": "https://grantpublishingco.com/insights/book-product-page/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+    ],
+    "native_containers": 1
+  },
+  {
+    "key": "connected-catalog",
+    "url": "https://grantpublishingco.com/insights/connected-catalog/",
+    "http_status": "200",
+    "curl_exit": 0,
+    "head_title_count": 2,
+    "h1_count": 1,
+    "main_count": 1,
+    "plugin_styles": [
+      "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.2.0"
+    ],
+    "native_containers": 1
+  }
+]

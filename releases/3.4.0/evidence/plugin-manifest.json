@@ -1,0 +1,251 @@
+{
+  "version": "3.4.0",
+  "file_count": 49,
+  "files": [
+    {
+      "path": "grant-publishing-site/README.md",
+      "bytes": 16223,
+      "sha256": "e58757165e8025a246ed4998441f69d056ce207ec091d1432a739ebe2d9ee8fa"
+    },
+    {
+      "path": "grant-publishing-site/assets/abdulqudus-tella.png",
+      "bytes": 240145,
+      "sha256": "e107a5fea240e821daa160450bd434cdb90df68ae64e1465f5ab1d95f9ca3710"
+    },
+    {
+      "path": "grant-publishing-site/assets/design.css",
+      "bytes": 18492,
+      "sha256": "d5cb955aef4072b6b43fea6429bbba17e1b27852c421238ae5a540339b7171a6"
+    },
+    {
+      "path": "grant-publishing-site/assets/enquiry.js",
+      "bytes": 3381,
+      "sha256": "2359b5876da3708c1f6214c6f9ee68fd73e9884c347c20d6bb589a0a28383f66"
+    },
+    {
+      "path": "grant-publishing-site/assets/grant-logo.png",
+      "bytes": 10995,
+      "sha256": "e2a286b0b8cbad7588d54cbdbd2d6d1bf89b254676fdef4b7a08f6bded9cdbfe"
+    },
+    {
+      "path": "grant-publishing-site/assets/interactions.js",
+      "bytes": 2839,
+      "sha256": "f56f535bca24332798c62a5a5f06517984496ac23e814c17fb59c3d0e84b01f9"
+    },
+    {
+      "path": "grant-publishing-site/assets/kathryns-beach.jpg",
+      "bytes": 371261,
+      "sha256": "86e28f2fe19bc6f481eb642ba6fdd8a57ef10d9a0c353a1bd8d38f1fc34afbca"
+    },
+    {
+      "path": "grant-publishing-site/assets/site.css",
+      "bytes": 27952,
+      "sha256": "c85d944cce56dd01e1b9afb692587faa2073a1985ecb346414c4164f73acce63"
+    },
+    {
+      "path": "grant-publishing-site/elementor/about.json",
+      "bytes": 23748,
+      "sha256": "5ccf26a61e15c9b960ca47819040d7e75b489bd0df584c3c754583d9ce564561"
+    },
+    {
+      "path": "grant-publishing-site/elementor/amazon-visibility.json",
+      "bytes": 23859,
+      "sha256": "a561f7b53b4976e58aa59b33df97a29dbb4710be0c401f7b89dc60222d713835"
+    },
+    {
+      "path": "grant-publishing-site/elementor/author-platform.json",
+      "bytes": 23777,
+      "sha256": "409ecaa33c23264fc71192e86d49148a60a71468996c55b5b4954f4cb883e765"
+    },
+    {
+      "path": "grant-publishing-site/elementor/book-discovery.json",
+      "bytes": 19305,
+      "sha256": "5ce18230f5bb8d77b6c12fc0e1b177b11ad9740eeeaecfb902ff0055ea6522c0"
+    },
+    {
+      "path": "grant-publishing-site/elementor/book-presentation.json",
+      "bytes": 23862,
+      "sha256": "a6b54314782fa32265576866a2778bdb9421f082187eb9f2b07e7270a7b07d49"
+    },
+    {
+      "path": "grant-publishing-site/elementor/book-product-page.json",
+      "bytes": 19136,
+      "sha256": "b029868cb52eca904c021f6a6afdcee8c2bf374934ffc1f753453faa5c59f50b"
+    },
+    {
+      "path": "grant-publishing-site/elementor/book-strategy.json",
+      "bytes": 23858,
+      "sha256": "2e03b6dc0ea55b4fbfcccbf3ececeaa2b4b110a86ccd7bee3921405712ba6b23"
+    },
+    {
+      "path": "grant-publishing-site/elementor/catalog-strategy.json",
+      "bytes": 23798,
+      "sha256": "6e4afa57227765ed36cbdd0c0253563f1ab26e2d86bdc63c6b96c65c530e6bb3"
+    },
+    {
+      "path": "grant-publishing-site/elementor/connected-catalog.json",
+      "bytes": 19140,
+      "sha256": "325bd4b7db4ef165a3256e8495d954648accdd010e1836a1d6bc66b52cac2f63"
+    },
+    {
+      "path": "grant-publishing-site/elementor/contact.json",
+      "bytes": 10147,
+      "sha256": "2400e9de875e3f43c70c079f2d57dcfa4bacb471863c681b0e5d971db0fd23e6"
+    },
+    {
+      "path": "grant-publishing-site/elementor/enquiry.json",
+      "bytes": 11336,
+      "sha256": "ddf43c58f070cbee282f559ae9414220c0bf65020b2fb1be482c900343584b06"
+    },
+    {
+      "path": "grant-publishing-site/elementor/feedback.json",
+      "bytes": 33026,
+      "sha256": "175053522f5d915fd1abb54592e8659541d54d80b2054881fb21d6713255041f"
+    },
+    {
+      "path": "grant-publishing-site/elementor/home.json",
+      "bytes": 87555,
+      "sha256": "bf4b6f617798f921a3376a4ba261d524bc4237cf8ace21c23e00cf46aa6518dd"
+    },
+    {
+      "path": "grant-publishing-site/elementor/insights.json",
+      "bytes": 25479,
+      "sha256": "cbd66218904a0e07be7d5bda7f2a50be96e2530a7a038206db7bc8475824e346"
+    },
+    {
+      "path": "grant-publishing-site/elementor/launch-promotion.json",
+      "bytes": 23819,
+      "sha256": "c50d3e40def1556dae0b57950f347e5c19567fafb595392c4be27e74abb15c1c"
+    },
+    {
+      "path": "grant-publishing-site/elementor/publishing-support.json",
+      "bytes": 23861,
+      "sha256": "6f79e8af1c7aaf60dfd098d4a4451c7cd27a56d6d4dd175292b089127c3adfdd"
+    },
+    {
+      "path": "grant-publishing-site/elementor/services.json",
+      "bytes": 57481,
+      "sha256": "540c7c8a2ab2c5edf4fce5ed38b50cf45007fca9c2637eb35b49987023e478d5"
+    },
+    {
+      "path": "grant-publishing-site/grant-publishing-site.php",
+      "bytes": 11676,
+      "sha256": "3cd6478b12bf3db43ef9206153cb55d2513f868dc38afbd077a4f7588793fe14"
+    },
+    {
+      "path": "grant-publishing-site/includes/editorial.php",
+      "bytes": 9428,
+      "sha256": "f257a6d58447d1ae2368adc47ec9f72f2636f1c5636a1dccd346c36683ba8a6e"
+    },
+    {
+      "path": "grant-publishing-site/includes/full-page.php",
+      "bytes": 808,
+      "sha256": "3ebd25cbd45d502b6e24d6b378a25fc6e07f82e7dccafa7b66441c6b33c568b1"
+    },
+    {
+      "path": "grant-publishing-site/includes/pages.php",
+      "bytes": 10522,
+      "sha256": "ddaa0fada93e9c3767dc3b7b2e01d62d56e575090ee58954a3df8eb3cc625ebb"
+    },
+    {
+      "path": "grant-publishing-site/includes/setup.php",
+      "bytes": 9786,
+      "sha256": "279a98e4589e5bc15ae863ab283a983c32b887dac36645fdb9b45e6f51bdcfa1"
+    },
+    {
+      "path": "grant-publishing-site/includes/web3forms.php",
+      "bytes": 8277,
+      "sha256": "34f844d0e4bf0e3c2ccc0e4bfc640ccafe5141b894b55deed950c2ecf9e4b7af"
+    },
+    {
+      "path": "grant-publishing-site/pages.json",
+      "bytes": 4694,
+      "sha256": "10b32ba0667c86437ea9b2c3eb902ca0a8795ffb8139c68ed148a8e2a626dc69"
+    },
+    {
+      "path": "grant-publishing-site/templates/about.html",
+      "bytes": 3155,
+      "sha256": "c36884e905a5f929f0cd55155533cf9c16d8804b244d25fb01a95d372f2f1a64"
+    },
+    {
+      "path": "grant-publishing-site/templates/amazon-visibility.html",
+      "bytes": 3082,
+      "sha256": "163044db3581608b0d39c482b74cf07ca87acc33bb57352952a0e5fb28a700cf"
+    },
+    {
+      "path": "grant-publishing-site/templates/author-platform.html",
+      "bytes": 3007,
+      "sha256": "7b1159e208bfc2f0442444e699d2c0fb81f6633c3451b75667d0ea87a6f12842"
+    },
+    {
+      "path": "grant-publishing-site/templates/book-discovery.html",
+      "bytes": 3743,
+      "sha256": "10ae04d3734e22e950afc3e9ccdb1af7f8a364da5f39547b7d27e95142f5db3a"
+    },
+    {
+      "path": "grant-publishing-site/templates/book-presentation.html",
+      "bytes": 3077,
+      "sha256": "1894e57e0de0de78d3cf7ae0fd0bb9aa817d5c62ffc87de790d7d19d63b146ce"
+    },
+    {
+      "path": "grant-publishing-site/templates/book-product-page.html",
+      "bytes": 3584,
+      "sha256": "7a7b8d052b006d3bac75fd173d9271758522cd5707c5f2ff11ead38602b2ce34"
+    },
+    {
+      "path": "grant-publishing-site/templates/book-strategy.html",
+      "bytes": 3080,
+      "sha256": "4db76d7597df6f457b8f80a6c1e14f8ccda3f7b732299aa75dfe5bc11d1d2ac2"
+    },
+    {
+      "path": "grant-publishing-site/templates/catalog-strategy.html",
+      "bytes": 3018,
+      "sha256": "b27526c1c16707827184ec712c434eb9f9d76efa356b0b891ad2e13c1b7b2d01"
+    },
+    {
+      "path": "grant-publishing-site/templates/connected-catalog.html",
+      "bytes": 3581,
+      "sha256": "3e3fb8844d6eeae71b38c33327487d5d9a222f8f708bebbe06c07cc7c634154a"
+    },
+    {
+      "path": "grant-publishing-site/templates/contact.html",
+      "bytes": 1049,
+      "sha256": "18965e18e8670b1d5cf3a8ac9affb6293dbfedd547d09e681f7786ad099f2454"
+    },
+    {
+      "path": "grant-publishing-site/templates/enquiry.html",
+      "bytes": 1359,
+      "sha256": "e19691c92e2e200596ec9180e38a5cdfbd8dfaf552c176942ed0c77e005cf6d1"
+    },
+    {
+      "path": "grant-publishing-site/templates/feedback.html",
+      "bytes": 3778,
+      "sha256": "197173cb2d0875c68a27857bdd357a467698a9d9f7cdb35f3d4f23c8047acb8c"
+    },
+    {
+      "path": "grant-publishing-site/templates/home.html",
+      "bytes": 9185,
+      "sha256": "fef9ea3240c091df44a26743bdab9e85c29f59419a77a18b82cd33de70ab20c9"
+    },
+    {
+      "path": "grant-publishing-site/templates/insights.html",
+      "bytes": 2875,
+      "sha256": "22965b747759ebca36daac5cf72201ffd739891152f56e192195f51403e38a5f"
+    },
+    {
+      "path": "grant-publishing-site/templates/launch-promotion.html",
+      "bytes": 3041,
+      "sha256": "e2436a9d63c4a739980e272d92853bbfab569a7ea4e8e22888f5d91a961c4000"
+    },
+    {
+      "path": "grant-publishing-site/templates/publishing-support.html",
+      "bytes": 3088,
+      "sha256": "dfb1131abad29b2f455057b756aba794ec1d01a6a192f76598f9a2eae409cc4a"
+    },
+    {
+      "path": "grant-publishing-site/templates/services.html",
+      "bytes": 5681,
+      "sha256": "ee5e7c7230b5fb5352374da4a6096bc439578d233b71a330cc2d5d4947b00e54"
+    }
+  ]
+}

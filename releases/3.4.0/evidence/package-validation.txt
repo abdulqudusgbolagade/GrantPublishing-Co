@@ -1,0 +1,9 @@
+PASS: plugin version header and GPC_VERSION both identify 3.4.0.
+PASS: installable ZIP integrity; 49 files under one grant-publishing-site/ root.
+PASS: every archived file is byte-identical to current plugin source; no symlinks or unsafe paths.
+PASS: new assets/design.css is included.
+PASS: all 17 templates, 17 Elementor layouts and pages.json unchanged from 3.3.0.
+PASS: original assets (including portrait/logo/book), base CSS, interactions/enquiry JS and Web3Forms module unchanged.
+PASS: no UUID-shaped access-key literal included in plugin text files.
+PASS: enquiry JS mocked success, rejection, connection/malformed recovery, input and request/service selection.
+PASS: 17 matching HTML/Elementor pages, 727 native elements, route/asset tokens, IDs/headings, anchors and service choices.

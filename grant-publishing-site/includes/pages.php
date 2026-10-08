@@ -80,6 +80,7 @@ function gpc_site_page($key) {
     $html = gpc_resolve_string($html, true);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
     if (!wp_style_is('gpc-site', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('site.css') . '?ver=' . GPC_VERSION) . '">'; }
+    if (!wp_style_is('gpc-design', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('design.css') . '?ver=' . GPC_VERSION) . '">'; }
     return $html;
 }
 foreach (gpc_pages() as $gpc_key=>$gpc_def) {
@@ -106,6 +107,7 @@ function gpc_current_key() {
 function gpc_enqueue_assets() {
     $deps = wp_style_is('elementor-frontend', 'registered') ? array('elementor-frontend') : array();
     wp_enqueue_style('gpc-site', gpc_asset_url('site.css'), $deps, GPC_VERSION);
+    wp_enqueue_style('gpc-design', gpc_asset_url('design.css'), array('gpc-site'), GPC_VERSION);
     wp_enqueue_script('gpc-interactions', gpc_asset_url('interactions.js'), array(), GPC_VERSION, true);
 }
 add_action('wp_enqueue_scripts', function() { if (gpc_current_key()) { gpc_enqueue_assets(); } }, 100);

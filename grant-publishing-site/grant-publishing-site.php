@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 3.3.0
+ * Version: 3.4.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '3.3.0');
+define('GPC_VERSION', '3.4.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';

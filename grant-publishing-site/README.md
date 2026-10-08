@@ -1,35 +1,40 @@
-# Grant Publishing Co. 3.3.0 — larger portraits and Web3Forms
+# Grant Publishing Co. 3.4.0 — navy, cream and gold refinement
 
-Install the versioned `grant-publishing-site-3.3.0.zip`. It contains one `grant-publishing-site/` plugin folder. WordPress 6.0+, PHP 7.4+; Elementor 3.16+ for native editing. Existing shortcodes also work without Elementor.
+Install `grant-publishing-site-3.4.0.zip`, which contains one `grant-publishing-site/` folder. WordPress 6.0+, PHP 7.4+; Elementor 3.16+ for native editing. The 17 existing shortcodes also work without Elementor.
 
-## Upgrade and connect Web3Forms
+## Upgrade
 
-1. Back up the current plugin and database/Elementor content. Test on staging first.
+1. Back up the plugin and database/Elementor content. Test on staging first.
 2. In WordPress → Plugins → Add New → Upload Plugin, upload the ZIP and replace the current plugin. Activate if needed.
-3. Clear page/CDN/browser caches. If styles remain stale, regenerate Elementor CSS & Data. Do not recreate pages or run bulk Elementor conversion for this upgrade.
-4. Go to **Tools → Grant Website Setup → Enquiry delivery**. Paste your access key from Web3Forms into the masked access-key field and click **Save enquiry delivery**. Saving a valid key selects Web3Forms automatically. The key is kept in this WordPress installation, not in the distributed plugin or public form.
-5. Clear cached Contact and Assessment pages and send one labelled enquiry to confirm delivery to the inbox linked to your Web3Forms key. Provider acceptance does not prove inbox delivery. If the key has provider domain restrictions, verify compatibility on the production domain before launch.
+3. Clear WordPress/LiteSpeed, CDN, browser and Elementor caches. Regenerate Elementor CSS & Data if stale. The new `design.css` layer must load alongside `site.css`, both with version 3.4.0. Cached HTML can otherwise continue referencing an old release.
+4. Do not recreate pages or run bulk Elementor conversion. Existing page records, copy, routes, section order and saved edits are preserved; shared styles refine recognized components in both rendering paths.
+5. Check the 17 routes on desktop, phone and tablet, including keyboard focus, the sticky header/menu, form anchors and failure feedback. Keep Contact and Assessment out of full-page caching so nonce tokens do not expire in cached pages.
 
-Existing installations keep WordPress email delivery until a Web3Forms key is saved. The public contact email stays the same; Web3Forms uses the recipient associated with its key. Leave the key field blank on later saves to preserve it. Select WordPress email to pause Web3Forms, or tick Remove key to erase the stored key and return to WordPress email. No automatic test is sent when saving settings.
+## Design changes
 
-## What changed
+The visual reference was the confirmed `https://owpublishiing.com` OW Publishing House site: navy opening bands, warm cream sections, restrained gold accents, pill-shaped actions, framed cards and generous spacing. Grant keeps its own logo, real book cover, founder portrait, Instrument Serif/Manrope typography and truthful content. No reference copy, fabricated statistics or reference images were added to the plugin.
 
-- Home portrait expands from 160 px to up to 380 px and About from 240 px to up to 420 px, in dedicated portrait columns within the existing sections. Phone portraits are up to 340 px and shrink to fit 320 px screens without cropping. The original PNG is unchanged.
-- Existing cream, ink and purple/blue colors, typography, page copy, routes and section order remain. Subtle portrait surfaces use the same palette; no new sections or identities were introduced.
-- Enquiries can now route through Web3Forms using WordPress server-side HTTPS JSON requests. Existing required/optional fields, nonce, consent, honeypot, validation and rate checks are retained.
-- Failures preserve entries. Uncertain delivery does not silently trigger email fallback or automatic resend; matching submissions are held for 10 minutes while the sender checks receipt. Confirmed rejections permit intentional retry.
-- Active-provider privacy text explains where enquiry details are sent. Administrator settings require capability and CSRF checks, and the key is never prefilled or exposed to visitors.
-- Version 3.2 readability, real title links, skip link, mobile menu behavior and form-state improvements remain.
+The upgrade adds a compact sticky navy navigation bar with the existing logo on a cream plate; navy page heroes; gold actions with readable navy text; deeper gold for small text on cream; clearer service, article, process, testimonial and contact surfaces; and consistent responsive spacing. Informational process panels and testimonials have no clickable hover effects. Title/action links, form fields, mobile dismissal and reduced-motion behavior are retained. The prominent Home/About portrait columns from 3.3 remain.
 
-`owpublishiing.com` could not be inspected because this environment's network proxy blocks it. This release does not claim to copy or match that site's design. A reference comparison remains pending access or screenshots.
+## Web3Forms
 
-## Validation and rollback
+If Web3Forms is already configured, its saved key and selected provider remain. There is no need to enter the key again for this upgrade.
 
-See `releases/3.3.0/TESTING-REPORT.md` in the repository for exact checks and before/after screenshots. Local browser fixtures and real PHP interpreters with WordPress stubs passed; actual WordPress activation, provider connectivity, restricted-key behavior and inbox delivery remain staging checks. No live installation was performed.
+For initial setup, open **Tools → Grant Website Setup → Enquiry delivery**, paste the key from your Web3Forms account into the masked field and click **Save enquiry delivery**. Saving a valid key selects Web3Forms. Until then, WordPress email remains selected. The key stays in WordPress and is never distributed in source/ZIPs or public form markup.
 
-The WordPress server needs outbound HTTPS to `api.web3forms.com`. Exclude Contact and Assessment from full-page caching to avoid stale nonces. Do not disable TLS verification.
+Delivery uses the inbox associated with the Web3Forms key, while public email links remain unchanged. The server requires outbound verified HTTPS to `api.web3forms.com`. A provider success response confirms acceptance, not inbox delivery or dashboard storage. Send one labelled test yourself and verify receipt. Do not assume account domain restrictions work without that test.
 
-To roll back, first select WordPress email in Enquiry delivery and optionally remove the saved key; then replace the plugin with the retained 3.2.0 ZIP and clear caches. There is no page migration or automatic Elementor rewrite. An old version ignores the saved delivery option. Restore page/database backups only for separately made manual edits, not to reverse shared CSS/JS changes.
+Failures retain entries. Unknown delivery outcomes do not silently trigger email fallback or automatic retries; matching enquiries are held briefly while the sender checks receipt. Existing nonce, honeypot, consent, field validation, rate limiting and duplicate checks remain.
+
+## Testing and limits
+
+The release report in the GitHub repository documents 204 rendered page/layout/viewport combinations with the intended font files, 24 targeted form layout checks, keyboard/menu/contrast checks, 17 sticky-anchor/short-screen checks and 62 PHP backend/asset assertions on 7.4, 8.2 and 8.3. Reference screenshots were made from a local mirror of actual reference assets downloaded with verified TLS; Grant screenshots use local fixtures, not the installed live site.
+
+The live route audit returned 200 for all 17 pages, but cached HTML referenced 3.2.0/3.3.0 styles and showed duplicate title tags. Actual WordPress/Elementor/theme rendering, caches, account connectivity and inbox receipt need staging verification. This release has not been installed live.
+
+## Rollback
+
+Replace the plugin with the retained 3.3.0 ZIP and clear the same caches. Saved Web3Forms settings remain because both releases support them. No database migration or automatic page conversion occurs. Restore content backups only if separate manual edits were made. To stop Web3Forms, select WordPress email under Enquiry delivery; Remove key erases the stored key if desired.
 
 ---
 
