@@ -3,31 +3,31 @@
     "title": "Grant Publishing Co.",
     "slug": "",
     "shortcode": "grant_home",
-    "description": "Publishing strategy, Amazon visibility and book marketing for authors who want more than a listing. Books built to be discovered."
+    "description": "Book design, formatting, publishing and marketing for authors. Prepare ebook and print editions, get Amazon KDP support and promote your book."
   },
   "services": {
-    "title": "Book Marketing Services",
+    "title": "Book Design, Publishing & Marketing Services",
     "slug": "services",
     "shortcode": "grant_services",
-    "description": "Explore Amazon visibility, book descriptions, launch planning, author platforms and publishing support."
+    "description": "Explore book formatting, cover design, Amazon KDP publishing setup, Amazon Ads and practical book marketing services."
   },
   "enquiry": {
     "title": "Free Initial Book Assessment",
     "slug": "book-marketing-audit",
     "shortcode": "grant_enquiry_page",
-    "description": "Request an initial assessment based on your public Amazon book listing, or discuss a book marketing project."
+    "description": "Request a free assessment of your public Amazon book listing, or discuss a design, formatting, publishing or marketing project."
   },
   "about": {
     "title": "About Grant Publishing Co.",
     "slug": "about",
     "shortcode": "grant_about",
-    "description": "Meet AbdulQudus Tella, Book Marketing Strategist, and learn how Grant Publishing Co. approaches author projects."
+    "description": "Meet AbdulQudus Tella, Book Marketing Strategist, and discover Grant Publishing Co.’s book design, formatting, publishing and marketing services."
   },
   "feedback": {
     "title": "Client Feedback",
     "slug": "client-feedback",
     "shortcode": "grant_feedback",
-    "description": "Read client feedback from Nadine Laman and John Capon on book marketing, publishing and graphic design."
+    "description": "Read client feedback and case studies on cover redesign, interior formatting and Amazon book listing work for John Capon and Cactus Rain Publishing."
   },
   "insights": {
     "title": "Insights for Authors",
@@ -39,7 +39,7 @@
     "title": "Contact Grant Publishing Co.",
     "slug": "contact",
     "shortcode": "grant_contact",
-    "description": "Discuss a book marketing or publishing project by enquiry form, email or WhatsApp."
+    "description": "Discuss book design, formatting, publishing or marketing. Enquiries are welcome before publication; an Amazon link is optional."
   },
   "amazon-visibility": {
     "title": "Amazon Book Visibility",
@@ -84,11 +84,11 @@
     "description": "Choose the work that matters before spending on more activity. Explore the scope and next step with Grant Publishing Co."
   },
   "publishing-support": {
-    "title": "Publishing Support",
+    "title": "Book Publishing & Amazon KDP Setup",
     "slug": "publishing-support",
     "parent": "services",
     "shortcode": "grant_publishing_support",
-    "description": "Prepare the book’s presentation and files for its next step. Explore the scope and next step with Grant Publishing Co."
+    "description": "Practical help with publishing setup, file uploads and edition preparation within an agreed scope."
   },
   "book-discovery": {
     "title": "Why publishing a book does not guarantee discovery",
@@ -110,5 +110,26 @@
     "parent": "insights",
     "shortcode": "grant_connected_catalog",
     "description": "With more than one title, the reader’s next step becomes part of the marketing plan."
+  },
+  "book-formatting": {
+    "title": "Book Formatting",
+    "slug": "book-formatting",
+    "parent": "services",
+    "shortcode": "grant_book_formatting",
+    "description": "Readable interiors and appropriately prepared files for ebooks, paperbacks and hardcovers."
+  },
+  "cover-design": {
+    "title": "Book Cover Design",
+    "slug": "cover-design",
+    "parent": "services",
+    "shortcode": "grant_cover_design",
+    "description": "Ebook covers and print cover layouts suited to your book’s genre, audience and format."
+  },
+  "amazon-ads": {
+    "title": "Amazon Ads Setup & Management",
+    "slug": "amazon-ads",
+    "parent": "services",
+    "shortcode": "grant_amazon_ads",
+    "description": "A clear campaign structure, relevant targeting and a practical handover, with optional ongoing management."
   }
 }

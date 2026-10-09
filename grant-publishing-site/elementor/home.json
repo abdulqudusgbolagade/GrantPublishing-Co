@@ -115,7 +115,7 @@
                       "settings": {
                         "_title": "Label",
                         "_css_classes": "gp-label",
-                        "editor": "<p>BOOK MARKETING &amp; PUBLISHING</p>"
+                        "editor": "<p>BOOK DESIGN, PUBLISHING &amp; MARKETING</p>"
                       },
                       "elements": []
                     },
@@ -127,7 +127,7 @@
                       "settings": {
                         "_title": "Hero Title",
                         "_css_classes": "gp-hero-title",
-                        "title": "Books built<br>to be <em>discovered.</em>",
+                        "title": "Bring your book to life.<br>Help it <em>reach readers.</em>",
                         "header_size": "h1"
                       },
                       "elements": []
@@ -140,7 +140,7 @@
                       "settings": {
                         "_title": "Lead",
                         "_css_classes": "gp-lead",
-                        "editor": "<p>Publishing strategy, Amazon visibility and book marketing for authors who want more than a listing.</p>"
+                        "editor": "<p>From cover design and formatting to publishing, Amazon optimisation and advertising setup, we help authors prepare their books and connect with readers.</p>"
                       },
                       "elements": []
                     },
@@ -286,31 +286,12 @@
                     {
                       "id": "a0a1c46c",
                       "elType": "widget",
-                      "widgetType": "image",
+                      "widgetType": "shortcode",
                       "isInner": false,
                       "settings": {
-                        "_title": "Studio Image",
-                        "_css_classes": "gp-studio-image",
-                        "image": {
-                          "url": "{{asset:publishing-studio.webp}}",
-                          "id": 0,
-                          "alt": ""
-                        },
-                        "image_size": "full",
-                        "caption_source": "none",
-                        "link_to": "none"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "5729f0f5",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Hero Art Note",
-                        "_css_classes": "gp-hero-art-note",
-                        "editor": "<p>For the work you put<br>into your book.</p>\n<span>Strategy · Presentation · Discovery</span>"
+                        "_title": "Showcase Slot",
+                        "_css_classes": "gp-showcase-slot",
+                        "shortcode": "[grant_book_showcase context=\"home\"]"
                       },
                       "elements": []
                     }
@@ -1021,7 +1002,7 @@
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We start with the book and the question you want to solve. Then we focus the work on what needs attention.</p>"
+                        "editor": "<p>Whether you are preparing a manuscript or promoting a published book, we help you choose the support that fits your next step.</p>"
                       },
                       "elements": []
                     }
@@ -1123,11 +1104,11 @@
                                 "_title": "Row Title",
                                 "_css_classes": "gp-row-title",
                                 "link": {
-                                  "url": "{{url:amazon-visibility}}",
+                                  "url": "{{url:book-formatting}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 },
-                                "title": "Amazon Book Visibility",
+                                "title": "Book Design & Formatting",
                                 "header_size": "h3"
                               },
                               "elements": []
@@ -1140,7 +1121,7 @@
                               "settings": {
                                 "_title": "Copy",
                                 "_css_classes": "gp-copy",
-                                "editor": "<p>Help the right reader recognise where your book belongs.</p>"
+                                "editor": "<p>Genre-appropriate covers and readable interiors for ebooks, paperbacks and hardcovers.</p>"
                               },
                               "elements": []
                             }
@@ -1181,7 +1162,7 @@
                                 "_css_classes": "gp-action gp-secondary",
                                 "text": "Explore service",
                                 "link": {
-                                  "url": "{{url:amazon-visibility}}",
+                                  "url": "{{url:book-formatting}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 }
@@ -1263,11 +1244,11 @@
                                 "_title": "Row Title",
                                 "_css_classes": "gp-row-title",
                                 "link": {
-                                  "url": "{{url:book-presentation}}",
+                                  "url": "{{url:publishing-support}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 },
-                                "title": "Book Descriptions & A+ Content",
+                                "title": "Publishing & Launch Support",
                                 "header_size": "h3"
                               },
                               "elements": []
@@ -1280,7 +1261,7 @@
                               "settings": {
                                 "_title": "Copy",
                                 "_css_classes": "gp-copy",
-                                "editor": "<p>Make the book’s promise easier to understand.</p>"
+                                "editor": "<p>Publishing setup, edition preparation and a considered plan for your launch.</p>"
                               },
                               "elements": []
                             }
@@ -1321,7 +1302,7 @@
                                 "_css_classes": "gp-action gp-secondary",
                                 "text": "Explore service",
                                 "link": {
-                                  "url": "{{url:book-presentation}}",
+                                  "url": "{{url:publishing-support}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 }
@@ -1403,11 +1384,11 @@
                                 "_title": "Row Title",
                                 "_css_classes": "gp-row-title",
                                 "link": {
-                                  "url": "{{url:launch-promotion}}",
+                                  "url": "{{url:amazon-ads}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 },
-                                "title": "Book Launch & Promotion",
+                                "title": "Book Marketing & Amazon Ads",
                                 "header_size": "h3"
                               },
                               "elements": []
@@ -1420,7 +1401,7 @@
                               "settings": {
                                 "_title": "Copy",
                                 "_css_classes": "gp-copy",
-                                "editor": "<p>Build a promotion plan around the book and its reader.</p>"
+                                "editor": "<p>Amazon listings, marketing strategy and advertising setup, with optional ongoing management.</p>"
                               },
                               "elements": []
                             }
@@ -1461,7 +1442,7 @@
                                 "_css_classes": "gp-action gp-secondary",
                                 "text": "Explore service",
                                 "link": {
-                                  "url": "{{url:launch-promotion}}",
+                                  "url": "{{url:amazon-ads}}",
                                   "is_external": "",
                                   "nofollow": ""
                                 }
@@ -1683,7 +1664,7 @@
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We begin with your book, goals and the issue you want to solve. Initial assessments use public Amazon information.</p>"
+                        "editor": "<p>We begin with your manuscript or published book, your goals and the support you need. Free Amazon assessments use public listing information.</p>"
                       },
                       "elements": []
                     }
@@ -2003,7 +1984,7 @@
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>I’m a Book Marketing Strategist working with authors on visibility, presentation and publishing decisions. My aim is to help you see the priorities clearly and move forward with work that fits your book.</p>"
+                        "editor": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. Through Grant Publishing Co., I help authors with book design, formatting, publishing and marketing, with clear priorities and work that fits each book.</p>"
                       },
                       "elements": []
                     },

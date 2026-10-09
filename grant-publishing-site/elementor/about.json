@@ -76,7 +76,7 @@
               "settings": {
                 "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "title": "Book marketing with a clear purpose.",
+                "title": "Thoughtful support.<br><em>From book to reader.</em>",
                 "header_size": "h1"
               },
               "elements": []
@@ -89,7 +89,7 @@
               "settings": {
                 "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "editor": "<p>Grant Publishing Co. helps authors understand how their books are presented, discovered and connected to the right readers.</p>"
+                "editor": "<p>Grant Publishing Co. helps authors prepare, publish and promote their books through design, formatting, publishing support and practical marketing.</p>"
               },
               "elements": []
             }
@@ -187,7 +187,7 @@
               "settings": {
                 "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "editor": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. My work brings together Amazon visibility, book presentation and practical marketing planning, with publishing support where the project needs it.</p>"
+                "editor": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. Through Grant Publishing Co., I offer cover design, ebook and print formatting, publishing and Amazon KDP setup, alongside Amazon visibility, marketing strategy and advertising support.</p>"
               },
               "elements": []
             },

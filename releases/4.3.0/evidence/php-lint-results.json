@@ -1,0 +1,149 @@
+{
+  "runtime": "Official WordPress Playground PHP.wasm CLI 3.1.57",
+  "results": [
+    {
+      "version": "7.4",
+      "file": "grant-publishing-site.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/grant-publishing-site.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/editorial.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/editorial.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/full-page.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/full-page.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/pages.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/pages.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/portfolio.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/portfolio.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/publishing.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/publishing.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/setup.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/setup.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/upgrades.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/upgrades.php",
+      "stderr": ""
+    },
+    {
+      "version": "7.4",
+      "file": "includes/web3forms.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/web3forms.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "grant-publishing-site.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/grant-publishing-site.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/editorial.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/editorial.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/full-page.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/full-page.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/pages.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/pages.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/portfolio.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/portfolio.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/publishing.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/publishing.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/setup.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/setup.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/upgrades.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/upgrades.php",
+      "stderr": ""
+    },
+    {
+      "version": "8.2",
+      "file": "includes/web3forms.php",
+      "exitCode": 0,
+      "pass": true,
+      "stdout": "No syntax errors detected in /workspace/GrantPublishing-Co/grant-publishing-site/includes/web3forms.php",
+      "stderr": ""
+    }
+  ]
+}

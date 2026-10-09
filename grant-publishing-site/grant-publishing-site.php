@@ -2,22 +2,28 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 4.2.1
+ * Version: 4.3.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '4.2.1');
+define('GPC_VERSION', '4.3.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
 require_once __DIR__ . '/includes/upgrades.php';
+require_once __DIR__ . '/includes/portfolio.php';
 require_once __DIR__ . '/includes/publishing.php';
 require_once __DIR__ . '/includes/web3forms.php';
 require_once __DIR__ . '/includes/setup.php';
 function gpc_services() {
-    return array('Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Book formatting','Cover design','Publishing consultation','Not sure yet');
+    // Preserve old option values so existing service-prefill links still work.
+    return array('Book formatting','Cover design','Book publishing and Amazon KDP setup','Amazon Ads campaign setup','Amazon Ads management','Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation','Not sure yet');
+}
+function gpc_service_label($value) {
+    $labels = array('Book formatting'=>'Book formatting: ebook, paperback & hardcover', 'Cover design'=>'Book cover design', 'Amazon Ads management'=>'Amazon Ads ongoing management', 'Amazon listing optimization'=>'Amazon Book Visibility / listing optimisation', 'Publishing consultation'=>'Publishing consultation');
+    return $labels[$value] ?? $value;
 }
 function gpc_query_value($key) {
     return isset($_GET[$key]) && is_string($_GET[$key]) ? sanitize_text_field(wp_unslash($_GET[$key])) : '';
@@ -55,7 +61,7 @@ function gpc_site_form($default = 'project') {
             <div class="gpc-audit-field"><label for="gpc-link">Amazon or book link (optional)</label><input id="gpc-link" name="book_url" type="url" placeholder="https://" maxlength="1000"></div>
         </div>
         <div class="gpc-audit-form-row">
-            <div class="gpc-audit-field"><label for="gpc-service">Service of interest (optional)</label><select id="gpc-service" name="service"><option value="">Please select</option><?php foreach (gpc_services() as $option) { echo '<option value="' . esc_attr($option) . '"' . selected($service, $option, false) . '>' . esc_html($option) . '</option>'; } ?></select></div>
+            <div class="gpc-audit-field"><label for="gpc-service">Service of interest (optional)</label><select id="gpc-service" name="service"><option value="">Please select</option><?php foreach (gpc_services() as $option) { echo '<option value="' . esc_attr($option) . '"' . selected($service, $option, false) . '>' . esc_html(gpc_service_label($option)) . '</option>'; } ?></select></div>
             <div class="gpc-audit-field"><label for="gpc-status">Publication status (optional)</label><select id="gpc-status" name="publication"><option value="">Please select</option><option>Already published</option><option>Preparing for launch</option><option>Relaunching a book</option><option>Still writing</option></select></div>
         </div>
         <div class="gpc-audit-field"><label for="gpc-website">Author website (optional)</label><input id="gpc-website" name="website" type="url" placeholder="https://" maxlength="1000"></div>

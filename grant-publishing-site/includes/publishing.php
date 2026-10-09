@@ -26,7 +26,7 @@ function gpc_has_client_cover($content, $filename, $upload) {
 }
 
 /** Limit automatic compatibility rendering to the connected native page. */
-function gpc_publishing_page($main_loop = false) {
+function gpc_publishing_page($main_loop = false, $keys = array('home', 'feedback')) {
     if (is_admin() || is_feed() || is_preview() || !is_singular('page')) { return false; }
     if (class_exists('\\Elementor\\Plugin') && isset(\Elementor\Plugin::$instance)) {
         $elementor = \Elementor\Plugin::$instance;
@@ -36,7 +36,7 @@ function gpc_publishing_page($main_loop = false) {
     }
     $key = gpc_current_key();
     $post = get_post();
-    if (!in_array($key, array('home', 'feedback'), true) || !$post || $post->post_type !== 'page' || (int) $post->ID !== (int) get_queried_object_id()) { return false; }
+    if (!in_array($key, $keys, true) || !$post || $post->post_type !== 'page' || (int) $post->ID !== (int) get_queried_object_id()) { return false; }
     if (!get_post_meta($post->ID, '_gpc_elementor_layout', true) || get_post_meta($post->ID, '_gpc_page_key', true) !== $key) { return false; }
     if ($main_loop && (!is_main_query() || !in_the_loop() || get_page_template_slug($post->ID) !== 'gpc-full-page.php')) { return false; }
     return $post;
@@ -117,6 +117,7 @@ function gpc_native_client_proof($content) {
             }
         }
     }
+    if (gpc_current_key() === 'feedback') { $content = gpc_add_luma_case($content); }
     return $content;
 }
 // Run after Elementor's content rendering; this only appends server markup.

@@ -17,7 +17,7 @@ for k in defs:
  for tok in re.findall(r'\{\{([^}]+)\}\}',raw):
   if tok.startswith('url:'):assert tok[4:] in defs,(k,tok)
   elif tok.startswith('asset:'):assert (r/'assets'/tok[6:]).is_file(),tok
-  else:assert tok in ['header','footer','form:project','form:assessment','contact_links'],tok
+  else:assert tok in ['header','footer','form:project','form:assessment','contact_links','showcase:home','showcase:services'],tok
  for href in doc.xpath('//a/@href'):
   assert href and href!='#',(k,href)
   m=re.match(r'\{\{url:([^}]+)\}\}(.*)',href)
@@ -27,7 +27,7 @@ for k in defs:
     anchor=suffix.split('#',1)[1]
     assert anchor in (r/'templates'/f'{dest}.html').read_text() or (anchor=='gpc-enquiry' and dest in ['contact','enquiry']),(k,href)
    params=parse_qs(urlsplit('https://example.com/'+suffix).query)
-   if 'service' in params:assert params['service'][0] in ['Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation'],params
+   if 'service' in params:assert params['service'][0] in ['Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation','Book formatting','Cover design','Book publishing and Amazon KDP setup','Amazon Ads campaign setup'],params
  for img in doc.xpath('//img'):
   assert img.get('alt') is not None,(k,'missing image alternative')
   if not img.get('alt'):assert 'publishing-studio' in img.get('src',''),(k,'unlabelled meaningful image')
@@ -44,6 +44,7 @@ for k in defs:
    elif kind=='shortcode':
     if 'grant_enquiry_form' in st['shortcode']:parts.append('{{form:assessment}}' if 'assessment' in st['shortcode'] else '{{form:project}}')
     elif 'grant_contact_links' in st['shortcode']:parts.append('{{contact_links}}')
+    elif 'grant_book_showcase' in st['shortcode']:parts.append('{{showcase:services}}' if 'services' in st['shortcode'] else '{{showcase:home}}')
    parts.append(layout_text(n['elements']))
   return ''.join(parts)
  expected=doc.xpath('//main')[0].text_content()
@@ -56,7 +57,7 @@ for k in defs:
    if n['elType']=='widget':
     assert n['widgetType'] in ['heading','text-editor','button','image','shortcode'],n['widgetType']
     if n['widgetType']=='heading' and n['settings']['header_size']=='h1':headings.append(n)
-    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode']
+    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode'] or 'grant_book_showcase' in n['settings']['shortcode']
    else:assert n['elType']=='container'
    visit(n['elements'])
  visit(data['content']);assert len(nativeids)==len(set(nativeids));assert len(headings)==1
@@ -66,4 +67,4 @@ design=(r/'assets/design.css').read_text();assert design.count('{')==design.coun
 for p in r.rglob('*.php'):
  assert p.read_text().startswith('<?php'),p
  assert "defined('ABSPATH')" in p.read_text(),p
-print(f'PASS: 17 matching HTML/Elementor pages, {count} native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.')
+print(f'PASS: {len(defs)} matching HTML/Elementor pages, {count} native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.')

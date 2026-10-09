@@ -1,32 +1,32 @@
-# Grant Publishing Co. 4.2.1
+# Grant Publishing Co. 4.3.0
 
-Requires WordPress 6.0+ and PHP 7.4+. Elementor 3.16+ is required for native editing; the Grant shortcodes also work without Elementor.
+Requires WordPress 6.0+ and PHP 7.4+. Elementor 3.16+ is required for native editing; Grant shortcodes also work without Elementor.
 
-1. Back up the plugin and database; install on staging first.
-2. Upload `grant-publishing-site-4.2.1.zip` through **Plugins → Add New → Upload Plugin**. Choose **Replace current with uploaded** and activate if necessary.
-3. Clear hosting/LiteSpeed, CDN and browser caches. Regenerate Elementor CSS & Data if stale. Confirm both `site.css` and `design.css` have `ver=4.2.1`.
-4. Keep `/contact/` and `/book-marketing-audit/` excluded from full-page caching. Check all pages while logged out.
-5. Confirm the larger dimensional header mark, `#09072B` navigation, alternating sections, new footer artwork/icons and My Dear Grandfather PDF card on Client Feedback.
-6. Verify the phone menu, three cover destinations, PDF action, service preselection and a clearly labelled test enquiry in your real inbox.
+1. Back up the plugin and database and test on staging.
+2. Upload `grant-publishing-site-4.3.0.zip` under Plugins → Add New → Upload Plugin. Replace the existing plugin and activate if needed.
+3. Under Tools → Grant Website Setup, run **Create missing pages and connect navigation** once. It preserves existing pages and publishes missing pages, including `/services/book-formatting/`, `/services/cover-design/` and `/services/amazon-ads/`. Review the setup result if a slug already belongs to another page. The publishing page keeps `/services/publishing-support/`.
+4. Clear hosting/CDN/browser caches and regenerate Elementor CSS & Data if stale. Confirm `site.css`, `design.css` and `showcase.js` use `ver=4.3.0`. Keep Contact and Assessment outside full-page caching.
+5. Review broader positioning, all ten services, the two book showcases and both case studies while logged out on desktop and phone.
+6. Check reduced motion, keyboard and touch navigation, optional Amazon links, service preselection and a clearly labelled test enquiry in your actual inbox.
 
-**Do not recreate pages or bulk-convert saved Elementor layouts.** Shared shell/styles update directly. Saved native Feedback receives a missing case study at render time; existing contact text links receive icons at render time. Authored page data remains saved and unchanged. Earlier saved native sections receive the CSS rhythm; arbitrary custom inner styling may need staging review.
+Do not bulk-convert or restore existing Elementor pages. Exact bundled stock copy updates only on connected native pages at render time. Authored copy remains as saved and should be reviewed manually if it still uses narrower positioning. The stock studio image changes only on Home and Services. Missing service entries and the Luma case feature use duplicate guards. No saved page content, Elementor data, site icon or delivery configuration is overwritten.
 
-The once-per-version generated-cache refresh and LiteSpeed purges are scoped to connected, published Grant pages. Other caches may need manual clearing. The existing WordPress site icon stays unchanged.
+The three new pages initially use maintained Grant shortcodes. Matching new-install Elementor layouts are bundled for optional individual conversion. Preserve existing pages when editing or converting.
 
-## Delivery and editing
+## Book projects and PDFs
 
-Existing private Web3Forms settings stay saved; a configured key does not need re-entry. If needed, configure it privately under **Tools → Grant Website Setup → Enquiry delivery**. Provider acceptance does not establish inbox receipt. No real key is included in the ZIP; development tests used mocks and sent no messages.
+The Luma showcase uses the final book mockup extracted from the supplied case-study PDF. Its feature shows the full paperback cover wrap and explains cover redesign and interior formatting through file delivery. Supplied illustrations, KDP upload, publication, metadata and Kindle conversion are not claimed as work by Grant on this project.
 
-Shared contact details remain configurable under Grant Website Setup. Icons use those saved destinations. Native text/images remain editable in Elementor; keep the Grant full-page template. The standard navigation remains under Appearance → Menus.
+Luma’s unchanged seven-page PDF is bundled at `assets/luma-sleepy-star-case-study.pdf`, so its link does not depend on an unprovided WordPress upload. The displayed 2.44 MB is calculated from 2,562,805 bytes. My Dear Grandfather continues to use the supplied hosted WordPress PDF. Both buttons open a protected new tab. Luma’s book links still open John’s LinkedIn review; no Amazon product destination is invented.
 
-The linked PDF remains the user-supplied WordPress upload. If it is moved, update the maintained template/partial or authored page destination. The PDF reader's own download controls can save it; the website promises an open-in-new-tab action.
+## Forms and editing
 
-## Rollback
+Design, formatting, publishing/KDP, Amazon Ads setup and ongoing management choices are available alongside all previous service values. An Amazon link is optional for project enquiries, including unpublished books. Free initial Amazon assessments retain their public-information disclaimer.
 
-Replace the plugin with retained `releases/4.1.0/grant-publishing-site-4.1.0.zip` and clear the same caches. Saved page edits and delivery settings remain. No database/content migration runs in 4.2. Restore content backups only for separate manual edits; bulk restore/pre-conversion actions are not needed for plugin rollback.
+Existing private Web3Forms settings remain saved. If needed, configure them privately under Tools → Grant Website Setup → Enquiry delivery. Provider acceptance does not establish inbox receipt. No real key is included and development tests sent no messages. Shared contacts and navigation remain editable in their existing settings.
 
-This release is published on GitHub, not installed live. Actual WordPress/Elementor/theme integration, existing theme/Canvas duplicate title behavior, other browsers and inbox delivery remain staging checks.
+## Rollback and limits
 
-## Release contents
+Replace with the retained 4.2.1 plugin and clear caches. Newly created service pages are not deleted by rollback; review their menu visibility separately. Saved edits and delivery settings remain. Restore a database backup only for separate manual changes that need reversal.
 
-All 17 routes and section structures are retained. New supplied header/footer artwork, exact Midnight Ink navigation, alternating brand surfaces, accessible local contact icons and a linked seven-page My Dear Grandfather case study complete this update. Exact client reviews, confirmed cover links, prominent founder images and the existing form behavior remain. See the GitHub release gallery and testing report for evidence and limits.
+This ZIP is published on GitHub and has not been installed live. Actual WordPress/Elementor/theme/editor integration, other browsers, SEO plugin output and inbox delivery require staging review.

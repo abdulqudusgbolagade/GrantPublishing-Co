@@ -110,7 +110,7 @@ function gpc_footer() {
     foreach (array('services'=>'Services','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
         $links .= '<a href="' . esc_url(gpc_url($key)) . '">' . esc_html($label) . '</a>';
     }
-    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-intro"><h2>Books built to<br>be discovered.</h2><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div class="gp-footer-grid"><div class="gp-footer-identity"><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-footer-576.webp')) . '" alt="Grant Publishing Co." width="1448" height="1086" loading="lazy" decoding="async"></a><p>Book marketing and publishing support<br>led by AbdulQudus Tella.</p></div><div class="gp-footer-explore"><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div class="gp-footer-contact"><h3>Let’s connect</h3><p>Share your book, your goals<br>and the support you need.</p>' . gpc_contact_links('gp-footer-socials') . '<p class="gp-footer-contact-note">Choose a channel to start<br>a direct conversation.</p></div></div><div class="gp-footer-bottom"><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p><p class="gp-footer-fine">Clear strategy. Thoughtful publishing.</p></div></div></footer>';
+    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-intro"><h2>Books built to<br>be discovered.</h2><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div class="gp-footer-grid"><div class="gp-footer-identity"><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-footer-576.webp')) . '" alt="Grant Publishing Co." width="1448" height="1086" loading="lazy" decoding="async"></a><p>Book design, publishing and marketing<br>led by AbdulQudus Tella.</p></div><div class="gp-footer-explore"><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div class="gp-footer-contact"><h3>Let’s connect</h3><p>Share your book, your goals<br>and the support you need.</p>' . gpc_contact_links('gp-footer-socials') . '<p class="gp-footer-contact-note">Choose a channel to start<br>a direct conversation.</p></div></div><div class="gp-footer-bottom"><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p><p class="gp-footer-fine">Clear strategy. Thoughtful publishing.</p></div></div></footer>';
 }
 function gpc_resolve_string($text, $escape = false) {
     return preg_replace_callback('/\{\{(url|asset):([a-z0-9.\-]+)\}\}/', function($m) use ($escape) {
@@ -122,9 +122,10 @@ function gpc_site_page($key) {
     if (!isset(gpc_pages()[$key])) { return ''; }
     $file = dirname(__DIR__) . '/templates/' . $key . '.html';
     if (!is_readable($file)) { return ''; }
-    gpc_enqueue_assets();
+    gpc_enqueue_assets($key);
     $html = str_replace(array('{{header}}','{{footer}}','{{contact_links}}'), array(gpc_header($key),gpc_footer(),gpc_contact_links()), file_get_contents($file));
     $html = preg_replace_callback('/\{\{form:(assessment|project)\}\}/', function($m) { return gpc_site_form($m[1]); }, $html);
+    $html = preg_replace_callback('/\{\{showcase:(home|services)\}\}/', function($m) { return gpc_book_showcase($m[1]); }, $html);
     $html = gpc_resolve_string($html, true);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
     if (!wp_style_is('gpc-site', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('site.css') . '?ver=' . GPC_VERSION) . '">'; }
@@ -152,13 +153,15 @@ function gpc_current_key() {
     foreach (gpc_pages() as $key=>$def) { if (gpc_matches_page($post, $key)) { return $key; } }
     return '';
 }
-function gpc_enqueue_assets() {
+function gpc_enqueue_assets($key = '') {
     $deps = wp_style_is('elementor-frontend', 'registered') ? array('elementor-frontend') : array();
     wp_enqueue_style('gpc-site', gpc_asset_url('site.css'), $deps, GPC_VERSION);
     wp_enqueue_style('gpc-design', gpc_asset_url('design.css'), array('gpc-site'), GPC_VERSION);
     wp_enqueue_script('gpc-interactions', gpc_asset_url('interactions.js'), array(), GPC_VERSION, true);
+    // Cached native hero HTML still needs its interactive enhancement.
+    if (in_array($key, array('home','services'), true)) { wp_enqueue_script('gpc-showcase', gpc_asset_url('showcase.js'), array(), GPC_VERSION, true); }
 }
-add_action('wp_enqueue_scripts', function() { if (gpc_current_key()) { gpc_enqueue_assets(); } }, 100);
+add_action('wp_enqueue_scripts', function() { $key = gpc_current_key(); if ($key) { gpc_enqueue_assets($key); } }, 100);
 add_filter('theme_page_templates', function($templates) { $templates['gpc-full-page.php'] = 'Grant Publishing Full Page'; return $templates; });
 add_filter('template_include', function($template) {
     return is_page() && get_page_template_slug() === 'gpc-full-page.php' && gpc_current_key() ? __DIR__ . '/full-page.php' : $template;
@@ -180,7 +183,7 @@ add_action('template_redirect', function() {
 });
 add_filter('pre_get_document_title', function($title) {
     $key = gpc_current_key(); $defs = gpc_pages();
-    return $key ? $defs[$key]['title'] . ($key === 'home' ? ' | Book Marketing & Publishing Support' : ' | Grant Publishing Co.') : $title;
+    return $key ? $defs[$key]['title'] . ($key === 'home' ? ' | Book Design, Publishing & Marketing' : ' | Grant Publishing Co.') : $title;
 }, 20);
 add_action('wp_head', function() {
     $key = gpc_current_key(); $defs = gpc_pages();
@@ -190,6 +193,8 @@ add_action('wp_head', function() {
 });
 // Keep form nonces and shared contact details dynamic when Elementor output caching is enabled.
 add_filter('elementor/element/is_dynamic_content', function($dynamic, $data) {
-    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
+    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links|book_showcase)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
+    // Older native image widgets become server-rendered showcases, too.
+    if (($data['widgetType'] ?? '') === 'image' && preg_replace('/[?#].*$/', '', $data['settings']['image']['url'] ?? '') === gpc_asset_url('publishing-studio.webp')) { return true; }
     return $dynamic;
 }, 10, 2);

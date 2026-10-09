@@ -1,0 +1,1 @@
+PASS: 20 matching HTML/Elementor pages, 1026 native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.

@@ -1,0 +1,1 @@
+PASS: 79 showcase timing, captions, loading, hover/focus/manual pause, keyboard/touch, reduced motion, static fallback, accessibility and Luma case/PDF assertions.

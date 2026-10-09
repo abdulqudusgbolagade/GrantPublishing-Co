@@ -1,0 +1,1 @@
+PASS: 48 final before/after full-page captures plus footer detail; all requested images decoded before capture.

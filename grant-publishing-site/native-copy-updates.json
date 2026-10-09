@@ -1,0 +1,47 @@
+{
+  "home": {
+    "<p>BOOK MARKETING &amp; PUBLISHING</p>": "<p>BOOK DESIGN, PUBLISHING &amp; MARKETING</p>",
+    "<h1>Books built<br>to be <em>discovered.</em>\n</h1>": "<h1>Bring your book to life.<br>Help it <em>reach readers.</em>\n</h1>",
+    "<p>Publishing strategy, Amazon visibility and book marketing for authors who want more than a listing.</p>": "<p>From cover design and formatting to publishing, Amazon optimisation and advertising setup, we help authors prepare their books and connect with readers.</p>",
+    "<p>We start with the book and the question you want to solve. Then we focus the work on what needs attention.</p>": "<p>Whether you are preparing a manuscript or promoting a published book, we help you choose the support that fits your next step.</p>",
+    "<p>Help the right reader recognise where your book belongs.</p>": "<p>Genre-appropriate covers and readable interiors for ebooks, paperbacks and hardcovers.</p>",
+    "<p>Make the book’s promise easier to understand.</p>": "<p>Publishing setup, edition preparation and a considered plan for your launch.</p>",
+    "<p>Build a promotion plan around the book and its reader.</p>": "<p>Amazon listings, marketing strategy and advertising setup, with optional ongoing management.</p>",
+    "<p>We begin with your book, goals and the issue you want to solve. Initial assessments use public Amazon information.</p>": "<p>We begin with your manuscript or published book, your goals and the support you need. Free Amazon assessments use public listing information.</p>",
+    "<p>I’m a Book Marketing Strategist working with authors on visibility, presentation and publishing decisions. My aim is to help you see the priorities clearly and move forward with work that fits your book.</p>": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. Through Grant Publishing Co., I help authors with book design, formatting, publishing and marketing, with clear priorities and work that fits each book.</p>",
+    "<h3><a class=\"gp-title-link\" href=\"{{url:amazon-visibility}}\">Amazon Book Visibility</a></h3>": "<h3><a class=\"gp-title-link\" href=\"{{url:book-formatting}}\">Book Design &amp; Formatting</a></h3>",
+    "<h3><a class=\"gp-title-link\" href=\"{{url:book-presentation}}\">Book Descriptions &amp; A+ Content</a></h3>": "<h3><a class=\"gp-title-link\" href=\"{{url:publishing-support}}\">Publishing &amp; Launch Support</a></h3>",
+    "<h3><a class=\"gp-title-link\" href=\"{{url:launch-promotion}}\">Book Launch &amp; Promotion</a></h3>": "<h3><a class=\"gp-title-link\" href=\"{{url:amazon-ads}}\">Book Marketing &amp; Amazon Ads</a></h3>"
+  },
+  "about": {
+    "<h1>Book marketing with a clear purpose.</h1>": "<h1>Thoughtful support.<br><em>From book to reader.</em></h1>",
+    "<p>Grant Publishing Co. helps authors understand how their books are presented, discovered and connected to the right readers.</p>": "<p>Grant Publishing Co. helps authors prepare, publish and promote their books through design, formatting, publishing support and practical marketing.</p>",
+    "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. My work brings together Amazon visibility, book presentation and practical marketing planning, with publishing support where the project needs it.</p>": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. Through Grant Publishing Co., I offer cover design, ebook and print formatting, publishing and Amazon KDP setup, alongside Amazon visibility, marketing strategy and advertising support.</p>"
+  },
+  "contact": {
+    "<p>Tell us where the book is now and what you would like to improve. You do not need to know the exact scope yet.</p>": "<p>Tell us what you are writing, preparing or promoting, and where you need support. Design, formatting, publishing and marketing enquiries are welcome, even if your book is not yet published.</p>",
+    "<p>A few details help us understand the right next step.</p>": "<p>A few details help us understand the right next step. You can enquire before publication and leave the Amazon link blank.</p>"
+  },
+  "services": {
+    "<p>Book marketing, Amazon visibility and publishing support shaped around your book and the readers you want to reach.</p>": "<p>Book design, formatting, publishing and marketing support, from your first prepared files to the way readers find your book.</p>",
+    "<h2>Publishing Support</h2>": "<h2><a class=\"gp-title-link\" href=\"{{url:publishing-support}}\">Book Publishing &amp; Amazon KDP Setup</a></h2>",
+    "<p>Prepare the book’s presentation and files for its next step.</p>": "<p>Get practical help with publishing setup, file uploads and edition preparation.</p>",
+    "<li>Kindle and print formatting within the agreed specifications</li>": "<li>Publishing setup and file uploads within the agreed scope</li>",
+    "<li>Cover design or cover presentation support</li>": "<li>Edition preparation and a clear publishing handover</li>"
+  },
+  "publishing-support": {
+    "<p><a href=\"{{url:services}}\">Services</a><span aria-hidden=\"true\"> / </span>Publishing Support</p>": "<p><a href=\"{{url:services}}\">Services</a><span aria-hidden=\"true\"> / </span>Book Publishing &amp; Amazon KDP Setup</p>",
+    "<h1>Publishing Support</h1>": "<h1>Book Publishing &amp; Amazon KDP Setup</h1>",
+    "<p>Prepare the book’s presentation and files for its next step.</p>": "<p>Practical help with publishing setup, file uploads and edition preparation within an agreed scope.</p>",
+    "<p>Care in the details.</p>": "<p>From prepared files to publishing setup.</p>",
+    "<p>Book marketing works alongside a well-presented publication. Supporting services include formatting, cover design and publishing consultation, with the deliverables matched to your book and chosen formats.</p>": "<p>Bring your prepared book files into the publishing process. We help with Amazon KDP setup, edition details, file uploads and readiness checks, with responsibilities and deliverables agreed before work begins.</p>",
+    "<p>Tell us your book type, word count, desired formats and target publication date. Include existing files where relevant. Editing, illustration, ISBNs and platform fees are included only if explicitly agreed.</p>": "<p>Tell us the book’s current stage, chosen formats and target publication date. Share prepared manuscript and cover files where available. Formatting, cover design, editing, ISBNs and platform fees are included only when agreed.</p>",
+    "<li>Kindle and print formatting within the agreed specifications</li>": "<li>Amazon KDP publishing setup and edition preparation</li>",
+    "<li>Cover design or cover presentation support</li>": "<li>Upload of agreed ebook or print files and cover assets</li>",
+    "<li>Publishing preparation and file review</li>": "<li>Review of previewer checks and required publication details</li>",
+    "<li>Clear deliverables, revisions and handover requirements</li>": "<li>A clear handover of the agreed publishing work</li>"
+  },
+  "feedback": {
+    "<p>Five-star client feedback on book marketing, publishing and graphic design. Words from Nadine Laman and John Capon, presented with the project context.</p>": "<p>Five-star client feedback on book design, publishing support and marketing. Words from Nadine Laman and John Capon, presented with the project context.</p>"
+  }
+}

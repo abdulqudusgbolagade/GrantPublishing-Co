@@ -1,4 +1,4 @@
-# Grant brand implementation — 4.2.1
+# Grant brand implementation, 4.3.0
 
 Reference: the user's **Grant_Publishing_Co_Brand_Guidelines_v1.pptx**, version 1.0 / October 2026. The presentation supplies the palette and typography. The user's subsequent explicit requests select the new artwork, larger header size, Midnight Ink navigation and alternating sections; these take precedence over earlier artwork/size defaults. The existing site-icon setting remains unchanged.
 
@@ -36,6 +36,18 @@ Confirmed cover destinations remain: [Grandfather / Amazon 1947646117](https://w
 
 ## Compatibility
 
-All 17 route/template/layout pairs remain. New-install Elementor JSON matches the maintained HTML. Existing native edits are not overwritten: a missing case study is appended only on connected Feedback, and contact icons replace text links only at render time on connected main pages. Existing cover links and SVGs are preserved. The once-per-version scoped cache refresh remains; site icon, saved form key and delivery settings are untouched.
+All 17 previous route/template/layout pairs remain, with three additional service detail pairs. New-install Elementor JSON matches the maintained HTML. Existing native edits are not overwritten: missing case-study features are added only on connected Feedback, and contact icons replace text links only at render time on connected main pages. Existing cover links and SVGs are preserved. The once-per-version scoped cache refresh remains; site icon, saved form key and delivery settings are untouched.
 
 Version 4.2.1 includes a wrapper compatibility correction: explicit tones and dark proof styling work inside Elementor document wrappers, and earlier untagged sections alternate through both current and older section wrappers without saved-data changes.
+
+## Broader positioning and real projects in 4.3.0
+
+Grant’s offer now covers book design, formatting, publishing and marketing. AbdulQudus Tella’s identity remains Book Marketing Strategist. Practical scope, clear handovers and agreed fees replace any suggestion of guaranteed sales or publication. Amazon Ads setup is distinct from optional recurring management, and ad spend is separate.
+
+The two active `publishing-studio.webp` placements were the Home and Services heroes. Both now use the same real-book showcase without changing surrounding section order. The generated studio asset stays in the package for older content compatibility, but these maintained placements no longer render it. Founder images and unrelated artwork remain.
+
+Luma’s final 1000×1000 book mockup and 1900×959 paperback wrap were extracted faithfully from PDF pages 1 and 3. Standard WebP renditions preserve proportions and artwork; they do not generate or retouch a cover. Later showcase images load on demand. The 302×466 Grandfather source has no larger verified original in this project, so its showcase rendition is capped at those dimensions instead of enlarged.
+
+The seven-page Luma PDF supplies verified cover redesign, interior formatting, 8.5 × 8.5-inch trim, 35 final pages and 8 October 2026 delivery. Grant delivered the paperback print PDFs; the client supplied story illustrations. No KDP upload, publication, metadata optimisation, Kindle conversion, sales or ranking results are claimed. John’s existing review remains once. Luma’s original PDF is bundled unchanged; its visible summary is webpage text.
+
+Exact stock copy updates and missing service/case features render on connected saved native pages. Custom copy, unrelated images, saved content, the site icon and delivery settings are retained. The latest [testing report](../releases/4.3.0/TESTING-REPORT.md) records verification and limits.

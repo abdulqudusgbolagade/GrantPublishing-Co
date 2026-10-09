@@ -1,0 +1,94 @@
+PASS: An unlinked bundled native Home cover links to the exact supplied Amazon destination
+PASS: Link has a descriptive new-tab name and preserves the complete original image
+PASS: Already linked rendered cover does not gain nested links
+PASS: Connected native Feedback cover receives the same correct link
+PASS: Unrelated services page remains untouched
+PASS: Unrelated about page remains untouched
+PASS: Unrelated contact page remains untouched
+PASS: Blank, external or edited image is preserved: (blank)
+PASS: Blank, external or edited image is preserved: https://other.test/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/uploads/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/plugins/grant-publishing-site/assets/grant-logo.png
+PASS: Rendered replacement is preserved even when old settings retain the cover URL
+PASS: Existing custom or attachment link settings are preserved
+PASS: An existing author link is never replaced
+PASS: Multiple-image widget is not modified
+PASS: Only the image widget is eligible
+PASS: Optimiser picture structure is preserved without invalid nested picture markup
+PASS: Existing image-map interaction is not replaced
+PASS: Bundled URL cache parameters do not prevent the correct link
+PASS: Valid unquoted HTML source is handled
+PASS: admin rendering receives no automatic compatibility content
+PASS: feed rendering receives no automatic compatibility content
+PASS: preview rendering receives no automatic compatibility content
+PASS: Elementor editor rendering remains untouched
+PASS: Elementor preview rendering remains untouched
+PASS: Unmarked pages are not modified
+PASS: Wrong native page connection does not append proof
+PASS: Proof requires the singular main page loop: singular
+PASS: Proof requires the singular main page loop: main
+PASS: Proof requires the singular main page loop: loop
+PASS: Only the Grant full-page native template gets automatic proof
+PASS: Secondary post cannot receive the main page proof
+PASS: Old native content stays byte-for-byte intact with the supplied new review appended
+PASS: Real shared helper resolves proof asset and feedback route tokens
+PASS: Supplied client attribution, publisher and Amazon destination remain in proof
+PASS: Old work anchor is retained and appended proof gets a distinct ID
+PASS: Repeated filtering cannot duplicate the appended review
+PASS: Rendering leaves saved page content and Elementor data untouched
+PASS: Older connected native Feedback receives new proof
+PASS: Existing inline/line-wrapped reviews stay intact and receive only the missing Luma cover
+PASS: Entity-encoded updated review is recognised without repeating its quote
+PASS: Existing author proof ID is preserved without creating a duplicate ID
+PASS: A native page already containing Nadine receives only the missing John review
+PASS: John review has its supplied name, LinkedIn source and graphic-design context
+PASS: Both review guards prevent repeat additions
+PASS: Cover detection accepts the genuine bundled URL with HTML entities and cache parameters
+PASS: A same-name external image is not treated as the supplied cover
+PASS: User upload cover detection supports the actual HTTP source and unquoted markup
+PASS: A URL without a displayed image does not suppress the genuine cover
+PASS: Adding only the missing Luma cover is idempotent
+PASS: Missing Luma card has the confirmed LinkedIn destination and genuine alternative text
+PASS: Old native Feedback retains saved content and gains only its missing Grandfather card
+PASS: Cover compatibility does not repeat either existing client review
+PASS: Grandfather card has the confirmed Amazon destination, author and publisher
+PASS: Grandfather gallery is not duplicated on repeated rendering
+PASS: Already complete native reviews and covers stay intact while receiving the requested case study
+PASS: Already supplied WordPress-uploaded Luma cover is preserved without a duplicate gallery
+PASS: Actual PHP header renders the supplied responsive icon instead of the old logo
+PASS: Actual icon header retains company identification and square dimensions
+PASS: Actual PHP footer renders the supplied new full footer logo with original proportions
+PASS: Actual PHP footer uses the approved tagline and retains working enquiry navigation
+PASS: Existing native Feedback gains one linked case study without replacing saved content
+PASS: Case-study rendering is idempotent
+PASS: An existing authored PDF link with cache parameters prevents a duplicate card
+PASS: The user-supplied HTTP PDF destination also prevents duplication
+PASS: Saved case-study ID is retained with a distinct appended card ID
+PASS: Case study is scoped to Feedback rather than Home
+PASS: Saved email destination and accessible meaning survive icon conversion
+PASS: External review icon keeps its exact URL and protected new-tab action
+PASS: Repeated content filters do not replace existing SVG controls
+PASS: A book cover linked to LinkedIn is never converted to a social icon
+PASS: admin content is not iconized
+PASS: feed content is not iconized
+PASS: preview content is not iconized
+PASS: Unconnected page content remains untouched
+PASS: Shared contact output contains four labelled icons and the configured email destination
+PASS: Compatibility hooks register image context and post-Elementor proof rendering
+PASS: Luma case study appears directly after the saved John review
+PASS: Luma case-study link prevents duplicate additions
+PASS: Displayed Luma size derives from the unchanged supplied PDF
+PASS: Luma scope ends at file delivery with exclusions visible
+PASS: Bundled native hero studio image becomes the actual-book showcase
+PASS: Showcase renders three verified projects and defers the later covers
+PASS: Actual project scopes remain distinct in showcase captions
+PASS: Unrelated book images remain unchanged
+PASS: Old native Services receives the three missing entries
+PASS: Custom service content stays intact while exact old publishing copy updates
+PASS: Service compatibility remains idempotent
+PASS: Exact saved stock headline updates and authored copy remains
+PASS: An authored service heading and its existing destination stay intact
+PASS: Stock homepage service title and action agree on the new detail route
+PASS: Editor and admin content stays untouched by the positioning update
+
+92 publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.

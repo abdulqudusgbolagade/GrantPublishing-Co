@@ -1,5 +1,5 @@
 {
-  "title": "Publishing Support",
+  "title": "Book Publishing & Amazon KDP Setup",
   "type": "page",
   "version": "0.4",
   "page_settings": {
@@ -89,7 +89,7 @@
                   "settings": {
                     "_title": "Breadcrumb",
                     "_css_classes": "gp-breadcrumb",
-                    "editor": "<p><a href=\"{{url:services}}\">Services</a><span aria-hidden=\"true\"> / </span>Publishing Support</p>"
+                    "editor": "<p><a href=\"{{url:services}}\">Services</a><span aria-hidden=\"true\"> / </span>Book Publishing &amp; Amazon KDP Setup</p>"
                   },
                   "elements": []
                 },
@@ -101,7 +101,7 @@
                   "settings": {
                     "_title": "Page Title",
                     "_css_classes": "gp-page-title",
-                    "title": "Publishing Support",
+                    "title": "Book Publishing & Amazon KDP Setup",
                     "header_size": "h1"
                   },
                   "elements": []
@@ -114,7 +114,7 @@
                   "settings": {
                     "_title": "Lead",
                     "_css_classes": "gp-lead",
-                    "editor": "<p>Prepare the book’s presentation and files for its next step.</p>"
+                    "editor": "<p>Practical help with publishing setup, file uploads and edition preparation within an agreed scope.</p>"
                   },
                   "elements": []
                 },
@@ -153,7 +153,7 @@
                         "_css_classes": "gp-action",
                         "text": "Discuss this service",
                         "link": {
-                          "url": "{{url:contact}}?request=project&service=Publishing%20consultation#gpc-enquiry",
+                          "url": "{{url:contact}}?request=project&service=Book%20publishing%20and%20Amazon%20KDP%20setup#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
                         }
@@ -189,7 +189,7 @@
               "settings": {
                 "_title": "Editorial Art",
                 "_css_classes": "gp-editorial-art",
-                "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>Care in the details.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Presentation</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Files &amp; layout</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Next step</span>\n</div>\n</div>\n<figcaption>Illustrative publishing workflow</figcaption></figure>"
+                "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>From prepared files to publishing setup.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Prepared files</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Edition setup</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Publishing handover</span>\n</div>\n</div>\n<figcaption>Illustrative publishing workflow</figcaption></figure>"
               },
               "elements": []
             }
@@ -330,7 +330,7 @@
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>Book marketing works alongside a well-presented publication. Supporting services include formatting, cover design and publishing consultation, with the deliverables matched to your book and chosen formats.</p>"
+                        "editor": "<p>Bring your prepared book files into the publishing process. We help with Amazon KDP setup, edition details, file uploads and readiness checks, with responsibilities and deliverables agreed before work begins.</p>"
                       },
                       "elements": []
                     },
@@ -356,7 +356,7 @@
                         "_title": "Deliverables",
                         "_element_id": "service-scope",
                         "_css_classes": "gp-deliverables",
-                        "editor": "<ul>\n<li>Kindle and print formatting within the agreed specifications</li>\n<li>Cover design or cover presentation support</li>\n<li>Publishing preparation and file review</li>\n<li>Clear deliverables, revisions and handover requirements</li>\n</ul>"
+                        "editor": "<ul>\n<li>Amazon KDP publishing setup and edition preparation</li>\n<li>Upload of agreed ebook or print files and cover assets</li>\n<li>Review of previewer checks and required publication details</li>\n<li>A clear handover of the agreed publishing work</li>\n</ul>"
                       },
                       "elements": []
                     },
@@ -381,7 +381,7 @@
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>Tell us your book type, word count, desired formats and target publication date. Include existing files where relevant. Editing, illustration, ISBNs and platform fees are included only if explicitly agreed.</p>"
+                        "editor": "<p>Tell us the book’s current stage, chosen formats and target publication date. Share prepared manuscript and cover files where available. Formatting, cover design, editing, ISBNs and platform fees are included only when agreed.</p>"
                       },
                       "elements": []
                     }
@@ -459,7 +459,7 @@
                         "_css_classes": "gp-action",
                         "text": "Enquire about this service",
                         "link": {
-                          "url": "{{url:contact}}?request=project&service=Publishing%20consultation#gpc-enquiry",
+                          "url": "{{url:contact}}?request=project&service=Book%20publishing%20and%20Amazon%20KDP%20setup#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
                         }

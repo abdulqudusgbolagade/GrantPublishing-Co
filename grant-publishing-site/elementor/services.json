@@ -1,5 +1,5 @@
 {
-  "title": "Book Marketing Services",
+  "title": "Book Design, Publishing & Marketing Services",
   "type": "page",
   "version": "0.4",
   "page_settings": {
@@ -114,7 +114,7 @@
                   "settings": {
                     "_title": "Lead",
                     "_css_classes": "gp-lead",
-                    "editor": "<p>Book marketing, Amazon visibility and publishing support shaped around your book and the readers you want to reach.</p>"
+                    "editor": "<p>Book design, formatting, publishing and marketing support, from your first prepared files to the way readers find your book.</p>"
                   },
                   "elements": []
                 }
@@ -148,19 +148,12 @@
                 {
                   "id": "2b0906fd",
                   "elType": "widget",
-                  "widgetType": "image",
+                  "widgetType": "shortcode",
                   "isInner": false,
                   "settings": {
-                    "_title": "Studio Image",
-                    "_css_classes": "gp-studio-image",
-                    "image": {
-                      "url": "{{asset:publishing-studio.webp}}",
-                      "id": 0,
-                      "alt": ""
-                    },
-                    "image_size": "full",
-                    "caption_source": "none",
-                    "link_to": "none"
+                    "_title": "Showcase Slot",
+                    "_css_classes": "gp-showcase-slot",
+                    "shortcode": "[grant_book_showcase context=\"services\"]"
                   },
                   "elements": []
                 }
@@ -251,7 +244,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "amazon-visibility",
+                    "_element_id": "book-formatting",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -317,11 +310,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:amazon-visibility}}",
+                              "url": "{{url:book-formatting}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Amazon Book Visibility",
+                            "title": "Book Formatting",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -334,7 +327,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Help the right reader recognise where your book belongs.</p>"
+                            "editor": "<p>Readable interiors and appropriately prepared files for ebooks, paperbacks and hardcovers.</p>"
                           },
                           "elements": []
                         },
@@ -346,7 +339,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Review of the public book listing and its positioning</li>\n<li>Recommendations for relevant keywords and category fit</li>\n</ul>"
+                            "editor": "<ul><li>Ebook formatting and navigation appropriate to the content</li><li>Paperback and hardcover interior layouts at the agreed trim size</li></ul>"
                           },
                           "elements": []
                         }
@@ -387,7 +380,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:amazon-visibility}}",
+                              "url": "{{url:book-formatting}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -404,7 +397,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "book-presentation",
+                    "_element_id": "cover-design",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -470,11 +463,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:book-presentation}}",
+                              "url": "{{url:cover-design}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Book Descriptions & A+ Content",
+                            "title": "Book Cover Design",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -487,7 +480,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Make the book’s promise easier to understand.</p>"
+                            "editor": "<p>Ebook covers and print cover layouts suited to your book’s genre, audience and format.</p>"
                           },
                           "elements": []
                         },
@@ -499,7 +492,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Description review or rewriting within the agreed scope</li>\n<li>A+ Content structure, copy and visual direction</li>\n</ul>"
+                            "editor": "<ul><li>Cover direction and ebook front cover design</li><li>Paperback or hardcover cover layout within the agreed specifications</li></ul>"
                           },
                           "elements": []
                         }
@@ -540,7 +533,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:book-presentation}}",
+                              "url": "{{url:cover-design}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -557,7 +550,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "launch-promotion",
+                    "_element_id": "amazon-ads",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -623,11 +616,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:launch-promotion}}",
+                              "url": "{{url:amazon-ads}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Book Launch & Promotion",
+                            "title": "Amazon Ads Setup & Management",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -640,7 +633,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Build a promotion plan around the book and its reader.</p>"
+                            "editor": "<p>A clear campaign structure, relevant targeting and a practical handover, with optional ongoing management.</p>"
                           },
                           "elements": []
                         },
@@ -652,7 +645,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Launch or relaunch readiness review</li>\n<li>Audience and message planning</li>\n</ul>"
+                            "editor": "<ul><li>Campaign structure and relevant keyword or product targeting research</li><li>Initial bid and budget settings agreed with you</li></ul>"
                           },
                           "elements": []
                         }
@@ -693,7 +686,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:launch-promotion}}",
+                              "url": "{{url:amazon-ads}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -710,7 +703,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "author-platform",
+                    "_element_id": "amazon-visibility",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -776,11 +769,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:author-platform}}",
+                              "url": "{{url:amazon-visibility}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Author Platform",
+                            "title": "Amazon Book Visibility",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -793,7 +786,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Give interested readers a clear way to stay connected.</p>"
+                            "editor": "<p>Help the right reader recognise where your book belongs.</p>"
                           },
                           "elements": []
                         },
@@ -805,7 +798,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Author positioning and profile review</li>\n<li>Website and reader journey recommendations</li>\n</ul>"
+                            "editor": "<ul>\n<li>Review of the public book listing and its positioning</li>\n<li>Recommendations for relevant keywords and category fit</li>\n</ul>"
                           },
                           "elements": []
                         }
@@ -846,7 +839,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:author-platform}}",
+                              "url": "{{url:amazon-visibility}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -863,7 +856,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "catalog-strategy",
+                    "_element_id": "book-presentation",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -929,11 +922,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:catalog-strategy}}",
+                              "url": "{{url:book-presentation}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Series & Catalog Strategy",
+                            "title": "Book Descriptions & A+ Content",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -946,7 +939,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Think beyond a single book.</p>"
+                            "editor": "<p>Make the book’s promise easier to understand.</p>"
                           },
                           "elements": []
                         },
@@ -958,7 +951,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Catalog overview and reader pathway review</li>\n<li>Author, series and edition consistency checks</li>\n</ul>"
+                            "editor": "<ul>\n<li>Description review or rewriting within the agreed scope</li>\n<li>A+ Content structure, copy and visual direction</li>\n</ul>"
                           },
                           "elements": []
                         }
@@ -999,7 +992,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:catalog-strategy}}",
+                              "url": "{{url:book-presentation}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -1016,7 +1009,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "book-strategy",
+                    "_element_id": "launch-promotion",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -1082,11 +1075,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:book-strategy}}",
+                              "url": "{{url:launch-promotion}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Book Marketing Strategy",
+                            "title": "Book Launch & Promotion",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -1099,7 +1092,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Choose the work that matters before spending on more activity.</p>"
+                            "editor": "<p>Build a promotion plan around the book and its reader.</p>"
                           },
                           "elements": []
                         },
@@ -1111,7 +1104,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>A review of the book’s positioning and current marketing</li>\n<li>Diagnosis of the main obstacles and open questions</li>\n</ul>"
+                            "editor": "<ul>\n<li>Launch or relaunch readiness review</li>\n<li>Audience and message planning</li>\n</ul>"
                           },
                           "elements": []
                         }
@@ -1152,7 +1145,7 @@
                             "_css_classes": "gp-action gp-secondary",
                             "text": "Explore service",
                             "link": {
-                              "url": "{{url:book-strategy}}",
+                              "url": "{{url:launch-promotion}}",
                               "is_external": "",
                               "nofollow": ""
                             }
@@ -1169,7 +1162,7 @@
                   "isInner": false,
                   "settings": {
                     "_title": "Service Row",
-                    "_element_id": "publishing-support",
+                    "_element_id": "author-platform",
                     "css_classes": "gp-service-row",
                     "content_width": "full",
                     "flex_direction": "column",
@@ -1235,11 +1228,11 @@
                             "_title": "Row Title",
                             "_css_classes": "gp-row-title",
                             "link": {
-                              "url": "{{url:publishing-support}}",
+                              "url": "{{url:author-platform}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "title": "Publishing Support",
+                            "title": "Author Platform",
                             "header_size": "h2"
                           },
                           "elements": []
@@ -1252,7 +1245,7 @@
                           "settings": {
                             "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "editor": "<p>Prepare the book’s presentation and files for its next step.</p>"
+                            "editor": "<p>Give interested readers a clear way to stay connected.</p>"
                           },
                           "elements": []
                         },
@@ -1264,7 +1257,7 @@
                           "settings": {
                             "_title": "Service Scope",
                             "_css_classes": "gp-service-scope",
-                            "editor": "<ul>\n<li>Kindle and print formatting within the agreed specifications</li>\n<li>Cover design or cover presentation support</li>\n</ul>"
+                            "editor": "<ul>\n<li>Author positioning and profile review</li>\n<li>Website and reader journey recommendations</li>\n</ul>"
                           },
                           "elements": []
                         }
@@ -1297,6 +1290,465 @@
                       "elements": [
                         {
                           "id": "59086482",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Action Secondary",
+                            "_css_classes": "gp-action gp-secondary",
+                            "text": "Explore service",
+                            "link": {
+                              "url": "{{url:author-platform}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "3a8c1c73",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Service Row",
+                    "_element_id": "catalog-strategy",
+                    "css_classes": "gp-service-row",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a1c51f65",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Index",
+                        "_css_classes": "gp-index",
+                        "editor": "<p>08</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "19fdad05",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Service Copy",
+                        "css_classes": "gp-service-copy",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "49e7c9e5",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Row Title",
+                            "_css_classes": "gp-row-title",
+                            "link": {
+                              "url": "{{url:catalog-strategy}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "title": "Series & Catalog Strategy",
+                            "header_size": "h2"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "2e79d6bb",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Copy",
+                            "_css_classes": "gp-copy",
+                            "editor": "<p>Think beyond a single book.</p>"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "2d5de9c7",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Service Scope",
+                            "_css_classes": "gp-service-scope",
+                            "editor": "<ul>\n<li>Catalog overview and reader pathway review</li>\n<li>Author, series and edition consistency checks</li>\n</ul>"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "103a5e46",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Row Action",
+                        "css_classes": "gp-row-action",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "24ac96e9",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Action Secondary",
+                            "_css_classes": "gp-action gp-secondary",
+                            "text": "Explore service",
+                            "link": {
+                              "url": "{{url:catalog-strategy}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "7fd3ad9b",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Service Row",
+                    "_element_id": "book-strategy",
+                    "css_classes": "gp-service-row",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b4eeed3b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Index",
+                        "_css_classes": "gp-index",
+                        "editor": "<p>09</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "24bcece0",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Service Copy",
+                        "css_classes": "gp-service-copy",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "b13ffdbf",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Row Title",
+                            "_css_classes": "gp-row-title",
+                            "link": {
+                              "url": "{{url:book-strategy}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "title": "Book Marketing Strategy",
+                            "header_size": "h2"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "ddb625c4",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Copy",
+                            "_css_classes": "gp-copy",
+                            "editor": "<p>Choose the work that matters before spending on more activity.</p>"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "dafa1515",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Service Scope",
+                            "_css_classes": "gp-service-scope",
+                            "editor": "<ul>\n<li>A review of the book’s positioning and current marketing</li>\n<li>Diagnosis of the main obstacles and open questions</li>\n</ul>"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "fe0c1e7f",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Row Action",
+                        "css_classes": "gp-row-action",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "c0adfdb9",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Action Secondary",
+                            "_css_classes": "gp-action gp-secondary",
+                            "text": "Explore service",
+                            "link": {
+                              "url": "{{url:book-strategy}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "fb1e0ba6",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Service Row",
+                    "_element_id": "publishing-support",
+                    "css_classes": "gp-service-row",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5a60450e",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Index",
+                        "_css_classes": "gp-index",
+                        "editor": "<p>10</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "69e0910c",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Service Copy",
+                        "css_classes": "gp-service-copy",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "e68f5104",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Row Title",
+                            "_css_classes": "gp-row-title",
+                            "link": {
+                              "url": "{{url:publishing-support}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            },
+                            "title": "Book Publishing & Amazon KDP Setup",
+                            "header_size": "h2"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "9fa3af3b",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Copy",
+                            "_css_classes": "gp-copy",
+                            "editor": "<p>Get practical help with publishing setup, file uploads and edition preparation.</p>"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "8d11a3a6",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Service Scope",
+                            "_css_classes": "gp-service-scope",
+                            "editor": "<ul>\n<li>Publishing setup and file uploads within the agreed scope</li>\n<li>Edition preparation and a clear publishing handover</li>\n</ul>"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "af489ab6",
+                      "elType": "container",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Row Action",
+                        "css_classes": "gp-row-action",
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "flex_gap": {
+                          "unit": "px",
+                          "size": 0,
+                          "column": "0",
+                          "row": "0"
+                        }
+                      },
+                      "elements": [
+                        {
+                          "id": "a00043a1",
                           "elType": "widget",
                           "widgetType": "button",
                           "isInner": false,
@@ -1492,6 +1944,18 @@
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
+                        "_css_classes": "gp-copy",
+                        "editor": "<p>Not yet published? <a href=\"{{url:contact}}#gpc-enquiry\">Discuss a design, formatting or publishing project</a>. An Amazon link is optional for a general enquiry.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "5191de41",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
                         "_title": "Small",
                         "_css_classes": "gp-small",
                         "editor": "<p>It does not include a manuscript review, access to your private sales data or a promise of sales and rankings.</p>"
@@ -1499,7 +1963,7 @@
                       "elements": []
                     },
                     {
-                      "id": "5191de41",
+                      "id": "d881c2e8",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,

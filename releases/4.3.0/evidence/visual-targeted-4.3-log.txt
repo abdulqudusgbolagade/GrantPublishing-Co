@@ -1,0 +1,2 @@
+Audited 32 combinations with mirrored official Grant fonts. Failures: 0
+PASS: responsive/accessibility checks; all supplied images and fonts loaded; comparison screenshots saved.

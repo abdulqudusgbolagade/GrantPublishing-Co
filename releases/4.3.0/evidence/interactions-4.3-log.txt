@@ -1,0 +1,2 @@
+PASS: real Chromium form validation, selection/action labels, pending/disabled/busy feedback, success, expired nonce response, network/malformed recovery, retained input, status focus; keyboard skip/menu, Escape and outside close, reduced motion, hostile inherited theme colors, light/dark button hover/focus contrast. All submissions intercepted locally; no messages sent.
+

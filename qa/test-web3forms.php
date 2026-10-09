@@ -48,7 +48,7 @@ function admin_url($path) { return 'https://local.test/wp-admin/' . $path; }
 function plugins_url($path, $file) { return 'https://local.test/plugin/' . $path; }
 function wp_nonce_field(...$args) { echo '<input name="gpc_nonce" value="TEST-NONCE">'; }
 function submit_button(...$args) { echo '<button type="submit">Save</button>'; }
-function wp_enqueue_script(...$args) {}
+function wp_enqueue_script(...$args) { $GLOBALS['test_scripts'][$args[0]] = $args; }
 function selected($current, $value, $echo = true) { $text = $current === $value ? ' selected="selected"' : ''; if ($echo) echo $text; return $text; }
 require dirname(__DIR__) . '/grant-publishing-site/grant-publishing-site.php';
 function reset_test($web3 = true) {
@@ -148,4 +148,17 @@ check(strpos($html, 'assets/site.css?ver=' . GPC_VERSION) !== false && strpos($h
 $GLOBALS['test_styles_done'] = true; $html = gpc_site_page('home');
 check(strpos($html, '<link rel="stylesheet"') === false, 'Already-printed styles do not add duplicate fallback links');
 
+foreach (array('Book formatting','Cover design','Book publishing and Amazon KDP setup','Amazon Ads campaign setup','Amazon Ads management') as $service) {
+    reset_test(); $_POST['request']='project'; $_POST['service']=$service; $_POST['book_url']=''; $_POST['website']=''; $_POST['publication']='Still writing'; $result=send_form();
+    $payload=json_decode($GLOBALS['test_remote'][0][1]['body'],true);
+    check($result->ok && $payload['service']===$service && $payload['book_url']==='' && $payload['publication_status']==='Still writing', 'Prepublication enquiry retains ' . $service . ' without an Amazon link');
+}
+reset_test();$html=gpc_site_form();
+check(strpos($html,'Book formatting: ebook, paperback &amp; hardcover')!==false && strpos($html,'Book cover design')!==false && strpos($html,'Amazon Ads ongoing management')!==false, 'All broader service labels are exposed by the actual PHP form');
+check(strpos($html,'Amazon or book link (optional)')!==false && !preg_match('/name="book_url"[^>]*required/', $html), 'Amazon link remains optional in rendered form');
+check(strpos(gpc_site_page('home'),'data-book-showcase')!==false && strpos(gpc_site_page('services'),'data-book-showcase')!==false, 'Both actual shortcode pages resolve the shared showcase');
+foreach (array('home','services') as $page) {
+    $GLOBALS['test_scripts']=array(); gpc_enqueue_assets($page);
+    check(isset($GLOBALS['test_scripts']['gpc-showcase']) && $GLOBALS['test_scripts']['gpc-showcase'][1]===gpc_asset_url('showcase.js') && $GLOBALS['test_scripts']['gpc-showcase'][3]===GPC_VERSION, 'Cached native ' . $page . ' always queues the current showcase script');
+}
 echo "\n" . $GLOBALS['passed'] . " backend assertions passed. No real HTTP request or email was sent.\n";

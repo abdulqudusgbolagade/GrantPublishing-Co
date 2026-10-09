@@ -4,6 +4,8 @@ namespace Elementor { class Plugin { public static $instance; } }
 namespace {
 define('ABSPATH', '/wordpress-test/');
 define('OBJECT', 'OBJECT');
+define('GPC_VERSION', '4.3.0');
+function wp_enqueue_script(...$args) {}
 $GLOBALS['filters'] = array(); $GLOBALS['assertions'] = 0;
 function add_action(...$args) {}
 function add_shortcode(...$args) {}
@@ -39,6 +41,7 @@ function update_post_meta(...$args) { throw new \Exception('Saved native layouts
 function wp_update_post(...$args) { throw new \Exception('Saved page content must remain unchanged'); }
 function wp_remote_post(...$args) { throw new \Exception('No network request is expected'); }
 require dirname(__DIR__) . '/grant-publishing-site/includes/pages.php';
+require dirname(__DIR__) . '/grant-publishing-site/includes/portfolio.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/publishing.php';
 class ImageWidget {
     public $name; public $image; public $link;
@@ -167,7 +170,7 @@ $case_url = 'https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Gr
 $case_result = gpc_native_client_proof($complete_feedback);
 check(substr($case_result, 0, strlen($complete_feedback)) === $complete_feedback && substr_count($case_result, 'href="' . $case_url . '"') === 1, 'Existing native Feedback gains one linked case study without replacing saved content');
 check(gpc_native_client_proof($case_result) === $case_result, 'Case-study rendering is idempotent');
-$case_complete = $complete_feedback . '<a href="' . $case_url . '?ver=4.2.0">Existing authored case-study link</a>';
+$case_complete = gpc_add_luma_case($complete_feedback) . '<a href="' . $case_url . '?ver=4.2.0">Existing authored case-study link</a>';
 check(gpc_native_client_proof($case_complete) === $case_complete, 'An existing authored PDF link with cache parameters prevents a duplicate card');
 check(gpc_native_client_proof(str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete)) === str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete), 'The user-supplied HTTP PDF destination also prevents duplication');
 $case_collision = $complete_feedback . '<div id="grandfather-case-study">Existing author section</div>';
@@ -192,6 +195,35 @@ $contacts = gpc_contact_links();
 check(substr_count($contacts, 'class="gp-social-link"') === 4 && substr_count($contacts, 'aria-hidden="true"') === 4 && strpos($contacts, 'mailto:hello@grantpublishingco.com') !== false, 'Shared contact output contains four labelled icons and the configured email destination');
 
 $registered = array_values(array_filter($GLOBALS['filters'], function($filter) { return in_array($filter[0], array('elementor/widget/render_content', 'the_content'), true); }));
-check($registered === array(array('the_content', 'gpc_render_contact_icons', 35), array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
+check($registered === array(array('the_content', 'gpc_render_contact_icons', 35), array('elementor/widget/render_content', 'gpc_native_book_showcase', 25, 2), array('the_content', 'gpc_native_service_copy', 28), array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
+fixture('feedback');
+$luma_case = gpc_add_luma_case('<div id="john-capon-review"><div><p>Saved John review</p></div></div><p>Next review</p>');
+check(strpos($luma_case, '</div><div class="gp-section gp-case-study') !== false && strpos($luma_case, 'luma-case-study') < strpos($luma_case,'Next review'), 'Luma case study appears directly after the saved John review');
+check(gpc_add_luma_case($luma_case) === $luma_case, 'Luma case-study link prevents duplicate additions');
+check(strpos($luma_case,'2.44 MB') !== false && filesize(dirname(__DIR__).'/grant-publishing-site/assets/luma-sleepy-star-case-study.pdf') === 2562805, 'Displayed Luma size derives from the unchanged supplied PDF');
+check(strpos($luma_case,'did not include KDP upload, publishing, metadata optimisation or Kindle conversion') !== false, 'Luma scope ends at file delivery with exclusions visible');
+fixture();
+$studio = gpc_asset_url('publishing-studio.webp');
+$showcase = gpc_native_book_showcase(image_markup($studio), new ImageWidget($studio));
+check(strpos($showcase,'data-book-showcase') !== false && strpos($showcase,'publishing-studio.webp') === false, 'Bundled native hero studio image becomes the actual-book showcase');
+check(substr_count($showcase,'data-slide') === 3 && substr_count($showcase,'data-src=') === 2, 'Showcase renders three verified projects and defers the later covers');
+check(strpos($showcase,'Cover redesign &amp; interior formatting') !== false && strpos($showcase,'Amazon assessment &amp; recommendations') !== false, 'Actual project scopes remain distinct in showcase captions');
+check(gpc_native_book_showcase(image_markup($url),new ImageWidget($url)) === image_markup($url), 'Unrelated book images remain unchanged');
+fixture('services');
+$legacy_services = '<div class="gp-service-list gp-service-list-full"><p>Saved custom introduction</p><h2>Publishing Support</h2><p>Prepare the book’s presentation and files for its next step.</p></div>';
+$modern_services = gpc_native_service_copy($legacy_services);
+check(substr_count($modern_services,'id="book-formatting"')===1 && substr_count($modern_services,'id="cover-design"')===1 && substr_count($modern_services,'id="amazon-ads"')===1, 'Old native Services receives the three missing entries');
+check(strpos($modern_services,'Saved custom introduction')!==false && strpos($modern_services,'Book Publishing &amp; Amazon KDP Setup')!==false, 'Custom service content stays intact while exact old publishing copy updates');
+check(gpc_native_service_copy($modern_services)===$modern_services, 'Service compatibility remains idempotent');
+fixture();
+$old_home='<h1 class="elementor-heading-title">Books built<br>to be <em>discovered.</em></h1><p>My own introduction.</p>';
+$modern_home=gpc_native_service_copy($old_home);
+check(strpos($modern_home,'Bring your book to life.')!==false && strpos($modern_home,'My own introduction.')!==false, 'Exact saved stock headline updates and authored copy remains');
+$authored_home = '<h3>My custom service offer</h3><a href="' . gpc_url('amazon-visibility') . '">Explore service</a>';
+check(gpc_native_service_copy($authored_home) === $authored_home, 'An authored service heading and its existing destination stay intact');
+$stock_home = '<h3>Amazon Book Visibility</h3><a href="' . gpc_url('amazon-visibility') . '"><span>Explore service</span></a>';
+check(strpos(gpc_native_service_copy($stock_home),'Book Design &amp; Formatting') !== false && substr_count(gpc_native_service_copy($stock_home),gpc_url('book-formatting')) === 2, 'Stock homepage service title and action agree on the new detail route');
+fixture();$GLOBALS['context']['admin']=true;
+check(gpc_native_service_copy($old_home)===$old_home && gpc_native_book_showcase(image_markup($studio),new ImageWidget($studio))===image_markup($studio), 'Editor and admin content stays untouched by the positioning update');
 echo "\n" . $GLOBALS['assertions'] . " publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.\n";
 }
