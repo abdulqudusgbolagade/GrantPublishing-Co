@@ -104,6 +104,19 @@ function gpc_native_client_proof($content) {
     if ($cards !== '') {
         $content .= '<section class="gp-section gp-client-books" aria-label="Books from the client projects"><div class="gp-wrap"><div class="gp-heading"><h2>Behind the client feedback.</h2></div><div class="gp-client-books-grid">' . $cards . '</div></div></section>';
     }
+    // The new case study is additive on connected saved Feedback layouts only.
+    // Match an actual link, so plain text mentioning the file cannot hide it.
+    if (gpc_current_key() === 'feedback' && !preg_match('~<a\b[^>]*\bhref\s*=\s*(["\x27])https?://grantpublishingco\.com/wp-content/uploads/2026/10/My-Dear-Grandfather-Listing-Case-Study\.pdf(?:[?#][^"\x27]*)?\1~i', $content)) {
+        $file = dirname(__DIR__) . '/partials/client-case-study.html';
+        if (is_readable($file)) {
+            $case = file_get_contents($file);
+            if (is_string($case)) {
+                $id = 'grandfather-case-study'; $suffix = 2;
+                while (preg_match('/\bid\s*=\s*(["\x27])' . preg_quote($id, '/') . '\1/i', $content)) { $id = 'grandfather-case-study-' . $suffix++; }
+                $content .= str_replace('id="grandfather-case-study"', 'id="' . esc_attr($id) . '"', $case);
+            }
+        }
+    }
     return $content;
 }
 // Run after Elementor's content rendering; this only appends server markup.

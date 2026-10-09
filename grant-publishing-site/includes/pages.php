@@ -35,9 +35,57 @@ function gpc_contact_details() {
     $saved = get_option('gpc_contact_details', array());
     return array_merge($defaults, is_array($saved) ? array_intersect_key($saved, $defaults) : array());
 }
+/** Local, decorative SVGs: no icon font, remote request or untrusted file path. */
+function gpc_social_icon($channel) {
+    static $icons = array();
+    if (!in_array($channel, array('email', 'whatsapp', 'linkedin', 'upwork'), true)) { return ''; }
+    if (!isset($icons[$channel])) {
+        $icons[$channel] = file_get_contents(dirname(__DIR__) . '/assets/icons/' . $channel . '.svg');
+    }
+    return $icons[$channel];
+}
+function gpc_icon_link($channel, $url, $label, $external = false) {
+    return '<a class="gp-social-link" href="' . esc_url($url) . '" aria-label="' . esc_attr($label) . '" title="' . esc_attr($label) . '"' . ($external ? ' target="_blank" rel="noopener noreferrer"' : '') . '>' . gpc_social_icon($channel) . '</a>';
+}
+/** Replace text contact links in older native layouts at render time only. */
+function gpc_iconize_contact_links($content) {
+    if (!is_string($content)) { return $content; }
+    return preg_replace_callback('~<a\b([^>]*)>(.*?)</a>~is', function($m) {
+        // Keep cover links, authored SVG icons and linked images intact.
+        if (preg_match('/<(?:img|svg|picture)\b/i', $m[2]) || !preg_match('~\bhref\s*=\s*(["\x27])([^"\x27]+)\1~i', $m[1], $href)) { return $m[0]; }
+        $url = html_entity_decode($href[2], ENT_QUOTES, 'UTF-8');
+        $channel = '';
+        if (strpos($url, 'mailto:') === 0) { $channel = 'email'; }
+        elseif (preg_match('~^https?://wa\.me/~i', $url)) { $channel = 'whatsapp'; }
+        elseif (preg_match('~^https?://(?:www\.)?linkedin\.com/~i', $url)) { $channel = 'linkedin'; }
+        elseif (preg_match('~^https?://(?:www\.)?upwork\.com/~i', $url)) { $channel = 'upwork'; }
+        if ($channel === '') { return $m[0]; }
+        $label = trim(html_entity_decode(wp_strip_all_tags($m[2]), ENT_QUOTES, 'UTF-8'));
+        if ($label === '') { return $m[0]; }
+        $external = preg_match('/\btarget\s*=\s*(["\x27])_blank\1/i', $m[1]);
+        return gpc_icon_link($channel, $url, $label . ($external ? ' (opens in a new tab)' : ''), (bool) $external);
+    }, $content);
+}
+function gpc_render_contact_icons($content) {
+    if (is_admin() || is_feed() || is_preview() || !is_singular('page') || !is_main_query() || !in_the_loop() || !gpc_current_key()) { return $content; }
+    $post = get_post();
+    if (!$post || (int) $post->ID !== (int) get_queried_object_id()) { return $content; }
+    if (class_exists('\\Elementor\\Plugin') && isset(\Elementor\Plugin::$instance)) {
+        $elementor = \Elementor\Plugin::$instance;
+        foreach (array('editor' => 'is_edit_mode', 'preview' => 'is_preview_mode') as $property => $method) {
+            if (isset($elementor->$property) && is_object($elementor->$property) && method_exists($elementor->$property, $method) && $elementor->$property->$method()) { return $content; }
+        }
+    }
+    return gpc_iconize_contact_links($content);
+}
+add_filter('the_content', 'gpc_render_contact_icons', 35);
 function gpc_contact_links($class = 'gp-contact-links-list') {
     $c = gpc_contact_details();
-    return '<div class="' . esc_attr($class) . '"><a href="mailto:' . esc_attr($c['email']) . '">' . esc_html($c['email']) . '</a><a href="https://wa.me/' . esc_attr($c['whatsapp']) . '">WhatsApp: +' . esc_html($c['whatsapp']) . '</a><a href="' . esc_url($c['linkedin']) . '" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="' . esc_url($c['upwork']) . '" target="_blank" rel="noopener noreferrer">Upwork</a></div>';
+    return '<div class="gp-social-links ' . esc_attr($class) . '" role="group" aria-label="Contact Grant Publishing Co.">' .
+        gpc_icon_link('linkedin', $c['linkedin'], 'View AbdulQudus on LinkedIn (opens in a new tab)', true) .
+        gpc_icon_link('upwork', $c['upwork'], 'View AbdulQudus on Upwork (opens in a new tab)', true) .
+        gpc_icon_link('whatsapp', 'https://wa.me/' . $c['whatsapp'], 'Message Grant Publishing Co. on WhatsApp') .
+        gpc_icon_link('email', 'mailto:' . $c['email'], 'Email ' . $c['email']) . '</div>';
 }
 add_shortcode('grant_contact_links', function() { return gpc_contact_links(); });
 add_action('after_setup_theme', function() { register_nav_menu('gpc_primary', 'Grant Publishing primary navigation'); });
@@ -55,14 +103,14 @@ function gpc_navigation($current) {
 function gpc_header($key) {
     $nav = gpc_navigation($key);
     $cta = '<a class="gp-button" href="' . esc_url(add_query_arg('request', 'assessment', gpc_url('enquiry')) . '#gpc-enquiry') . '">Free book assessment</a>';
-    return '<a class="gpc-skip-link" href="#gpc-main">Skip to content</a><header class="gp-header"><div class="gp-wrap gp-header-inner"><a class="gp-wordmark" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-icon-96.webp')) . '" srcset="' . esc_url(gpc_asset_url('grant-icon-96.webp')) . ' 96w, ' . esc_url(gpc_asset_url('grant-icon-192.webp')) . ' 192w" sizes="(max-width: 720px) 44px, 48px" alt="Grant Publishing Co." width="48" height="48" decoding="async"></a><nav class="gp-nav" aria-label="Main navigation">' . $nav . '</nav><div class="gp-header-cta">' . $cta . '</div><details class="gp-mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">' . $nav . $cta . '</nav></details></div></header>';
+    return '<a class="gpc-skip-link" href="#gpc-main">Skip to content</a><header class="gp-header"><div class="gp-wrap gp-header-inner"><a class="gp-wordmark" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-header-128.webp')) . '" srcset="' . esc_url(gpc_asset_url('grant-header-128.webp')) . ' 128w, ' . esc_url(gpc_asset_url('grant-header-256.webp')) . ' 256w" sizes="(max-width: 720px) 56px, 64px" alt="Grant Publishing Co." width="64" height="64" decoding="async"></a><nav class="gp-nav" aria-label="Main navigation">' . $nav . '</nav><div class="gp-header-cta">' . $cta . '</div><details class="gp-mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">' . $nav . $cta . '</nav></details></div></header>';
 }
 function gpc_footer() {
     $links = '';
     foreach (array('services'=>'Services','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
         $links .= '<a href="' . esc_url(gpc_url($key)) . '">' . esc_html($label) . '</a>';
     }
-    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-grid"><div><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-primary-reverse.png')) . '" alt="Grant Publishing Co." width="866" height="873" loading="lazy" decoding="async"></a><h2>Books built to<br>be discovered.</h2><p>Book marketing and publishing support<br>led by AbdulQudus Tella.</p><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div><h3>Get in touch</h3>' . gpc_contact_links('gp-footer-links') . '</div></div><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p></div></footer>';
+    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-intro"><h2>Books built to<br>be discovered.</h2><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div class="gp-footer-grid"><div class="gp-footer-identity"><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-footer-576.webp')) . '" alt="Grant Publishing Co." width="1448" height="1086" loading="lazy" decoding="async"></a><p>Book marketing and publishing support<br>led by AbdulQudus Tella.</p></div><div class="gp-footer-explore"><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div class="gp-footer-contact"><h3>Let’s connect</h3><p>Share your book, your goals<br>and the support you need.</p>' . gpc_contact_links('gp-footer-socials') . '<p class="gp-footer-contact-note">Choose a channel to start<br>a direct conversation.</p></div></div><div class="gp-footer-bottom"><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p><p class="gp-footer-fine">Clear strategy. Thoughtful publishing.</p></div></div></footer>';
 }
 function gpc_resolve_string($text, $escape = false) {
     return preg_replace_callback('/\{\{(url|asset):([a-z0-9.\-]+)\}\}/', function($m) use ($escape) {

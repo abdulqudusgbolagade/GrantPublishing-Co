@@ -1,51 +1,32 @@
-# Grant Publishing Co. 4.1.0
+# Grant Publishing Co. 4.2.0
 
-WordPress 6.0+, PHP 7.4+. Elementor 3.16+ is required for native editing; the 17 Grant shortcodes also work without Elementor.
+Requires WordPress 6.0+ and PHP 7.4+. Elementor 3.16+ is required for native editing; the Grant shortcodes also work without Elementor.
 
-## Upgrade an existing site
+1. Back up the plugin and database; install on staging first.
+2. Upload `grant-publishing-site-4.2.0.zip` through **Plugins → Add New → Upload Plugin**. Choose **Replace current with uploaded** and activate if necessary.
+3. Clear hosting/LiteSpeed, CDN and browser caches. Regenerate Elementor CSS & Data if stale. Confirm both `site.css` and `design.css` have `ver=4.2.0`.
+4. Keep `/contact/` and `/book-marketing-audit/` excluded from full-page caching. Check all pages while logged out.
+5. Confirm the larger dimensional header mark, `#09072B` navigation, alternating sections, new footer artwork/icons and My Dear Grandfather PDF card on Client Feedback.
+6. Verify the phone menu, three cover destinations, PDF action, service preselection and a clearly labelled test enquiry in your real inbox.
 
-1. Back up the plugin, database and saved Elementor content. Test on staging.
-2. Upload `grant-publishing-site-4.1.0.zip` through **Plugins → Add New → Upload Plugin** and choose **Replace current with uploaded**. Activate if necessary.
-3. Clear hosting/LiteSpeed, CDN and browser caches. Regenerate Elementor CSS & Data if stale. Both `site.css` and `design.css` must load with `ver=4.1.0`.
-4. **Do not recreate pages or bulk-convert existing Elementor layouts.** Shared styles and shortcode templates update; already saved native page content is preserved.
-5. Keep `/contact/` and `/book-marketing-audit/` excluded from full-page caching, then check all routes, menu, links and forms while logged out.
+**Do not recreate pages or bulk-convert saved Elementor layouts.** Shared shell/styles update directly. Saved native Feedback receives a missing case study at render time; existing contact text links receive icons at render time. Authored page data remains saved and unchanged. Earlier saved native sections receive the CSS rhythm; arbitrary custom inner styling may need staging review.
 
-The plugin refreshes generated Elementor caches and requests LiteSpeed URL purges for connected, published Grant pages once per version. It does not clear the whole site or rewrite saved content. Other host/CDN caches may still require manual clearing. Earlier canonical pages served old cached markup while uncached form pages served newer styles.
+The once-per-version generated-cache refresh and LiteSpeed purges are scoped to connected, published Grant pages. Other caches may need manual clearing. The existing WordPress site icon stays unchanged.
 
-## Design and interactions
+## Delivery and editing
 
-All 17 pages follow the supplied Brand Guidelines v1.0: Midnight Ink `#09072B`, Grant Indigo `#201B7F`, Cobalt `#3350DF`, Royal Violet `#704DDD`, Luminous Lilac `#BD91F9` and Porcelain `#F7F5F2`. Display text uses medium-weight Cormorant Garamond; body/UI use Manrope. Secondary text uses the deck’s darker neutral `#2B2834` for readable tinted-panel contrast. The approved homepage headline is “Books built to be discovered.” Home has an optimized decorative studio still life; founder portraits remain prominent. Services present concrete scope items and early enquiries that preselect the relevant service. Insights have a featured story; articles have genuine in-page contents and a comfortable reading measure. Forms put the enquiry before secondary information on mobile, group fields and disclose optional book details when useful.
+Existing private Web3Forms settings stay saved; a configured key does not need re-entry. If needed, configure it privately under **Tools → Grant Website Setup → Enquiry delivery**. Provider acceptance does not establish inbox receipt. No real key is included in the ZIP; development tests used mocks and sent no messages.
 
-The three supplied client covers are now bundled and clickable: Kathryn’s Beach by Nadine Laman → Amazon `1947646168`; My Dear Grandfather by Barsha Rai → Amazon `1947646117`; Luma the Sleepy Star by John Capon → his LinkedIn review page, as requested. Nadine is identified as owner/publisher at Cactus Rain Publishing for the Grandfather project. All existing review wording remains unchanged.
+Shared contact details remain configurable under Grant Website Setup. Icons use those saved destinations. Native text/images remain editable in Elementor; keep the Grant full-page template. The standard navigation remains under Appearance → Menus.
 
-The header uses the supplied solid icon with responsive 3/7 KB WebP renditions, a company-name accessible label, approved 44/48px sizes and clear space. The footer uses the full reverse logo extracted from the supplied deck, at 180/190px width and with its original proportions. Original source image files are retained unchanged. The WordPress site-icon/favicon setting is left unchanged.
+The linked PDF remains the user-supplied WordPress upload. If it is moved, update the maintained template/partial or authored page destination. The PDF reader's own download controls can save it; the website promises an open-in-new-tab action.
 
-The portrait, Kathryn cover, new book covers and original logo masters are unchanged supplied files. The studio image is generated decorative brand imagery, not a client project. No fabricated client, sales, ranking or portfolio claims are added.
+## Rollback
 
-## Saved Elementor pages
+Replace the plugin with retained `releases/4.1.0/grant-publishing-site-4.1.0.zip` and clear the same caches. Saved page edits and delivery settings remain. No database/content migration runs in 4.2. Restore content backups only for separate manual edits; bulk restore/pre-conversion actions are not needed for plugin rollback.
 
-The bundled native JSON matches the updated templates for new installations. Upgrading does not replace `_elementor_data` or undo edits. On connected Grant Home/Feedback pages using the Grant full-page native template, rendering adds missing supplied reviews and links the original, unlinked Kathryn image to Amazon. Existing explicit image links and duplicate reviews are preserved. Where older native layouts already contain a review but lack its supplied cover, frontend rendering adds only the missing book card and confirmed destination. Complete reviews/covers are not duplicated. These additions are frontend rendering only.
+This release is published on GitHub, not installed live. Actual WordPress/Elementor/theme integration, existing theme/Canvas duplicate title behavior, other browsers and inbox delivery remain staging checks.
 
-Pages already using a full-page Grant shortcode inside Elementor receive the new template after cache clearing. Older saved native pages receive shared styling and review compatibility additions, while retaining their own saved structure. Do not reconvert an edited page merely to match a screenshot.
+## Release contents
 
-## Enquiry delivery
-
-Existing Web3Forms key/provider settings remain saved. For first setup use **Tools → Grant Website Setup → Enquiry delivery**, save the key privately, then verify a clearly labelled enquiry in the linked inbox. The key is never included in plugin files or public form markup. Outbound verified HTTPS to `api.web3forms.com` is required. Provider acceptance does not prove inbox receipt or dashboard storage.
-
-Name, email, message and consent are required. Optional book/project details are collapsed for a general enquiry, open for assessments or a preselected service, and open automatically for an invalid field. Inputs are retained on failure; busy, success and error states remain accessible. Existing nonce, honeypot, validation, rate limiting and duplicate handling remain. Uncertain provider outcomes do not silently fall back to mail or retry.
-
-The form does not store enquiry bodies in WordPress, send autoresponders or subscribe visitors to a list. Public email/WhatsApp links remain available. No real submission was sent during development.
-
-## First installation and editing
-
-For a new site only, activate the plugin and open **Tools → Grant Website Setup**. Use **Create missing pages and connect navigation**. If ordinary Elementor editing is wanted, use **Apply editable editorial layouts** with Elementor containers enabled. These setup actions are not required to upgrade an existing site. Unrelated content is preserved; converted pages use **Grant Publishing Full Page**.
-
-Edit native text, buttons and images in Elementor; shared contact details and delivery settings are under Grant Website Setup. Navigation is under Appearance → Menus with the Grant primary location assigned. Save changes and clear caches. Preserve the Grant full-page template. Native button links are resolved when layouts are applied; update them manually if a page permalink changes later.
-
-The 17 routes are Home `/`, Services `/services/`, Assessment `/book-marketing-audit/`, About `/about/`, Feedback `/client-feedback/`, Insights `/insights/`, Contact `/contact/`; seven service children and three Insights children. Route/shortcode definitions remain in `pages.json`.
-
-## Verification and rollback
-
-The GitHub release contains all-page screenshots, before/after views and a testing report. Local checks passed 272 rendered combinations, 188 identity/cover assertions, navigation/form exercises and 138 mocked PHP assertions on each of 7.4, 8.2 and 8.3. They do not establish live WordPress/theme/Elementor compatibility, full assistive-technology accessibility or inbox delivery. Existing duplicate title tags from the live theme/Canvas integration need staging review. This release has not been installed live.
-
-To roll back, replace the plugin with the retained 4.0.0 ZIP and clear the same caches. Saved Web3Forms settings and page edits remain; no content migration occurs. Restore a content backup only if separate manual edits were made. Restore pre-conversion content in setup replaces a page's current edits and is not needed for ordinary plugin rollback.
+All 17 routes and section structures are retained. New supplied header/footer artwork, exact Midnight Ink navigation, alternating brand surfaces, accessible local contact icons and a linked seven-page My Dear Grandfather case study complete this update. Exact client reviews, confirmed cover links, prominent founder images and the existing form behavior remain. See the GitHub release gallery and testing report for evidence and limits.

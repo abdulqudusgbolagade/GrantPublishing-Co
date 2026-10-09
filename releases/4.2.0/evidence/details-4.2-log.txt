@@ -1,0 +1,1 @@
+PASS: six desktop/mobile header, footer and case-study detail captures.

@@ -1,32 +1,34 @@
 # Grant Publishing Co.
 
-Installable WordPress plugin **4.1.0**, applying the supplied **Brand Guidelines v1.0** across all 17 pages: midnight/indigo, cobalt/violet accents, porcelain surfaces, Cormorant Garamond headings and Manrope body/UI. The new header icon, full footer logo and approved “Books built to be discovered.” headline complete the identity update.
+Installable WordPress plugin **4.2.0**: the supplied dimensional header mark, exact Midnight Ink navigation `#09072B`, new footer artwork, aligned footer and accessible social/contact icons. All 17 pages use alternating brand surfaces, with no three consecutive sections sharing a background.
 
-**[Download the WordPress plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.1.0/grant-publishing-site-4.1.0.zip)**
+**[Download the WordPress plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.2.0/grant-publishing-site-4.2.0.zip)**
 
-If needed, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.1.0/grant-publishing-site-4.1.0.zip) and choose **Download raw file**. Upload this plugin ZIP, not the whole-repository ZIP.
+If the download does not start, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.2.0/grant-publishing-site-4.2.0.zip) and choose **Download raw file**. Upload the plugin ZIP, rather than the whole repository.
 
 ## Included
 
-- Genuine clickable Luma, My Dear Grandfather and Kathryn’s Beach covers, with the user-confirmed LinkedIn/Amazon destinations.
-- Correct credits: Barsha Rai is Grandfather’s author; Nadine Laman is its publisher and owner of Cactus Rain Publishing. Exact existing reviews are retained.
-- Supplied icon in the header, supplied full reverse logo in the footer, optimized icon renditions, accessible naming and protected proportions/clear space.
-- All 17 routes, existing page structure, prominent portrait, service enquiries, article navigation and Web3Forms settings preserved. The WordPress site icon remains unchanged.
+- New supplied header artwork at 64px desktop / 56px mobile, optimized responsive renditions and company-name accessible link.
+- Exact `#09072B` navigation, readable current-page states, lilac assessment action and responsive keyboard navigation.
+- New supplied footer logo on porcelain, balanced desktop columns, compact mobile link grid and LinkedIn, Upwork, WhatsApp and email icons with accessible names, focus and 48px tap targets.
+- Porcelain, pale lilac, indigo and ink sections following the brand kit. Reading areas and enquiry forms retain light surfaces.
+- Seven-page **My Dear Grandfather** case study beside its feedback on Client Feedback, linking to the user-supplied hosted PDF.
+- Genuine clickable client covers and exact reviews, all 17 routes, saved Elementor edits, existing site icon and private Web3Forms delivery settings preserved.
 
 ## Install and review
 
-Back up and test on staging. Replace the existing Grant plugin via **Plugins → Add New → Upload Plugin**. Clear hosting/LiteSpeed, CDN and browser caches; regenerate Elementor CSS & Data if stale. Confirm `site.css` and `design.css` both load with `ver=4.1.0`. **Do not recreate pages or run bulk conversion.** Keep Contact and Assessment out of full-page caching.
+Back up and test on staging. Replace the existing plugin through **Plugins → Add New → Upload Plugin**, then clear hosting/CDN/browser caches and regenerate Elementor CSS & Data if stale. Both stylesheets must load with `ver=4.2.0`. **Do not recreate pages or bulk-convert saved layouts.** Keep Contact and Assessment excluded from full-page caching.
 
-The existing once-per-version scoped cache refresh remains. Saved Elementor edits and private delivery settings are not overwritten. If Web3Forms is already configured, no key re-entry is needed; verify a labelled enquiry in the associated inbox yourself. No real key is included in source or ZIPs.
+Existing saved native Feedback receives a missing case-study card at render time, with duplicate guards. Existing text contact/profile links become icons at render time; linked book images remain images. Nothing rewrites saved page data or the delivery configuration.
 
-- [All-page screenshot gallery](releases/4.1.0/GALLERY.md)
-- [Brand implementation and source assets](docs/BRAND-IMPLEMENTATION.md)
-- [Testing report](releases/4.1.0/TESTING-REPORT.md)
-- [Installation and rollback](releases/4.1.0/INSTALLATION.md)
-- [Before/after design review](releases/4.1.0/DESIGN-REVIEW.md)
-- [Adapted publishing design brief](docs/PUBLISHING-DESIGN-BRIEF.md)
-- [Evidence ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.1.0/grant-publishing-4.1.0-evidence.zip) and [checksums](releases/4.1.0/SHA256SUMS.txt)
+- [All-page screenshots and detail gallery](releases/4.2.0/GALLERY.md)
+- [Testing report](releases/4.2.0/TESTING-REPORT.md)
+- [Installation and rollback](releases/4.2.0/INSTALLATION.md)
+- [Design review](releases/4.2.0/DESIGN-REVIEW.md)
+- [Brand assets and implementation](docs/BRAND-IMPLEMENTATION.md)
+- [Development checks](qa/README.md)
+- [Evidence ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.2.0/grant-publishing-4.2.0-evidence.zip) and [checksums](releases/4.2.0/SHA256SUMS.txt)
 
-Validation passed 272 page/layout/viewport combinations, 188 brand/cover assertions, focused navigation/forms and 138 PHP assertions on each of three runtimes. Browser checks use local fixtures; PHP uses real interpreters with mocked WordPress APIs. **This release has not been installed live**; actual WordPress/Elementor/theme rendering and inbox delivery remain staging checks.
+Validation and its limits are documented in the report. The release has **not been installed on the live WordPress site**; actual theme/Elementor integration and inbox receipt require staging checks. No real enquiry was sent during development. Use the privately saved Web3Forms setting; no real key is included in source or artifacts.
 
-Source is in `grant-publishing-site/`; [development checks](qa/README.md) are in `qa/`. [4.0.0](releases/4.0.0/) is retained for rollback.
+Source is in `grant-publishing-site/`. The published [4.1.0 release](releases/4.1.0/) is retained for rollback.

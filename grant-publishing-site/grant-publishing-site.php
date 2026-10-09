@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 4.1.0
+ * Version: 4.2.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '4.1.0');
+define('GPC_VERSION', '4.2.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
@@ -65,7 +65,11 @@ function gpc_site_form($default = 'project') {
         <div class="gpc-audit-field"><label class="gpc-consent" for="gpc-consent"><input id="gpc-consent" name="consent" type="checkbox" value="yes" required><span>I agree that Grant Publishing Co. may use these details to respond to my enquiry. *</span></label></div>
         <button class="gpc-audit-submit" type="submit"><?php echo $request === 'assessment' ? 'Request free assessment' : 'Send project enquiry'; ?></button>
         <p class="gpc-form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-        <p>Prefer a direct conversation? <a href="https://wa.me/<?php echo esc_attr($contact['whatsapp']); ?>">Message on WhatsApp</a> or <a href="mailto:<?php echo esc_attr($contact['email']); ?>">send an email</a>.</p>
+        <p>Prefer a direct conversation?</p>
+        <div class="gp-social-links" role="group" aria-label="Direct contact options">
+            <?php echo gpc_icon_link('whatsapp', 'https://wa.me/' . $contact['whatsapp'], 'Message Grant Publishing Co. on WhatsApp'); ?>
+            <?php echo gpc_icon_link('email', 'mailto:' . $contact['email'], 'Email ' . $contact['email']); ?>
+        </div>
         <p class="gpc-audit-form-disclaimer"><?php echo esc_html(gpc_form_privacy_text()); ?> You can request deletion by emailing <?php echo esc_html($contact['email']); ?>.</p>
     </form>
     <?php

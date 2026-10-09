@@ -1,0 +1,2450 @@
+[
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "home",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "services",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "about",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "feedback",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "insights",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "amazon-visibility",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-presentation",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "launch-promotion",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "author-platform",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "catalog-strategy",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-strategy",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "publishing-support",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-discovery",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "book-product-page",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "connected-catalog",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  }
+]

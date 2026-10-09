@@ -1,0 +1,27 @@
+{
+  "release": "4.2.0",
+  "files": 75,
+  "zip_sha256": "f7df217d23ada7d19b7d6052ddc9c8395bf0a41c1e58c3fb1bb4a6db12d839d5",
+  "zip_bytes": 6453653,
+  "original_header_sha256": "3960c771f3f89db175ce03c23e4e3bc507f710db2b3ee020f53222800683a687",
+  "original_footer_sha256": "b28e27b3b880566f22130c4638c24adfd36b270e199a89f386c4da7a334f65e4",
+  "hosted_pdf_sha256": "ba5afde8390d72b687306a09481d5b0256f8f0f6746b4b69723b6e52c4c46067",
+  "previous_route_and_original_image_files_preserved": [
+    "assets/abdulqudus-tella.png",
+    "assets/grant-icon-192.webp",
+    "assets/grant-icon-96.webp",
+    "assets/grant-icon.png",
+    "assets/grant-logo.png",
+    "assets/grant-primary-logo.png",
+    "assets/grant-primary-reverse.png",
+    "assets/kathryns-beach.jpg",
+    "assets/luma-the-sleepy-star.png",
+    "assets/my-dear-grandfather.jpg",
+    "assets/publishing-studio-540.webp",
+    "assets/publishing-studio-900.webp",
+    "assets/publishing-studio.webp",
+    "pages.json"
+  ],
+  "all_installer_files_match_source": true,
+  "plugin_uuid_scan_matches": 0
+}

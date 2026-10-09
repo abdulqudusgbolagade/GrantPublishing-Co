@@ -151,16 +151,47 @@ check(substr_count($with_father, gpc_design_review()) === 1 && substr_count($wit
 check(strpos($with_father, 'https://www.amazon.com/dp/1947646117') !== false && strpos($with_father, 'By Barsha Rai') !== false && strpos($with_father, 'Publisher: Nadine Laman') !== false, 'Grandfather card has the confirmed Amazon destination, author and publisher');
 check(gpc_native_client_proof($with_father) === $with_father, 'Grandfather gallery is not duplicated on repeated rendering');
 $complete_feedback = $saved_feedback . image_markup($grandfather);
-check(gpc_native_client_proof($complete_feedback) === $complete_feedback, 'Already complete native reviews and covers remain byte-for-byte unchanged');
+check(strpos(gpc_native_client_proof($complete_feedback), $complete_feedback) === 0 && strpos(gpc_native_client_proof($complete_feedback), 'My-Dear-Grandfather-Listing-Case-Study.pdf') !== false, 'Already complete native reviews and covers stay intact while receiving the requested case study');
+fixture();
 $uploaded_luma = 'https://grantpublishingco.com/wp-content/uploads/2026/10/ChatGPT-Image-Oct-9-2026-08_17_20-AM.png';
 $uploaded_complete = $new_layout . image_markup($uploaded_luma);
 check(gpc_native_client_proof($uploaded_complete) === $uploaded_complete, 'Already supplied WordPress-uploaded Luma cover is preserved without a duplicate gallery');
 $header = gpc_header('home'); $footer = gpc_footer();
-check(strpos($header, gpc_asset_url('grant-icon-96.webp')) !== false && strpos($header, gpc_asset_url('grant-icon-192.webp')) !== false && strpos($header, gpc_asset_url('grant-logo.png')) === false, 'Actual PHP header renders the supplied responsive icon instead of the old logo');
-check(strpos($header, 'aria-label="Grant Publishing Co. home"') !== false && strpos($header, 'width="48" height="48"') !== false, 'Actual icon header retains company identification and square dimensions');
-check(strpos($footer, gpc_asset_url('grant-primary-reverse.png')) !== false && strpos($footer, 'width="866" height="873"') !== false, 'Actual PHP footer renders the supplied full reverse logo with original proportions');
+check(strpos($header, gpc_asset_url('grant-header-128.webp')) !== false && strpos($header, gpc_asset_url('grant-header-256.webp')) !== false && strpos($header, gpc_asset_url('grant-logo.png')) === false, 'Actual PHP header renders the supplied responsive icon instead of the old logo');
+check(strpos($header, 'aria-label="Grant Publishing Co. home"') !== false && strpos($header, 'width="64" height="64"') !== false, 'Actual icon header retains company identification and square dimensions');
+check(strpos($footer, gpc_asset_url('grant-footer-576.webp')) !== false && strpos($footer, 'width="1448" height="1086"') !== false, 'Actual PHP footer renders the supplied new full footer logo with original proportions');
 check(strpos($footer, 'Books built to<br>be discovered.') !== false && strpos($footer, 'https://grant.test/contact/') !== false, 'Actual PHP footer uses the approved tagline and retains working enquiry navigation');
+
+fixture('feedback');
+$case_url = 'https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Grandfather-Listing-Case-Study.pdf';
+$case_result = gpc_native_client_proof($complete_feedback);
+check(substr($case_result, 0, strlen($complete_feedback)) === $complete_feedback && substr_count($case_result, 'href="' . $case_url . '"') === 1, 'Existing native Feedback gains one linked case study without replacing saved content');
+check(gpc_native_client_proof($case_result) === $case_result, 'Case-study rendering is idempotent');
+$case_complete = $complete_feedback . '<a href="' . $case_url . '?ver=4.2.0">Existing authored case-study link</a>';
+check(gpc_native_client_proof($case_complete) === $case_complete, 'An existing authored PDF link with cache parameters prevents a duplicate card');
+check(gpc_native_client_proof(str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete)) === str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete), 'The user-supplied HTTP PDF destination also prevents duplication');
+$case_collision = $complete_feedback . '<div id="grandfather-case-study">Existing author section</div>';
+check(strpos(gpc_native_client_proof($case_collision), 'id="grandfather-case-study-2"') !== false, 'Saved case-study ID is retained with a distinct appended card ID');
+fixture();
+check(strpos(gpc_native_client_proof($complete_feedback), $case_url) === false, 'Case study is scoped to Feedback rather than Home');
+$contact_source = '<p>Context stays.</p><a href="mailto:custom@example.test">Email the team</a><a href="https://www.linkedin.com/services/page/example/" target="_blank">Read the review</a>';
+$icons = gpc_render_contact_icons($contact_source);
+check(strpos($icons, 'href="mailto:custom@example.test"') !== false && strpos($icons, 'aria-label="Email the team"') !== false && strpos($icons, '<svg') !== false, 'Saved email destination and accessible meaning survive icon conversion');
+check(strpos($icons, 'aria-label="Read the review (opens in a new tab)"') !== false && strpos($icons, 'rel="noopener noreferrer"') !== false, 'External review icon keeps its exact URL and protected new-tab action');
+check(gpc_render_contact_icons($icons) === $icons, 'Repeated content filters do not replace existing SVG controls');
+$cover_link = '<a href="https://www.linkedin.com/services/page/example/">' . image_markup($luma) . '</a>';
+check(gpc_render_contact_icons($cover_link) === $cover_link, 'A book cover linked to LinkedIn is never converted to a social icon');
+foreach (array('admin', 'feed', 'preview') as $flag) {
+ fixture(); $GLOBALS['context'][$flag] = true;
+ check(gpc_render_contact_icons($contact_source) === $contact_source, $flag . ' content is not iconized');
+}
+fixture(); $GLOBALS['meta'][41]['_gpc_elementor_layout'] = ''; $GLOBALS['posts'][41]->post_content = '';
+check(gpc_render_contact_icons($contact_source) === $contact_source, 'Unconnected page content remains untouched');
+fixture();
+$contacts = gpc_contact_links();
+check(substr_count($contacts, 'class="gp-social-link"') === 4 && substr_count($contacts, 'aria-hidden="true"') === 4 && strpos($contacts, 'mailto:hello@grantpublishingco.com') !== false, 'Shared contact output contains four labelled icons and the configured email destination');
+
 $registered = array_values(array_filter($GLOBALS['filters'], function($filter) { return in_array($filter[0], array('elementor/widget/render_content', 'the_content'), true); }));
-check($registered === array(array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
+check($registered === array(array('the_content', 'gpc_render_contact_icons', 35), array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
 echo "\n" . $GLOBALS['assertions'] . " publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.\n";
 }

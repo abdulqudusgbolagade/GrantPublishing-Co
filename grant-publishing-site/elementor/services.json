@@ -175,8 +175,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section",
-        "css_classes": "gp-section",
+        "_title": "Section Tone Lilac",
+        "css_classes": "gp-section gp-tone-lilac",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1327,8 +1327,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Alt",
-        "css_classes": "gp-section gp-alt",
+        "_title": "Section Alt Tone Paper",
+        "css_classes": "gp-section gp-alt gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {

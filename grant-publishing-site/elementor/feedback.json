@@ -102,9 +102,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Review Section Review John",
+        "_title": "Section Review Section Review John Tone Lilac",
         "_element_id": "john-capon-review",
-        "css_classes": "gp-section gp-review-section gp-review-john",
+        "css_classes": "gp-section gp-review-section gp-review-john gp-tone-lilac",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -280,7 +280,7 @@
                       "settings": {
                         "_title": "Review Source",
                         "_css_classes": "gp-review-source",
-                        "editor": "<a href=\"https://www.linkedin.com/services/page/a29863343146852122/\" target=\"_blank\" rel=\"noopener noreferrer\">Read the review on LinkedIn</a>"
+                        "editor": "<a class=\"gp-social-link\" href=\"https://www.linkedin.com/services/page/a29863343146852122/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Read the review on LinkedIn (opens in a new tab)\" title=\"Read the review on LinkedIn (opens in a new tab)\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"currentColor\" role=\"img\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z\"></path></svg></a>"
                       },
                       "elements": []
                     }
@@ -348,8 +348,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Review Section",
-        "css_classes": "gp-section gp-review-section",
+        "_title": "Section Review Section Tone Paper",
+        "css_classes": "gp-section gp-review-section gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -581,8 +581,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Alt Review Section",
-        "css_classes": "gp-section gp-alt gp-review-section",
+        "_title": "Section Case Study Tone Ink",
+        "_element_id": "grandfather-case-study",
+        "css_classes": "gp-section gp-case-study gp-tone-ink",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -631,8 +632,8 @@
               "elType": "container",
               "isInner": false,
               "settings": {
-                "_title": "Review Layout",
-                "css_classes": "gp-review-layout",
+                "_title": "Case Study Grid",
+                "css_classes": "gp-case-study-grid",
                 "content_width": "full",
                 "flex_direction": "column",
                 "padding": {
@@ -656,8 +657,8 @@
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "_title": "Review Caption",
-                    "css_classes": "gp-review-caption",
+                    "_title": "Case Study Intro",
+                    "css_classes": "gp-case-study-intro",
                     "content_width": "full",
                     "flex_direction": "column",
                     "padding": {
@@ -684,7 +685,7 @@
                       "settings": {
                         "_title": "Label",
                         "_css_classes": "gp-label",
-                        "editor": "<p>PROJECT 02</p>"
+                        "editor": "<p>BEHIND THE PROJECT · CASE STUDY</p>"
                       },
                       "elements": []
                     },
@@ -694,9 +695,9 @@
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_title": "Brief Title",
-                        "_css_classes": "gp-brief-title",
-                        "title": "Nadine Laman Books",
+                        "_title": "Heading",
+                        "_css_classes": "gp-heading",
+                        "title": "A clearer story.<br>A considered listing.",
                         "header_size": "h2"
                       },
                       "elements": []
@@ -707,9 +708,9 @@
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
-                        "_title": "Small",
-                        "_css_classes": "gp-small",
-                        "editor": "<p>Book marketing project</p>"
+                        "_title": "Copy",
+                        "_css_classes": "gp-copy",
+                        "editor": "<p>See the description work, keyword research and category review for <em>My Dear Grandfather</em> by Barsha Rai, published by Cactus Rain Publishing.</p>"
                       },
                       "elements": []
                     },
@@ -719,9 +720,9 @@
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
-                        "_title": "Stars",
-                        "_css_classes": "gp-stars",
-                        "editor": "<p>★★★★★ · 5.0 / 5</p>"
+                        "_title": "Case Study Tags",
+                        "_css_classes": "gp-case-study-tags",
+                        "editor": "<p>Amazon US · Kindle + paperback</p>"
                       },
                       "elements": []
                     }
@@ -732,8 +733,8 @@
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "_title": "Quote Column",
-                    "css_classes": "gp-quote-column",
+                    "_title": "Case Study Card",
+                    "css_classes": "gp-case-study-card",
                     "content_width": "full",
                     "flex_direction": "column",
                     "padding": {
@@ -758,21 +759,63 @@
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
-                        "_title": "Quote",
-                        "_css_classes": "gp-quote",
-                        "editor": "<blockquote>“I had such excellent results from the first work that AbdulQudus did, I will hire him again and am looking forward to working with him on a new project.”</blockquote>"
+                        "_title": "Case Study Meta",
+                        "_css_classes": "gp-case-study-meta",
+                        "editor": "<p>MY DEAR GRANDFATHER</p><p>PDF · 7 pages · 720 KB</p>"
                       },
                       "elements": []
                     },
                     {
                       "id": "98740c75",
                       "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "From the brief<br>to the handoff.",
+                        "header_size": "h3"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "6248d41f",
+                      "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
-                        "_title": "Attribution",
-                        "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Upwork client feedback</p>"
+                        "_title": "Copy",
+                        "_css_classes": "gp-copy",
+                        "editor": "<p>Description, keywords, categories and the evidence behind the recommendations.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0cb6d312",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Action",
+                        "_css_classes": "gp-action",
+                        "text": "Read the case study",
+                        "link": {
+                          "url": "https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Grandfather-Listing-Case-Study.pdf",
+                          "is_external": "on",
+                          "nofollow": ""
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "de28c5da",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Small",
+                        "_css_classes": "gp-small",
+                        "editor": "<p>Opens the seven-page PDF in a new tab.</p>"
                       },
                       "elements": []
                     }
@@ -789,8 +832,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Review Section",
-        "css_classes": "gp-section gp-review-section",
+        "_title": "Section Alt Review Section Tone Paper",
+        "css_classes": "gp-section gp-alt gp-review-section gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -892,62 +935,37 @@
                       "settings": {
                         "_title": "Label",
                         "_css_classes": "gp-label",
-                        "editor": "<p>PROJECT 03</p>"
+                        "editor": "<p>PROJECT 02</p>"
                       },
                       "elements": []
                     },
                     {
                       "id": "0fa7f633",
                       "elType": "widget",
-                      "widgetType": "image",
+                      "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_title": "Book Visual",
-                        "_css_classes": "gp-book-visual",
-                        "image": {
-                          "url": "{{asset:kathryns-beach.jpg}}",
-                          "id": 0,
-                          "alt": "Kathryn’s Beach by Nadine Laman"
-                        },
-                        "image_size": "full",
-                        "caption_source": "none",
-                        "link_to": "custom",
-                        "link": {
-                          "url": "https://www.amazon.com/dp/1947646168",
-                          "is_external": "on",
-                          "nofollow": "",
-                          "custom_attributes": "aria-label|View Kathryn’s Beach by Nadine Laman on Amazon (opens in a new tab)"
-                        }
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "Nadine Laman Books",
+                        "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
                       "id": "6828fb18",
                       "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Brief Title",
-                        "_css_classes": "gp-brief-title",
-                        "title": "Kathryn’s Beach",
-                        "header_size": "h2"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "fadc03d4",
-                      "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Small",
                         "_css_classes": "gp-small",
-                        "editor": "<p>Assessment and improvement</p>"
+                        "editor": "<p>Book marketing project</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "29e385b0",
+                      "id": "fadc03d4",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -993,7 +1011,7 @@
                       "settings": {
                         "_title": "Quote",
                         "_css_classes": "gp-quote",
-                        "editor": "<blockquote>“With some people talk is cheap, but Abdulqudus delivers concise written reports that are professional and spot on in his assessment and recommendations. Our project was completed quickly and with great results that keep coming. Will hire him again and again.”</blockquote>"
+                        "editor": "<blockquote>“I had such excellent results from the first work that AbdulQudus did, I will hire him again and am looking forward to working with him on a new project.”</blockquote>"
                       },
                       "elements": []
                     },
@@ -1022,8 +1040,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section",
-        "css_classes": "gp-section",
+        "_title": "Section Review Section Tone Lilac",
+        "css_classes": "gp-section gp-review-section gp-tone-lilac",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1069,32 +1087,182 @@
           "elements": [
             {
               "id": "e04f4b38",
-              "elType": "widget",
-              "widgetType": "text-editor",
+              "elType": "container",
               "isInner": false,
               "settings": {
-                "_title": "Copy",
-                "_css_classes": "gp-copy",
-                "editor": "<p>The original Nadine Laman reviews describe three projects in one continuing client relationship. Nadine is the owner of Cactus Rain Publishing; Barsha Rai is the author of My Dear Grandfather. The projects are not presented as separate clients.</p>"
-              },
-              "elements": []
-            },
-            {
-              "id": "1ad59151",
-              "elType": "widget",
-              "widgetType": "button",
-              "isInner": false,
-              "settings": {
-                "_title": "Action Secondary",
-                "_css_classes": "gp-action gp-secondary",
-                "text": "View AbdulQudus on Upwork",
-                "link": {
-                  "url": "https://www.upwork.com/freelancers/abdulqudust",
-                  "is_external": "on",
-                  "nofollow": ""
+                "_title": "Review Layout",
+                "css_classes": "gp-review-layout",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
                 }
               },
-              "elements": []
+              "elements": [
+                {
+                  "id": "9ba1e539",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Review Caption",
+                    "css_classes": "gp-review-caption",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "15cfad24",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
+                        "editor": "<p>PROJECT 03</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f8aae48d",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Book Visual",
+                        "_css_classes": "gp-book-visual",
+                        "image": {
+                          "url": "{{asset:kathryns-beach.jpg}}",
+                          "id": 0,
+                          "alt": "Kathryn’s Beach by Nadine Laman"
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "custom",
+                        "link": {
+                          "url": "https://www.amazon.com/dp/1947646168",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": "aria-label|View Kathryn’s Beach by Nadine Laman on Amazon (opens in a new tab)"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "2dd8dab7",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "Kathryn’s Beach",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "319810da",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Small",
+                        "_css_classes": "gp-small",
+                        "editor": "<p>Assessment and improvement</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "77215a7c",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Stars",
+                        "_css_classes": "gp-stars",
+                        "editor": "<p>★★★★★ · 5.0 / 5</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "66f6dfac",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Quote Column",
+                    "css_classes": "gp-quote-column",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b5231174",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Quote",
+                        "_css_classes": "gp-quote",
+                        "editor": "<blockquote>“With some people talk is cheap, but Abdulqudus delivers concise written reports that are professional and spot on in his assessment and recommendations. Our project was completed quickly and with great results that keep coming. Will hire him again and again.”</blockquote>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f03706a1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Attribution",
+                        "_css_classes": "gp-attribution",
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Upwork client feedback</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1105,9 +1273,8 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Review Section Review New",
-        "_element_id": "more-client-feedback",
-        "css_classes": "gp-section gp-review-section gp-review-new",
+        "_title": "Section Tone Paper",
+        "css_classes": "gp-section gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1153,157 +1320,27 @@
           "elements": [
             {
               "id": "1af59618",
-              "elType": "container",
+              "elType": "widget",
+              "widgetType": "text-editor",
               "isInner": false,
               "settings": {
-                "_title": "Review Layout",
-                "css_classes": "gp-review-layout",
-                "content_width": "full",
-                "flex_direction": "column",
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 0,
-                  "column": "0",
-                  "row": "0"
-                }
+                "_title": "Copy",
+                "_css_classes": "gp-copy",
+                "editor": "<p>The original Nadine Laman reviews describe three projects in one continuing client relationship. Nadine is the owner of Cactus Rain Publishing; Barsha Rai is the author of My Dear Grandfather. The projects are not presented as separate clients.</p>"
               },
-              "elements": [
-                {
-                  "id": "42e8006c",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "_title": "Review Caption",
-                    "css_classes": "gp-review-caption",
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 0,
-                      "column": "0",
-                      "row": "0"
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "d6ab60c9",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Label",
-                        "_css_classes": "gp-label",
-                        "editor": "<p>CONTINUING COLLABORATION</p>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "f61f67da",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Brief Title",
-                        "_css_classes": "gp-brief-title",
-                        "title": "Expertise.<br>Careful execution.",
-                        "header_size": "h2"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "4e351603",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Small",
-                        "_css_classes": "gp-small",
-                        "editor": "<p>Additional feedback from Nadine Laman</p>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "44b8838b",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Stars",
-                        "_css_classes": "gp-stars",
-                        "editor": "<p>★★★★★ · 5.0 out of 5</p>"
-                      },
-                      "elements": []
-                    }
-                  ]
-                },
-                {
-                  "id": "90eb9338",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "_title": "Quote Column",
-                    "css_classes": "gp-quote-column",
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 0,
-                      "column": "0",
-                      "row": "0"
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "a8f99a47",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Quote",
-                        "_css_classes": "gp-quote",
-                        "editor": "<blockquote>“Mr. Tella provided expertise and content creation that resulted in the success of this project. We will be hiring him again in the near future. Very satisfied with his work.”</blockquote>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "748f06f8",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Attribution",
-                        "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Client feedback</p>"
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
+              "elements": []
+            },
+            {
+              "id": "2086a5c3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Action Secondary",
+                "_css_classes": "gp-action gp-secondary",
+                "editor": "<a class=\"gp-social-link\" href=\"https://www.upwork.com/freelancers/abdulqudust\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View AbdulQudus on Upwork (opens in a new tab)\" title=\"View AbdulQudus on Upwork (opens in a new tab)\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"currentColor\" role=\"img\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z\"></path></svg></a>"
+              },
+              "elements": []
             }
           ]
         }
@@ -1314,8 +1351,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Cta",
-        "css_classes": "gp-section gp-cta",
+        "_title": "Section Review Section Review New Tone Ink",
+        "_element_id": "more-client-feedback",
+        "css_classes": "gp-section gp-review-section gp-review-new gp-tone-ink",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1364,8 +1402,8 @@
               "elType": "container",
               "isInner": false,
               "settings": {
-                "_title": "Cta Row",
-                "css_classes": "gp-cta-row",
+                "_title": "Review Layout",
+                "css_classes": "gp-review-layout",
                 "content_width": "full",
                 "flex_direction": "column",
                 "padding": {
@@ -1389,8 +1427,8 @@
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "_title": "Cta Copy",
-                    "css_classes": "gp-cta-copy",
+                    "_title": "Review Caption",
+                    "css_classes": "gp-review-caption",
                     "content_width": "full",
                     "flex_direction": "column",
                     "padding": {
@@ -1417,12 +1455,220 @@
                       "settings": {
                         "_title": "Label",
                         "_css_classes": "gp-label",
-                        "editor": "<p>YOUR NEXT STEP</p>"
+                        "editor": "<p>CONTINUING COLLABORATION</p>"
                       },
                       "elements": []
                     },
                     {
                       "id": "51968e74",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "Expertise.<br>Careful execution.",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "b6c5856b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Small",
+                        "_css_classes": "gp-small",
+                        "editor": "<p>Additional feedback from Nadine Laman</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0ac35691",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Stars",
+                        "_css_classes": "gp-stars",
+                        "editor": "<p>★★★★★ · 5.0 out of 5</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "6458a851",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Quote Column",
+                    "css_classes": "gp-quote-column",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "2800b263",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Quote",
+                        "_css_classes": "gp-quote",
+                        "editor": "<blockquote>“Mr. Tella provided expertise and content creation that resulted in the success of this project. We will be hiring him again in the near future. Very satisfied with his work.”</blockquote>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "bb0f06f8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Attribution",
+                        "_css_classes": "gp-attribution",
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Client feedback</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3803f24c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Cta",
+        "css_classes": "gp-section gp-cta",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "28e80cdc",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "db79fad9",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Cta Row",
+                "css_classes": "gp-cta-row",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "e1a548f8",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Cta Copy",
+                    "css_classes": "gp-cta-copy",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "1b204afb",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
+                        "editor": "<p>YOUR NEXT STEP</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "843e1fe0",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -1435,7 +1681,7 @@
                       "elements": []
                     },
                     {
-                      "id": "b6c5856b",
+                      "id": "5319d294",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -1449,7 +1695,7 @@
                   ]
                 },
                 {
-                  "id": "6458a851",
+                  "id": "4a0314af",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1474,7 +1720,7 @@
                   },
                   "elements": [
                     {
-                      "id": "2800b263",
+                      "id": "f7f4dac4",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
@@ -1491,7 +1737,7 @@
                       "elements": []
                     },
                     {
-                      "id": "bb0f06f8",
+                      "id": "aac3d1d4",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,

@@ -339,9 +339,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Proof",
+        "_title": "Proof Tone Ink",
         "_element_id": "work",
-        "css_classes": "gp-proof",
+        "css_classes": "gp-proof gp-tone-ink",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -810,7 +810,7 @@
                           "settings": {
                             "_title": "Review Source",
                             "_css_classes": "gp-review-source",
-                            "editor": "<a href=\"https://www.linkedin.com/services/page/a29863343146852122/\" target=\"_blank\" rel=\"noopener noreferrer\">Read John’s review on LinkedIn</a>"
+                            "editor": "<a class=\"gp-social-link\" href=\"https://www.linkedin.com/services/page/a29863343146852122/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Read John’s review on LinkedIn (opens in a new tab)\" title=\"Read John’s review on LinkedIn (opens in a new tab)\"><svg aria-hidden=\"true\" focusable=\"false\" fill=\"currentColor\" role=\"img\" viewbox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z\"></path></svg></a>"
                           },
                           "elements": []
                         }
@@ -892,9 +892,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section",
+        "_title": "Section Tone Paper",
         "_element_id": "services",
-        "css_classes": "gp-section",
+        "css_classes": "gp-section gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1502,9 +1502,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Alt",
+        "_title": "Section Alt Tone Indigo",
         "_element_id": "process",
-        "css_classes": "gp-section gp-alt",
+        "css_classes": "gp-section gp-alt gp-tone-indigo",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -1828,9 +1828,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section",
+        "_title": "Section Tone Paper",
         "_element_id": "about",
-        "css_classes": "gp-section",
+        "css_classes": "gp-section gp-tone-paper",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
@@ -2037,9 +2037,9 @@
       "elType": "container",
       "isInner": false,
       "settings": {
-        "_title": "Section Alt",
+        "_title": "Section Alt Tone Lilac",
         "_element_id": "insights",
-        "css_classes": "gp-section gp-alt",
+        "css_classes": "gp-section gp-alt gp-tone-lilac",
         "content_width": "full",
         "flex_direction": "column",
         "padding": {
