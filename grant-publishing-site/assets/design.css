@@ -1,19 +1,23 @@
-/* Grant Publishing 4.0: an editorial publishing studio in Grant blue, paper and ink.
+/* Grant Publishing 4.1: the supplied midnight, indigo, cobalt, violet and porcelain identity.
    Styles are scoped to the shared shell, including shortcode and native Elementor pages. */
 .gpc-site {
-  --gp-paper: #faf8f2;
+  --gp-paper: #f7f5f2;
   --gp-toolbar-offset: 0px;
   --gp-white: #ffffff;
-  --gp-ink: #1c2235;
-  --gp-muted: #545d70;
-  --gp-line: #dedfe8;
-  --gp-panel: #f0f0f8;
-  --gp-blue: #363caf;
-  --gp-purple: #363caf;
-  --e-global-color-primary: #1c2235;
-  --e-global-color-secondary: #545d70;
-  --e-global-color-text: #545d70;
-  --e-global-color-accent: #363caf;
+  --gp-ink: #09072b;
+  --gp-muted: #2b2834;
+  --gp-line: #d8d2de;
+  --gp-panel: #eee9f7;
+  --gp-blue: #201b7f;
+  --gp-purple: #704ddd;
+  --gp-cobalt: #3350df;
+  --gp-lilac: #bd91f9;
+  --e-global-color-primary: #09072b;
+  --e-global-color-secondary: #2b2834;
+  --e-global-color-text: #2b2834;
+  --e-global-color-accent: #201b7f;
+  --e-global-typography-primary-font-family: 'Cormorant Garamond';
+  --e-global-typography-primary-font-weight: 500;
   -webkit-font-smoothing: antialiased;
 }
 .gpc-site .gp-wrap { width: calc(100% - 112px); max-width: 1280px; }
@@ -28,30 +32,30 @@
   font-size: 14px; font-weight: 600; box-shadow: none;
 }
 .gpc-site :is(.gp-action .elementor-button,.gp-button,.gpc-audit-submit):hover {
-  background: #282e8b; border-color: #282e8b; color: #fff;
-  box-shadow: 0 6px 20px -10px #363caf55; transform: translateY(-1px);
+  background: #3350df; border-color: #3350df; color: #fff;
+  box-shadow: 0 6px 20px -10px #201b7f55; transform: translateY(-1px);
 }
 .gpc-site :is(.gp-secondary .elementor-button,.gp-button-secondary) {
-  background: transparent; color: var(--gp-ink); border-color: #a0a4b3; box-shadow: none;
+  background: transparent; color: var(--gp-ink); border-color: #8e8995; box-shadow: none;
 }
 .gpc-site :is(.gp-secondary .elementor-button,.gp-button-secondary):hover {
-  background: #eff0fb; color: var(--gp-blue); border-color: var(--gp-blue); box-shadow: none;
+  background: #eee9f7; color: var(--gp-blue); border-color: var(--gp-blue); box-shadow: none;
 }
 .gpc-site :is(.gp-action .elementor-button,.gp-button) :is(span,i) { color: inherit; }
-.gpc-site .gpc-audit-submit:disabled { background: #555b80; border-color: #555b80; color: #fff; box-shadow: none; transform: none; }
+.gpc-site .gpc-audit-submit:disabled { background: #2b2834; border-color: #2b2834; color: #fff; box-shadow: none; transform: none; }
 .gpc-site :where(a,button,summary,input,select,textarea):focus-visible { outline: 3px solid var(--gp-blue); outline-offset: 5px; }
 
 /* A quiet, translucent header keeps Grant's actual brand and useful navigation. */
-.gpc-site .gp-header { position: sticky; top: 0; background: #faf8f2f5; backdrop-filter: blur(14px); border-bottom: 1px solid #dedfe880; }
+.gpc-site .gp-header { position: sticky; top: 0; background: #f7f5f2f5; backdrop-filter: blur(14px); border-bottom: 1px solid #d8d2de80; }
 .gpc-site .gp-header-inner { min-height: 88px; gap: 24px; }
-.gpc-site .gp-wordmark { padding: 0; background: transparent; }
-.gpc-site .gp-wordmark .gp-logo { width: 158px; height: 56px; }
+.gpc-site .gp-wordmark { padding: 12px; margin-left: -12px; background: transparent; }
+.gpc-site .gp-wordmark .gp-logo { width: 48px; height: 48px; }
 .gpc-site .gp-nav { gap: 22px; font-size: 13px; color: var(--gp-ink); }
 .gpc-site .gp-nav>ul { gap: 22px; }
 .gpc-site .gp-nav a { padding-block: 13px; color: var(--gp-ink); }
 .gpc-site .gp-nav :is(a:hover,a[aria-current],.current-menu-item>a,.current-page-ancestor>a) { color: var(--gp-blue); border-bottom-color: var(--gp-blue); }
 .gpc-site .gp-header-cta .gp-button { min-height: 46px; border-radius: 5px; padding: 12px 18px; font-size: 12px; }
-.gpc-site .gp-mobile-nav summary { background: transparent; border-color: #a0a4b3; border-radius: 5px; color: var(--gp-ink); }
+.gpc-site .gp-mobile-nav summary { background: transparent; border-color: #8e8995; border-radius: 5px; color: var(--gp-ink); }
 .gpc-site .gp-mobile-nav nav { background: var(--gp-paper); border-color: var(--gp-line); max-height: calc(100dvh - var(--gp-toolbar-offset) - 96px); }
 .gpc-site .gp-mobile-nav nav a { color: var(--gp-ink); }
 .gpc-site .gp-mobile-nav nav .gp-button { color: #fff; }
@@ -68,7 +72,7 @@
 .gpc-site .gp-hero-title h1 { font-size: clamp(58px,6.6vw,96px); line-height: .99; letter-spacing: -.035em; margin-bottom: 28px; color: var(--gp-ink); }
 .gpc-site .gp-hero-copy>.gp-lead { max-width: 41ch; font-size: 17px; line-height: 1.85; }
 .gpc-site .gp-actions { margin-top: 32px; gap: 14px; }
-.gpc-site .gp-reputation { max-width: 480px; padding-top: 25px; margin-top: 40px; gap: 18px; border-top-color: #cfd2df; }
+.gpc-site .gp-reputation { max-width: 480px; padding-top: 25px; margin-top: 40px; gap: 18px; border-top-color: #d8d2de; }
 .gpc-site .gp-reputation .gp-stars { color: var(--gp-blue); }
 .gpc-site .gp-rating-text { font-size: 12px; color: var(--gp-muted); }
 .gpc-site .gp-rating-text strong { font-weight: 600; color: var(--gp-ink); }
@@ -76,15 +80,15 @@
 .gpc-site .gp-hero-art .gp-studio-image { height: 100%; min-height: 530px; overflow: hidden; border-radius: 4px 84px 4px 4px; }
 .gpc-site .gp-studio-image img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% center; }
 .gpc-site .gp-hero-art .gp-studio-image img { position: absolute; inset: 0; border-radius: inherit; }
-.gpc-site .gp-hero-art-note { position: absolute; left: -28px; bottom: 30px; max-width: calc(100% - 12px); padding: 24px 30px; background: #fff; border: 1px solid #dedfe8; border-left: 4px solid var(--gp-blue); box-shadow: 0 15px 40px -25px #1c223555; }
-.gpc-site .gp-hero-art-note p { font: 400 32px/1.1 'Instrument Serif',Georgia,serif; color: var(--gp-ink); }
+.gpc-site .gp-hero-art-note { position: absolute; left: -28px; bottom: 30px; max-width: calc(100% - 12px); padding: 24px 30px; background: #fff; border: 1px solid #d8d2de; border-left: 4px solid var(--gp-blue); box-shadow: 0 15px 40px -25px #09072b55; }
+.gpc-site .gp-hero-art-note p { font: 500 32px/1.1 'Cormorant Garamond',Georgia,serif; color: var(--gp-ink); }
 .gpc-site .gp-hero-art-note span { display: block; margin-top: 14px; font-size: 10px; line-height: 1.5; letter-spacing: .07em; text-transform: uppercase; color: var(--gp-muted); }
 .gpc-site .gp-hero-footnote { margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--gp-line); color: var(--gp-muted); font-size: 10px; letter-spacing: .1em; }
 /* Older saved native Home layouts keep their real selected-project card. */
 .gpc-site .gp-project { border-radius: 4px 64px 4px 4px; padding: 30px; background: var(--gp-panel); border: 1px solid var(--gp-line); }
 .gpc-site .gp-project .gp-label p { color: var(--gp-muted); }
 .gpc-site .gp-project-title h2 { color: var(--gp-ink); }
-.gpc-site .gp-project-caption { border-top-color: #cfd2df; }
+.gpc-site .gp-project-caption { border-top-color: #d8d2de; }
 
 /* Page types share a typographic system but have deliberately different openings. */
 .gpc-site .gp-page-hero { padding-block: 72px 64px; background: var(--gp-paper); border-bottom: 1px solid var(--gp-line); }
@@ -96,28 +100,28 @@
 .gpc-site .gp-index-hero-art .gp-studio-image { height: 350px; overflow: hidden; border-radius: 4px 52px 4px 4px; }
 .gpc-site .gp-page-hero-copy>.gp-label { margin-bottom: 24px; }
 .gpc-site .gp-service-hero .gp-page-title h1 { font-size: clamp(42px,5vw,68px); max-width: 18ch; }
-.gpc-site .gp-service-hero .gp-editorial-art { border: 1px solid #d4d7e8; border-radius: 4px 48px 4px 4px; overflow: hidden; background: #eeeefa; }
+.gpc-site .gp-service-hero .gp-editorial-art { border: 1px solid #d8d2de; border-radius: 4px 48px 4px 4px; overflow: hidden; background: #eee9f7; }
 .gpc-site .gp-conversation-hero { padding-block: 56px 48px; }
 .gpc-site .gp-conversation-hero .gp-page-title h1 { font-size: clamp(46px,5.2vw,68px); }
 .gpc-site .gp-about-hero { padding-bottom: 42px; }
-.gpc-site .gp-reading-hero { padding-block: 56px; background: #f0f0f8; }
+.gpc-site .gp-reading-hero { padding-block: 56px; background: #eee9f7; }
 .gpc-site .gp-reading-hero .gp-page-title h1 { max-width: 23ch; font-size: clamp(42px,5vw,68px); }
-.gpc-site .gp-insights-hero { background: #f0f0f8; }
+.gpc-site .gp-insights-hero { background: #eee9f7; }
 
 /* Real client proof gets book imagery, an accurate rating and proper reading space. */
-.gpc-site .gp-proof { background: #eeeff8; color: var(--gp-ink); padding-block: 84px; }
+.gpc-site .gp-proof { background: #eee9f7; color: var(--gp-ink); padding-block: 84px; }
 .gpc-site .gp-proof-head { display: flex; align-items: start; justify-content: space-between; gap: 40px; margin-bottom: 42px; }
 .gpc-site .gp-proof-head .gp-label { padding-top: 10px; }
-.gpc-site .gp-proof-title h2 { font: 400 clamp(42px,4.6vw,62px)/1.06 'Instrument Serif',Georgia,serif; color: var(--gp-ink); }
+.gpc-site .gp-proof-title h2 { font: 500 clamp(42px,4.6vw,62px)/1.06 'Cormorant Garamond',Georgia,serif; color: var(--gp-ink); }
 .gpc-site .gp-proof .gp-label p { color: var(--gp-blue); }
 .gpc-site .gp-proof-grid { grid-template-columns: minmax(0,.95fr) minmax(0,1.25fr); gap: 70px; align-items: center; }
 .gpc-site .gp-book-card { display: grid; grid-template-columns: minmax(0,.82fr) minmax(0,1fr); gap: 28px; align-items: center; min-width: 0; }
 .gpc-site .gp-book-visual { min-width: 0; }
 .gpc-site .gp-book-visual a { display: block; width: 100%; max-width: 225px; transition: transform .2s ease; }
 .gpc-site .gp-book-visual a:hover { transform: translateY(-4px) rotate(-1deg); }
-.gpc-site .gp-book-visual img { display: block; width: 100%; height: auto; box-shadow: 10px 18px 26px -13px #1c223570; border-radius: 2px; }
+.gpc-site .gp-book-visual img { display: block; width: 100%; height: auto; box-shadow: 10px 18px 26px -13px #09072b70; border-radius: 2px; }
 .gpc-site .gp-book-meta .gp-item-title { margin: 0 0 12px; }
-.gpc-site .gp-book-meta .gp-item-title h3 { font: 400 33px/1.1 'Instrument Serif',Georgia,serif; }
+.gpc-site .gp-book-meta .gp-item-title h3 { font: 500 33px/1.1 'Cormorant Garamond',Georgia,serif; }
 .gpc-site .gp-book-meta .gp-action { margin-top: 18px; }
 .gpc-site .gp-book-meta .gp-action .elementor-button { padding: 9px 0; min-height: 44px; text-align: left; justify-content: start; border: 0; border-radius: 0; text-decoration: underline; text-underline-offset: 5px; background: transparent; color: var(--gp-blue); font-size: 13px; }
 .gpc-site .gp-proof .gp-small p { color: var(--gp-muted); }
@@ -129,38 +133,39 @@
 .gpc-site .gp-stars span { margin-left: 8px; letter-spacing: 0; font-size: 12px; }
 .gpc-site .gp-proof .gp-attribution p { color: var(--gp-muted); }
 .gpc-site .gp-proof .gp-attribution strong { color: var(--gp-ink); }
-.gpc-site .gp-proof .gp-secondary .elementor-button { border-color: #8d93af; background: transparent; color: var(--gp-ink); }
+.gpc-site .gp-proof .gp-secondary .elementor-button { border-color: #8e8995; background: transparent; color: var(--gp-ink); }
 .gpc-site .gp-proof .gp-secondary .elementor-button:hover { background: #fff; border-color: var(--gp-blue); color: var(--gp-blue); }
 .gpc-site .gp-proof :is(a,button):focus-visible { outline-color: var(--gp-blue); }
 .gpc-site .gp-review-layout { grid-template-columns: minmax(0,.85fr) minmax(0,1.5fr); gap: 70px; align-items: start; }
 .gpc-site .gp-review-caption .gp-label { margin-bottom: 18px; }
 .gpc-site .gp-review-caption .gp-brief-title h2 { font-size: 42px; }
 .gpc-site .gp-review-caption .gp-book-visual { max-width: 165px; margin-block: 28px; }
-.gpc-site .gp-review-section.gp-alt { background: #f0f0f8; }
-.gpc-site .gp-review-new { background: #eeeff8; }
+.gpc-site .gp-review-section.gp-alt { background: #eee9f7; }
+.gpc-site .gp-review-new { background: #eee9f7; }
 .gpc-site .gp-review-layout .gp-quote-column { padding: 25px 0 0 38px; border-left: 2px solid var(--gp-blue); }
 .gpc-site .gp-review-layout .gp-attribution p { color: var(--gp-muted); }
 .gpc-site .gp-review-caption .gp-stars { color: var(--gp-blue); }
 
 /* Closing actions and footer complete the same visual system. */
 .gpc-site .gp-cta { background: var(--gp-blue); padding-block: 74px; border: 0; }
-.gpc-site .gp-cta .gp-label p { color: #e1e4ff; }
+.gpc-site .gp-cta .gp-label p { color: #e5d9fa; }
 .gpc-site .gp-cta .gp-heading h2 { color: #fff; font-size: clamp(40px,4.6vw,60px); }
-.gpc-site .gp-cta .gp-copy p { color: #e1e4ff; }
+.gpc-site .gp-cta .gp-copy p { color: #e5d9fa; }
 .gpc-site .gp-cta .gp-action .elementor-button { background: #fff; color: var(--gp-blue); border-color: #fff; }
-.gpc-site .gp-cta .gp-action .elementor-button:hover { background: #f0f0f8; color: #282e8b; }
-.gpc-site .gp-cta .gp-secondary .elementor-button { background: transparent; color: #fff; border-color: #a9aded; }
-.gpc-site .gp-cta .gp-secondary .elementor-button:hover { background: #474db8; color: #fff; border-color: #fff; }
+.gpc-site .gp-cta .gp-action .elementor-button:hover { background: #eee9f7; color: #3350df; }
+.gpc-site .gp-cta .gp-secondary .elementor-button { background: transparent; color: #fff; border-color: #bd91f9; }
+.gpc-site .gp-cta .gp-secondary .elementor-button:hover { background: #704ddd; color: #fff; border-color: #fff; }
 .gpc-site .gp-cta :is(a,button):focus-visible { outline-color: #fff; }
 .gpc-site .gp-footer { background: var(--gp-ink); border-top: 0; padding: 72px 0 28px; }
-.gpc-site .gp-footer-brand { border-radius: 5px; background: var(--gp-paper); padding: 3px 8px; }
+.gpc-site .gp-footer-brand { display:inline-flex; padding:48px; margin:0 0 12px; background:transparent; border-radius:0; }
+.gpc-site .gp-footer-brand .gp-logo { display:block; width:190px; height:auto; max-width:none; }
 .gpc-site .gp-footer h2 { font-size: 48px; }
-.gpc-site .gp-footer h3 { color: #d8dcf1; }
-.gpc-site .gp-footer :is(p,p span) { color: #c0c6da; }
+.gpc-site .gp-footer h3 { color: #eee9f7; }
+.gpc-site .gp-footer :is(p,p span) { color: #d8d2de; }
 .gpc-site .gp-footer .gp-button { color: #fff; }
 .gpc-site .gp-footer a.gp-button:visited { color: #fff; }
 .gpc-site .gp-footer a.gp-button { color: #fff; }
-.gpc-site .gp-footer-links a { color: #e6e9f5; }
+.gpc-site .gp-footer-links a { color: #eee9f7; }
 .gpc-site .gp-footer a:focus-visible { outline-color: #fff; }
 
 @media(min-width:1121px) { .gpc-site .gp-nav,.gpc-site .gp-header-cta { display:flex; } .gpc-site .gp-mobile-nav { display:none; } }
@@ -192,7 +197,8 @@
 @media(max-width:720px) {
   .gpc-site .gp-wrap { width:calc(100% - 40px); }
   .gpc-site .gp-header-inner { min-height:80px; }
-  .gpc-site .gp-wordmark .gp-logo { width:146px; height:52px; }
+  .gpc-site .gp-wordmark .gp-logo { width:44px; height:44px; }
+  .gpc-site .gp-wordmark { padding:11px; margin-left:-11px; }
   .gpc-site .gp-home-hero { padding-top:36px; }
   .gpc-site .gp-hero-title h1 { font-size:clamp(52px,12.8vw,72px); margin-bottom:24px; }
   .gpc-site .gp-hero-copy>.gp-lead { font-size:16px; }
@@ -248,7 +254,7 @@
   padding-block: clamp(72px, 7.5vw, 112px);
   border-top: 1px solid var(--gp-line);
 }
-.gpc-site .gp-alt { background: #f4f4f9; }
+.gpc-site .gp-alt { background: #f7f5f2; }
 .gpc-site .gp-section-top { align-items: end; gap: 32px; margin-bottom: 42px; }
 .gpc-site .gp-section-intro .gp-label { margin-bottom: 23px; }
 .gpc-site .gp-section-intro .gp-copy { max-width: 34ch; font-size: 17px; }
@@ -260,7 +266,7 @@
 .gpc-site .gp-title-link {
   color: var(--gp-ink);
   text-decoration: underline;
-  text-decoration-color: #a2a6cc;
+  text-decoration-color: #b5adbf;
   text-decoration-thickness: 1px;
   text-underline-offset: 7px;
   transition: color .18s ease, text-decoration-color .18s ease;
@@ -358,8 +364,8 @@
   justify-self: start;
 }
 .gpc-site :is(#services .gp-service-row, .gp-service-list-full .gp-service-row):focus-within {
-  border-color: #7c81c5;
-  background: #f6f6fc;
+  border-color: #9b89b1;
+  background: #f7f5f2;
   box-shadow: none;
   transform: none;
 }
@@ -384,7 +390,7 @@
   top: 23px;
   border-radius: 50%;
   color: var(--gp-blue);
-  background: #ebecfa;
+  background: #eee9f7;
   font-size: 11px;
 }
 .gpc-site .gp-project-brief {
@@ -394,20 +400,20 @@
   background: var(--gp-blue);
   box-shadow: none;
 }
-.gpc-site .gp-project-brief .gp-label p { color: #d9dcff; }
+.gpc-site .gp-project-brief .gp-label p { color: #e5d9fa; }
 .gpc-site .gp-project-brief .gp-brief-title h2 {
   margin: 23px 0;
   color: #fff;
   font-size: 42px;
   line-height: 1.08;
 }
-.gpc-site .gp-project-brief .gp-copy p { color: #eef0ff; }
+.gpc-site .gp-project-brief .gp-copy p { color: #eee9f7; }
 .gpc-site .gp-project-brief .gp-copy { font-size: 16px; line-height: 1.85; }
-.gpc-site .gp-project-brief .gp-small p { color: #e1e4ff; }
+.gpc-site .gp-project-brief .gp-small p { color: #e5d9fa; }
 .gpc-site .gp-project-brief .gp-small {
   margin-top: 28px;
   padding-top: 23px;
-  border-top: 1px solid #777cd1;
+  border-top: 1px solid #704ddd;
   font-size: 13px;
   line-height: 1.8;
 }
@@ -420,18 +426,18 @@
   box-shadow: none;
 }
 .gpc-site .gp-project-brief .gp-action .elementor-button:hover {
-  border-color: #eff0ff;
-  background: #eff0ff;
-  color: #252b8e;
+  border-color: #eee9f7;
+  background: #eee9f7;
+  color: #201b7f;
 }
 .gpc-site .gp-project-brief .gp-secondary .elementor-button {
-  border-color: #a9aded;
+  border-color: #bd91f9;
   background: transparent;
   color: #fff;
 }
 .gpc-site .gp-project-brief .gp-secondary .elementor-button:hover {
   border-color: #fff;
-  background: #474db8;
+  background: #704ddd;
   color: #fff;
 }
 .gpc-site .gp-project-brief .gp-action .elementor-button:focus-visible {
@@ -444,7 +450,7 @@
   min-width: 0;
   padding: 30px 0 0;
   border: 0;
-  border-top: 1px solid #b9bddc;
+  border-top: 1px solid #c9c2d2;
   border-radius: 0;
   background: transparent;
   box-shadow: none;
@@ -452,7 +458,7 @@
 .gpc-site .gp-step > .gp-label {
   margin-bottom: 24px;
   color: var(--gp-blue);
-  font: 400 55px/1 'Instrument Serif', Georgia, serif;
+  font: 500 55px/1 'Cormorant Garamond', Georgia, serif;
   letter-spacing: -.035em;
 }
 .gpc-site .gp-step > .gp-label p { color: var(--gp-blue); }
@@ -464,10 +470,10 @@
    an intentional editorial image rather than a small profile thumbnail. */
 .gpc-site .gp-portrait {
   overflow: hidden;
-  border: 1px solid #d7d9ee;
+  border: 1px solid #d8d2de;
   border-radius: 28px 8px 28px 8px;
-  background: #eeeff8;
-  box-shadow: 0 24px 48px -36px #20274e55;
+  background: #eee9f7;
+  box-shadow: 0 24px 48px -36px #09072b55;
 }
 .gpc-site #about .gp-split {
   grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr);
@@ -496,7 +502,7 @@
 .gpc-site .gp-insight-card > .gp-label { font-size: 11px; letter-spacing: .12em; }
 .gpc-site .gp-insight-card .gp-item-title { margin: 24px 0 17px; }
 .gpc-site .gp-insight-card .gp-item-title :is(h2, h3) {
-  font: 400 31px/1.2 'Instrument Serif', Georgia, serif;
+  font: 500 31px/1.2 'Cormorant Garamond', Georgia, serif;
   letter-spacing: -.015em;
 }
 .gpc-site .gp-insight-card .gp-copy { font-size: 15px; line-height: 1.85; }
@@ -508,7 +514,7 @@
   min-width: 0;
   overflow: hidden;
   aspect-ratio: 16 / 10;
-  border: 1px solid #dce0f2;
+  border: 1px solid #ddd7e0;
   border-radius: 6px;
   background: var(--gp-panel);
 }
@@ -571,8 +577,8 @@
 .gpc-site .gp-featured-article > .gp-article-info { grid-column: 2; grid-row: 2; }
 .gpc-site .gp-featured-article .gp-row-title h2 { font-size: clamp(38px, 4vw, 49px); }
 .gpc-site :is(.gp-insight-card, .gp-article-row):focus-within {
-  border-color: #7c81c5;
-  background: #f6f6fc;
+  border-color: #9b89b1;
+  background: #f7f5f2;
   box-shadow: none;
 }
 .gpc-site .gp-reading > .gp-wrap { max-width: 810px; }
@@ -591,7 +597,7 @@
 }
 .gpc-site .gp-contact-aside {
   padding: 34px;
-  border: 1px solid #dcdff1;
+  border: 1px solid #ddd7e0;
   border-radius: 12px;
   background: var(--gp-panel);
 }
@@ -600,7 +606,7 @@
 .gpc-site .gp-contact-aside > .gp-item-title {
   margin-top: 31px;
   padding-top: 27px;
-  border-top: 1px solid #d2d5e8;
+  border-top: 1px solid #d8d2de;
 }
 .gpc-site .gp-contact-aside .gp-item-title h3 { font-size: 17px; line-height: 1.5; }
 .gpc-site .gp-contact-links-list { gap: 9px; font-size: 15px; }
@@ -608,10 +614,10 @@
   min-height: 44px;
   max-width: 100%;
   overflow-wrap: anywhere;
-  text-decoration-color: #8a90d0;
+  text-decoration-color: #9b89b1;
   text-underline-offset: 5px;
 }
-.gpc-site .gp-contact-links-list a:hover { color: #252b8e; text-decoration-color: currentColor; }
+.gpc-site .gp-contact-links-list a:hover { color: #201b7f; text-decoration-color: currentColor; }
 .gpc-site .gp-form-panel {
   min-width: 0;
   padding: 42px;
@@ -619,7 +625,7 @@
   border-top: 4px solid var(--gp-blue);
   border-radius: 12px;
   background: var(--gp-white);
-  box-shadow: 0 20px 54px -44px #1c223566;
+  box-shadow: 0 20px 54px -44px #09072b66;
 }
 .gpc-site .gp-form-panel > .gp-label { margin-bottom: 32px; }
 .gpc-site .gpc-audit-form-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
@@ -630,7 +636,7 @@
   max-width: 100%;
   min-height: 54px;
   padding: 14px 15px;
-  border-color: #8e95a8;
+  border-color: #8e8995;
   border-radius: 7px;
   background: #fff;
   color: var(--gp-ink);
@@ -643,7 +649,7 @@
 .gpc-site .gpc-audit-field :is(input, textarea)::placeholder { color: var(--gp-muted); opacity: 1; }
 .gpc-site .gpc-audit-field :is(input, select, textarea):focus {
   border-color: var(--gp-blue);
-  box-shadow: 0 0 0 3px #363caf16;
+  box-shadow: 0 0 0 3px #201b7f16;
 }
 .gpc-site .gpc-audit-field :is(input, select, textarea)[aria-invalid=true] { border-color: #ac4435; }
 .gpc-site .gpc-enquiry-form p { font-size: 14px; line-height: 1.85; }
@@ -652,14 +658,14 @@
 
 @media (hover: hover) {
   .gpc-site #services .gp-service-row:hover {
-    border-color: #7c81c5;
-    background: #f6f6fc;
+    border-color: #9b89b1;
+    background: #f7f5f2;
     box-shadow: none;
     transform: none;
   }
   .gpc-site :is(.gp-service-list-full .gp-service-row, .gp-insight-card, .gp-article-row):hover {
-    border-color: #7c81c5;
-    background: #f6f6fc;
+    border-color: #9b89b1;
+    background: #f7f5f2;
   }
 }
 @media (min-width: 981px) and (min-height: 720px) {
@@ -756,12 +762,12 @@
 /* Explanatory figures use real HTML labels, not tiny text embedded in images. */
 .gpc-site .gp-editorial-art { aspect-ratio: auto; min-height: 230px; }
 .gpc-site .gp-concept-figure { width:100%; min-width:0; padding:28px; text-align:center; margin:0; }
-.gpc-site .gp-concept-title p { font:400 26px/1.15 'Instrument Serif',Georgia,serif; color:var(--gp-ink); }
+.gpc-site .gp-concept-title p { font:500 26px/1.15 'Cormorant Garamond',Georgia,serif; color:var(--gp-ink); }
 .gpc-site .gp-concept-nodes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:15px; margin-block:28px 22px; align-items:start; }
 .gpc-site .gp-concept-node { min-width:0; color:var(--gp-blue); font:500 12px/1.5 Manrope,Arial,sans-serif; }
 .gpc-site .gp-concept-node>span:last-child { display:block; margin-top:14px; }
-.gpc-site .gp-concept-mark { display:block; position:relative; width:43px; height:57px; margin:auto; border:1px solid #363caf; border-left-width:5px; border-radius:2px 4px 4px 2px; background:#faf8f2; box-shadow:4px 5px 0 #d4d7ed; }
-.gpc-site .gp-concept-node:nth-child(2) .gp-concept-mark { background:#363caf; border-color:#363caf; }
+.gpc-site .gp-concept-mark { display:block; position:relative; width:43px; height:57px; margin:auto; border:1px solid #201b7f; border-left-width:5px; border-radius:2px 4px 4px 2px; background:#f7f5f2; box-shadow:4px 5px 0 #d8d2de; }
+.gpc-site .gp-concept-node:nth-child(2) .gp-concept-mark { background:#201b7f; border-color:#201b7f; }
 .gpc-site .gp-concept-node:nth-child(2) .gp-concept-mark:after { content:''; position:absolute; width:22px; height:1px; top:18px; left:7px; background:#fff; box-shadow:0 7px 0 #fff,0 14px 0 #fff; }
 .gpc-site .gp-concept-node:nth-child(3) .gp-concept-mark { border-radius:50%; width:49px; height:49px; border-width:1px; margin-top:4px; }
 .gpc-site .gp-concept-figure figcaption { font:400 11px/1.6 Manrope,Arial,sans-serif; color:var(--gp-muted); }
@@ -771,7 +777,7 @@
 .gpc-site .gp-service-scope ul { padding:0; margin:0; list-style:none; }
 .gpc-site .gp-contact-layout { grid-template-columns:minmax(0,1.22fr) minmax(0,.78fr); }
 .gpc-site .gp-form-intro { margin-bottom:30px; }
-.gpc-site .gp-form-intro h2 { font:400 34px/1.15 'Instrument Serif',Georgia,serif; color:var(--gp-ink); margin:0 0 12px; }
+.gpc-site .gp-form-intro h2 { font:500 34px/1.15 'Cormorant Garamond',Georgia,serif; color:var(--gp-ink); margin:0 0 12px; }
 .gpc-site .gp-form-intro p { font:400 15px/1.8 Manrope,Arial,sans-serif; color:var(--gp-muted); }
 .gpc-site .gpc-form-group { min-width:0; padding:0; margin:26px 0 0; border:0; border-top:1px solid var(--gp-line); }
 .gpc-site .gpc-form-group legend { float:none; width:auto; padding:0 13px 0 0; margin-bottom:23px; color:var(--gp-blue); font:600 13px/1.7 Manrope,Arial,sans-serif; }
@@ -785,10 +791,10 @@
 .gpc-site .gp-article-next { margin-top:38px; padding-top:26px; border-top:1px solid var(--gp-line); }
 .gpc-site .gp-article-next .gp-action { margin-top:20px; }
 .gpc-site .gp-reading-meta { margin-top:23px; color:var(--gp-muted); font-size:12px; }
-.gpc-site .gp-client-review-row { margin-top:56px; padding-top:56px; border-top:1px solid #c5c9de; }
+.gpc-site .gp-client-review-row { margin-top:56px; padding-top:56px; border-top:1px solid #d0c7db; }
 .gpc-site .gp-review-source { margin-top:22px; }
 .gpc-site .gp-review-source a { color:var(--gp-blue); font-size:13px; text-decoration:underline; text-underline-offset:5px; }
-.gpc-site .gp-review-source a:hover { color:#282e8b; }
+.gpc-site .gp-review-source a:hover { color:#3350df; }
 .gpc-site .gp-review-layout .gp-book-visual img { max-height:250px; object-fit:contain; }
 @media(max-width:860px) { .gpc-site .gp-contact-layout { grid-template-columns:minmax(0,1fr); } }
 @media(max-width:720px) {
@@ -801,8 +807,22 @@
   .gpc-site .gp-client-review-row { margin-top:40px; padding-top:40px; }
 }
 .gpc-site .gp-book-card-text { grid-template-columns:minmax(0,1fr); }
-.gpc-site .gp-review-john { background:#eeeff8; }
+.gpc-site .gp-review-john { background:#eee9f7; }
 .gpc-site .gpc-book-details { padding:19px 0; margin-top:8px; border-top:1px solid var(--gp-line); border-bottom:1px solid var(--gp-line); }
 .gpc-site .gpc-book-details summary { min-height:30px; color:var(--gp-blue); cursor:pointer; font:600 13px/1.7 Manrope,Arial,sans-serif; }
 .gpc-site .gpc-book-details .gpc-form-group { border-top:0; margin-top:24px; }
 .gpc-site .gpc-book-details .gpc-form-group legend { color:var(--gp-muted); }
+
+/* Supplied client covers retain their own aspect ratios and original artwork. */
+.gpc-site .gp-book-visual.gp-book-square a { max-width:225px; }
+.gpc-site .gp-review-caption .gp-book-square { max-width:225px; }
+.gpc-site .gp-review-layout .gp-book-square img { max-height:none; }
+.gpc-site .gp-book-square img { box-shadow:0 14px 26px -16px #09072b70; }
+.gpc-site .gp-client-books { background:var(--gp-paper); }
+.gpc-site .gp-client-books-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:48px; }
+.gpc-site .gp-client-books .gp-book-card { max-width:540px; }
+@media(max-width:720px) {
+  .gpc-site .gp-footer-brand { padding:45px; margin:0 0 12px; }
+  .gpc-site .gp-footer-brand .gp-logo { width:180px; }
+  .gpc-site .gp-client-books-grid { grid-template-columns:minmax(0,1fr); gap:36px; }
+}

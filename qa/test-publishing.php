@@ -28,7 +28,11 @@ function get_permalink($id) { return $id === 42 ? 'https://grant.test/client-fee
 function home_url($path = '') { return 'https://grant.test' . $path; }
 function plugins_url($path, $file) { return 'https://grant.test/wp-content/plugins/grant-publishing-site/' . $path; }
 function esc_attr($text) { return htmlspecialchars((string) $text, ENT_QUOTES, 'UTF-8'); }
+function esc_html($text) { return esc_attr($text); }
 function esc_url($text) { return esc_attr($text); }
+function has_nav_menu($location) { return false; }
+function add_query_arg($key, $value, $url) { return $url . '?' . rawurlencode($key) . '=' . rawurlencode($value); }
+function wp_date($format) { return '2026'; }
 function wp_strip_all_tags($text) { return strip_tags(preg_replace('/<(script|style)\b[^>]*>.*?<\/\1>/is', '', $text)); }
 // Any persistence introduced into these rendering helpers fails immediately.
 function update_post_meta(...$args) { throw new \Exception('Saved native layouts must remain unchanged'); }
@@ -118,9 +122,11 @@ fixture('feedback'); check(strpos(gpc_native_client_proof('<p>Older native feedb
 fixture(); $new_layout = '<blockquote>' . str_replace('expertise and content creation', 'expertise <strong>and content</strong> creation', gpc_publishing_review()) . '</blockquote>';
 $new_layout .= '<blockquote>' . gpc_design_review() . '</blockquote>';
 $new_layout = str_replace('We will', "We\n will", $new_layout);
-check(gpc_native_client_proof($new_layout) === $new_layout, 'Updated native review with inline markup and line wraps does not duplicate');
+$new_result = gpc_native_client_proof($new_layout);
+check(substr($new_result, 0, strlen($new_layout)) === $new_layout && substr_count($new_result, gpc_design_review()) === 1 && strpos($new_result, gpc_asset_url('luma-the-sleepy-star.png')) !== false, 'Existing inline/line-wrapped reviews stay intact and receive only the missing Luma cover');
 $encoded = '<p>' . str_replace('Mr.', 'Mr&#46;', gpc_publishing_review()) . '</p><p>' . gpc_design_review() . '</p>';
-check(gpc_native_client_proof($encoded) === $encoded, 'Entity-encoded updated review is recognised');
+$encoded_result = gpc_native_client_proof($encoded);
+check(substr($encoded_result, 0, strlen($encoded)) === $encoded && substr_count($encoded_result, gpc_design_review()) === 1, 'Entity-encoded updated review is recognised without repeating its quote');
 $collision = '<div id="gpc-client-proof"><p>Author custom block</p></div>';
 check(strpos(gpc_native_client_proof($collision), 'id="gpc-client-proof-2"') !== false, 'Existing author proof ID is preserved without creating a duplicate ID');
 $nadine_only = '<blockquote>' . gpc_publishing_review() . '</blockquote>';
@@ -128,6 +134,32 @@ $with_design = gpc_native_client_proof($nadine_only);
 check(substr($with_design, 0, strlen($nadine_only)) === $nadine_only && substr_count($with_design, gpc_publishing_review()) === 1 && strpos($with_design, gpc_design_review()) !== false, 'A native page already containing Nadine receives only the missing John review');
 check(strpos($with_design, 'John Capon') !== false && strpos($with_design, 'https://www.linkedin.com/services/page/a29863343146852122/') !== false && strpos($with_design, 'Graphic Design services') !== false, 'John review has its supplied name, LinkedIn source and graphic-design context');
 check(gpc_native_client_proof($with_design) === $with_design, 'Both review guards prevent repeat additions');
+$luma = gpc_asset_url('luma-the-sleepy-star.png');
+$grandfather = gpc_asset_url('my-dear-grandfather.jpg');
+check(gpc_has_client_cover(image_markup($luma . '?ver=4.1.0&amp;size=full'), 'luma-the-sleepy-star.png', 'https://grant.test/upload/luma.png'), 'Cover detection accepts the genuine bundled URL with HTML entities and cache parameters');
+check(!gpc_has_client_cover(image_markup('https://other.test/luma-the-sleepy-star.png'), 'luma-the-sleepy-star.png', 'https://grant.test/upload/luma.png'), 'A same-name external image is not treated as the supplied cover');
+check(gpc_has_client_cover('<img src=http://grant.test/upload/luma.png alt="Luma">', 'luma-the-sleepy-star.png', 'https://grant.test/upload/luma.png'), 'User upload cover detection supports the actual HTTP source and unquoted markup');
+check(!gpc_has_client_cover('<a href="' . $luma . '">Cover download</a>', 'luma-the-sleepy-star.png', 'https://grant.test/upload/luma.png'), 'A URL without a displayed image does not suppress the genuine cover');
+check(gpc_native_client_proof($new_result) === $new_result && substr_count($new_result, $luma) === 1, 'Adding only the missing Luma cover is idempotent');
+check(strpos($new_result, 'https://www.linkedin.com/services/page/a29863343146852122/') !== false && strpos($new_result, 'Luma the Sleepy Star by John Capon') !== false, 'Missing Luma card has the confirmed LinkedIn destination and genuine alternative text');
+fixture('feedback');
+$father_review = '<blockquote>We successfully completed our third project together.</blockquote>';
+$saved_feedback = $new_layout . image_markup($luma) . $father_review;
+$with_father = gpc_native_client_proof($saved_feedback);
+check(substr($with_father, 0, strlen($saved_feedback)) === $saved_feedback && substr_count($with_father, $grandfather) === 1, 'Old native Feedback retains saved content and gains only its missing Grandfather card');
+check(substr_count($with_father, gpc_design_review()) === 1 && substr_count($with_father, 'We successfully completed our third project together.') === 1, 'Cover compatibility does not repeat either existing client review');
+check(strpos($with_father, 'https://www.amazon.com/dp/1947646117') !== false && strpos($with_father, 'By Barsha Rai') !== false && strpos($with_father, 'Publisher: Nadine Laman') !== false, 'Grandfather card has the confirmed Amazon destination, author and publisher');
+check(gpc_native_client_proof($with_father) === $with_father, 'Grandfather gallery is not duplicated on repeated rendering');
+$complete_feedback = $saved_feedback . image_markup($grandfather);
+check(gpc_native_client_proof($complete_feedback) === $complete_feedback, 'Already complete native reviews and covers remain byte-for-byte unchanged');
+$uploaded_luma = 'https://grantpublishingco.com/wp-content/uploads/2026/10/ChatGPT-Image-Oct-9-2026-08_17_20-AM.png';
+$uploaded_complete = $new_layout . image_markup($uploaded_luma);
+check(gpc_native_client_proof($uploaded_complete) === $uploaded_complete, 'Already supplied WordPress-uploaded Luma cover is preserved without a duplicate gallery');
+$header = gpc_header('home'); $footer = gpc_footer();
+check(strpos($header, gpc_asset_url('grant-icon-96.webp')) !== false && strpos($header, gpc_asset_url('grant-icon-192.webp')) !== false && strpos($header, gpc_asset_url('grant-logo.png')) === false, 'Actual PHP header renders the supplied responsive icon instead of the old logo');
+check(strpos($header, 'aria-label="Grant Publishing Co. home"') !== false && strpos($header, 'width="48" height="48"') !== false, 'Actual icon header retains company identification and square dimensions');
+check(strpos($footer, gpc_asset_url('grant-primary-reverse.png')) !== false && strpos($footer, 'width="866" height="873"') !== false, 'Actual PHP footer renders the supplied full reverse logo with original proportions');
+check(strpos($footer, 'Books built to<br>be discovered.') !== false && strpos($footer, 'https://grant.test/contact/') !== false, 'Actual PHP footer uses the approved tagline and retains working enquiry navigation');
 $registered = array_values(array_filter($GLOBALS['filters'], function($filter) { return in_array($filter[0], array('elementor/widget/render_content', 'the_content'), true); }));
 check($registered === array(array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
 echo "\n" . $GLOBALS['assertions'] . " publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.\n";

@@ -6,6 +6,8 @@
       const menu = site.querySelector('.gp-mobile-nav');
       if (menu) {
         const summary = menu.querySelector('summary');
+        let lastMenuFocus = null;
+        menu.addEventListener('focusin', function (event) { lastMenuFocus = event.target; });
         const close = function (restoreFocus) {
           if (!menu.open) return;
           menu.open = false;
@@ -20,14 +22,21 @@
         document.addEventListener('click', function (event) {
           if (!menu.contains(event.target)) close(menu.contains(document.activeElement));
         });
-        menu.addEventListener('focusout', function () {
-          setTimeout(function () { if (!menu.contains(document.activeElement)) close(false); }, 0);
+        menu.addEventListener('focusout', function (event) {
+          if (event.relatedTarget && event.relatedTarget !== document.body && !menu.contains(event.relatedTarget)) lastMenuFocus = null;
+          setTimeout(function () {
+            if (desktop.matches) resize();
+            if (!menu.contains(document.activeElement)) close(false);
+          }, 0);
         });
         const desktop = window.matchMedia('(min-width:1121px)');
         const resize = function () {
           if (desktop.matches && menu.open) {
-            const focused = menu.contains(document.activeElement);
+            // Some browsers reset focus to body as soon as CSS hides the menu,
+            // before the media-query event arrives. Keep that keyboard context.
+            const focused = menu.contains(document.activeElement) || (lastMenuFocus && document.activeElement === document.body);
             close(false);
+            lastMenuFocus = null;
             if (focused) site.querySelector('.gp-wordmark').focus();
           }
         };

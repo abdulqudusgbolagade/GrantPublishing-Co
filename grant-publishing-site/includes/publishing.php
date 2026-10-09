@@ -11,6 +11,20 @@ function gpc_design_review() {
     return "Abdul outperformed himself in the creation of my children's book, Luma the Sleepy Star, and did so in a very timely fashion. All kudos to Abdul; I will definitely be using him again. He is highly recommended";
 }
 
+/** Detect the supplied covers in rendered markup, including the user's upload. */
+function gpc_has_client_cover($content, $filename, $upload) {
+    if (!is_string($content)) { return false; }
+    $sources = array(gpc_asset_url($filename), $upload, preg_replace('/^https:/', 'http:', $upload));
+    if (!preg_match_all('/<img\b(?:[^>\'\"]|\"[^\"]*\"|\'[^\']*\')*>/i', $content, $images)) { return false; }
+    foreach ($images[0] as $image) {
+        if (!preg_match('/\bsrc\s*=\s*(?:"([^"]*)"|\'([^\']*)\'|([^\s"\'=<>`]+))/i', $image, $match)) { continue; }
+        $src = isset($match[1]) && $match[1] !== '' ? $match[1] : (isset($match[2]) && $match[2] !== '' ? $match[2] : ($match[3] ?? ''));
+        $src = preg_replace('/[?#].*$/', '', html_entity_decode($src, ENT_QUOTES, 'UTF-8'));
+        if (in_array($src, $sources, true)) { return true; }
+    }
+    return false;
+}
+
 /** Limit automatic compatibility rendering to the connected native page. */
 function gpc_publishing_page($main_loop = false) {
     if (is_admin() || is_feed() || is_preview() || !is_singular('page')) { return false; }
@@ -71,6 +85,24 @@ function gpc_native_client_proof($content) {
         while (preg_match('/\bid\s*=\s*(["\'])' . preg_quote($id, '/') . '\\1/i', $content)) { $id = $part[3] . '-' . $suffix++; }
         $proof = preg_replace('/\bid\s*=\s*(["\'])' . preg_quote($part[2], '/') . '\\1/i', 'id="' . esc_attr($id) . '"', $proof, 1);
         $content .= $proof;
+    }
+
+    // Earlier native layouts can already contain the review without the cover.
+    // Add only the missing book cards, rather than repeating an existing quote
+    // or changing saved author content. New bundled layouts already have them.
+    $cards = '';
+    $books = array(
+        array('client-book-luma.html', 'luma-the-sleepy-star.png', 'https://grantpublishingco.com/wp-content/uploads/2026/10/ChatGPT-Image-Oct-9-2026-08_17_20-AM.png', gpc_design_review()),
+        array('client-book-grandfather.html', 'my-dear-grandfather.jpg', 'https://grantpublishingco.com/wp-content/uploads/2026/10/61Zn-Dxc4nL._SY466_.jpg', 'We successfully completed our third project together.'),
+    );
+    $rendered_text = preg_replace('/\s+/u', ' ', html_entity_decode(wp_strip_all_tags($content), ENT_QUOTES, 'UTF-8'));
+    foreach ($books as $book) {
+        if (strpos($rendered_text, $book[3]) === false || gpc_has_client_cover($content, $book[1], $book[2])) { continue; }
+        $file = dirname(__DIR__) . '/partials/' . $book[0];
+        if (is_readable($file)) { $card = file_get_contents($file); if (is_string($card)) { $cards .= gpc_resolve_string($card, true); } }
+    }
+    if ($cards !== '') {
+        $content .= '<section class="gp-section gp-client-books" aria-label="Books from the client projects"><div class="gp-wrap"><div class="gp-heading"><h2>Behind the client feedback.</h2></div><div class="gp-client-books-grid">' . $cards . '</div></div></section>';
     }
     return $content;
 }

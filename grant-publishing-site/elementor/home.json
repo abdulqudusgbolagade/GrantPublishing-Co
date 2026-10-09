@@ -127,7 +127,7 @@
                       "settings": {
                         "_title": "Hero Title",
                         "_css_classes": "gp-hero-title",
-                        "title": "A clearer path<br>to <em>your readers.</em>",
+                        "title": "Books built<br>to be <em>discovered.</em>",
                         "header_size": "h1"
                       },
                       "elements": []
@@ -140,7 +140,7 @@
                       "settings": {
                         "_title": "Lead",
                         "_css_classes": "gp-lead",
-                        "editor": "<p>Thoughtful strategy for how your book is positioned, presented and discovered. Built around the book you wrote and the readers you want to reach.</p>"
+                        "editor": "<p>Publishing strategy, Amazon visibility and book marketing for authors who want more than a listing.</p>"
                       },
                       "elements": []
                     },
@@ -652,7 +652,7 @@
                       "settings": {
                         "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "editor": "<p><strong>Nadine Laman</strong><br>Client feedback</p>"
+                        "editor": "<p><strong>Nadine Laman</strong><br>Author &amp; publisher · Cactus Rain Publishing</p>"
                       },
                       "elements": []
                     },
@@ -707,8 +707,8 @@
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "_title": "Book Card Book Card Text",
-                    "css_classes": "gp-book-card gp-book-card-text",
+                    "_title": "Book Card",
+                    "css_classes": "gp-book-card",
                     "content_width": "full",
                     "flex_direction": "column",
                     "padding": {
@@ -729,6 +729,31 @@
                   "elements": [
                     {
                       "id": "325422e6",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Book Visual Book Square",
+                        "_css_classes": "gp-book-visual gp-book-square",
+                        "image": {
+                          "url": "{{asset:luma-the-sleepy-star.png}}",
+                          "id": 0,
+                          "alt": "Luma the Sleepy Star by John Capon"
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "custom",
+                        "link": {
+                          "url": "https://www.linkedin.com/services/page/a29863343146852122/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": "aria-label|Read John Capon’s review of Luma the Sleepy Star on LinkedIn (opens in a new tab)"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "689e697f",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -753,7 +778,7 @@
                       },
                       "elements": [
                         {
-                          "id": "bf9c1711",
+                          "id": "eda1e69d",
                           "elType": "widget",
                           "widgetType": "heading",
                           "isInner": false,
@@ -766,7 +791,7 @@
                           "elements": []
                         },
                         {
-                          "id": "6079927f",
+                          "id": "fee4a366",
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "isInner": false,
@@ -778,7 +803,7 @@
                           "elements": []
                         },
                         {
-                          "id": "8456e62e",
+                          "id": "cf25dca5",
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "isInner": false,

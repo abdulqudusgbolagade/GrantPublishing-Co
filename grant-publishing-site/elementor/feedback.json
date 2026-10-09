@@ -76,7 +76,7 @@
               "settings": {
                 "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "title": "Authors on the work.<br>In their own words.",
+                "title": "Clients on the work.<br>In their own words.",
                 "header_size": "h1"
               },
               "elements": []
@@ -213,6 +213,31 @@
                     {
                       "id": "34a1a20f",
                       "elType": "widget",
+                      "widgetType": "image",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Book Visual Book Square",
+                        "_css_classes": "gp-book-visual gp-book-square",
+                        "image": {
+                          "url": "{{asset:luma-the-sleepy-star.png}}",
+                          "id": 0,
+                          "alt": "Luma the Sleepy Star by John Capon"
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "custom",
+                        "link": {
+                          "url": "https://www.linkedin.com/services/page/a29863343146852122/",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": "aria-label|Read John Capon’s review of Luma the Sleepy Star on LinkedIn (opens in a new tab)"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "1891562e",
+                      "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
@@ -224,7 +249,7 @@
                       "elements": []
                     },
                     {
-                      "id": "1891562e",
+                      "id": "67da420f",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -236,7 +261,7 @@
                       "elements": []
                     },
                     {
-                      "id": "67da420f",
+                      "id": "9b5549d8",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -248,7 +273,7 @@
                       "elements": []
                     },
                     {
-                      "id": "9b5549d8",
+                      "id": "fb575e0d",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -433,6 +458,31 @@
                     {
                       "id": "fb0b71dd",
                       "elType": "widget",
+                      "widgetType": "image",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Book Visual Book Grandfather",
+                        "_css_classes": "gp-book-visual gp-book-grandfather",
+                        "image": {
+                          "url": "{{asset:my-dear-grandfather.jpg}}",
+                          "id": 0,
+                          "alt": "My Dear Grandfather by Barsha Rai"
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "custom",
+                        "link": {
+                          "url": "https://www.amazon.com/dp/1947646117",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": "aria-label|View My Dear Grandfather by Barsha Rai on Amazon (opens in a new tab)"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a2511f2d",
+                      "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
@@ -444,19 +494,19 @@
                       "elements": []
                     },
                     {
-                      "id": "a2511f2d",
+                      "id": "d819d411",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Small",
                         "_css_classes": "gp-small",
-                        "editor": "<p>Amazon assessment and improvement recommendations</p>"
+                        "editor": "<p>By Barsha Rai<br>Cactus Rain Publishing<br>Amazon assessment and improvement recommendations</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "d819d411",
+                      "id": "4b6d6d36",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -514,7 +564,7 @@
                       "settings": {
                         "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Upwork client feedback</p>"
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Upwork client feedback</p>"
                       },
                       "elements": []
                     }
@@ -722,7 +772,7 @@
                       "settings": {
                         "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Upwork client feedback</p>"
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Upwork client feedback</p>"
                       },
                       "elements": []
                     }
@@ -955,7 +1005,7 @@
                       "settings": {
                         "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Upwork client feedback</p>"
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Upwork client feedback</p>"
                       },
                       "elements": []
                     }
@@ -1025,7 +1075,7 @@
               "settings": {
                 "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "editor": "<p>The original Nadine Laman reviews describe three projects in one continuing client relationship. They are not presented as three separate clients.</p>"
+                "editor": "<p>The original Nadine Laman reviews describe three projects in one continuing client relationship. Nadine is the owner of Cactus Rain Publishing; Barsha Rai is the author of My Dear Grandfather. The projects are not presented as separate clients.</p>"
               },
               "elements": []
             },
@@ -1247,7 +1297,7 @@
                       "settings": {
                         "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "editor": "<p>Nadine Laman · Client feedback</p>"
+                        "editor": "<p>Nadine Laman · Cactus Rain Publishing · Client feedback</p>"
                       },
                       "elements": []
                     }

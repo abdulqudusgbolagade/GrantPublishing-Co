@@ -62,7 +62,7 @@ for k in defs:
  visit(data['content']);assert len(nativeids)==len(set(nativeids));assert len(headings)==1
  assert '—' not in raw,k
 css=(r/'assets/site.css').read_text();assert css.count('{')==css.count('}');assert '@media(max-width:720px)' in css;assert 'prefers-reduced-motion' in css;assert ':focus-visible' in css
-design=(r/'assets/design.css').read_text();assert design.count('{')==design.count('}');assert '#363caf' in design;assert 'prefers-reduced-motion' in design
+design=(r/'assets/design.css').read_text();assert design.count('{')==design.count('}');assert all(color in design for color in ['#09072b','#201b7f','#3350df','#704ddd','#bd91f9','#f7f5f2']);assert 'prefers-reduced-motion' in design
 for p in r.rglob('*.php'):
  assert p.read_text().startswith('<?php'),p
  assert "defined('ABSPATH')" in p.read_text(),p

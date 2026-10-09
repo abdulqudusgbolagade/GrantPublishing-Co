@@ -1,0 +1,1 @@
+PASS: 188 rendered typography, identity, minimum size, clear-space, responsive framing, accessible brand naming and supplied-cover assertions.

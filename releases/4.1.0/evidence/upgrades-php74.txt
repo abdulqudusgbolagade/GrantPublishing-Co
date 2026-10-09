@@ -1,0 +1,16 @@
+PASS: Refresh registers after plugin initialization
+PASS: First version load refreshes connected pages
+PASS: Only unique published connected Grant page IDs are cleared
+PASS: LiteSpeed purge targets only exact Grant URLs including the front page
+PASS: Successful refresh stores the current version
+PASS: Completed refresh releases its lock
+PASS: Saved page edits, delivery credentials and contact options remain untouched
+PASS: Repeated requests at the same version do no cache work or writes
+PASS: Replacing an older asset version refreshes every connected page
+PASS: Concurrent refresher respects an active lock without releasing it
+PASS: A stale lock left by an interrupted request can recover
+PASS: Failed cache cleanup leaves its old marker and releases the lock
+PASS: A later request retries cache cleanup after a real failure
+PASS: A site with no connected Grant pages does not purge unrelated content
+
+14 upgrade assertions passed. No live cache operations or content saves occurred.

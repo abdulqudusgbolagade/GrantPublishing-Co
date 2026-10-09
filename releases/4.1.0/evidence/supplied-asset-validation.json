@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "luma-the-sleepy-star.png",
+    "bytes": 433824,
+    "sha256": "1ed3dcb7119413bb465700616aee58e456bfc9725f3d0de08f1da6d58de85fa8",
+    "original_bytes_preserved": true
+  },
+  {
+    "asset": "my-dear-grandfather.jpg",
+    "bytes": 17625,
+    "sha256": "922dd23f5842f138804f44f9dde438cc87c0a97cc0ae6338dceee73ad156b30e",
+    "original_bytes_preserved": true
+  },
+  {
+    "asset": "grant-icon.png",
+    "bytes": 2016272,
+    "sha256": "abfc854627e48a7942f10a83e598d8b8572af0395c61cdf867c268c068370ce5",
+    "original_bytes_preserved": true
+  },
+  {
+    "asset": "grant-primary-logo.png",
+    "bytes": 819144,
+    "sha256": "7a73e578eb3843d00a7d319b2535b978f25cf3bb51f20fe725491853f8e76db5",
+    "original_bytes_preserved": true
+  },
+  {
+    "asset": "grant-primary-reverse.png",
+    "bytes": 12418,
+    "sha256": "16139eb1b72432475337d30d11db486982b686e1562d248da9410bbc89116a4a",
+    "original_bytes_preserved": true
+  },
+  {
+    "asset": "grant-icon-96.webp",
+    "bytes": 3102,
+    "sha256": "25e23f4783d2ed7c369a87af46b2baf4617e85ad1f8367a8735b7b7a91e86366",
+    "standard_web_rendition": true
+  },
+  {
+    "asset": "grant-icon-192.webp",
+    "bytes": 7474,
+    "sha256": "e7d94e392a0d99a095bf95684b7aab48d2ede9f875d09d8565e69c90e2c7f31f",
+    "standard_web_rendition": true
+  }
+]
