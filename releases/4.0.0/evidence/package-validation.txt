@@ -1,0 +1,5 @@
+PASS: 17 matching HTML/Elementor pages, 835 native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.
+PASS: all 17 routes/shortcodes/title/parent definitions preserved; 605 rendered actions recorded and internal routes/fragments resolve. External links recorded, not sent or independently verified.
+PASS: supplied logo, portrait, Kathryn cover, base CSS and existing provider/page/setup/editorial/full-page files byte-identical to published 3.4.0. Feedback description updated for John and Nadine.
+PASS: no literal UUID-shaped access key in plugin text. No real key used for validation.
+PASS: installable ZIP integrity, single plugin root, 56 files byte-identical to final source; no QA/dependency/evidence files in plugin ZIP.

@@ -9,14 +9,25 @@
       const service = query.get('service');
       if (service && Array.from(form.elements.service.options).some(function (option) { return option.value === service; })) form.elements.service.value = service;
       const button = form.querySelector('button[type="submit"]');
+      const bookDetails = form.querySelector('[data-book-details]');
+      if (bookDetails) {
+        const hasDetails = Array.from(bookDetails.querySelectorAll('input,select')).some(function (field) { return field.value !== ''; });
+        if (hasDetails || form.elements.request.value === 'assessment') bookDetails.open = true;
+        // Reveal invalid optional fields before the browser tries to focus them.
+        form.addEventListener('invalid', function (event) {
+          if (bookDetails.contains(event.target)) bookDetails.open = true;
+        }, true);
+      }
       function updateAction() {
         if (form.dataset.sending === '1') return;
         button.textContent = form.elements.request.value === 'assessment' ? 'Request free assessment' : 'Send project enquiry';
+        if (bookDetails && form.elements.request.value === 'assessment') bookDetails.open = true;
       }
       form.elements.request.addEventListener('change', updateAction);
       updateAction();
       const initialRequest = form.elements.request.value;
       const initialService = form.elements.service.value;
+      const initialDetailsOpen = bookDetails ? bookDetails.open : false;
       form.addEventListener('submit', async function (event) {
         event.preventDefault();
         if (!form.reportValidity() || form.dataset.sending === '1') return;
@@ -46,6 +57,7 @@
           form.reset();
           form.elements.request.value = initialRequest;
           form.elements.service.value = initialService;
+          if (bookDetails) bookDetails.open = initialDetailsOpen;
         } catch (error) {
           status.dataset.state = 'error';
           status.textContent = confirmedFailure ? error.message : 'We could not confirm whether your enquiry was received. Your details are still here. Please retry or contact ' + (form.dataset.contactEmail || 'hello@grantpublishingco.com') + ' if the problem continues.';

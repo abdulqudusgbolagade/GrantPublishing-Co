@@ -1,0 +1,544 @@
+{
+  "home": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [
+      "x-litespeed-cache: hit"
+    ],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.2.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791473750"
+      },
+      {
+        "id": "elementor-post-9-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-9.css?ver=1791473759"
+      }
+    ],
+    "elementorIds": [
+      "9"
+    ],
+    "gpcClasses": [
+      "gp-action",
+      "gp-actions",
+      "gp-alt",
+      "gp-attribution",
+      "gp-body-copy",
+      "gp-button",
+      "gp-copy",
+      "gp-cover",
+      "gp-cover-stage",
+      "gp-cta",
+      "gp-cta-actions",
+      "gp-cta-copy",
+      "gp-cta-row",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-heading",
+      "gp-hero-copy",
+      "gp-hero-footnote",
+      "gp-hero-grid",
+      "gp-hero-title",
+      "gp-home-hero",
+      "gp-index",
+      "gp-insight-card",
+      "gp-item-title",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-portrait",
+      "gp-portrait-home",
+      "gp-project",
+      "gp-project-caption",
+      "gp-project-meta",
+      "gp-project-title",
+      "gp-project-top",
+      "gp-proof",
+      "gp-proof-caption",
+      "gp-proof-grid",
+      "gp-quote",
+      "gp-quote-column",
+      "gp-rating-text",
+      "gp-reputation",
+      "gp-row-action",
+      "gp-row-title",
+      "gp-secondary",
+      "gp-section",
+      "gp-section-intro",
+      "gp-section-top",
+      "gp-service-copy",
+      "gp-service-list",
+      "gp-service-row",
+      "gp-small",
+      "gp-split",
+      "gp-stars",
+      "gp-step",
+      "gp-three-columns",
+      "gp-title-link",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "home wp-singular page-template page-template-elementor_canvas page page-id-9 wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-9"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": false,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  },
+  "services": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [
+      "x-litespeed-cache: hit"
+    ],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791476327"
+      },
+      {
+        "id": "elementor-post-108-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-108.css?ver=1791476327"
+      }
+    ],
+    "elementorIds": [
+      "108"
+    ],
+    "gpcClasses": [
+      "gp-action",
+      "gp-alt",
+      "gp-body-copy",
+      "gp-button",
+      "gp-copy",
+      "gp-cta",
+      "gp-cta-actions",
+      "gp-cta-copy",
+      "gp-cta-row",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-heading",
+      "gp-index",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-page-hero",
+      "gp-page-title",
+      "gp-row-action",
+      "gp-row-title",
+      "gp-secondary",
+      "gp-section",
+      "gp-section-intro",
+      "gp-service-copy",
+      "gp-service-list",
+      "gp-service-list-full",
+      "gp-service-row",
+      "gp-small",
+      "gp-split",
+      "gp-title-link",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "wp-singular page-template page-template-elementor_canvas page page-id-108 page-parent wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-108"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": false,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  },
+  "about": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [
+      "x-litespeed-cache: hit"
+    ],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.2.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791473750"
+      },
+      {
+        "id": "elementor-post-171-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-171.css?ver=1791473750"
+      }
+    ],
+    "elementorIds": [
+      "171"
+    ],
+    "gpcClasses": [
+      "gp-action",
+      "gp-biography",
+      "gp-button",
+      "gp-copy",
+      "gp-cta",
+      "gp-cta-actions",
+      "gp-cta-copy",
+      "gp-cta-row",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-heading",
+      "gp-item-title",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-page-hero",
+      "gp-page-title",
+      "gp-portrait",
+      "gp-portrait-about",
+      "gp-secondary",
+      "gp-section",
+      "gp-step",
+      "gp-three-columns",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "wp-singular page-template page-template-elementor_canvas page page-id-171 wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-171"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": false,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  },
+  "feedback": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [
+      "x-litespeed-cache: hit"
+    ],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.3.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791476327"
+      },
+      {
+        "id": "elementor-post-176-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-176.css?ver=1791479800"
+      }
+    ],
+    "elementorIds": [
+      "176"
+    ],
+    "gpcClasses": [
+      "gp-action",
+      "gp-alt",
+      "gp-attribution",
+      "gp-brief-title",
+      "gp-button",
+      "gp-copy",
+      "gp-cta",
+      "gp-cta-actions",
+      "gp-cta-copy",
+      "gp-cta-row",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-heading",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-page-hero",
+      "gp-page-title",
+      "gp-quote",
+      "gp-quote-column",
+      "gp-review-caption",
+      "gp-review-layout",
+      "gp-secondary",
+      "gp-section",
+      "gp-small",
+      "gp-stars",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "wp-singular page-template page-template-elementor_canvas page page-id-176 wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-176"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": false,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  },
+  "contact": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.4.0"
+      },
+      {
+        "id": "gpc-design-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/design.css?ver=3.4.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791480826"
+      },
+      {
+        "id": "elementor-post-186-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-186.css?ver=1791480840"
+      }
+    ],
+    "elementorIds": [
+      "186"
+    ],
+    "gpcClasses": [
+      "gp-brief-title",
+      "gp-button",
+      "gp-contact-aside",
+      "gp-contact-layout",
+      "gp-contact-links",
+      "gp-contact-links-list",
+      "gp-copy",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-form-panel",
+      "gp-form-widget",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-item-title",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-page-hero",
+      "gp-page-title",
+      "gp-section",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-audit-field",
+      "gpc-audit-form",
+      "gpc-audit-form-disclaimer",
+      "gpc-audit-form-row",
+      "gpc-audit-submit",
+      "gpc-consent",
+      "gpc-enquiry-form",
+      "gpc-form-status",
+      "gpc-honeypot",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "wp-singular page-template page-template-elementor_canvas page page-id-186 wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-186"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": true,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  },
+  "enquiry": {
+    "http": [
+      "HTTP/1.1 200 OK",
+      "HTTP/2 200 "
+    ],
+    "cache": [],
+    "gpcStyles": [
+      {
+        "id": "gpc-site-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/site.css?ver=3.4.0"
+      },
+      {
+        "id": "gpc-design-css",
+        "href": "https://grantpublishingco.com/wp-content/plugins/grant-publishing-site/assets/design.css?ver=3.4.0"
+      }
+    ],
+    "elementorStyles": [
+      {
+        "id": "elementor-post-6-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-6.css?ver=1791480826"
+      },
+      {
+        "id": "elementor-post-137-css",
+        "href": "https://grantpublishingco.com/wp-content/uploads/elementor/css/post-137.css?ver=1791480826"
+      }
+    ],
+    "elementorIds": [
+      "137"
+    ],
+    "gpcClasses": [
+      "gp-brief-title",
+      "gp-button",
+      "gp-contact-aside",
+      "gp-contact-layout",
+      "gp-contact-links",
+      "gp-contact-links-list",
+      "gp-copy",
+      "gp-footer",
+      "gp-footer-brand",
+      "gp-footer-fine",
+      "gp-footer-grid",
+      "gp-footer-links",
+      "gp-form-panel",
+      "gp-form-widget",
+      "gp-header",
+      "gp-header-cta",
+      "gp-header-inner",
+      "gp-item-title",
+      "gp-label",
+      "gp-lead",
+      "gp-logo",
+      "gp-mobile-nav",
+      "gp-nav",
+      "gp-page-hero",
+      "gp-page-title",
+      "gp-section",
+      "gp-small",
+      "gp-wordmark",
+      "gp-wrap",
+      "gpc-audit-field",
+      "gpc-audit-form",
+      "gpc-audit-form-disclaimer",
+      "gpc-audit-form-row",
+      "gpc-audit-submit",
+      "gpc-consent",
+      "gpc-enquiry-form",
+      "gpc-form-status",
+      "gpc-honeypot",
+      "gpc-site",
+      "gpc-skip-link"
+    ],
+    "markup": [
+      {
+        "body": {
+          "class": "wp-singular page-template page-template-elementor_canvas page page-id-137 wp-embed-responsive wp-theme-twentytwentyfive angie-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-137"
+        }
+      },
+      {
+        "main": {
+          "id": "gpc-main"
+        }
+      }
+    ],
+    "form": true,
+    "grantNativeElementorNodes": 0,
+    "grantShortcodeWidgets": 1,
+    "layoutPath": "Grant full-page shortcode embedded in Elementor"
+  }
+}

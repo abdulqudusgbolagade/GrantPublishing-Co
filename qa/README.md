@@ -1,17 +1,27 @@
 # Development checks
 
-These tools are for plugin development, not required to install it on WordPress. Backend and asset-loading tests stub WordPress HTTP, mail and database APIs; they never send an enquiry or use a real access key.
-
-With native PHP 7.4+ available, run `php qa/test-web3forms.php` from the repository root. Otherwise install the pinned official WordPress Playground runtime:
+These checks are for plugin development. WordPress HTTP, mail and database APIs are mocked; no real enquiry or key is used. Native PHP 7.4+ can run the three PHP suites directly. Otherwise use the pinned official WordPress Playground runtime:
 
 ```bash
-npm ci --prefix qa --ignore-scripts
+npm ci --prefix qa --ignore-scripts --cache /workspace/grant-qa/npm-cache
 PHP=7.4 node qa/php.mjs qa/test-web3forms.php
+PHP=7.4 node qa/php.mjs qa/test-publishing.php
+PHP=7.4 node qa/php.mjs qa/test-upgrades.php
 PHP=8.2 node qa/php.mjs qa/test-web3forms.php
+PHP=8.2 node qa/php.mjs qa/test-publishing.php
+PHP=8.2 node qa/php.mjs qa/test-upgrades.php
 PHP=8.3 node qa/php.mjs qa/test-web3forms.php
+PHP=8.3 node qa/php.mjs qa/test-publishing.php
+PHP=8.3 node qa/php.mjs qa/test-upgrades.php
 node qa/php-lint.cjs
 node qa/test-enquiry.cjs
 python3 qa/check-package.py
 ```
 
-The Python check requires `lxml`. `php.mjs` preserves the interpreter exit code. These are meaningful mocked backend and source checks, not full WordPress activation, provider connectivity or email-delivery validation. Browser fixture evidence and its limitations are in the versioned release report.
+Use a writable npm cache; the cloud home cache is unavailable. Keep TLS and lockfile integrity verification enabled. The current runtime passed with Node 24.19 and npm 11.9 despite a package npm-version warning. Python checks require `lxml`; dependency files stay ignored.
+
+`test-web3forms.php` covers 62 delivery/settings/asset assertions; `test-publishing.php` covers 46 review-rendering and genuine-cover-link assertions; `test-upgrades.php` covers 14 version, concurrency, retry and scoped cache-refresh assertions. Each suite passed on PHP 7.4, 8.2 and 8.3. `php.mjs` preserves interpreter exit codes.
+
+`check-package.py` verifies all 17 template/layout pairs, native content parity, routes/assets, forms, real anchors, markup/IDs and CSS markers. After intentionally editing templates, `python3 qa/sync-layouts.py` regenerates bundled new-install native JSON only; it never contacts WordPress or changes installed pages. Review generated diffs before committing.
+
+Browser evidence and its limitations are in [the 4.0 testing report](../releases/4.0.0/TESTING-REPORT.md). The release evidence ZIP includes the fixture builder and browser runners used in the prepared cloud workspace. They approximate Elementor DOM and intercept submissions, rather than running a live WordPress installation.

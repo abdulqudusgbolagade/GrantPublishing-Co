@@ -1,0 +1,48 @@
+PASS: An unlinked bundled native Home cover links to the exact supplied Amazon destination
+PASS: Link has a descriptive new-tab name and preserves the complete original image
+PASS: Already linked rendered cover does not gain nested links
+PASS: Connected native Feedback cover receives the same correct link
+PASS: Unrelated services page remains untouched
+PASS: Unrelated about page remains untouched
+PASS: Unrelated contact page remains untouched
+PASS: Blank, external or edited image is preserved: (blank)
+PASS: Blank, external or edited image is preserved: https://other.test/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/uploads/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/plugins/grant-publishing-site/assets/grant-logo.png
+PASS: Rendered replacement is preserved even when old settings retain the cover URL
+PASS: Existing custom or attachment link settings are preserved
+PASS: An existing author link is never replaced
+PASS: Multiple-image widget is not modified
+PASS: Only the image widget is eligible
+PASS: Optimiser picture structure is preserved without invalid nested picture markup
+PASS: Existing image-map interaction is not replaced
+PASS: Bundled URL cache parameters do not prevent the correct link
+PASS: Valid unquoted HTML source is handled
+PASS: admin rendering receives no automatic compatibility content
+PASS: feed rendering receives no automatic compatibility content
+PASS: preview rendering receives no automatic compatibility content
+PASS: Elementor editor rendering remains untouched
+PASS: Elementor preview rendering remains untouched
+PASS: Unmarked pages are not modified
+PASS: Wrong native page connection does not append proof
+PASS: Proof requires the singular main page loop: singular
+PASS: Proof requires the singular main page loop: main
+PASS: Proof requires the singular main page loop: loop
+PASS: Only the Grant full-page native template gets automatic proof
+PASS: Secondary post cannot receive the main page proof
+PASS: Old native content stays byte-for-byte intact with the supplied new review appended
+PASS: Real shared helper resolves proof asset and feedback route tokens
+PASS: Supplied client attribution, publisher and Amazon destination remain in proof
+PASS: Old work anchor is retained and appended proof gets a distinct ID
+PASS: Repeated filtering cannot duplicate the appended review
+PASS: Rendering leaves saved page content and Elementor data untouched
+PASS: Older connected native Feedback receives new proof
+PASS: Updated native review with inline markup and line wraps does not duplicate
+PASS: Entity-encoded updated review is recognised
+PASS: Existing author proof ID is preserved without creating a duplicate ID
+PASS: A native page already containing Nadine receives only the missing John review
+PASS: John review has its supplied name, LinkedIn source and graphic-design context
+PASS: Both review guards prevent repeat additions
+PASS: Compatibility hooks register image context and post-Elementor proof rendering
+
+46 publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.

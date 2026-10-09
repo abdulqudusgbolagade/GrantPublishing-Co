@@ -7,14 +7,14 @@
   },
   "content": [
     {
-      "id": "18362b59",
+      "id": "9d95a422",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Page Hero",
         "css_classes": "gp-page-hero",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Page Hero",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -32,14 +32,14 @@
       },
       "elements": [
         {
-          "id": "a0f0e6ee",
+          "id": "c9a1fd51",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -57,39 +57,39 @@
           },
           "elements": [
             {
-              "id": "4dd42897",
+              "id": "1987158a",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Label",
                 "_css_classes": "gp-label",
-                "_title": "Text Editor",
                 "editor": "<p>CLIENT FEEDBACK</p>"
               },
               "elements": []
             },
             {
-              "id": "42786f8e",
+              "id": "ed3f055b",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
+                "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "_title": "Heading",
-                "title": "Feedback from completed client projects.",
+                "title": "Authors on the work.<br>In their own words.",
                 "header_size": "h1"
               },
               "elements": []
             },
             {
-              "id": "ac87a90b",
+              "id": "aecb2f3b",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "_title": "Text Editor",
-                "editor": "<p>Three projects with author Nadine Laman, each rated 5.0 out of 5 on Upwork.</p>"
+                "editor": "<p>Five-star client feedback on book marketing, publishing and graphic design. Words from Nadine Laman and John Capon, presented with the project context.</p>"
               },
               "elements": []
             }
@@ -98,14 +98,15 @@
       ]
     },
     {
-      "id": "2c2ccb53",
+      "id": "bcbd1496",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-section",
+        "_title": "Section Review Section Review John",
+        "_element_id": "john-capon-review",
+        "css_classes": "gp-section gp-review-section gp-review-john",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -123,14 +124,14 @@
       },
       "elements": [
         {
-          "id": "ab9edb21",
+          "id": "124a0205",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -148,14 +149,14 @@
           },
           "elements": [
             {
-              "id": "83808c7a",
+              "id": "ad619ad6",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Review Layout",
                 "css_classes": "gp-review-layout",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Review Layout",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -173,14 +174,14 @@
               },
               "elements": [
                 {
-                  "id": "79fdda67",
+                  "id": "ecf6fda1",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Review Caption",
                     "css_classes": "gp-review-caption",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Review Caption",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -198,50 +199,270 @@
                   },
                   "elements": [
                     {
-                      "id": "8ce6d226",
+                      "id": "396f198d",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
+                        "editor": "<p>GRAPHIC DESIGN</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "34a1a20f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "Luma the Sleepy Star",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "1891562e",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Small",
+                        "_css_classes": "gp-small",
+                        "editor": "<p>John Capon · Children’s book</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "67da420f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Stars",
+                        "_css_classes": "gp-stars",
+                        "editor": "<p>★★★★★ · 5.0 out of 5</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "9b5549d8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Review Source",
+                        "_css_classes": "gp-review-source",
+                        "editor": "<a href=\"https://www.linkedin.com/services/page/a29863343146852122/\" target=\"_blank\" rel=\"noopener noreferrer\">Read the review on LinkedIn</a>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "10fa189f",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Quote Column",
+                    "css_classes": "gp-quote-column",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b065cc52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Quote",
+                        "_css_classes": "gp-quote",
+                        "editor": "<blockquote>“Abdul outperformed himself in the creation of my children's book, Luma the Sleepy Star, and did so in a very timely fashion. All kudos to Abdul; I will definitely be using him again. He is highly recommended”</blockquote>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "1c3400e0",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Attribution",
+                        "_css_classes": "gp-attribution",
+                        "editor": "<p>John Capon · Graphic Design services · LinkedIn review</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d4b131c1",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Review Section",
+        "css_classes": "gp-section gp-review-section",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "fa8404b0",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "0dff3838",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Review Layout",
+                "css_classes": "gp-review-layout",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "fda19020",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Review Caption",
+                    "css_classes": "gp-review-caption",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "9ed7f582",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
                         "editor": "<p>PROJECT 01</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "c0f8f17e",
+                      "id": "fb0b71dd",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Brief Title",
                         "_css_classes": "gp-brief-title",
-                        "_title": "Heading",
                         "title": "My Dear Grandfather",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "dfc4e74a",
+                      "id": "a2511f2d",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Small",
                         "_css_classes": "gp-small",
-                        "_title": "Text Editor",
                         "editor": "<p>Amazon assessment and improvement recommendations</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "2823a184",
+                      "id": "d819d411",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Stars",
                         "_css_classes": "gp-stars",
-                        "_title": "Text Editor",
                         "editor": "<p>★★★★★ · 5.0 / 5</p>"
                       },
                       "elements": []
@@ -249,14 +470,14 @@
                   ]
                 },
                 {
-                  "id": "ff04bf15",
+                  "id": "44ce3bdf",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Quote Column",
                     "css_classes": "gp-quote-column",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Quote Column",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -274,25 +495,25 @@
                   },
                   "elements": [
                     {
-                      "id": "1d93eedb",
+                      "id": "28a76786",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Quote",
                         "_css_classes": "gp-quote",
-                        "_title": "Text Editor",
                         "editor": "<blockquote>“We successfully completed our third project together. Our ability to work efficiently is growing as if we had worked together for years. We will be doing another project together shortly.”</blockquote>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "fc909123",
+                      "id": "1c686bcb",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "_title": "Text Editor",
                         "editor": "<p>Nadine Laman · Upwork client feedback</p>"
                       },
                       "elements": []
@@ -306,14 +527,14 @@
       ]
     },
     {
-      "id": "a3570cc3",
+      "id": "619093c9",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-section gp-alt",
+        "_title": "Section Alt Review Section",
+        "css_classes": "gp-section gp-alt gp-review-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Alt",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -331,14 +552,14 @@
       },
       "elements": [
         {
-          "id": "bf78805b",
+          "id": "a292c2fc",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -356,14 +577,14 @@
           },
           "elements": [
             {
-              "id": "a7832e0a",
+              "id": "43a8109c",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Review Layout",
                 "css_classes": "gp-review-layout",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Review Layout",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -381,14 +602,14 @@
               },
               "elements": [
                 {
-                  "id": "961c3d64",
+                  "id": "00ca421f",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Review Caption",
                     "css_classes": "gp-review-caption",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Review Caption",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -406,50 +627,50 @@
                   },
                   "elements": [
                     {
-                      "id": "b08e4c81",
+                      "id": "5982efa5",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>PROJECT 02</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "942b6fcd",
+                      "id": "f8004a31",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Brief Title",
                         "_css_classes": "gp-brief-title",
-                        "_title": "Heading",
                         "title": "Nadine Laman Books",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "a7aedc5c",
+                      "id": "f6d4e5fe",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Small",
                         "_css_classes": "gp-small",
-                        "_title": "Text Editor",
                         "editor": "<p>Book marketing project</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "cf3b18a8",
+                      "id": "9f18cefb",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Stars",
                         "_css_classes": "gp-stars",
-                        "_title": "Text Editor",
                         "editor": "<p>★★★★★ · 5.0 / 5</p>"
                       },
                       "elements": []
@@ -457,14 +678,14 @@
                   ]
                 },
                 {
-                  "id": "032b7750",
+                  "id": "7f53c4e8",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Quote Column",
                     "css_classes": "gp-quote-column",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Quote Column",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -482,25 +703,25 @@
                   },
                   "elements": [
                     {
-                      "id": "615376da",
+                      "id": "a3d06120",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Quote",
                         "_css_classes": "gp-quote",
-                        "_title": "Text Editor",
                         "editor": "<blockquote>“I had such excellent results from the first work that AbdulQudus did, I will hire him again and am looking forward to working with him on a new project.”</blockquote>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "751e8e28",
+                      "id": "98740c75",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "_title": "Text Editor",
                         "editor": "<p>Nadine Laman · Upwork client feedback</p>"
                       },
                       "elements": []
@@ -514,14 +735,14 @@
       ]
     },
     {
-      "id": "ec944c8b",
+      "id": "6a3ffa24",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-section",
+        "_title": "Section Review Section",
+        "css_classes": "gp-section gp-review-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -539,14 +760,14 @@
       },
       "elements": [
         {
-          "id": "15390c96",
+          "id": "c8a126f1",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -564,14 +785,14 @@
           },
           "elements": [
             {
-              "id": "dd93e112",
+              "id": "dabbf9fe",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Review Layout",
                 "css_classes": "gp-review-layout",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Review Layout",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -589,14 +810,14 @@
               },
               "elements": [
                 {
-                  "id": "c32d5736",
+                  "id": "fbd2efc5",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Review Caption",
                     "css_classes": "gp-review-caption",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Review Caption",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -614,50 +835,75 @@
                   },
                   "elements": [
                     {
-                      "id": "e54539d1",
+                      "id": "48c37d92",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>PROJECT 03</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "d8d59603",
+                      "id": "0fa7f633",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Book Visual",
+                        "_css_classes": "gp-book-visual",
+                        "image": {
+                          "url": "{{asset:kathryns-beach.jpg}}",
+                          "id": 0,
+                          "alt": "Kathryn’s Beach by Nadine Laman"
+                        },
+                        "image_size": "full",
+                        "caption_source": "none",
+                        "link_to": "custom",
+                        "link": {
+                          "url": "https://www.amazon.com/dp/1947646168",
+                          "is_external": "on",
+                          "nofollow": "",
+                          "custom_attributes": "aria-label|View Kathryn’s Beach by Nadine Laman on Amazon (opens in a new tab)"
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "6828fb18",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Brief Title",
                         "_css_classes": "gp-brief-title",
-                        "_title": "Heading",
                         "title": "Kathryn’s Beach",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "cc7ddab1",
+                      "id": "fadc03d4",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Small",
                         "_css_classes": "gp-small",
-                        "_title": "Text Editor",
                         "editor": "<p>Assessment and improvement</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "1d35b6bc",
+                      "id": "29e385b0",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Stars",
                         "_css_classes": "gp-stars",
-                        "_title": "Text Editor",
                         "editor": "<p>★★★★★ · 5.0 / 5</p>"
                       },
                       "elements": []
@@ -665,14 +911,14 @@
                   ]
                 },
                 {
-                  "id": "c2567603",
+                  "id": "aac9ca50",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Quote Column",
                     "css_classes": "gp-quote-column",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Quote Column",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -690,25 +936,25 @@
                   },
                   "elements": [
                     {
-                      "id": "4f350cb5",
+                      "id": "9531bb3b",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Quote",
                         "_css_classes": "gp-quote",
-                        "_title": "Text Editor",
                         "editor": "<blockquote>“With some people talk is cheap, but Abdulqudus delivers concise written reports that are professional and spot on in his assessment and recommendations. Our project was completed quickly and with great results that keep coming. Will hire him again and again.”</blockquote>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "c80aa866",
+                      "id": "8a32cb55",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Attribution",
                         "_css_classes": "gp-attribution",
-                        "_title": "Text Editor",
                         "editor": "<p>Nadine Laman · Upwork client feedback</p>"
                       },
                       "elements": []
@@ -722,14 +968,14 @@
       ]
     },
     {
-      "id": "416192f4",
+      "id": "509b149c",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -747,14 +993,14 @@
       },
       "elements": [
         {
-          "id": "fb1b55a6",
+          "id": "86db32ea",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -772,29 +1018,30 @@
           },
           "elements": [
             {
-              "id": "069ae494",
+              "id": "e04f4b38",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "_title": "Text Editor",
-                "editor": "<p>These reviews describe three projects with one client. They are not presented as three separate client relationships.</p>"
+                "editor": "<p>The original Nadine Laman reviews describe three projects in one continuing client relationship. They are not presented as three separate clients.</p>"
               },
               "elements": []
             },
             {
-              "id": "d534a74f",
+              "id": "1ad59151",
               "elType": "widget",
               "widgetType": "button",
               "isInner": false,
               "settings": {
+                "_title": "Action Secondary",
                 "_css_classes": "gp-action gp-secondary",
-                "_title": "Button",
                 "text": "View AbdulQudus on Upwork",
                 "link": {
                   "url": "https://www.upwork.com/freelancers/abdulqudust",
-                  "is_external": "on"
+                  "is_external": "on",
+                  "nofollow": ""
                 }
               },
               "elements": []
@@ -804,14 +1051,15 @@
       ]
     },
     {
-      "id": "be6b62a8",
+      "id": "32805931",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-section gp-cta",
+        "_title": "Section Review Section Review New",
+        "_element_id": "more-client-feedback",
+        "css_classes": "gp-section gp-review-section gp-review-new",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Cta",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -829,14 +1077,14 @@
       },
       "elements": [
         {
-          "id": "ab8daf6a",
+          "id": "4651eb54",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -854,14 +1102,14 @@
           },
           "elements": [
             {
-              "id": "9d287a88",
+              "id": "1af59618",
               "elType": "container",
               "isInner": false,
               "settings": {
-                "css_classes": "gp-cta-row",
+                "_title": "Review Layout",
+                "css_classes": "gp-review-layout",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Cta Row",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -879,14 +1127,14 @@
               },
               "elements": [
                 {
-                  "id": "b91fc116",
+                  "id": "42e8006c",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "css_classes": "gp-cta-copy",
+                    "_title": "Review Caption",
+                    "css_classes": "gp-review-caption",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Copy",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -904,38 +1152,246 @@
                   },
                   "elements": [
                     {
-                      "id": "24397678",
+                      "id": "d6ab60c9",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
+                        "editor": "<p>CONTINUING COLLABORATION</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f61f67da",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "Expertise.<br>Careful execution.",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "4e351603",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Small",
+                        "_css_classes": "gp-small",
+                        "editor": "<p>Additional feedback from Nadine Laman</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "44b8838b",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Stars",
+                        "_css_classes": "gp-stars",
+                        "editor": "<p>★★★★★ · 5.0 out of 5</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "90eb9338",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Quote Column",
+                    "css_classes": "gp-quote-column",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a8f99a47",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Quote",
+                        "_css_classes": "gp-quote",
+                        "editor": "<blockquote>“Mr. Tella provided expertise and content creation that resulted in the success of this project. We will be hiring him again in the near future. Very satisfied with his work.”</blockquote>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "748f06f8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Attribution",
+                        "_css_classes": "gp-attribution",
+                        "editor": "<p>Nadine Laman · Client feedback</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c0cf5a76",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Cta",
+        "css_classes": "gp-section gp-cta",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "226c04fb",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "22c07665",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Cta Row",
+                "css_classes": "gp-cta-row",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "2815de8d",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Cta Copy",
+                    "css_classes": "gp-cta-copy",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "bd0a63d2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
                         "editor": "<p>YOUR NEXT STEP</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "9f9811d8",
+                      "id": "51968e74",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-heading",
                         "_title": "Heading",
+                        "_css_classes": "gp-heading",
                         "title": "Let’s find the right next move<br>for your book.",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "9688d0a3",
+                      "id": "b6c5856b",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>Share your book, your goal and where you would like support.</p>"
                       },
                       "elements": []
@@ -943,14 +1399,14 @@
                   ]
                 },
                 {
-                  "id": "9b381b01",
+                  "id": "6458a851",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Actions",
                     "css_classes": "gp-cta-actions",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Actions",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -968,38 +1424,36 @@
                   },
                   "elements": [
                     {
-                      "id": "c14311be",
+                      "id": "2800b263",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action",
                         "_css_classes": "gp-action",
-                        "_title": "Button",
                         "text": "Discuss your book",
                         "link": {
                           "url": "{{url:contact}}#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     },
                     {
-                      "id": "6a8fb0ad",
+                      "id": "bb0f06f8",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action Secondary",
                         "_css_classes": "gp-action gp-secondary",
-                        "_title": "Button",
                         "text": "Free initial assessment",
                         "link": {
                           "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     }

@@ -28,8 +28,26 @@ for k in defs:
     assert anchor in (r/'templates'/f'{dest}.html').read_text() or (anchor=='gpc-enquiry' and dest in ['contact','enquiry']),(k,href)
    params=parse_qs(urlsplit('https://example.com/'+suffix).query)
    if 'service' in params:assert params['service'][0] in ['Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation'],params
- for img in doc.xpath('//img'):assert img.get('alt'),k
+ for img in doc.xpath('//img'):
+  assert img.get('alt') is not None,(k,'missing image alternative')
+  if not img.get('alt'):assert 'publishing-studio' in img.get('src',''),(k,'unlabelled meaningful image')
+ for href in doc.xpath('//a/@href'):
+  if href.startswith('#'):assert href[1:] in ids,(k,'missing local anchor',href)
  data=json.loads((r/'elementor'/f'{k}.json').read_text());assert data['type']=='page' and data['version']=='0.4'
+ def layout_text(nodes):
+  parts=[]
+  for n in nodes:
+   st=n['settings'];kind=n.get('widgetType','')
+   if kind in ['heading','text-editor']:
+    parts.append(html.fromstring('<div>'+st.get('title',st.get('editor',''))+'</div>').text_content())
+   elif kind=='button':parts.append(st['text'])
+   elif kind=='shortcode':
+    if 'grant_enquiry_form' in st['shortcode']:parts.append('{{form:assessment}}' if 'assessment' in st['shortcode'] else '{{form:project}}')
+    elif 'grant_contact_links' in st['shortcode']:parts.append('{{contact_links}}')
+   parts.append(layout_text(n['elements']))
+  return ''.join(parts)
+ expected=doc.xpath('//main')[0].text_content()
+ assert re.sub(r'\s+','',expected)==re.sub(r'\s+','',layout_text(data['content'])),(k,'shortcode/native content differs')
  nativeids=[];headings=[]
  def visit(nodes):
   global count
@@ -44,6 +62,7 @@ for k in defs:
  visit(data['content']);assert len(nativeids)==len(set(nativeids));assert len(headings)==1
  assert '—' not in raw,k
 css=(r/'assets/site.css').read_text();assert css.count('{')==css.count('}');assert '@media(max-width:720px)' in css;assert 'prefers-reduced-motion' in css;assert ':focus-visible' in css
+design=(r/'assets/design.css').read_text();assert design.count('{')==design.count('}');assert '#363caf' in design;assert 'prefers-reduced-motion' in design
 for p in r.rglob('*.php'):
  assert p.read_text().startswith('<?php'),p
  assert "defined('ABSPATH')" in p.read_text(),p

@@ -7,14 +7,14 @@
   },
   "content": [
     {
-      "id": "f93ff5d5",
+      "id": "3998f57f",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-page-hero",
+        "_title": "Page Hero About Hero",
+        "css_classes": "gp-page-hero gp-about-hero",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Page Hero",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -32,14 +32,14 @@
       },
       "elements": [
         {
-          "id": "c0a859b1",
+          "id": "0f42007c",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -57,38 +57,38 @@
           },
           "elements": [
             {
-              "id": "606076c7",
+              "id": "9e1bbe65",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Label",
                 "_css_classes": "gp-label",
-                "_title": "Text Editor",
                 "editor": "<p>ABOUT GRANT</p>"
               },
               "elements": []
             },
             {
-              "id": "b91baf75",
+              "id": "5069cea8",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
+                "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "_title": "Heading",
                 "title": "Book marketing with a clear purpose.",
                 "header_size": "h1"
               },
               "elements": []
             },
             {
-              "id": "9c4b12a5",
+              "id": "2b990bb9",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "_title": "Text Editor",
                 "editor": "<p>Grant Publishing Co. helps authors understand how their books are presented, discovered and connected to the right readers.</p>"
               },
               "elements": []
@@ -98,14 +98,14 @@
       ]
     },
     {
-      "id": "8ad6c3a5",
+      "id": "4e30aac9",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -123,14 +123,14 @@
       },
       "elements": [
         {
-          "id": "2288c92e",
+          "id": "b4fe32c0",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap Biography",
             "css_classes": "gp-wrap gp-biography",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -148,13 +148,13 @@
           },
           "elements": [
             {
-              "id": "b3816ae4",
+              "id": "d0170fbe",
               "elType": "widget",
               "widgetType": "image",
               "isInner": false,
               "settings": {
+                "_title": "Portrait Portrait About",
                 "_css_classes": "gp-portrait gp-portrait-about",
-                "_title": "AbdulQudus portrait",
                 "image": {
                   "url": "{{asset:abdulqudus-tella.png}}",
                   "id": 0,
@@ -167,38 +167,38 @@
               "elements": []
             },
             {
-              "id": "6ef9e41d",
+              "id": "06ef5506",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
-                "_css_classes": "gp-heading",
                 "_title": "Heading",
+                "_css_classes": "gp-heading",
                 "title": "Meet AbdulQudus Tella",
                 "header_size": "h2"
               },
               "elements": []
             },
             {
-              "id": "80d5697c",
+              "id": "99d74323",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "_title": "Text Editor",
                 "editor": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. My work brings together Amazon visibility, book presentation and practical marketing planning, with publishing support where the project needs it.</p>"
               },
               "elements": []
             },
             {
-              "id": "dabdb925",
+              "id": "d836f2f9",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "_title": "Text Editor",
                 "editor": "<p>I begin by looking at the book and the problem you want to solve. The aim is to identify what needs attention, explain why it matters and agree a useful next step.</p>"
               },
               "elements": []
@@ -208,14 +208,14 @@
       ]
     },
     {
-      "id": "c77ca408",
+      "id": "48ae11f0",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -233,14 +233,14 @@
       },
       "elements": [
         {
-          "id": "0605f5c1",
+          "id": "0a0702ad",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -258,27 +258,27 @@
           },
           "elements": [
             {
-              "id": "b924df7d",
+              "id": "8bf116aa",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
-                "_css_classes": "gp-heading",
                 "_title": "Heading",
+                "_css_classes": "gp-heading",
                 "title": "How we approach the work",
                 "header_size": "h2"
               },
               "elements": []
             },
             {
-              "id": "f18272e9",
+              "id": "d1cd326d",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Three Columns",
                 "css_classes": "gp-three-columns",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Three Columns",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -296,14 +296,14 @@
               },
               "elements": [
                 {
-                  "id": "a3a40fcc",
+                  "id": "943a51a8",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Step",
                     "css_classes": "gp-step",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Step",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -321,26 +321,26 @@
                   },
                   "elements": [
                     {
-                      "id": "1083087c",
+                      "id": "4ba3a66b",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Item Title",
                         "_css_classes": "gp-item-title",
-                        "_title": "Heading",
                         "title": "Start with evidence",
                         "header_size": "h3"
                       },
                       "elements": []
                     },
                     {
-                      "id": "c8e0e067",
+                      "id": "3bfd9fa2",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>We separate what a public listing shows from what needs more information. An initial assessment uses Amazon-visible information only.</p>"
                       },
                       "elements": []
@@ -348,14 +348,14 @@
                   ]
                 },
                 {
-                  "id": "188fddcb",
+                  "id": "781bf859",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Step",
                     "css_classes": "gp-step",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Step",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -373,26 +373,26 @@
                   },
                   "elements": [
                     {
-                      "id": "e8ab6470",
+                      "id": "36b9f604",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Item Title",
                         "_css_classes": "gp-item-title",
-                        "_title": "Heading",
                         "title": "Understand the book",
                         "header_size": "h3"
                       },
                       "elements": []
                     },
                     {
-                      "id": "ae8e1f60",
+                      "id": "c84a62d6",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>For paid work, a synopsis or manuscript helps us understand the content before making detailed recommendations.</p>"
                       },
                       "elements": []
@@ -400,14 +400,14 @@
                   ]
                 },
                 {
-                  "id": "1dfcff5a",
+                  "id": "8244b016",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Step",
                     "css_classes": "gp-step",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Step",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -425,26 +425,26 @@
                   },
                   "elements": [
                     {
-                      "id": "7a01527a",
+                      "id": "7231e6a4",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
+                        "_title": "Item Title",
                         "_css_classes": "gp-item-title",
-                        "_title": "Heading",
                         "title": "Make the scope clear",
                         "header_size": "h3"
                       },
                       "elements": []
                     },
                     {
-                      "id": "2f6c30b0",
+                      "id": "4f4e0952",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>Deliverables, fees, timing and revision terms are agreed before work begins. Recommendations are explained in plain language.</p>"
                       },
                       "elements": []
@@ -458,14 +458,14 @@
       ]
     },
     {
-      "id": "2a253255",
+      "id": "718e83f2",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -483,14 +483,14 @@
       },
       "elements": [
         {
-          "id": "0f329a99",
+          "id": "6c8da485",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -508,27 +508,44 @@
           },
           "elements": [
             {
-              "id": "76ec402c",
+              "id": "395e4081",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
-                "_css_classes": "gp-heading",
                 "_title": "Heading",
+                "_css_classes": "gp-heading",
                 "title": "A working relationship built through delivery",
                 "header_size": "h2"
               },
               "elements": []
             },
             {
-              "id": "b6e1c6d6",
+              "id": "e099b0ca",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "_title": "Text Editor",
                 "editor": "<p>Three completed projects with author Nadine Laman received 5.0 out of 5 feedback on Upwork. Her comments describe the reports, communication and ongoing working relationship.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "36a3cc07",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "_title": "Action Secondary",
+                "_css_classes": "gp-action gp-secondary",
+                "text": "Read the client feedback",
+                "link": {
+                  "url": "{{url:feedback}}",
+                  "is_external": "",
+                  "nofollow": ""
+                }
               },
               "elements": []
             }
@@ -537,14 +554,14 @@
       ]
     },
     {
-      "id": "7d748f4d",
+      "id": "f9d1f9ab",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section Cta",
         "css_classes": "gp-section gp-cta",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Cta",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -562,14 +579,14 @@
       },
       "elements": [
         {
-          "id": "d46e8d4b",
+          "id": "fb9bf4e8",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -587,14 +604,14 @@
           },
           "elements": [
             {
-              "id": "4a82f242",
+              "id": "95fee519",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Cta Row",
                 "css_classes": "gp-cta-row",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Cta Row",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -612,14 +629,14 @@
               },
               "elements": [
                 {
-                  "id": "fd47cc83",
+                  "id": "d439d86e",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Copy",
                     "css_classes": "gp-cta-copy",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Copy",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -637,38 +654,38 @@
                   },
                   "elements": [
                     {
-                      "id": "87de8bb1",
+                      "id": "62691324",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>YOUR NEXT STEP</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "991c2028",
+                      "id": "c47125b5",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-heading",
                         "_title": "Heading",
+                        "_css_classes": "gp-heading",
                         "title": "Let’s find the right next move<br>for your book.",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "190d4456",
+                      "id": "e7b49eee",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>Share your book, your goal and where you would like support.</p>"
                       },
                       "elements": []
@@ -676,14 +693,14 @@
                   ]
                 },
                 {
-                  "id": "a792e97c",
+                  "id": "6f96f18a",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Actions",
                     "css_classes": "gp-cta-actions",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Actions",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -701,38 +718,36 @@
                   },
                   "elements": [
                     {
-                      "id": "e659a6f7",
+                      "id": "d2ba992c",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action",
                         "_css_classes": "gp-action",
-                        "_title": "Button",
                         "text": "Discuss your book",
                         "link": {
                           "url": "{{url:contact}}#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     },
                     {
-                      "id": "1bffc57b",
+                      "id": "c4808e6a",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action Secondary",
                         "_css_classes": "gp-action gp-secondary",
-                        "_title": "Button",
                         "text": "Free initial assessment",
                         "link": {
                           "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     }

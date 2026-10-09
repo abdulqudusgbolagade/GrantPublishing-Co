@@ -1,0 +1,290 @@
+[
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "fallback",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 3840,
+    "height": 2160,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 2560,
+    "height": 1440,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 1440,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 1024,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 768,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 390,
+    "height": 844,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 320,
+    "height": 900,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "contact",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  },
+  {
+    "key": "enquiry",
+    "mode": "native",
+    "width": 844,
+    "height": 390,
+    "fonts": true,
+    "overflow": false,
+    "violations": []
+  }
+]

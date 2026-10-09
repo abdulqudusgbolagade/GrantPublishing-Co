@@ -1,0 +1,2541 @@
+[
+  {
+    "page": "home",
+    "route": "/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Explore our expertise",
+        "href": "/services/"
+      },
+      {
+        "label": "View Kathryn\u2019s Beach by Nadine Laman on Amazon (opens in a new tab)",
+        "href": "https://www.amazon.com/dp/1947646168"
+      },
+      {
+        "label": "View the book on Amazon",
+        "href": "https://www.amazon.com/dp/1947646168"
+      },
+      {
+        "label": "Explore the client feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Read John\u2019s review on LinkedIn",
+        "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+      },
+      {
+        "label": "Amazon Book Visibility",
+        "href": "/services/amazon-visibility/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/amazon-visibility/"
+      },
+      {
+        "label": "Book Descriptions & A+ Content",
+        "href": "/services/book-presentation/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/book-presentation/"
+      },
+      {
+        "label": "Book Launch & Promotion",
+        "href": "/services/launch-promotion/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/launch-promotion/"
+      },
+      {
+        "label": "View all services",
+        "href": "/services/"
+      },
+      {
+        "label": "About Grant Publishing Co.",
+        "href": "/about/"
+      },
+      {
+        "label": "Why publishing a book does not guarantee discovery",
+        "href": "/insights/book-discovery/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/book-discovery/"
+      },
+      {
+        "label": "The pieces of a strong book product page",
+        "href": "/insights/book-product-page/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/book-product-page/"
+      },
+      {
+        "label": "Your second book changes the marketing equation",
+        "href": "/insights/connected-catalog/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/connected-catalog/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "services",
+    "route": "/services/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Amazon Book Visibility",
+        "href": "/services/amazon-visibility/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/amazon-visibility/"
+      },
+      {
+        "label": "Book Descriptions & A+ Content",
+        "href": "/services/book-presentation/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/book-presentation/"
+      },
+      {
+        "label": "Book Launch & Promotion",
+        "href": "/services/launch-promotion/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/launch-promotion/"
+      },
+      {
+        "label": "Author Platform",
+        "href": "/services/author-platform/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/author-platform/"
+      },
+      {
+        "label": "Series & Catalog Strategy",
+        "href": "/services/catalog-strategy/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/catalog-strategy/"
+      },
+      {
+        "label": "Book Marketing Strategy",
+        "href": "/services/book-strategy/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/book-strategy/"
+      },
+      {
+        "label": "Publishing Support",
+        "href": "/services/publishing-support/"
+      },
+      {
+        "label": "Explore service",
+        "href": "/services/publishing-support/"
+      },
+      {
+        "label": "Request an initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "enquiry",
+    "route": "/book-marketing-audit/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Message on WhatsApp",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "send an email",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 1
+  },
+  {
+    "page": "about",
+    "route": "/about/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Read the client feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "feedback",
+    "route": "/client-feedback/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Read the review on LinkedIn",
+        "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+      },
+      {
+        "label": "View Kathryn\u2019s Beach by Nadine Laman on Amazon (opens in a new tab)",
+        "href": "https://www.amazon.com/dp/1947646168"
+      },
+      {
+        "label": "View AbdulQudus on Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "insights",
+    "route": "/insights/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Why publishing a book does not guarantee discovery",
+        "href": "/insights/book-discovery/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/book-discovery/"
+      },
+      {
+        "label": "The pieces of a strong book product page",
+        "href": "/insights/book-product-page/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/book-product-page/"
+      },
+      {
+        "label": "Your second book changes the marketing equation",
+        "href": "/insights/connected-catalog/"
+      },
+      {
+        "label": "Read article",
+        "href": "/insights/connected-catalog/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "contact",
+    "route": "/contact/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Message on WhatsApp",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "send an email",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 1
+  },
+  {
+    "page": "amazon-visibility",
+    "route": "/services/amazon-visibility/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Amazon%20listing%20optimization#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Amazon%20listing%20optimization#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "book-presentation",
+    "route": "/services/book-presentation/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Book%20descriptions%20and%20A%2B%20Content#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Book%20descriptions%20and%20A%2B%20Content#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "launch-promotion",
+    "route": "/services/launch-promotion/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Book%20launch%20or%20relaunch#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Book%20launch%20or%20relaunch#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "author-platform",
+    "route": "/services/author-platform/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Author%20platform#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Author%20platform#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "catalog-strategy",
+    "route": "/services/catalog-strategy/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Series%20and%20catalog%20strategy#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Series%20and%20catalog%20strategy#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "book-strategy",
+    "route": "/services/book-strategy/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Book%20marketing%20strategy#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Book%20marketing%20strategy#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "publishing-support",
+    "route": "/services/publishing-support/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "Discuss this service",
+        "href": "/contact/?request=project&service=Publishing%20consultation#gpc-enquiry"
+      },
+      {
+        "label": "See the scope",
+        "href": "#service-scope"
+      },
+      {
+        "label": "Enquire about this service",
+        "href": "/contact/?request=project&service=Publishing%20consultation#gpc-enquiry"
+      },
+      {
+        "label": "All services",
+        "href": "/services/"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "book-discovery",
+    "route": "/insights/book-discovery/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Start with the reader\u2019s decision",
+        "href": "#article-section-1"
+      },
+      {
+        "label": "Look for conflicting signals",
+        "href": "#article-section-2"
+      },
+      {
+        "label": "Separate observation from diagnosis",
+        "href": "#article-section-3"
+      },
+      {
+        "label": "Choose a testable next step",
+        "href": "#article-section-4"
+      },
+      {
+        "label": "All insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Explore the relevant service",
+        "href": "/services/amazon-visibility/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "book-product-page",
+    "route": "/insights/book-product-page/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Begin with the promise",
+        "href": "#article-section-1"
+      },
+      {
+        "label": "Give each element a job",
+        "href": "#article-section-2"
+      },
+      {
+        "label": "Check the path through the page",
+        "href": "#article-section-3"
+      },
+      {
+        "label": "Keep the claims grounded",
+        "href": "#article-section-4"
+      },
+      {
+        "label": "All insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Explore the relevant service",
+        "href": "/services/book-presentation/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  },
+  {
+    "page": "connected-catalog",
+    "route": "/insights/connected-catalog/",
+    "actions": [
+      {
+        "label": "Skip to content",
+        "href": "#gpc-main"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Look beyond the individual listing",
+        "href": "#article-section-1"
+      },
+      {
+        "label": "Choose a useful entry point",
+        "href": "#article-section-2"
+      },
+      {
+        "label": "Check the connections",
+        "href": "#article-section-3"
+      },
+      {
+        "label": "Review the whole journey",
+        "href": "#article-section-4"
+      },
+      {
+        "label": "All insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Explore the relevant service",
+        "href": "/services/catalog-strategy/"
+      },
+      {
+        "label": "Discuss your book",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Free initial assessment",
+        "href": "/book-marketing-audit/?request=assessment#gpc-enquiry"
+      },
+      {
+        "label": "Grant Publishing Co. home",
+        "href": "/"
+      },
+      {
+        "label": "Discuss your project",
+        "href": "/contact/#gpc-enquiry"
+      },
+      {
+        "label": "Services",
+        "href": "/services/"
+      },
+      {
+        "label": "About",
+        "href": "/about/"
+      },
+      {
+        "label": "Client Feedback",
+        "href": "/client-feedback/"
+      },
+      {
+        "label": "Insights",
+        "href": "/insights/"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact/"
+      },
+      {
+        "label": "Free book assessment",
+        "href": "/book-marketing-audit/"
+      },
+      {
+        "label": "hello@grantpublishingco.com",
+        "href": "mailto:hello@grantpublishingco.com"
+      },
+      {
+        "label": "WhatsApp: +2349036016020",
+        "href": "https://wa.me/2349036016020"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulqudustella/"
+      },
+      {
+        "label": "Upwork",
+        "href": "https://www.upwork.com/freelancers/abdulqudust"
+      }
+    ],
+    "forms": 0
+  }
+]

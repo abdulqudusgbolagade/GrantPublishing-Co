@@ -2,16 +2,18 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 3.4.0
+ * Version: 4.0.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '3.4.0');
+define('GPC_VERSION', '4.0.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
+require_once __DIR__ . '/includes/upgrades.php';
+require_once __DIR__ . '/includes/publishing.php';
 require_once __DIR__ . '/includes/web3forms.php';
 require_once __DIR__ . '/includes/setup.php';
 function gpc_services() {
@@ -33,11 +35,21 @@ function gpc_site_form($default = 'project') {
         <input type="hidden" name="action" value="gpc_send_enquiry">
         <?php wp_nonce_field('gpc_send_enquiry', 'gpc_nonce', false); ?>
         <div class="gpc-honeypot" aria-hidden="true"><label for="gpc-fax">Leave this field empty</label><input id="gpc-fax" name="fax" type="text" tabindex="-1" autocomplete="off"></div>
+        <p class="gpc-required-note">Fields marked * are required.</p>
         <div class="gpc-audit-field"><label for="gpc-request">How can we help? *</label><select id="gpc-request" name="request" required><option value="project" <?php selected($request, 'project'); ?>>Discuss a project</option><option value="assessment" <?php selected($request, 'assessment'); ?>>Request a free initial book assessment</option></select></div>
+        <fieldset class="gpc-form-group"><legend>Your details</legend>
         <div class="gpc-audit-form-row">
             <div class="gpc-audit-field"><label for="gpc-name">Your name *</label><input id="gpc-name" name="name" type="text" autocomplete="name" maxlength="120" required></div>
             <div class="gpc-audit-field"><label for="gpc-email">Email address *</label><input id="gpc-email" name="email" type="email" autocomplete="email" maxlength="254" required></div>
         </div>
+        </fieldset>
+
+        <fieldset class="gpc-form-group"><legend>Your goals</legend>
+        <div class="gpc-audit-field"><label for="gpc-message">What would you like help with? *</label><textarea id="gpc-message" name="message" maxlength="5000" required placeholder="Tell us about your book, the support you need or what you would like to improve."></textarea></div>
+        </fieldset>
+        <details class="gpc-book-details" data-book-details<?php echo $request === 'assessment' || $service !== '' ? ' open' : ''; ?>>
+            <summary>Book &amp; project details (optional)</summary>
+        <fieldset class="gpc-form-group"><legend>Your book &amp; project</legend>
         <div class="gpc-audit-form-row">
             <div class="gpc-audit-field"><label for="gpc-book">Book title (optional)</label><input id="gpc-book" name="book" type="text" maxlength="240"></div>
             <div class="gpc-audit-field"><label for="gpc-link">Amazon or book link (optional)</label><input id="gpc-link" name="book_url" type="url" placeholder="https://" maxlength="1000"></div>
@@ -47,7 +59,8 @@ function gpc_site_form($default = 'project') {
             <div class="gpc-audit-field"><label for="gpc-status">Publication status (optional)</label><select id="gpc-status" name="publication"><option value="">Please select</option><option>Already published</option><option>Preparing for launch</option><option>Relaunching a book</option><option>Still writing</option></select></div>
         </div>
         <div class="gpc-audit-field"><label for="gpc-website">Author website (optional)</label><input id="gpc-website" name="website" type="url" placeholder="https://" maxlength="1000"></div>
-        <div class="gpc-audit-field"><label for="gpc-message">What would you like help with? *</label><textarea id="gpc-message" name="message" maxlength="5000" required placeholder="Tell us about your book, the support you need or what you would like to improve."></textarea></div>
+        </fieldset>
+        </details>
         <p class="gpc-audit-form-disclaimer">Free initial assessments use publicly available information on Amazon. Please include your Amazon book link if you are requesting an assessment. They do not include a manuscript review or access to your private sales data. For paid work, we may request a synopsis or manuscript to understand the book more fully.</p>
         <div class="gpc-audit-field"><label class="gpc-consent" for="gpc-consent"><input id="gpc-consent" name="consent" type="checkbox" value="yes" required><span>I agree that Grant Publishing Co. may use these details to respond to my enquiry. *</span></label></div>
         <button class="gpc-audit-submit" type="submit"><?php echo $request === 'assessment' ? 'Request free assessment' : 'Send project enquiry'; ?></button>

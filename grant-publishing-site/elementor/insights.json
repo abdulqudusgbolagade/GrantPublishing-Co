@@ -7,14 +7,14 @@
   },
   "content": [
     {
-      "id": "3d536c94",
+      "id": "fcde149a",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-page-hero",
+        "_title": "Page Hero Insights Hero",
+        "css_classes": "gp-page-hero gp-insights-hero",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Page Hero",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -32,14 +32,14 @@
       },
       "elements": [
         {
-          "id": "e0a8ade5",
+          "id": "67f9a669",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -57,38 +57,38 @@
           },
           "elements": [
             {
-              "id": "b310beeb",
+              "id": "7bd27865",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Label",
                 "_css_classes": "gp-label",
-                "_title": "Text Editor",
                 "editor": "<p>INSIGHTS FOR AUTHORS</p>"
               },
               "elements": []
             },
             {
-              "id": "bb76e622",
+              "id": "3709ef67",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
+                "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "_title": "Heading",
                 "title": "A clearer way to think about book marketing.",
                 "header_size": "h1"
               },
               "elements": []
             },
             {
-              "id": "da75c8df",
+              "id": "8700b624",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "_title": "Text Editor",
                 "editor": "<p>Practical observations for authors making decisions about visibility, presentation and their next book.</p>"
               },
               "elements": []
@@ -98,14 +98,14 @@
       ]
     },
     {
-      "id": "c44544dd",
+      "id": "24c1b342",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -123,14 +123,14 @@
       },
       "elements": [
         {
-          "id": "33f8760e",
+          "id": "0d93083f",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -148,14 +148,14 @@
           },
           "elements": [
             {
-              "id": "32bec993",
+              "id": "22a01bf1",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Insight Index",
                 "css_classes": "gp-insight-index",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Insight Index",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -173,14 +173,14 @@
               },
               "elements": [
                 {
-                  "id": "cec094f4",
+                  "id": "22aad622",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "css_classes": "gp-article-row",
+                    "_title": "Article Row Featured Article",
+                    "css_classes": "gp-article-row gp-featured-article",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Article Row",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -198,26 +198,38 @@
                   },
                   "elements": [
                     {
-                      "id": "705885f9",
+                      "id": "42342a01",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>01</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "83a1efd9",
+                      "id": "82e28338",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Editorial Art",
+                        "_css_classes": "gp-editorial-art",
+                        "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>Recognition before reach.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>The book</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Clear signals</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>The reader</span>\n</div>\n</div>\n<figcaption>Illustrative book-to-reader pathway</figcaption></figure>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "0d7cb9c6",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
+                        "_title": "Article Info",
                         "css_classes": "gp-article-info",
                         "content_width": "full",
                         "flex_direction": "column",
-                        "_title": "Article Info",
                         "padding": {
                           "unit": "px",
                           "top": "0",
@@ -235,50 +247,49 @@
                       },
                       "elements": [
                         {
-                          "id": "631bf4c4",
+                          "id": "86d0cda4",
                           "elType": "widget",
                           "widgetType": "heading",
                           "isInner": false,
                           "settings": {
+                            "_title": "Row Title",
                             "_css_classes": "gp-row-title",
-                            "_title": "Heading",
-                            "title": "Why publishing a book does not guarantee discovery",
-                            "header_size": "h2",
                             "link": {
                               "url": "{{url:book-discovery}}",
                               "is_external": "",
                               "nofollow": ""
-                            }
+                            },
+                            "title": "Why publishing a book does not guarantee discovery",
+                            "header_size": "h2"
                           },
                           "elements": []
                         },
                         {
-                          "id": "cdbb2b4f",
+                          "id": "b00e4b21",
                           "elType": "widget",
                           "widgetType": "text-editor",
                           "isInner": false,
                           "settings": {
+                            "_title": "Copy",
                             "_css_classes": "gp-copy",
-                            "_title": "Text Editor",
                             "editor": "<p>Publication makes a book available. The next question is whether the right reader can recognise it.</p>"
                           },
                           "elements": []
                         },
                         {
-                          "id": "527326fa",
+                          "id": "a0ca4124",
                           "elType": "widget",
                           "widgetType": "button",
                           "isInner": false,
                           "settings": {
+                            "_title": "Action Secondary",
                             "_css_classes": "gp-action gp-secondary",
-                            "_title": "Button",
                             "text": "Read article",
                             "link": {
                               "url": "{{url:book-discovery}}",
                               "is_external": "",
                               "nofollow": ""
-                            },
-                            "size": "sm"
+                            }
                           },
                           "elements": []
                         }
@@ -287,14 +298,14 @@
                   ]
                 },
                 {
-                  "id": "069b1d8b",
+                  "id": "01eb01b5",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Article Row",
                     "css_classes": "gp-article-row",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Article Row",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -312,26 +323,38 @@
                   },
                   "elements": [
                     {
-                      "id": "ac3bdbec",
+                      "id": "81de63e2",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>02</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "b328a4f8",
+                      "id": "abce8d4f",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Editorial Art",
+                        "_css_classes": "gp-editorial-art",
+                        "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>Give the promise a clear shape.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Cover &amp; title</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Description</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Book details</span>\n</div>\n</div>\n<figcaption>Illustrative product-page structure</figcaption></figure>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "c0525111",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
+                        "_title": "Article Info",
                         "css_classes": "gp-article-info",
                         "content_width": "full",
                         "flex_direction": "column",
-                        "_title": "Article Info",
                         "padding": {
                           "unit": "px",
                           "top": "0",
@@ -349,50 +372,49 @@
                       },
                       "elements": [
                         {
-                          "id": "a70add3c",
+                          "id": "bc645107",
                           "elType": "widget",
                           "widgetType": "heading",
                           "isInner": false,
                           "settings": {
+                            "_title": "Row Title",
                             "_css_classes": "gp-row-title",
-                            "_title": "Heading",
-                            "title": "The pieces of a strong book product page",
-                            "header_size": "h2",
-                            "link": {
-                              "url": "{{url:book-product-page}}",
-                              "is_external": "",
-                              "nofollow": ""
-                            }
-                          },
-                          "elements": []
-                        },
-                        {
-                          "id": "a3f776ea",
-                          "elType": "widget",
-                          "widgetType": "text-editor",
-                          "isInner": false,
-                          "settings": {
-                            "_css_classes": "gp-copy",
-                            "_title": "Text Editor",
-                            "editor": "<p>Review the page as a reader would: what is this book, who is it for and why should I keep reading?</p>"
-                          },
-                          "elements": []
-                        },
-                        {
-                          "id": "b17521d6",
-                          "elType": "widget",
-                          "widgetType": "button",
-                          "isInner": false,
-                          "settings": {
-                            "_css_classes": "gp-action gp-secondary",
-                            "_title": "Button",
-                            "text": "Read article",
                             "link": {
                               "url": "{{url:book-product-page}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "size": "sm"
+                            "title": "The pieces of a strong book product page",
+                            "header_size": "h2"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "ac68f3c9",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Copy",
+                            "_css_classes": "gp-copy",
+                            "editor": "<p>Review the page as a reader would: what is this book, who is it for and why should I keep reading?</p>"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "77ff7113",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Action Secondary",
+                            "_css_classes": "gp-action gp-secondary",
+                            "text": "Read article",
+                            "link": {
+                              "url": "{{url:book-product-page}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            }
                           },
                           "elements": []
                         }
@@ -401,14 +423,14 @@
                   ]
                 },
                 {
-                  "id": "d72f14ba",
+                  "id": "c35ecbcc",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Article Row",
                     "css_classes": "gp-article-row",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Article Row",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -426,26 +448,38 @@
                   },
                   "elements": [
                     {
-                      "id": "f51e6209",
+                      "id": "18689d95",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>03</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "5f738818",
+                      "id": "f59b9297",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Editorial Art",
+                        "_css_classes": "gp-editorial-art",
+                        "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>One book can lead to the next.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Entry point</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Next title</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Reading path</span>\n</div>\n</div>\n<figcaption>Illustrative catalog pathway</figcaption></figure>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "6a1b164e",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
+                        "_title": "Article Info",
                         "css_classes": "gp-article-info",
                         "content_width": "full",
                         "flex_direction": "column",
-                        "_title": "Article Info",
                         "padding": {
                           "unit": "px",
                           "top": "0",
@@ -463,50 +497,49 @@
                       },
                       "elements": [
                         {
-                          "id": "696109d8",
+                          "id": "fc2ad2d2",
                           "elType": "widget",
                           "widgetType": "heading",
                           "isInner": false,
                           "settings": {
+                            "_title": "Row Title",
                             "_css_classes": "gp-row-title",
-                            "_title": "Heading",
-                            "title": "Your second book changes the marketing equation",
-                            "header_size": "h2",
-                            "link": {
-                              "url": "{{url:connected-catalog}}",
-                              "is_external": "",
-                              "nofollow": ""
-                            }
-                          },
-                          "elements": []
-                        },
-                        {
-                          "id": "dcbe932a",
-                          "elType": "widget",
-                          "widgetType": "text-editor",
-                          "isInner": false,
-                          "settings": {
-                            "_css_classes": "gp-copy",
-                            "_title": "Text Editor",
-                            "editor": "<p>With more than one title, the reader’s next step becomes part of the marketing plan.</p>"
-                          },
-                          "elements": []
-                        },
-                        {
-                          "id": "a79726ce",
-                          "elType": "widget",
-                          "widgetType": "button",
-                          "isInner": false,
-                          "settings": {
-                            "_css_classes": "gp-action gp-secondary",
-                            "_title": "Button",
-                            "text": "Read article",
                             "link": {
                               "url": "{{url:connected-catalog}}",
                               "is_external": "",
                               "nofollow": ""
                             },
-                            "size": "sm"
+                            "title": "Your second book changes the marketing equation",
+                            "header_size": "h2"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "65889832",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Copy",
+                            "_css_classes": "gp-copy",
+                            "editor": "<p>With more than one title, the reader’s next step becomes part of the marketing plan.</p>"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "cdcf22e6",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "isInner": false,
+                          "settings": {
+                            "_title": "Action Secondary",
+                            "_css_classes": "gp-action gp-secondary",
+                            "text": "Read article",
+                            "link": {
+                              "url": "{{url:connected-catalog}}",
+                              "is_external": "",
+                              "nofollow": ""
+                            }
                           },
                           "elements": []
                         }
@@ -521,14 +554,14 @@
       ]
     },
     {
-      "id": "dacab0e3",
+      "id": "023a84bf",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section Cta",
         "css_classes": "gp-section gp-cta",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Cta",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -546,14 +579,14 @@
       },
       "elements": [
         {
-          "id": "3e90171e",
+          "id": "d6e92950",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -571,14 +604,14 @@
           },
           "elements": [
             {
-              "id": "913e9f5d",
+              "id": "94f6428a",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Cta Row",
                 "css_classes": "gp-cta-row",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Cta Row",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -596,14 +629,14 @@
               },
               "elements": [
                 {
-                  "id": "fd9d2f5d",
+                  "id": "27eb0bb7",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Copy",
                     "css_classes": "gp-cta-copy",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Copy",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -621,38 +654,38 @@
                   },
                   "elements": [
                     {
-                      "id": "f072456d",
+                      "id": "93ed95f0",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>YOUR NEXT STEP</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "9b2f55a7",
+                      "id": "9c59063d",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-heading",
                         "_title": "Heading",
+                        "_css_classes": "gp-heading",
                         "title": "Let’s find the right next move<br>for your book.",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "ce8fbbdf",
+                      "id": "96caa303",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>Share your book, your goal and where you would like support.</p>"
                       },
                       "elements": []
@@ -660,14 +693,14 @@
                   ]
                 },
                 {
-                  "id": "a07cdd68",
+                  "id": "f7b83195",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Actions",
                     "css_classes": "gp-cta-actions",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Actions",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -685,38 +718,36 @@
                   },
                   "elements": [
                     {
-                      "id": "535af1d3",
+                      "id": "1b91d158",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action",
                         "_css_classes": "gp-action",
-                        "_title": "Button",
                         "text": "Discuss your book",
                         "link": {
                           "url": "{{url:contact}}#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     },
                     {
-                      "id": "a139f8e4",
+                      "id": "932d568d",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action Secondary",
                         "_css_classes": "gp-action gp-secondary",
-                        "_title": "Button",
                         "text": "Free initial assessment",
                         "link": {
                           "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     }

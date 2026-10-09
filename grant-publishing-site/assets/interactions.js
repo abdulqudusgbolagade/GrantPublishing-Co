@@ -23,7 +23,7 @@
         menu.addEventListener('focusout', function () {
           setTimeout(function () { if (!menu.contains(document.activeElement)) close(false); }, 0);
         });
-        const desktop = window.matchMedia('(min-width:981px)');
+        const desktop = window.matchMedia('(min-width:1121px)');
         const resize = function () {
           if (desktop.matches && menu.open) {
             const focused = menu.contains(document.activeElement);

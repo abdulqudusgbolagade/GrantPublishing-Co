@@ -7,14 +7,14 @@
   },
   "content": [
     {
-      "id": "f448173c",
+      "id": "ad9c07fe",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-page-hero",
+        "_title": "Page Hero Conversation Hero",
+        "css_classes": "gp-page-hero gp-conversation-hero",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Page Hero",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -32,14 +32,14 @@
       },
       "elements": [
         {
-          "id": "50881416",
+          "id": "e48817bd",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -57,38 +57,38 @@
           },
           "elements": [
             {
-              "id": "59e49d2a",
+              "id": "08de7a3c",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Label",
                 "_css_classes": "gp-label",
-                "_title": "Text Editor",
                 "editor": "<p>GET IN TOUCH</p>"
               },
               "elements": []
             },
             {
-              "id": "5e1fc7d1",
+              "id": "852769f3",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
+                "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "_title": "Heading",
                 "title": "Let’s talk<br><em>about your book.</em>",
                 "header_size": "h1"
               },
               "elements": []
             },
             {
-              "id": "0fccc3fa",
+              "id": "5a9fd893",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "_title": "Text Editor",
                 "editor": "<p>Tell us where the book is now and what you would like to improve. You do not need to know the exact scope yet.</p>"
               },
               "elements": []
@@ -98,14 +98,14 @@
       ]
     },
     {
-      "id": "079ab6f9",
+      "id": "e43f1a85",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section",
         "css_classes": "gp-section",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -123,14 +123,14 @@
       },
       "elements": [
         {
-          "id": "f0229412",
+          "id": "79043f48",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -148,14 +148,14 @@
           },
           "elements": [
             {
-              "id": "27305dd9",
+              "id": "3dbaaf11",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Contact Layout",
                 "css_classes": "gp-contact-layout",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Contact Layout",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -173,14 +173,14 @@
               },
               "elements": [
                 {
-                  "id": "4b99946c",
+                  "id": "d82f1664",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "css_classes": "gp-contact-aside",
+                    "_title": "Form Panel",
+                    "css_classes": "gp-form-panel",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Contact Aside",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -198,78 +198,52 @@
                   },
                   "elements": [
                     {
-                      "id": "ee28743a",
+                      "id": "5abd5b79",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
-                        "editor": "<p>WHAT HAPPENS NEXT</p>"
+                        "editor": "<p>PROJECT ENQUIRY</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "5f2d7f84",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_css_classes": "gp-brief-title",
-                        "_title": "Heading",
-                        "title": "A useful conversation.<br>A clear next step.",
-                        "header_size": "h2"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "ffc9e81d",
+                      "id": "c21387e4",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
-                        "editor": "<p>We review the information you share and clarify your needs before proposing paid work.</p>"
+                        "_title": "Form Intro",
+                        "_css_classes": "gp-form-intro",
+                        "editor": "<h2>Tell us about your book.</h2>\n<p>A few details help us understand the right next step.</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "e76c3d6d",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_css_classes": "gp-item-title",
-                        "_title": "Heading",
-                        "title": "Prefer a direct message?",
-                        "header_size": "h3"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "bf0ea300",
+                      "id": "58dc20c3",
                       "elType": "widget",
                       "widgetType": "shortcode",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-contact-links",
-                        "_title": "Shortcode",
-                        "shortcode": "[grant_contact_links]"
+                        "_title": "Form Widget",
+                        "_css_classes": "gp-form-widget",
+                        "shortcode": "[grant_enquiry_form request=\"project\"]"
                       },
                       "elements": []
                     }
                   ]
                 },
                 {
-                  "id": "8e64b3db",
+                  "id": "2f8d956d",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
-                    "css_classes": "gp-form-panel",
+                    "_title": "Contact Aside",
+                    "css_classes": "gp-contact-aside",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Form Panel",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -287,26 +261,64 @@
                   },
                   "elements": [
                     {
-                      "id": "db5c8f50",
+                      "id": "5d2cf112",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
-                        "editor": "<p>PROJECT ENQUIRY</p>"
+                        "editor": "<p>WHAT HAPPENS NEXT</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "b2c80665",
+                      "id": "9362028e",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Brief Title",
+                        "_css_classes": "gp-brief-title",
+                        "title": "A useful conversation.<br>A clear next step.",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "e3156a52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Copy",
+                        "_css_classes": "gp-copy",
+                        "editor": "<p>We review the information you share and clarify your needs before proposing paid work.</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "8593719b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Item Title",
+                        "_css_classes": "gp-item-title",
+                        "title": "Prefer a direct message?",
+                        "header_size": "h3"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "a400a167",
                       "elType": "widget",
                       "widgetType": "shortcode",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-form-widget",
-                        "_title": "Shortcode",
-                        "shortcode": "[grant_enquiry_form request=\"project\"]"
+                        "_title": "Contact Links",
+                        "_css_classes": "gp-contact-links",
+                        "shortcode": "[grant_contact_links]"
                       },
                       "elements": []
                     }

@@ -7,14 +7,14 @@
   },
   "content": [
     {
-      "id": "781da3cc",
+      "id": "cd6a10a8",
       "elType": "container",
       "isInner": false,
       "settings": {
-        "css_classes": "gp-page-hero",
+        "_title": "Page Hero Reading Hero",
+        "css_classes": "gp-page-hero gp-reading-hero",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Page Hero",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -32,14 +32,14 @@
       },
       "elements": [
         {
-          "id": "d2d6b3de",
+          "id": "1d18ea53",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -57,39 +57,51 @@
           },
           "elements": [
             {
-              "id": "b988b98e",
+              "id": "2d3237ad",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Breadcrumb",
                 "_css_classes": "gp-breadcrumb",
-                "_title": "Text Editor",
-                "editor": "<p><a href=\"{{url:insights}}\">Insights</a><span aria-hidden=\"true\"> / </span>Why publishing a book does not guarantee discovery</p>"
+                "editor": "<p><a href=\"{{url:insights}}\">Insights</a><span aria-hidden=\"true\"> / </span>Book discovery</p>"
               },
               "elements": []
             },
             {
-              "id": "f61c3908",
+              "id": "3ad62f3e",
               "elType": "widget",
               "widgetType": "heading",
               "isInner": false,
               "settings": {
+                "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "_title": "Heading",
                 "title": "Why publishing a book does not guarantee discovery",
                 "header_size": "h1"
               },
               "elements": []
             },
             {
-              "id": "5816488a",
+              "id": "65d77e2d",
               "elType": "widget",
               "widgetType": "text-editor",
               "isInner": false,
               "settings": {
+                "_title": "Lead",
                 "_css_classes": "gp-lead",
-                "_title": "Text Editor",
                 "editor": "<p>Publication makes a book available. The next question is whether the right reader can recognise it.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "7e3409cb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Reading Meta",
+                "_css_classes": "gp-reading-meta",
+                "editor": "<p>Approx. 2 min read · Insights for authors</p>"
               },
               "elements": []
             }
@@ -98,14 +110,14 @@
       ]
     },
     {
-      "id": "491c1a60",
+      "id": "adec0c2b",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section Reading",
         "css_classes": "gp-section gp-reading",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Reading",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -123,14 +135,14 @@
       },
       "elements": [
         {
-          "id": "559ae155",
+          "id": "9c3217f4",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -148,14 +160,14 @@
           },
           "elements": [
             {
-              "id": "6d39c660",
+              "id": "62bce64d",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Article Body",
                 "css_classes": "gp-article-body",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Article Body",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -173,170 +185,253 @@
               },
               "elements": [
                 {
-                  "id": "af13c07e",
+                  "id": "62a65d4d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Article Toc",
+                    "_css_classes": "gp-article-toc",
+                    "editor": "<details open><summary>In this article</summary><ol>\n<li><a href=\"#article-section-1\">Start with the reader’s decision</a></li>\n<li><a href=\"#article-section-2\">Look for conflicting signals</a></li>\n<li><a href=\"#article-section-3\">Separate observation from diagnosis</a></li>\n<li><a href=\"#article-section-4\">Choose a testable next step</a></li>\n</ol></details>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "47fa232e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Editorial Art",
+                    "_css_classes": "gp-editorial-art",
+                    "editor": "<figure class=\"gp-concept-figure\"><div class=\"gp-concept-title\"><p>Recognition before reach.</p></div>\n<div class=\"gp-concept-nodes\">\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>The book</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>Clear signals</span>\n</div>\n<div class=\"gp-concept-node\">\n<span class=\"gp-concept-mark\" aria-hidden=\"true\"></span><span>The reader</span>\n</div>\n</div>\n<figcaption>Illustrative book-to-reader pathway</figcaption></figure>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f4ad638c",
                   "elType": "widget",
                   "widgetType": "heading",
                   "isInner": false,
                   "settings": {
+                    "_title": "Subheading",
+                    "_element_id": "article-section-1",
                     "_css_classes": "gp-subheading",
-                    "_title": "Heading",
                     "title": "Start with the reader’s decision",
                     "header_size": "h2"
                   },
                   "elements": []
                 },
                 {
-                  "id": "1250a9c3",
+                  "id": "7ad42721",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>A reader arriving at a book page has limited context. The cover, title and opening description need to help that person understand what kind of reading experience is being offered. A beautiful page can still leave that question unanswered.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "70db4bce",
+                  "id": "5f027259",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>Before planning more promotion, write one sentence describing the intended reader and the reason that reader might choose the book. Then compare the sentence with what the public page actually communicates. If the two tell different stories, start there.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "1bde0b32",
+                  "id": "7cd74574",
                   "elType": "widget",
                   "widgetType": "heading",
                   "isInner": false,
                   "settings": {
+                    "_title": "Subheading",
+                    "_element_id": "article-section-2",
                     "_css_classes": "gp-subheading",
-                    "_title": "Heading",
                     "title": "Look for conflicting signals",
                     "header_size": "h2"
                   },
                   "elements": []
                 },
                 {
-                  "id": "a74df2c6",
+                  "id": "2075928f",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>Imagine a quiet literary novel presented with the cover language of a fast thriller. This is a hypothetical example, but the practical question is useful: do the cover, description and categories point toward the same experience?</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "bb1331d7",
+                  "id": "22052d15",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>Consistency does not mean making every book look identical. It means giving the reader enough reliable signals to judge whether the book is relevant to them.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "1ce623de",
+                  "id": "8772ef33",
                   "elType": "widget",
                   "widgetType": "heading",
                   "isInner": false,
                   "settings": {
+                    "_title": "Subheading",
+                    "_element_id": "article-section-3",
                     "_css_classes": "gp-subheading",
-                    "_title": "Heading",
                     "title": "Separate observation from diagnosis",
                     "header_size": "h2"
                   },
                   "elements": []
                 },
                 {
-                  "id": "7a891a97",
+                  "id": "d139ae7e",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>A public Amazon page can reveal unclear wording, inconsistent details or a confusing series path. It cannot reveal every reason for low sales. It does not show private advertising performance or prove what happens inside a book.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "79794cd2",
+                  "id": "ce1f24f6",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>Keep a short list of what you observed, what you suspect and what information is missing. That distinction makes the next conversation more useful and helps prevent confident recommendations based on incomplete evidence.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "4d64d666",
+                  "id": "3ee7b415",
                   "elType": "widget",
                   "widgetType": "heading",
                   "isInner": false,
                   "settings": {
+                    "_title": "Subheading",
+                    "_element_id": "article-section-4",
                     "_css_classes": "gp-subheading",
-                    "_title": "Heading",
                     "title": "Choose a testable next step",
                     "header_size": "h2"
                   },
                   "elements": []
                 },
                 {
-                  "id": "6a865849",
+                  "id": "f2ad14b8",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>Take one specific issue, such as an opening description that never identifies the central conflict or benefit. Clarify it, record what changed and decide what evidence you will review afterwards.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "ea723424",
+                  "id": "47243943",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "isInner": false,
                   "settings": {
+                    "_title": "Copy",
                     "_css_classes": "gp-copy",
-                    "_title": "Text Editor",
                     "editor": "<p>The useful question is not simply whether the book needs more exposure. It is whether the page is ready to make that exposure meaningful.</p>"
                   },
                   "elements": []
                 },
                 {
-                  "id": "f335b6b0",
+                  "id": "fc95930e",
                   "elType": "widget",
                   "widgetType": "button",
                   "isInner": false,
                   "settings": {
+                    "_title": "Action Secondary",
                     "_css_classes": "gp-action gp-secondary",
-                    "_title": "Button",
                     "text": "All insights",
                     "link": {
                       "url": "{{url:insights}}",
                       "is_external": "",
                       "nofollow": ""
-                    },
-                    "size": "sm"
+                    }
                   },
                   "elements": []
+                },
+                {
+                  "id": "5f6a3ef7",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Article Next",
+                    "css_classes": "gp-article-next",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "44b7f2f6",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
+                        "editor": "<p>PUT THE IDEA TO WORK</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "8524acc0",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Action Secondary",
+                        "_css_classes": "gp-action gp-secondary",
+                        "text": "Explore the relevant service",
+                        "link": {
+                          "url": "{{url:amazon-visibility}}",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
                 }
               ]
             }
@@ -345,14 +440,14 @@
       ]
     },
     {
-      "id": "7030d115",
+      "id": "13d69079",
       "elType": "container",
       "isInner": false,
       "settings": {
+        "_title": "Section Cta",
         "css_classes": "gp-section gp-cta",
         "content_width": "full",
         "flex_direction": "column",
-        "_title": "Section Cta",
         "padding": {
           "unit": "px",
           "top": "0",
@@ -370,14 +465,14 @@
       },
       "elements": [
         {
-          "id": "d38fd3de",
+          "id": "b329b643",
           "elType": "container",
           "isInner": false,
           "settings": {
+            "_title": "Wrap",
             "css_classes": "gp-wrap",
             "content_width": "full",
             "flex_direction": "column",
-            "_title": "Wrap",
             "padding": {
               "unit": "px",
               "top": "0",
@@ -395,14 +490,14 @@
           },
           "elements": [
             {
-              "id": "a9cb5846",
+              "id": "14b786f4",
               "elType": "container",
               "isInner": false,
               "settings": {
+                "_title": "Cta Row",
                 "css_classes": "gp-cta-row",
                 "content_width": "full",
                 "flex_direction": "column",
-                "_title": "Cta Row",
                 "padding": {
                   "unit": "px",
                   "top": "0",
@@ -420,14 +515,14 @@
               },
               "elements": [
                 {
-                  "id": "fb55e52e",
+                  "id": "f8aae021",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Copy",
                     "css_classes": "gp-cta-copy",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Copy",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -445,38 +540,38 @@
                   },
                   "elements": [
                     {
-                      "id": "29abd84d",
+                      "id": "94e617f4",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Label",
                         "_css_classes": "gp-label",
-                        "_title": "Text Editor",
                         "editor": "<p>YOUR NEXT STEP</p>"
                       },
                       "elements": []
                     },
                     {
-                      "id": "a728c0a6",
+                      "id": "56f5ffa6",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
                       "settings": {
-                        "_css_classes": "gp-heading",
                         "_title": "Heading",
+                        "_css_classes": "gp-heading",
                         "title": "Let’s find the right next move<br>for your book.",
                         "header_size": "h2"
                       },
                       "elements": []
                     },
                     {
-                      "id": "527c1b87",
+                      "id": "983cac21",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
+                        "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "_title": "Text Editor",
                         "editor": "<p>Share your book, your goal and where you would like support.</p>"
                       },
                       "elements": []
@@ -484,14 +579,14 @@
                   ]
                 },
                 {
-                  "id": "09ce9dc8",
+                  "id": "48921f2b",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
+                    "_title": "Cta Actions",
                     "css_classes": "gp-cta-actions",
                     "content_width": "full",
                     "flex_direction": "column",
-                    "_title": "Cta Actions",
                     "padding": {
                       "unit": "px",
                       "top": "0",
@@ -509,38 +604,36 @@
                   },
                   "elements": [
                     {
-                      "id": "fff1d142",
+                      "id": "85d7a2f5",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action",
                         "_css_classes": "gp-action",
-                        "_title": "Button",
                         "text": "Discuss your book",
                         "link": {
                           "url": "{{url:contact}}#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     },
                     {
-                      "id": "30d3af56",
+                      "id": "88240654",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
                       "settings": {
+                        "_title": "Action Secondary",
                         "_css_classes": "gp-action gp-secondary",
-                        "_title": "Button",
                         "text": "Free initial assessment",
                         "link": {
                           "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
-                        },
-                        "size": "sm"
+                        }
                       },
                       "elements": []
                     }
