@@ -1,4 +1,4 @@
-# Grant Publishing Co. 4.2.1
+# Install Grant Publishing Co. 4.2.1
 
 Requires WordPress 6.0+ and PHP 7.4+. Elementor 3.16+ is required for native editing; the Grant shortcodes also work without Elementor.
 
@@ -26,7 +26,3 @@ The linked PDF remains the user-supplied WordPress upload. If it is moved, updat
 Replace the plugin with retained `releases/4.1.0/grant-publishing-site-4.1.0.zip` and clear the same caches. Saved page edits and delivery settings remain. No database/content migration runs in 4.2. Restore content backups only for separate manual edits; bulk restore/pre-conversion actions are not needed for plugin rollback.
 
 This release is published on GitHub, not installed live. Actual WordPress/Elementor/theme integration, existing theme/Canvas duplicate title behavior, other browsers and inbox delivery remain staging checks.
-
-## Release contents
-
-All 17 routes and section structures are retained. New supplied header/footer artwork, exact Midnight Ink navigation, alternating brand surfaces, accessible local contact icons and a linked seven-page My Dear Grandfather case study complete this update. Exact client reviews, confirmed cover links, prominent founder images and the existing form behavior remain. See the GitHub release gallery and testing report for evidence and limits.

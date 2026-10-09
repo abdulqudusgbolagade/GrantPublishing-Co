@@ -833,13 +833,13 @@
 .gpc-site .gp-header .gp-button:hover { background:#eee9f7; border-color:#eee9f7; color:#09072b; }
 .gpc-site .gp-mobile-nav nav a:hover { background:#201b7f; color:#fff; }
 .gpc-site .gp-mobile-nav nav a.gp-button { color:#09072b; }
-.gpc-site #gpc-main > .gp-section:not(.gp-cta):nth-child(even) { background:#eee9f7; }
-.gpc-site #gpc-main > .gp-section:not(.gp-cta):nth-child(odd) { background:#f7f5f2; }
-.gpc-site #gpc-main > .gp-tone-lilac { background:#eee9f7 !important; }
-.gpc-site #gpc-main > .gp-tone-paper { background:#f7f5f2 !important; }
-.gpc-site #gpc-main > .gp-reading { background:#fff !important; }
-.gpc-site #gpc-main > :is(.gp-proof,.gp-review-new,.gp-tone-ink) { background:#09072b !important; }
-.gpc-site #gpc-main > :is(#process,.gp-tone-indigo) { background:#201b7f !important; }
+.gpc-site :is(#gpc-main,#gpc-main > .elementor,#gpc-main > .elementor > .elementor-inner > .elementor-section-wrap) > .gp-section:not(.gp-cta):nth-child(even) { background:#eee9f7; }
+.gpc-site :is(#gpc-main,#gpc-main > .elementor,#gpc-main > .elementor > .elementor-inner > .elementor-section-wrap) > .gp-section:not(.gp-cta):nth-child(odd) { background:#f7f5f2; }
+.gpc-site .gp-tone-lilac { background:#eee9f7 !important; }
+.gpc-site .gp-tone-paper { background:#f7f5f2 !important; }
+.gpc-site .gp-reading { background:#fff !important; }
+.gpc-site :is(.gp-proof,.gp-review-new,.gp-tone-ink) { background:#09072b !important; }
+.gpc-site :is(#process,.gp-tone-indigo) { background:#201b7f !important; }
 .gpc-site :is(.gp-proof,.gp-review-new,.gp-tone-ink,#process,.gp-tone-indigo) { color:#fff; border-color:#bd91f944; }
 .gpc-site :is(.gp-proof,.gp-review-new,.gp-tone-ink,#process,.gp-tone-indigo) :is(h2,h3,blockquote,strong) { color:#fff; }
 .gpc-site :is(.gp-proof,.gp-review-new,.gp-tone-ink,#process,.gp-tone-indigo) :is(p,.gp-copy,.gp-small,.gp-attribution p) { color:#eee9f7; }

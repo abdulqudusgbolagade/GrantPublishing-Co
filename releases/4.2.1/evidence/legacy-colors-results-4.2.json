@@ -1,0 +1,131 @@
+{
+  "checks": 32,
+  "records": [
+    {
+      "key": "home",
+      "wrapper": "containers",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(247, 245, 242)",
+        "rgb(32, 27, 127)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": [
+        "rgb(9, 7, 43)"
+      ]
+    },
+    {
+      "key": "feedback",
+      "wrapper": "containers",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": [
+        "rgb(9, 7, 43)"
+      ]
+    },
+    {
+      "key": "about",
+      "wrapper": "containers",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": []
+    },
+    {
+      "key": "contact",
+      "wrapper": "containers",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": []
+    },
+    {
+      "key": "home",
+      "wrapper": "legacy-sections",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(247, 245, 242)",
+        "rgb(32, 27, 127)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": [
+        "rgb(9, 7, 43)"
+      ]
+    },
+    {
+      "key": "feedback",
+      "wrapper": "legacy-sections",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(9, 7, 43)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": [
+        "rgb(9, 7, 43)"
+      ]
+    },
+    {
+      "key": "about",
+      "wrapper": "legacy-sections",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)",
+        "rgb(32, 27, 127)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": []
+    },
+    {
+      "key": "contact",
+      "wrapper": "legacy-sections",
+      "bg": [
+        "rgb(247, 245, 242)",
+        "rgb(238, 233, 247)"
+      ],
+      "violations": [],
+      "overflow": false,
+      "proof": []
+    }
+  ]
+}

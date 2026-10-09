@@ -1,4 +1,4 @@
-# Grant brand implementation — 4.2.0
+# Grant brand implementation — 4.2.1
 
 Reference: the user's **Grant_Publishing_Co_Brand_Guidelines_v1.pptx**, version 1.0 / October 2026. The presentation supplies the palette and typography. The user's subsequent explicit requests select the new artwork, larger header size, Midnight Ink navigation and alternating sections; these take precedence over earlier artwork/size defaults. The existing site-icon setting remains unchanged.
 
@@ -17,7 +17,7 @@ Reference: the user's **Grant_Publishing_Co_Brand_Guidelines_v1.pptx**, version 
 | Footer logo | New supplied 1448×1086 artwork on a porcelain panel; original aspect ratio and intrinsic clear space preserved |
 | Icons | Local SVGs, names on links, decorative SVGs hidden from assistive technology, 48px targets and visible focus |
 
-The section sequence varies by content. Home uses an ink proof section, indigo process section and alternating light editorial surfaces. Feedback alternates review backgrounds and gives the case study an ink section with an indigo document card. Articles retain white reading areas; forms sit on white panels within a lilac section. Direct-child CSS rules also alternate earlier native sections without writing to Elementor data. No three consecutive main sections share a background in the tested rendered layouts.
+The section sequence varies by content. Home uses an ink proof section, indigo process section and alternating light editorial surfaces. Feedback alternates review backgrounds and gives the case study an ink section with an indigo document card. Articles retain white reading areas; forms sit on white panels within a lilac section. Wrapper-aware CSS rules also alternate earlier native sections without writing to Elementor data. No three consecutive main sections share a background in the tested rendered layouts.
 
 ## Supplied artwork
 
@@ -37,3 +37,5 @@ Confirmed cover destinations remain: [Grandfather / Amazon 1947646117](https://w
 ## Compatibility
 
 All 17 route/template/layout pairs remain. New-install Elementor JSON matches the maintained HTML. Existing native edits are not overwritten: a missing case study is appended only on connected Feedback, and contact icons replace text links only at render time on connected main pages. Existing cover links and SVGs are preserved. The once-per-version scoped cache refresh remains; site icon, saved form key and delivery settings are untouched.
+
+Version 4.2.1 includes a wrapper compatibility correction: explicit tones and dark proof styling work inside Elementor document wrappers, and earlier untagged sections alternate through both current and older section wrappers without saved-data changes.
