@@ -1,0 +1,135 @@
+{
+  "mode": "Replay of final actual WordPress HTML; normal local assets and verified HTTPS fonts.",
+  "pages": [
+    {
+      "key": "home",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "services",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "enquiry",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "about",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "feedback",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "insights",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "contact",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "amazon-visibility",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "book-presentation",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "launch-promotion",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "author-platform",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "catalog-strategy",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "book-strategy",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "publishing-support",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "book-discovery",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "book-product-page",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "connected-catalog",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "book-formatting",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "cover-design",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "amazon-ads",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "privacy-policy",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "terms-of-service",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "case-studies",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "case-grandfather",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "case-luma",
+      "errors": [],
+      "failed": []
+    },
+    {
+      "key": "faq",
+      "errors": [],
+      "failed": []
+    }
+  ]
+}

@@ -67,7 +67,7 @@ $GLOBALS['base']='http://example.test';
 check(gpc_secure_site_resource('http://example.test/custom.css') === 'http://example.test/custom.css', 'An HTTP development installation keeps its resource scheme');
 $GLOBALS['base']='https://example.test';
 check(gpc_seo_description('') === gpc_pages()['home']['description'], 'Missing SEO descriptions use the approved page metadata');
-check(gpc_seo_description('Uncover strategies employed by a Book Marketing specialist to boost your book\'s popularity') === gpc_pages()['home']['description'], 'Exact obsolete homepage SEO copy uses the established broader positioning');
+check(gpc_seo_description('Uncover strategies employed by a Book Marketing specialist to boost your book\'s popularity') === 'Uncover strategies employed by a Book Marketing specialist to boost your book\'s popularity', 'Nonempty Yoast descriptions remain authoritative, including earlier stock wording');
 check(gpc_seo_description('My approved custom description.') === 'My approved custom description.', 'Authored SEO descriptions are preserved');
 check(gpc_repair_page_structure(),'Repair completes');
 check(count($GLOBALS['insertions'])===5,'Only three missing services and both approved legal pages are created');

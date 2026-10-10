@@ -143,5 +143,31 @@
     "slug": "terms-of-service",
     "shortcode": "grant_terms_of_service",
     "description": "Approved terms for the Grant Publishing Co. website and services."
+  },
+  "case-studies": {
+    "title": "Case Studies",
+    "slug": "case-studies",
+    "shortcode": "grant_case_studies",
+    "description": "See documented book design, formatting and Amazon listing projects for My Dear Grandfather and Luma the Sleepy Star."
+  },
+  "case-grandfather": {
+    "title": "My Dear Grandfather: Amazon Listing Optimisation",
+    "slug": "my-dear-grandfather",
+    "parent": "case-studies",
+    "shortcode": "grant_case_grandfather",
+    "description": "An evidence-based case study of description work, keyword research and category review for Barsha Rai’s My Dear Grandfather."
+  },
+  "case-luma": {
+    "title": "Luma the Sleepy Star: Cover Design & Formatting",
+    "slug": "luma-the-sleepy-star",
+    "parent": "case-studies",
+    "shortcode": "grant_case_luma",
+    "description": "John Capon’s picture-book cover redesign and 35-page paperback interior, documented through delivery of the final print PDFs."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "slug": "faq",
+    "shortcode": "grant_faq",
+    "description": "Clear answers about Grant Publishing Co.’s book design, publishing, assessments, revisions and Amazon Ads services."
   }
 }

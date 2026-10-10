@@ -1,0 +1,110 @@
+[
+  {
+    "php": "7.4",
+    "suite": "web3forms",
+    "pass": true,
+    "assertions": 72
+  },
+  {
+    "php": "7.4",
+    "suite": "publishing",
+    "pass": true,
+    "assertions": 95
+  },
+  {
+    "php": "7.4",
+    "suite": "upgrades",
+    "pass": true,
+    "assertions": 14
+  },
+  {
+    "php": "7.4",
+    "suite": "structure",
+    "pass": true,
+    "assertions": 73
+  },
+  {
+    "php": "7.4",
+    "suite": "legal",
+    "pass": true,
+    "assertions": 10
+  },
+  {
+    "php": "7.4",
+    "suite": "journey",
+    "pass": true,
+    "assertions": 85
+  },
+  {
+    "php": "8.2",
+    "suite": "web3forms",
+    "pass": true,
+    "assertions": 72
+  },
+  {
+    "php": "8.2",
+    "suite": "publishing",
+    "pass": true,
+    "assertions": 95
+  },
+  {
+    "php": "8.2",
+    "suite": "upgrades",
+    "pass": true,
+    "assertions": 14
+  },
+  {
+    "php": "8.2",
+    "suite": "structure",
+    "pass": true,
+    "assertions": 73
+  },
+  {
+    "php": "8.2",
+    "suite": "legal",
+    "pass": true,
+    "assertions": 10
+  },
+  {
+    "php": "8.2",
+    "suite": "journey",
+    "pass": true,
+    "assertions": 85
+  },
+  {
+    "php": "8.3",
+    "suite": "web3forms",
+    "pass": true,
+    "assertions": 72
+  },
+  {
+    "php": "8.3",
+    "suite": "publishing",
+    "pass": true,
+    "assertions": 95
+  },
+  {
+    "php": "8.3",
+    "suite": "upgrades",
+    "pass": true,
+    "assertions": 14
+  },
+  {
+    "php": "8.3",
+    "suite": "structure",
+    "pass": true,
+    "assertions": 73
+  },
+  {
+    "php": "8.3",
+    "suite": "legal",
+    "pass": true,
+    "assertions": 10
+  },
+  {
+    "php": "8.3",
+    "suite": "journey",
+    "pass": true,
+    "assertions": 85
+  }
+]

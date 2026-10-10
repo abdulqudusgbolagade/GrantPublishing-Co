@@ -59,6 +59,12 @@ def build(element, page, path):
     elif not children and '{{showcase:' in (element.text or ''):
         node['widgetType'] = 'shortcode'
         settings['shortcode'] = '[grant_book_showcase context="' + ('services' if '{{showcase:services}}' in inner(element) else 'home') + '"]'
+    elif not children and '{{cases:hub}}' in (element.text or ''):
+        node['widgetType'] = 'shortcode'
+        settings['shortcode'] = '[grant_case_cards]'
+    elif not children and '{{faq:general}}' in (element.text or ''):
+        node['widgetType'] = 'shortcode'
+        settings['shortcode'] = '[grant_faqs]'
     elif not children and '{{contact_links}}' in (element.text or ''):
         node['widgetType'] = 'shortcode'
         settings['shortcode'] = '[grant_contact_links]'

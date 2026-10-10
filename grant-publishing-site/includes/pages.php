@@ -109,7 +109,7 @@ function gpc_header($key) {
 }
 function gpc_footer() {
     $links = '';
-    foreach (array('services'=>'Services','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
+    foreach (array('services'=>'Services','case-studies'=>'Case Studies','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','faq'=>'FAQs','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
         $links .= '<a href="' . esc_url(gpc_url($key)) . '">' . esc_html($label) . '</a>';
     }
     $contact = gpc_contact_details();
@@ -145,6 +145,8 @@ function gpc_site_page($key) {
     $html = str_replace(array('{{header}}','{{footer}}','{{contact_links}}'), array(gpc_header($key),gpc_footer(),gpc_contact_links()), file_get_contents($file));
     $html = preg_replace_callback('/\{\{form:(assessment|project)\}\}/', function($m) { return gpc_site_form($m[1]); }, $html);
     $html = preg_replace_callback('/\{\{showcase:(home|services)\}\}/', function($m) { return gpc_book_showcase($m[1]); }, $html);
+    if (strpos($html, '{{cases:hub}}') !== false) { $html = str_replace('{{cases:hub}}', gpc_case_cards(), $html); }
+    if (strpos($html, '{{faq:general}}') !== false) { $html = str_replace('{{faq:general}}', gpc_faq_group(), $html); }
     $html = gpc_resolve_string($html, true);
     $html = gpc_responsive_project_images($html);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
@@ -214,20 +216,24 @@ add_action('template_redirect', function() {
     }
 });
 function gpc_document_title($title) {
+    // Yoast has already expanded its manual values and global title templates.
+    if (defined('WPSEO_VERSION')) { return $title; }
     $key = gpc_current_key(); $defs = gpc_pages();
     return $key ? $defs[$key]['title'] . ($key === 'home' ? ' | Book Design, Publishing & Marketing' : ' | Grant Publishing Co.') : $title;
 }
 add_filter('pre_get_document_title', 'gpc_document_title', 20);
-add_filter('wpseo_title', 'gpc_document_title', 20);
 function gpc_seo_description($description) {
     $key = gpc_current_key(); $defs = gpc_pages();
     if (!$key) { return $description; }
-    // Keep authored descriptions; fill missing ones and the exact old Home stock text.
-    if (trim((string) $description) === '' || ($key === 'home' && strpos((string) $description, 'Uncover strategies employed by a Book Marketing specialist to boost your book') === 0)) { return $defs[$key]['description']; }
+    // Manual Yoast values are authoritative, including previously used stock copy.
+    $post = get_post();
+    if ($post && trim((string) get_post_meta($post->ID, '_yoast_wpseo_metadesc', true)) !== '') { return $description; }
+    if (trim((string) $description) === '') { return $defs[$key]['description']; }
     return $description;
 }
 add_filter('wpseo_metadesc', 'gpc_seo_description', 20);
 add_filter('wpseo_canonical', function($url) {
+    if (trim((string) get_post_meta(get_queried_object_id(), '_yoast_wpseo_canonical', true)) !== '') { return $url; }
     return in_array(gpc_current_key(), array('book-discovery','book-product-page','connected-catalog'), true) ? get_permalink(get_queried_object_id()) : $url;
 }, 20);
 add_action('template_redirect', function() {
@@ -235,6 +241,12 @@ add_action('template_redirect', function() {
     // connected Grant Canvas pages, without changing the theme or saved template.
     if (defined('WPSEO_VERSION') && gpc_current_key() && get_page_template_slug() === 'elementor_canvas' && !current_theme_supports('title-tag')) { add_theme_support('title-tag'); }
 }, 0);
+// Some integrations remove title support after template_redirect. Ensure Canvas
+// does not emit its fallback title immediately before Yoast emits the same tag.
+add_filter('template_include', function($template) {
+    if (defined('WPSEO_VERSION') && gpc_current_key() && get_page_template_slug() === 'elementor_canvas' && basename($template) === 'canvas.php' && !current_theme_supports('title-tag')) { add_theme_support('title-tag'); }
+    return $template;
+}, 1000);
 add_action('wp_head', function() {
     $key = gpc_current_key(); $defs = gpc_pages();
     if ($key && !defined('WPSEO_VERSION') && !defined('RANK_MATH_VERSION') && !defined('AIOSEO_VERSION') && !defined('SEOPRESS_VERSION')) {
@@ -243,7 +255,7 @@ add_action('wp_head', function() {
 });
 // Keep form nonces and shared contact details dynamic when Elementor output caching is enabled.
 add_filter('elementor/element/is_dynamic_content', function($dynamic, $data) {
-    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links|book_showcase)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
+    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links|book_showcase|case_cards|faqs)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
     // Older native image widgets become server-rendered showcases, too.
     if (($data['widgetType'] ?? '') === 'image' && preg_replace('/[?#].*$/', '', $data['settings']['image']['url'] ?? '') === gpc_asset_url('publishing-studio.webp')) { return true; }
     return $dynamic;

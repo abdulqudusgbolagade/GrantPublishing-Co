@@ -10,7 +10,8 @@ while (have_posts()) {
     $key = gpc_current_key();
     $native = get_post_meta(get_the_ID(), '_gpc_elementor_layout', true);
     if ($native && did_action('elementor/loaded')) {
-        echo '<div class="gpc-site">' . gpc_header($key) . '<main id="gpc-main">';
+        $case_class = in_array($key, array('case-studies','case-grandfather','case-luma','faq'), true) ? ' gp-page-' . $key : '';
+        echo '<div class="gpc-site' . esc_attr($case_class) . '">' . gpc_header($key) . '<main id="gpc-main">';
         the_content();
         echo '</main>' . gpc_footer() . '</div>';
     } elseif ($native) {

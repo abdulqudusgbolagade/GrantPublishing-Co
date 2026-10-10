@@ -17,7 +17,7 @@ for k in defs:
  for tok in re.findall(r'\{\{([^}]+)\}\}',raw):
   if tok.startswith('url:'):assert tok[4:] in defs,(k,tok)
   elif tok.startswith('asset:'):assert (r/'assets'/tok[6:]).is_file(),tok
-  else:assert tok in ['header','footer','form:project','form:assessment','contact_links','showcase:home','showcase:services'],tok
+  else:assert tok in ['header','footer','form:project','form:assessment','contact_links','showcase:home','showcase:services','cases:hub','faq:general'],tok
  for href in doc.xpath('//a/@href'):
   assert href and href!='#',(k,href)
   m=re.match(r'\{\{url:([^}]+)\}\}(.*)',href)
@@ -45,6 +45,8 @@ for k in defs:
     if 'grant_enquiry_form' in st['shortcode']:parts.append('{{form:assessment}}' if 'assessment' in st['shortcode'] else '{{form:project}}')
     elif 'grant_contact_links' in st['shortcode']:parts.append('{{contact_links}}')
     elif 'grant_book_showcase' in st['shortcode']:parts.append('{{showcase:services}}' if 'services' in st['shortcode'] else '{{showcase:home}}')
+    elif 'grant_case_cards' in st['shortcode']:parts.append('{{cases:hub}}')
+    elif 'grant_faqs' in st['shortcode']:parts.append('{{faq:general}}')
    parts.append(layout_text(n['elements']))
   return ''.join(parts)
  expected=doc.xpath('//main')[0].text_content()
@@ -57,7 +59,7 @@ for k in defs:
    if n['elType']=='widget':
     assert n['widgetType'] in ['heading','text-editor','button','image','shortcode'],n['widgetType']
     if n['widgetType']=='heading' and n['settings']['header_size']=='h1':headings.append(n)
-    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode'] or 'grant_book_showcase' in n['settings']['shortcode']
+    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode'] or 'grant_book_showcase' in n['settings']['shortcode'] or 'grant_case_cards' in n['settings']['shortcode'] or 'grant_faqs' in n['settings']['shortcode']
    else:assert n['elType']=='container'
    visit(n['elements'])
  visit(data['content']);assert len(nativeids)==len(set(nativeids));assert len(headings)==1

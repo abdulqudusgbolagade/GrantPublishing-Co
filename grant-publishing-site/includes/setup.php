@@ -20,6 +20,13 @@ function gpc_setup_screen() {
     wp_nonce_field('gpc_repair_structure');
     submit_button('Repair service pages and Insights routes', 'secondary', 'submit', false);
     echo '</form>';
+    echo '<h2>Case Studies and FAQs</h2><p>This update creates only the Case Studies hub, its two documented project pages and the FAQ page on an eligible administrator’s dashboard visit. Existing page content and manual Yoast metadata are preserved.</p>';
+    $evidence_results = get_option('gpc_evidence_pages_results', array());
+    if (is_array($evidence_results)) { echo '<ul>'; foreach ($evidence_results as $result) { echo '<li>' . esc_html($result) . '</li>'; } echo '</ul>'; }
+    echo '<form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_evidence_pages">';
+    wp_nonce_field('gpc_evidence_pages');
+    submit_button('Create missing Case Studies and FAQ pages', 'secondary', 'submit', false);
+    echo '</form>';
     echo '<h2>1. Complete the page structure</h2><p>This publishes missing pages, keeps existing content, and connects the navigation.</p><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_setup_pages">';
     wp_nonce_field('gpc_setup_pages');
     submit_button('Create missing pages and connect navigation', 'secondary', 'submit', false);

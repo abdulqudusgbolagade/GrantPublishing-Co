@@ -971,3 +971,54 @@
 @media (prefers-reduced-motion:reduce) {
   .gpc-site .gp-showcase-slide { transition:none; }
 }
+
+/* Documented work and contextual next steps share the approved page system. */
+.gpc-site .gp-work-grid, .gpc-site .gp-journey-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 40px; align-items: start; }
+.gpc-site .gp-work-card { min-width: 0; background: var(--gp-white); border: 1px solid var(--gp-line); border-radius: 6px; overflow: hidden; }
+.gpc-site .gp-work-image { min-height: 300px; padding: 32px; display: flex; align-items: center; justify-content: center; background: var(--gp-panel); }
+.gpc-site .gp-work-image img { display: block; max-width: 240px; max-height: 290px; width: auto; height: auto; object-fit: contain; }
+.gpc-site .gp-work-copy { padding: 32px; }
+.gpc-site .gp-work-copy h3, .gpc-site .gp-journey-copy h3 { margin: 0 0 18px; color: var(--gp-ink); font: 500 32px/1.16 'Cormorant Garamond',Georgia,serif; }
+.gpc-site .gp-work-copy p, .gpc-site .gp-journey-copy p { margin: 0 0 22px; line-height: 1.8; }
+.gpc-site .gp-work-copy .gp-label { font-size: 10px; letter-spacing: .09em; }
+.gpc-site .gp-work-copy .gp-button { max-width: 100%; white-space: normal; text-align: center; }
+.gpc-site .gp-journey { color: var(--gp-muted); }
+.gpc-site .gp-journey-grid { margin-top: 32px; }
+.gpc-site .gp-journey-single { grid-template-columns: minmax(0,760px); }
+.gpc-site .gp-journey-copy { min-width: 0; font-size: 16px; }
+.gpc-site .gp-work-card-compact .gp-work-image { min-height: 220px; padding: 24px; }
+.gpc-site .gp-work-card-compact .gp-work-image img { max-height: 210px; max-width: 210px; }
+.gpc-site .gp-journey-copy :is(a:not(.gp-button),summary), .gpc-site [data-gpc-article-links] a, .gpc-site .gp-case-html-link a { color: var(--gp-blue); }
+.gpc-site .gp-journey-copy a:not(.gp-button), .gpc-site [data-gpc-article-links] a, .gpc-site .gp-case-html-link a { text-decoration: underline; text-underline-offset: 3px; }
+.gpc-site .gp-case-html-link { display: block; margin-top: 18px; font-size: 14px; line-height: 1.7; }
+.gpc-site .gp-case-evidence { margin: 30px 0; }
+.gpc-site .gp-case-evidence img { display: block; max-width: 100%; height: auto; margin-inline: auto; border: 1px solid var(--gp-line); border-radius: 4px; }
+.gpc-site .gp-case-evidence img[width="302"] { max-width: min(100%,302px); }
+.gpc-site .gp-case-evidence img[width="674"], .gpc-site .gp-case-evidence img[width="800"] { max-width: min(100%,440px); }
+.gpc-site .gp-case-evidence figcaption { margin-top: 14px; color: var(--gp-muted); font-size: 13px; line-height: 1.7; }
+.gpc-site .gp-case-facts { margin: 32px 0; border-top: 1px solid var(--gp-line); }
+.gpc-site .gp-case-facts>div { display: grid; grid-template-columns: minmax(120px,1fr) minmax(0,2fr); gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--gp-line); }
+.gpc-site .gp-case-facts dt { font-weight: 600; }
+.gpc-site .gp-case-facts dd { margin: 0; }
+.gpc-site .gp-faq-list { border-top: 1px solid var(--gp-line); margin: 24px 0; }
+.gpc-site .gp-faq-item { padding: 0; border-bottom: 1px solid var(--gp-line); }
+.gpc-site .gp-faq-item summary { cursor: pointer; padding: 20px 8px; min-height: 48px; font-size: 16px; line-height: 1.6; font-weight: 600; color: var(--gp-ink); }
+.gpc-site .gp-faq-item summary:hover { color: var(--gp-blue); }
+.gpc-site .gp-faq-answer { padding: 0 8px 18px; }
+.gpc-site .gp-faq-answer p { margin: 0; font-size: 16px; line-height: 1.8; }
+.gpc-site .gp-journey-copy .gp-journey-faq-heading { margin-top: 40px; }
+@media(max-width:860px) {
+  .gpc-site .gp-journey-grid { grid-template-columns: minmax(0,1fr); gap: 32px; }
+  .gpc-site .gp-work-grid { gap: 24px; }
+  .gpc-site .gp-work-copy { padding: 24px; }
+}
+@media(max-width:720px) {
+  .gpc-site .gp-work-grid { grid-template-columns: minmax(0,1fr); }
+  .gpc-site .gp-work-image { min-height: 250px; padding: 24px; }
+  .gpc-site .gp-case-facts>div { grid-template-columns: minmax(0,1fr); gap: 6px; }
+  .gpc-site .gp-journey-copy .gp-button { max-width: 100%; white-space: normal; }
+}
+/* Reading pages retain their established white background; project evidence
+   uses the existing paper/lilac modes only on the new case-study pages. */
+.gpc-site:is(.gp-page-case-grandfather,.gp-page-case-luma) .gp-reading.gp-tone-paper { background: var(--gp-paper) !important; }
+.gpc-site:is(.gp-page-case-grandfather,.gp-page-case-luma,.gp-page-case-studies) .gp-reading.gp-tone-lilac { background: var(--gp-panel) !important; }

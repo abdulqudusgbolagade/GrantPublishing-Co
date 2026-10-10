@@ -1,0 +1,43 @@
+{
+  "php": "8.5.10",
+  "version": "4.4.0",
+  "creation_success": true,
+  "repeat_success": true,
+  "existing_pages_and_settings_preserved": true,
+  "results": [
+    "Case Studies: already connected; saved content and Yoast metadata preserved.",
+    "Frequently Asked Questions: already connected; saved content and Yoast metadata preserved.",
+    "My Dear Grandfather: Amazon Listing Optimisation: already connected; saved content and Yoast metadata preserved.",
+    "Luma the Sleepy Star: Cover Design & Formatting: already connected; saved content and Yoast metadata preserved."
+  ],
+  "all_routes": {
+    "home": "http://127.0.0.1:9401/",
+    "services": "http://127.0.0.1:9401/services/",
+    "enquiry": "http://127.0.0.1:9401/book-marketing-audit/",
+    "about": "http://127.0.0.1:9401/about/",
+    "feedback": "http://127.0.0.1:9401/client-feedback/",
+    "insights": "http://127.0.0.1:9401/insights/",
+    "contact": "http://127.0.0.1:9401/contact/",
+    "amazon-visibility": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "book-presentation": "http://127.0.0.1:9401/services/book-presentation/",
+    "launch-promotion": "http://127.0.0.1:9401/services/launch-promotion/",
+    "author-platform": "http://127.0.0.1:9401/services/author-platform/",
+    "catalog-strategy": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "book-strategy": "http://127.0.0.1:9401/services/book-strategy/",
+    "publishing-support": "http://127.0.0.1:9401/services/publishing-support/",
+    "book-discovery": "http://127.0.0.1:9401/insights/book-discovery/",
+    "book-product-page": "http://127.0.0.1:9401/insights/book-product-page/",
+    "connected-catalog": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "book-formatting": "http://127.0.0.1:9401/services/book-formatting/",
+    "cover-design": "http://127.0.0.1:9401/services/cover-design/",
+    "amazon-ads": "http://127.0.0.1:9401/services/amazon-ads/",
+    "privacy-policy": "http://127.0.0.1:9401/privacy-policy/",
+    "terms-of-service": "http://127.0.0.1:9401/terms-of-service/",
+    "case-studies": "http://127.0.0.1:9401/case-studies/",
+    "case-grandfather": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/",
+    "case-luma": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/",
+    "faq": "http://127.0.0.1:9401/faq/"
+  },
+  "saved_pages_checked": 24,
+  "installation": "Isolated QA WordPress, not production."
+}

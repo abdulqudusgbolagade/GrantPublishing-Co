@@ -1,0 +1,18 @@
+{
+  "yoast_sitemap_index_200": true,
+  "page_sitemap_200": true,
+  "new_pages_present": [
+    "http://127.0.0.1:9401/case-studies/",
+    "http://127.0.0.1:9401/case-studies/my-dear-grandfather/",
+    "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/",
+    "http://127.0.0.1:9401/faq/"
+  ],
+  "all_non_home_grant_pages_present": true,
+  "page_sitemap_urls": 28,
+  "sitemaps": [
+    "http://127.0.0.1:9401/post-sitemap.xml",
+    "http://127.0.0.1:9401/page-sitemap.xml",
+    "http://127.0.0.1:9401/category-sitemap.xml",
+    "http://127.0.0.1:9401/author-sitemap.xml"
+  ]
+}

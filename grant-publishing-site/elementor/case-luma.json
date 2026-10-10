@@ -1,0 +1,953 @@
+{
+  "version": "0.4",
+  "type": "page",
+  "title": "Luma the Sleepy Star: Cover Design & Formatting",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "dfec9f2c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Page Hero Reading Hero",
+        "css_classes": "gp-page-hero gp-reading-hero",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "690e7b10",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "47050f18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Breadcrumb",
+                "_css_classes": "gp-breadcrumb",
+                "editor": "<p><a href=\"{{url:case-studies}}\">Case Studies</a><span aria-hidden=\"true\"> / </span>Luma the Sleepy Star</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "bfd9d39b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Label",
+                "_css_classes": "gp-label",
+                "editor": "<p>DOCUMENTED CLIENT WORK</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "7951a32a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_title": "Page Title",
+                "_css_classes": "gp-page-title",
+                "title": "Luma the Sleepy Star",
+                "header_size": "h1"
+              },
+              "elements": []
+            },
+            {
+              "id": "d8ead01d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Lead",
+                "_css_classes": "gp-lead",
+                "editor": "<p>A coordinated cover redesign and 35-page paperback interior for John Capon’s children’s picture book, delivered as print PDFs.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01fff92c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading ",
+        "css_classes": "gp-section gp-reading ",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "a56aa8f9",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "3dc01315",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "a26f0841",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "The book and the agreed scope",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "670043ff",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<figure class=\"gp-case-evidence\"><img src=\"{{asset:luma-final-800.webp}}\" width=\"800\" height=\"800\" alt=\"Final Luma the Sleepy Star cover, by John Capon\" loading=\"lazy\" decoding=\"async\" srcset=\"{{asset:luma-final-480.webp}} 480w, {{asset:luma-final-800.webp}} 800w\" sizes=\"(max-width: 720px) calc(100vw - 48px), 520px\"><figcaption>Final front-cover artwork from the project case study. The supplied story illustrations were not created as part of this work.</figcaption></figure><dl class=\"gp-case-facts\"><div><dt>Author / client</dt><dd>John Capon</dd></div><div><dt>Genre</dt><dd>Children’s picture book</dd></div><div><dt>Trim size</dt><dd>8.5 × 8.5 inches</dd></div><div><dt>Final interior</dt><dd>35 pages</dd></div><div><dt>Format</dt><dd>Paperback print package</dd></div><div><dt>Delivered</dt><dd>8 October 2026</dd></div><div><dt>Intended platform</dt><dd>Amazon KDP</dd></div><div><dt>Work completed</dt><dd>Cover redesign and interior formatting</dd></div></dl>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "003f38ef",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading Tone Paper",
+        "css_classes": "gp-section gp-reading gp-tone-paper",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "93053d03",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "1b94eadf",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "ec9c4ecf",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "The challenge and starting materials",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "70cebf5a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The project began with an existing cover direction, a supplied 33-page layout/manuscript and established story illustrations. The task was to bring those materials into a consistent cover and interior presentation, rather than create a new story or replace its illustrations.</p><figure class=\"gp-case-evidence\"><img src=\"{{asset:luma-cover-before-674.webp}}\" width=\"674\" height=\"900\" alt=\"Supplied earlier Luma cover direction before the redesign\" loading=\"lazy\" decoding=\"async\"><figcaption>Earlier supplied cover direction reproduced from the case-study PDF, page 2. The final cover above shows the documented redesign.</figcaption></figure><p>The work needed to consider title and author hierarchy, front-to-back cover continuity, a readable back-cover copy area and a comfortable reading layout inside the book.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ac42a31a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading ",
+        "css_classes": "gp-section gp-reading ",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "d8f552f6",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "deac5cb1",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "575c0c57",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "Design and formatting decisions",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "af43ad16",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The cover redesign connected the front and back through the book’s Sky Realm imagery. The title, character and author name were given a coordinated hierarchy. Back-cover copy was placed in a defined area that could be read against the artwork.</p><p>Inside the book, child-friendly typography, compact read-aloud lines and attention to the gutter supported the supplied text and illustrations. Ownership and title pages introduced the book before the story. Alternating text and illustration pages kept the visual presentation consistent.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "62105af3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading Tone Lilac",
+        "css_classes": "gp-section gp-reading gp-tone-lilac",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "b99bd30f",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "583d4a27",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "802c25f7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "Work completed and the final print package",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1fb60e1a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>A full paperback cover wrap with coordinated front, spine and back-cover presentation.</li><li>A 35-page formatted interior, including ownership and title pages.</li><li>Final cover and interior print PDFs, with embedded fonts in the interior.</li><li>Bleed-ready interior pages measuring 8.625 × 8.75 inches for the agreed 8.5 × 8.5-inch trim.</li></ul><figure class=\"gp-case-evidence\"><img src=\"{{asset:luma-cover-wrap-1280.webp}}\" width=\"1280\" height=\"646\" alt=\"Final full paperback cover wrap for Luma the Sleepy Star, showing back cover, spine and front cover\" loading=\"lazy\" decoding=\"async\" srcset=\"{{asset:luma-cover-wrap-760.webp}} 760w, {{asset:luma-cover-wrap-1280.webp}} 1280w, {{asset:luma-cover-wrap-1900.webp}} 1900w\" sizes=\"(max-width: 720px) calc(100vw - 48px), 760px\"><figcaption>Final paperback cover wrap, reproduced from the project PDF, page 3.</figcaption></figure><figure class=\"gp-case-evidence\"><img src=\"{{asset:luma-interior-spread-1400.webp}}\" width=\"1400\" height=\"800\" alt=\"Finished Luma interior spread with a readable text page beside a supplied story illustration\" loading=\"lazy\" decoding=\"async\" srcset=\"{{asset:luma-interior-spread-720.webp}} 720w, {{asset:luma-interior-spread-1400.webp}} 1400w\" sizes=\"(max-width: 720px) calc(100vw - 48px), 760px\"><figcaption>Finished interior example from the project PDF, page 4. Illustration supplied with the manuscript; formatting completed within this project.</figcaption></figure>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c08b45e3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading ",
+        "css_classes": "gp-section gp-reading ",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "66d3d416",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "78dead38",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "dfba4cf0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "Delivered outcomes and the boundary of the work",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "72d02da0",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The observable outcome was a coordinated paperback cover and formatted interior, delivered on 8 October 2026. The supplied 33-page layout/manuscript became a 35-page print interior with the added front matter. The final PDFs brought the cover and reading layout together as a print package.</p><p><strong>This project ended at file delivery.</strong> It did not include KDP upload, publication, metadata optimisation or Kindle conversion. Amazon KDP was the intended platform, not evidence of a completed upload or platform approval.</p><p>The story illustrations were supplied. No sales, ranking or advertising results are claimed, and the design decisions are not presented as a measured increase in readability or commercial performance.</p><p>John Capon’s existing review is preserved on <a href=\"{{url:feedback}}\">Client Feedback</a>.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f89d57e4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading Tone Paper",
+        "css_classes": "gp-section gp-reading gp-tone-paper",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "2bf4fc81",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "af777a4a",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body",
+                "css_classes": "gp-article-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "590512ed",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "Relevant support and the source record",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "49520549",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p><a href=\"{{url:cover-design}}\">Book Cover Design</a> and <a href=\"{{url:book-formatting}}\">Book Formatting</a> reflect the work completed on Luma. If account setup or upload work is needed after file delivery, <a href=\"{{url:publishing-support}}\">Publishing Support</a> is a separate scope to agree.</p><p><a class=\"gp-button gp-button-secondary\" href=\"{{asset:luma-sleepy-star-case-study.pdf}}\" target=\"_blank\" rel=\"noopener noreferrer\">Read the original case study PDF <span class=\"gpc-sr-only\">(opens in a new tab)</span></a></p><p class=\"gp-small\">PDF · 7 pages · 2.44 MiB (2,562,805 bytes)</p><p class=\"gp-small\">Source: the supplied Luma the Sleepy Star case-study PDF, including the earlier cover direction, final cover wrap, interior examples and delivery record.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9c11b321",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Cta",
+        "css_classes": "gp-section gp-cta",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "c0f7a443",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "677b3115",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Cta Row",
+                "css_classes": "gp-cta-row",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "817cb1c4",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Cta Copy",
+                    "css_classes": "gp-cta-copy",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "fd21f963",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Label",
+                        "_css_classes": "gp-label",
+                        "editor": "<p>YOUR NEXT STEP</p>"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "f59cf96f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Heading",
+                        "_css_classes": "gp-heading",
+                        "title": "Prepare your book’s next stage.",
+                        "header_size": "h2"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "2b0484da",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Copy",
+                        "_css_classes": "gp-copy",
+                        "editor": "<p>Tell us whether you need design, formatting or support after file delivery. Unpublished authors are welcome; a general project enquiry does not require an Amazon link.</p>"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "93d53f46",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Cta Actions",
+                    "css_classes": "gp-cta-actions",
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 0,
+                      "column": "0",
+                      "row": "0"
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "d4efcd1e",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Action",
+                        "_css_classes": "gp-action",
+                        "text": "Request a free book assessment",
+                        "link": {
+                          "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "5386c92d",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Action Secondary",
+                        "_css_classes": "gp-action gp-secondary",
+                        "text": "Explore all services",
+                        "link": {
+                          "url": "{{url:services}}",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

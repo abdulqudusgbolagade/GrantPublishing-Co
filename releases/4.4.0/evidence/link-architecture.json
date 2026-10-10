@@ -1,0 +1,863 @@
+{
+  "orphan_pages": [],
+  "orphan_commercial_pages": [],
+  "incoming_pages": {
+    "home": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "services": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "terms-of-service"
+    ],
+    "enquiry": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "about": [
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "feedback": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "insights": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "contact": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "amazon-visibility": [
+      "amazon-ads",
+      "book-discovery",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "launch-promotion",
+      "publishing-support",
+      "services"
+    ],
+    "book-presentation": [
+      "book-product-page",
+      "case-grandfather",
+      "services"
+    ],
+    "launch-promotion": [
+      "amazon-ads",
+      "author-platform",
+      "book-strategy",
+      "catalog-strategy",
+      "connected-catalog",
+      "services"
+    ],
+    "author-platform": [
+      "book-strategy",
+      "catalog-strategy",
+      "connected-catalog",
+      "launch-promotion",
+      "services"
+    ],
+    "catalog-strategy": [
+      "connected-catalog",
+      "services"
+    ],
+    "book-strategy": [
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "case-grandfather",
+      "catalog-strategy",
+      "connected-catalog",
+      "launch-promotion",
+      "services"
+    ],
+    "publishing-support": [
+      "book-formatting",
+      "case-luma",
+      "cover-design",
+      "home",
+      "services"
+    ],
+    "book-discovery": [
+      "amazon-ads",
+      "amazon-visibility",
+      "book-strategy",
+      "home",
+      "insights"
+    ],
+    "book-product-page": [
+      "book-presentation",
+      "home",
+      "insights"
+    ],
+    "connected-catalog": [
+      "author-platform",
+      "catalog-strategy",
+      "home",
+      "insights",
+      "launch-promotion"
+    ],
+    "book-formatting": [
+      "case-luma",
+      "cover-design",
+      "home",
+      "publishing-support",
+      "services"
+    ],
+    "cover-design": [
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "case-luma",
+      "publishing-support",
+      "services"
+    ],
+    "amazon-ads": [
+      "amazon-visibility",
+      "book-strategy",
+      "home",
+      "launch-promotion",
+      "services"
+    ],
+    "privacy-policy": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "terms-of-service": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services"
+    ],
+    "case-studies": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "faq",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ],
+    "case-grandfather": [
+      "amazon-visibility",
+      "book-presentation",
+      "book-strategy",
+      "case-studies",
+      "feedback"
+    ],
+    "case-luma": [
+      "book-formatting",
+      "case-studies",
+      "cover-design",
+      "feedback",
+      "publishing-support"
+    ],
+    "faq": [
+      "about",
+      "amazon-ads",
+      "amazon-visibility",
+      "author-platform",
+      "book-discovery",
+      "book-formatting",
+      "book-presentation",
+      "book-product-page",
+      "book-strategy",
+      "case-grandfather",
+      "case-luma",
+      "case-studies",
+      "catalog-strategy",
+      "connected-catalog",
+      "contact",
+      "cover-design",
+      "enquiry",
+      "feedback",
+      "home",
+      "insights",
+      "launch-promotion",
+      "privacy-policy",
+      "publishing-support",
+      "services",
+      "terms-of-service"
+    ]
+  },
+  "contextual_links_added": [
+    {
+      "page": "services",
+      "anchor": "our documented case studies",
+      "target": "/case-studies/",
+      "fragment": ""
+    },
+    {
+      "page": "services",
+      "anchor": "frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "about",
+      "anchor": "our book design, publishing and marketing services",
+      "target": "/services/",
+      "fragment": ""
+    },
+    {
+      "page": "about",
+      "anchor": "documented client projects",
+      "target": "/case-studies/",
+      "fragment": ""
+    },
+    {
+      "page": "feedback",
+      "anchor": "Read the Luma the Sleepy Star project online",
+      "target": "/case-studies/luma-the-sleepy-star/",
+      "fragment": ""
+    },
+    {
+      "page": "feedback",
+      "anchor": "Read the My Dear Grandfather project online",
+      "target": "/case-studies/my-dear-grandfather/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "View My Dear Grandfather case study",
+      "target": "/case-studies/my-dear-grandfather/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "Amazon Ads Setup & Management",
+      "target": "/services/amazon-ads/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "Why publishing a book does not guarantee discovery",
+      "target": "/insights/book-discovery/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "amazon-visibility",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "View My Dear Grandfather case study",
+      "target": "/case-studies/my-dear-grandfather/",
+      "fragment": ""
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "Amazon Book Visibility",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "Book Cover Design",
+      "target": "/services/cover-design/",
+      "fragment": ""
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "The pieces of a strong book product page",
+      "target": "/insights/book-product-page/",
+      "fragment": ""
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "book-presentation",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Amazon Book Visibility",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Amazon Ads Setup & Management",
+      "target": "/services/amazon-ads/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Author Platform",
+      "target": "/services/author-platform/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Your second book changes the marketing equation",
+      "target": "/insights/connected-catalog/",
+      "fragment": ""
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "launch-promotion",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "author-platform",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "author-platform",
+      "anchor": "Book Launch & Promotion",
+      "target": "/services/launch-promotion/",
+      "fragment": ""
+    },
+    {
+      "page": "author-platform",
+      "anchor": "Your second book changes the marketing equation",
+      "target": "/insights/connected-catalog/",
+      "fragment": ""
+    },
+    {
+      "page": "author-platform",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "author-platform",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Author Platform",
+      "target": "/services/author-platform/",
+      "fragment": ""
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Book Launch & Promotion",
+      "target": "/services/launch-promotion/",
+      "fragment": ""
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Your second book changes the marketing equation",
+      "target": "/insights/connected-catalog/",
+      "fragment": ""
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "catalog-strategy",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "View My Dear Grandfather case study",
+      "target": "/case-studies/my-dear-grandfather/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Amazon Book Visibility",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Amazon Ads Setup & Management",
+      "target": "/services/amazon-ads/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Book Launch & Promotion",
+      "target": "/services/launch-promotion/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Author Platform",
+      "target": "/services/author-platform/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Why publishing a book does not guarantee discovery",
+      "target": "/insights/book-discovery/",
+      "fragment": ""
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "book-strategy",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "View Luma the Sleepy Star case study",
+      "target": "/case-studies/luma-the-sleepy-star/",
+      "fragment": ""
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "Book Formatting",
+      "target": "/services/book-formatting/",
+      "fragment": ""
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "Book Cover Design",
+      "target": "/services/cover-design/",
+      "fragment": ""
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "Amazon Book Visibility",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "publishing-support",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "book-discovery",
+      "anchor": "Amazon Book Visibility service",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "book-discovery",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "book-product-page",
+      "anchor": "Book Descriptions & A+ Content",
+      "target": "/services/book-presentation/",
+      "fragment": ""
+    },
+    {
+      "page": "book-product-page",
+      "anchor": "Book Cover Design",
+      "target": "/services/cover-design/",
+      "fragment": ""
+    },
+    {
+      "page": "book-product-page",
+      "anchor": "Amazon Book Visibility service",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "connected-catalog",
+      "anchor": "Author Platform",
+      "target": "/services/author-platform/",
+      "fragment": ""
+    },
+    {
+      "page": "connected-catalog",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "connected-catalog",
+      "anchor": "Book Launch & Promotion",
+      "target": "/services/launch-promotion/",
+      "fragment": ""
+    },
+    {
+      "page": "book-formatting",
+      "anchor": "View Luma the Sleepy Star case study",
+      "target": "/case-studies/luma-the-sleepy-star/",
+      "fragment": ""
+    },
+    {
+      "page": "book-formatting",
+      "anchor": "Book Cover Design",
+      "target": "/services/cover-design/",
+      "fragment": ""
+    },
+    {
+      "page": "book-formatting",
+      "anchor": "Publishing Support",
+      "target": "/services/publishing-support/",
+      "fragment": ""
+    },
+    {
+      "page": "book-formatting",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "book-formatting",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "cover-design",
+      "anchor": "View Luma the Sleepy Star case study",
+      "target": "/case-studies/luma-the-sleepy-star/",
+      "fragment": ""
+    },
+    {
+      "page": "cover-design",
+      "anchor": "Book Formatting",
+      "target": "/services/book-formatting/",
+      "fragment": ""
+    },
+    {
+      "page": "cover-design",
+      "anchor": "Publishing Support",
+      "target": "/services/publishing-support/",
+      "fragment": ""
+    },
+    {
+      "page": "cover-design",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "cover-design",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-ads",
+      "anchor": "Amazon Book Visibility",
+      "target": "/services/amazon-visibility/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-ads",
+      "anchor": "Book Marketing Strategy",
+      "target": "/services/book-strategy/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-ads",
+      "anchor": "Why publishing a book does not guarantee discovery",
+      "target": "/insights/book-discovery/",
+      "fragment": ""
+    },
+    {
+      "page": "amazon-ads",
+      "anchor": "Request a free book assessment",
+      "target": "/book-marketing-audit/",
+      "fragment": "gpc-enquiry"
+    },
+    {
+      "page": "amazon-ads",
+      "anchor": "Read all frequently asked questions",
+      "target": "/faq/",
+      "fragment": ""
+    }
+  ],
+  "service_pages_with_main_assessment_cta": [
+    "amazon-visibility",
+    "book-presentation",
+    "launch-promotion",
+    "author-platform",
+    "catalog-strategy",
+    "book-strategy",
+    "publishing-support",
+    "book-formatting",
+    "cover-design",
+    "amazon-ads"
+  ]
+}

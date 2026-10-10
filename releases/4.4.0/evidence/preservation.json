@@ -1,0 +1,53 @@
+{
+  "original_visual_assets_unchanged": 34,
+  "existing_page_definitions_templates_and_elementor_layouts_unchanged": 22,
+  "provider_module_enquiry_js_legal_source_unchanged": true,
+  "new_assets": [
+    {
+      "asset": "grandfather-original-kindle-767.webp",
+      "source": "grandfather case-study PDF",
+      "source_xref": 5,
+      "width": 767,
+      "height": 340,
+      "bytes": 46264
+    },
+    {
+      "asset": "luma-cover-before-674.webp",
+      "source": "luma case-study PDF",
+      "source_xref": 102,
+      "width": 674,
+      "height": 900,
+      "bytes": 248528
+    },
+    {
+      "asset": "luma-interior-spread-720.webp",
+      "source": "luma case-study PDF",
+      "source_xref": 269,
+      "width": 720,
+      "height": 411,
+      "bytes": 50386
+    },
+    {
+      "asset": "luma-interior-spread-1400.webp",
+      "source": "luma case-study PDF",
+      "source_xref": 269,
+      "width": 1400,
+      "height": 800,
+      "bytes": 154458
+    },
+    {
+      "asset": "grandfather-keyword-research-720.webp",
+      "source": "My Dear Grandfather PDF, page 4, unchanged research table region",
+      "width": 720,
+      "height": 395,
+      "bytes": 42524
+    },
+    {
+      "asset": "grandfather-keyword-research-1103.webp",
+      "source": "My Dear Grandfather PDF, page 4, unchanged research table region",
+      "width": 1103,
+      "height": 605,
+      "bytes": 74092
+    }
+  ]
+}
