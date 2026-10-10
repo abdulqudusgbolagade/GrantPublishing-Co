@@ -1,0 +1,27 @@
+{
+  "original_visual_assets_byte_identical": 32,
+  "luma_review_lossless_pixel_match": true,
+  "improvements": [
+    {
+      "original": "abdulqudus-tella.png",
+      "rendition": "abdulqudus-tella-500.webp",
+      "before_bytes": 240145,
+      "after_bytes": 26810,
+      "saving_percent": 88.8
+    },
+    {
+      "original": "luma-the-sleepy-star.png",
+      "rendition": "luma-review-426.webp",
+      "before_bytes": 433824,
+      "after_bytes": 315250,
+      "saving_percent": 27.3
+    },
+    {
+      "original": "kathryns-beach.jpg",
+      "rendition": "kathryns-beach-640.webp",
+      "before_bytes": 371261,
+      "after_bytes": 75148,
+      "saving_percent": 79.8
+    }
+  ]
+}

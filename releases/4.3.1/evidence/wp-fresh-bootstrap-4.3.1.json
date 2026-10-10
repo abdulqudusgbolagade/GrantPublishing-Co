@@ -1,0 +1,209 @@
+{
+  "wordpress": "7.0.7",
+  "elementor": "4.3.4",
+  "yoast": "28.6",
+  "php": "8.5.10",
+  "plugin": "4.3.1",
+  "native_pages_before": 17,
+  "article_before": "http://127.0.0.1:9402/services/connected-catalog/",
+  "article_after": "http://127.0.0.1:9402/insights/connected-catalog/",
+  "saved_content_preserved": true,
+  "original_page_hashes": {
+    "5": {
+      "content": "433bb45f2f58cfaa7b27b7598dd2614431aa83e87b24744683486418fb7b8b41",
+      "native": "738e3a52a3b76646e7c7d945d7455448ec9df6132cd64a40e8d405f8c302e668"
+    },
+    "8": {
+      "content": "99c397ec15b5313c4fca4601e2adaf9cb958d3200d223e943090ceb4fd412b66",
+      "native": "086f747f00e5391c8eb267c56b500b4b70e2533e991b18361046f468ceaa0b21"
+    },
+    "11": {
+      "content": "3de0391c3e81a55c5b11fc76037d329a908672076aadf524c637a68b575011db",
+      "native": "3c88d092bfcfe8341d600d07a9f947d3403ed2ea129779419acf9fad396a42c1"
+    },
+    "14": {
+      "content": "7da0b70b946f167cc6507c88867df0ec56111b23ab752e6d373461fe46c2c861",
+      "native": "fbbc601422ea86c0e247f8f66abd4160dcecd558a8c8ff98cc0de675a9e25a4f"
+    },
+    "17": {
+      "content": "c81f2a25aa93fecca606c62d4e333712295bb76f0d1c54fe8679dca88601d8f9",
+      "native": "c93803b131fef3f97180abd86c9ae5bfca0451bdd56b8cfa08810682905672a7"
+    },
+    "20": {
+      "content": "f0b7ce5be9670bcb9f21185165c02d1a5b4ac065313aaa91aa861a5b8a0fd640",
+      "native": "888eef11d707a9b0371b2d8f6078403a137f00804ab47e04847a6c613e535f9e"
+    },
+    "23": {
+      "content": "307d995a2cbd213b538c343ccdd439f5d17ddbb6384fc1bd6927d398a72f4dd9",
+      "native": "a25f2db38bef70ee11176881d4a98f4edd0f732462411c1e4f67c6dc6622501d"
+    },
+    "26": {
+      "content": "b34944c5081cf2643de2710cf505e1a5ba1902cf8d130da4499eca8c8aa4754e",
+      "native": "cb61888cbb6a92388983af3d92ba4227300e683920c4aecbbf8d9abf1b5fc8e7"
+    },
+    "29": {
+      "content": "dbe35ba4a7722b1b8ba5cb63cfe5e4988e63d348dcd445afd6382cde2993c249",
+      "native": "d526a38259741eba1076837a9f3a0b27ccbf34b4a17759d8e9ae3d4972a0798a"
+    },
+    "32": {
+      "content": "bb29953df906459b8919855a68f81dc8a9a895b0cea17f5c18e2c65ee922f39e",
+      "native": "7f0cf93fa08b8e386e98aa544532299e6f2ada2a0fba51614c369b700fa8d69f"
+    },
+    "35": {
+      "content": "bd08f02a80824c6e86402026b33d70fa6fe1e5dca2d627f30958e8b8c3294855",
+      "native": "1af88fe26923fe36c4251c78151957fb6710f28c8c3cf8de98a1c820f82f31f0"
+    },
+    "38": {
+      "content": "208334109508530e53595b2415367f621b2f06e0b5976bb33db1ef778eecd80c",
+      "native": "747e1beecd3e0c5772698664d955265063e5fdc43bc56cd7373c1b0379670962"
+    },
+    "41": {
+      "content": "cdaded6cb2da8b3898f878b5cdca9303d8b101cd98b0a3a98ce8862e9bd59786",
+      "native": "f639558bd0483f4c0130c2b9ae18aafa9f93b116e13d2b87891fe38a8f186962"
+    },
+    "44": {
+      "content": "46f7d93b5e84444085d957be5bf2a947da00272700af8d1123b37bfb49c3d595",
+      "native": "6c7637001f900d8281d12c785dcb128b63f2bf27ac3d400c86f0317406c118f3"
+    },
+    "47": {
+      "content": "43bb01e4ed51b3e2b23b531a2ab5de651afdd02ce17c61d01a848a4882123a8c",
+      "native": "2500b4181ca87d56f91653741a0c594d2b0a41c9a411a2dff8824c981acb32ca"
+    },
+    "50": {
+      "content": "a9e40333f22e70777f21e6773ff3c41da4b700984af9ed468c9d7acaf9e4ebb0",
+      "native": "f279a9a6b9d69bc463304a6ed26b525142e2b6076ac7d29c30b74d7496e432ce"
+    },
+    "53": {
+      "content": "f823668dda2c4ef3291ab661d4904a921aa7c23d2e3541a155c5b12fafdc0d88",
+      "native": "3afb02e56ee562e062c6977f8ad7c2de23f06ebb2660babfdf9463566f97d022"
+    }
+  },
+  "provider_settings_preserved": true,
+  "created": {
+    "book-formatting": 56,
+    "cover-design": 57,
+    "amazon-ads": 58,
+    "terms-of-service": 61
+  },
+  "repair_results": [
+    "Book Formatting: created using the shared service template.",
+    "Book Cover Design: created using the shared service template.",
+    "Amazon Ads Setup & Management: created using the shared service template.",
+    "Your second book changes the marketing equation: parent corrected; previous URL redirects permanently.",
+    "Privacy Policy: approved copy published with a backup of the untouched WordPress starter draft.",
+    "Terms of Service: created with your approved copy and the shared reading template."
+  ],
+  "routes": {
+    "home": {
+      "id": 5,
+      "url": "http://127.0.0.1:9402/",
+      "native": true
+    },
+    "services": {
+      "id": 8,
+      "url": "http://127.0.0.1:9402/services/",
+      "native": true
+    },
+    "enquiry": {
+      "id": 11,
+      "url": "http://127.0.0.1:9402/book-marketing-audit/",
+      "native": true
+    },
+    "about": {
+      "id": 14,
+      "url": "http://127.0.0.1:9402/about/",
+      "native": true
+    },
+    "feedback": {
+      "id": 17,
+      "url": "http://127.0.0.1:9402/client-feedback/",
+      "native": true
+    },
+    "insights": {
+      "id": 20,
+      "url": "http://127.0.0.1:9402/insights/",
+      "native": true
+    },
+    "contact": {
+      "id": 23,
+      "url": "http://127.0.0.1:9402/contact/",
+      "native": true
+    },
+    "amazon-visibility": {
+      "id": 26,
+      "url": "http://127.0.0.1:9402/services/amazon-visibility/",
+      "native": true
+    },
+    "book-presentation": {
+      "id": 29,
+      "url": "http://127.0.0.1:9402/services/book-presentation/",
+      "native": true
+    },
+    "launch-promotion": {
+      "id": 32,
+      "url": "http://127.0.0.1:9402/services/launch-promotion/",
+      "native": true
+    },
+    "author-platform": {
+      "id": 35,
+      "url": "http://127.0.0.1:9402/services/author-platform/",
+      "native": true
+    },
+    "catalog-strategy": {
+      "id": 38,
+      "url": "http://127.0.0.1:9402/services/catalog-strategy/",
+      "native": true
+    },
+    "book-strategy": {
+      "id": 41,
+      "url": "http://127.0.0.1:9402/services/book-strategy/",
+      "native": true
+    },
+    "publishing-support": {
+      "id": 44,
+      "url": "http://127.0.0.1:9402/services/publishing-support/",
+      "native": true
+    },
+    "book-discovery": {
+      "id": 47,
+      "url": "http://127.0.0.1:9402/insights/book-discovery/",
+      "native": true
+    },
+    "book-product-page": {
+      "id": 50,
+      "url": "http://127.0.0.1:9402/insights/book-product-page/",
+      "native": true
+    },
+    "connected-catalog": {
+      "id": 53,
+      "url": "http://127.0.0.1:9402/insights/connected-catalog/",
+      "native": true
+    },
+    "book-formatting": {
+      "id": 56,
+      "url": "http://127.0.0.1:9402/services/book-formatting/",
+      "native": false
+    },
+    "cover-design": {
+      "id": 57,
+      "url": "http://127.0.0.1:9402/services/cover-design/",
+      "native": false
+    },
+    "amazon-ads": {
+      "id": 58,
+      "url": "http://127.0.0.1:9402/services/amazon-ads/",
+      "native": false
+    },
+    "privacy-policy": {
+      "id": 3,
+      "url": "http://127.0.0.1:9402/privacy-policy/",
+      "native": false
+    },
+    "terms-of-service": {
+      "id": 61,
+      "url": "http://127.0.0.1:9402/terms-of-service/",
+      "native": false
+    }
+  },
+  "repeat_noop": true
+}

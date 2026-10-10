@@ -1,0 +1,58 @@
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs'),crypto=require('node:crypto');
+let checks=0;function check(v,label){assert.ok(v,label);checks++;}
+(async()=>{
+ const b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+ const fonts=JSON.parse(fs.readFileSync('/workspace/grant-qa/font-cache-4.1/mapping.json'));
+ const ctx=await b.newContext();
+ await ctx.route('https://fonts.googleapis.com/**',r=>r.fulfill({contentType:'text/css',body:fs.readFileSync('/workspace/grant-qa/font-cache-4.1/grant-fonts.css')}));
+ await ctx.route('https://fonts.gstatic.com/**',r=>fonts[r.request().url()]?r.fulfill({contentType:'font/ttf',body:fs.readFileSync(fonts[r.request().url()])}):r.abort());
+ const p=await ctx.newPage();await p.clock.install();
+ for(const mode of ['native'])for(const key of ['home','services']) {
+  await p.emulateMedia({reducedMotion:'no-preference'});await p.setViewportSize({width:1440,height:900});
+  const requests=[];const record=r=>requests.push(r.url());p.on('request',record);
+  await p.goto(`http://127.0.0.1:9401/${key==='home'?'':'services/'}`);await p.evaluate(()=>document.fonts.ready);
+  const root=p.locator('[data-book-showcase]');await root.scrollIntoViewIfNeeded();await p.mouse.move(1,1);
+  await p.waitForFunction(()=>document.querySelector('[data-book-showcase]').dataset.showcaseReady==='true');
+  check(await root.count()===1,`${key}/${mode} one shared instance`);
+  check(await root.locator('.is-active .gp-showcase-title').textContent()==='Luma the Sleepy Star',`${key}/${mode} useful final Luma first slide`);
+  check(await root.locator('img[data-src]').count()===2,`${key}/${mode} later large showcase assets not loaded initially`);
+  const initial=await root.boundingBox();await p.clock.runFor(5100);
+  await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='My Dear Grandfather');
+  check(await root.locator('.is-active .gp-showcase-scope').textContent()==='Amazon listing optimisation',`${key}/${mode} five-second rotation updates accurate caption`);
+  check((await root.boundingBox()).height===initial.height,`${key}/${mode} image reservation prevents a slide layout shift`);
+  await root.hover();await p.clock.runFor(10100);check(await root.locator('.is-active .gp-showcase-title').textContent()==='My Dear Grandfather',`${key}/${mode} hover pauses rotation`);
+  await root.locator('[data-next]').focus();await p.mouse.move(1,1);await p.clock.runFor(10100);check(await root.locator('.is-active .gp-showcase-title').textContent()==='My Dear Grandfather',`${key}/${mode} keyboard focus pauses rotation`);
+  await p.keyboard.press('ArrowRight');await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='Kathryn’s Beach');
+  check(await root.locator('.is-active .gp-showcase-scope').textContent()==='Amazon assessment & recommendations',`${key}/${mode} keyboard next retains assessment-only scope`);
+  await p.keyboard.press('Home');await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='Luma the Sleepy Star');
+  await p.keyboard.press('End');await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='Kathryn’s Beach');check(true,`${key}/${mode} Home/End navigation`);
+  await root.locator('[data-indicator="0"]').click();await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='Luma the Sleepy Star');
+  check(await root.locator('[data-indicator="0"]').getAttribute('aria-pressed')==='true',`${key}/${mode} indicator state follows manual selection`);
+  await root.locator('.is-active a').focus();await p.keyboard.press('ArrowRight');await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='My Dear Grandfather');
+  check(await root.locator('.is-active a').evaluate(e=>e===document.activeElement),`${key}/${mode} cover-link keyboard navigation moves focus to the new cover`);
+  await p.keyboard.press('ArrowLeft');await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='Luma the Sleepy Star');
+  check(await root.locator('[data-slide]:not(.is-active) a').evaluateAll(xs=>xs.every(x=>x.tabIndex===-1)),`${key}/${mode} inactive links excluded from keyboard sequence`);
+  await root.locator('[data-toggle]').click();await p.locator('h1').click();await p.mouse.move(1,1);await p.clock.runFor(10100);check(await root.locator('.is-active .gp-showcase-title').textContent()==='Luma the Sleepy Star',`${key}/${mode} explicit pause persists after hover/focus leave`);
+  await root.locator('[data-toggle]').click();await p.locator('h1').click();await p.mouse.move(1,1);await p.clock.runFor(5100);await p.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='My Dear Grandfather');check(true,`${key}/${mode} explicit play resumes`);
+  await p.emulateMedia({reducedMotion:'reduce'});await p.waitForFunction(()=>document.querySelector('[data-toggle]').disabled);await p.clock.runFor(10100);check(await root.locator('[data-toggle]').isDisabled()&&await root.locator('.is-active .gp-showcase-title').textContent()==='My Dear Grandfather',`${key}/${mode} live reduced-motion preference stops automatic movement`);
+  check(await root.locator('[data-slide]').evaluateAll(xs=>xs.filter(x=>x.getAttribute('aria-hidden')!=='true'&&!x.inert).length)===1,`${key}/${mode} exactly one slide exposed to keyboard and accessibility tree`);
+  await p.addScriptTag({path:'/workspace/grant-qa/node_modules/axe-core/axe.min.js'});
+  const audit=await p.evaluate(()=>axe.run(document.querySelector('[data-book-showcase]'),{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa']}}));check(audit.violations.length===0,`${key}/${mode} active second-slide accessibility and contrast`);
+  p.off('request',record);
+ }
+ const mobile=await b.newContext({viewport:{width:320,height:900},hasTouch:true,isMobile:true,reducedMotion:'reduce'});const mp=await mobile.newPage();await mobile.route('https://fonts.googleapis.com/**',r=>r.abort());await mobile.route('https://fonts.gstatic.com/**',r=>r.abort());
+ await mp.goto('http://127.0.0.1:9401/');const mr=mp.locator('[data-book-showcase]');await mr.locator('[data-next]').tap();await mp.waitForFunction(()=>document.querySelector('[data-book-showcase] .is-active .gp-showcase-title').textContent==='My Dear Grandfather');check(true,'320px touch next works with reduced motion');
+ check(await mr.locator('.is-active img').evaluate(e=>getComputedStyle(e).objectFit==='contain'&&e.currentSrc.endsWith('my-dear-grandfather-302.webp')&&e.getBoundingClientRect().width<=302&&e.getBoundingClientRect().height<=466),'Original Grandfather cover preserved without upscaling or cropping');
+ check(await mr.locator('.gp-showcase-controls button').evaluateAll(xs=>xs.every(x=>x.getBoundingClientRect().width>=34&&x.getBoundingClientRect().height>=44)),'Mobile control touch targets remain usable');
+ const nojs=await b.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const np=await nojs.newPage();await nojs.route('https://fonts.googleapis.com/**',r=>r.abort());await nojs.route('https://fonts.gstatic.com/**',r=>r.abort());await np.goto('http://127.0.0.1:9401/');
+ check(await np.locator('.gp-showcase-slide:not([hidden])').count()===1&&await np.locator('.gp-showcase-slide:not([hidden]) img').evaluate(e=>e.complete&&e.naturalWidth>0),'JavaScript unavailable: useful static final cover remains');check(!(await np.locator('.gp-showcase-controls').isVisible()),'JavaScript unavailable: inactive controls remain hidden');
+ await p.goto('http://127.0.0.1:9401/client-feedback/');
+ check(await p.locator('blockquote').count()===5,'Five original reviews remain without duplicate Luma quote');
+ check(await p.locator('#john-capon-review').evaluate(e=>e.nextElementSibling.id==='luma-case-study'),'Native Luma case study directly follows John’s review');
+ const link=p.locator('#luma-case-study a');const pdf=await link.getAttribute('href');const response=await ctx.request.get(new URL(pdf,p.url()).href);const bytes=await response.body();const original=fs.readFileSync('/workspace/GrantPublishing-Co/grant-publishing-site/assets/luma-sleepy-star-case-study.pdf');
+ check(response.ok()&&(!response.headers()['content-type'] || response.headers()['content-type'].includes('application/pdf'))&&bytes.subarray(0,5).toString()==='%PDF-','Bundled Luma PDF link returns actual PDF bytes');
+ check(bytes.length===2562805&&crypto.createHash('sha256').update(bytes).digest('hex')===crypto.createHash('sha256').update(original).digest('hex'),'Served Luma PDF is byte-identical to supplied source and displayed size is correct');
+ check((await link.getAttribute('target'))==='_blank'&&(await link.getAttribute('rel')).includes('noopener'),'Luma PDF retains protected new-tab behaviour');
+ await ctx.route(new URL(pdf,p.url()).href,r=>r.fulfill({contentType:'text/html',body:'<title>Intercepted actual PDF destination</title>'}));await link.focus();const popup=ctx.waitForEvent('page');await p.keyboard.press('Enter');const pop=await popup;await pop.waitForLoadState();check(pop.url().endsWith('luma-sleepy-star-case-study.pdf'),'Keyboard action opens the exact Luma PDF destination');await pop.close();
+ await b.close();const result=`PASS: ${checks} showcase timing, captions, loading, hover/focus/manual pause, keyboard/touch, reduced motion, static fallback, accessibility and Luma case/PDF assertions.\n`;fs.writeFileSync('/workspace/grant-qa/showcase-results-4.3.1.txt',result);console.log(result);
+})().catch(e=>{console.error(e);process.exit(1)});

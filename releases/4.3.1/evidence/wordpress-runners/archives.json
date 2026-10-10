@@ -1,0 +1,17 @@
+[
+  {
+    "file": "wordpress-7.0.7.zip",
+    "url": "https://wordpress.org/wordpress-7.0.7.zip",
+    "sha256": "e476db676a2688d62fcc2c2828f4888d45877972459dbf84086e92614d317c0e"
+  },
+  {
+    "file": "elementor.zip",
+    "url": "https://downloads.wordpress.org/plugin/elementor.4.3.4.zip",
+    "sha256": "1b67ddd3acca7b245ac0b7e42e4f8ef958e01602d629e8919874b90607cdc12e"
+  },
+  {
+    "file": "wordpress-seo-28.6.zip",
+    "url": "https://downloads.wordpress.org/plugin/wordpress-seo.28.6.zip",
+    "sha256": "ebb6e2a89d697cabecf2348a06d1efe807fd13ee1faeddcd06e354b98ee2a4d5"
+  }
+]

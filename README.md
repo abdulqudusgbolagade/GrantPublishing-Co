@@ -1,33 +1,32 @@
 # Grant Publishing Co.
 
-Installable WordPress plugin **4.3.0**, presenting Grant as a book design, publishing and marketing service business. The established Grant palette, layout, logos and AbdulQudus Tella’s Book Marketing Strategist identity remain.
+Installable WordPress plugin **4.3.1**, a focused production repair of the approved Grant publishing website. The existing design, purple/blue identity, homepage structure, logos, typography, reviews, case studies and founder identity are preserved.
 
-**[Download the WordPress plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.3.0/grant-publishing-site-4.3.0.zip)**
+**[Download the installable plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.3.1/grant-publishing-site-4.3.1.zip)**
 
-If downloading fails, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.3.0/grant-publishing-site-4.3.0.zip) and choose **Download raw file**. Upload this plugin ZIP, rather than the whole repository.
+If downloading fails, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.3.1/grant-publishing-site-4.3.1.zip) and choose **Download raw file**. Upload this plugin ZIP, rather than the whole repository.
 
-## Included
+## Production repairs
 
-- Broader positioning across Home, Services, About, Contact, footer and page metadata. The Home service section retains three entry points: design and formatting, publishing and launch, marketing and Amazon Ads.
-- Distinct formatting, cover design, publishing/KDP and Amazon Ads entries. All seven previous services and all 17 previous URLs remain available; three new detail routes bring the total to 20 pages.
-- Amazon Ads campaign setup with optional recurring management. Ad spend is separate; fees and scope are agreed in the proposal.
-- One shared actual-book showcase in both former studio-image placements. Five-second crossfades, previous/next, indicators, pause/play, keyboard and touch controls, hover/focus pause, reduced motion and a static fallback.
-- Luma’s cover redesign and 35-page interior case study directly after John Capon’s existing review, with faithful final artwork and the unchanged supplied PDF. The My Dear Grandfather case study and all five reviews remain.
-- General enquiries welcome unpublished books. New service choices reach the existing delivery handler; Amazon links remain optional. The free public Amazon assessment and disclaimer remain.
+- Publish the three missing formatting, cover design and Amazon Ads detail pages through the existing service architecture.
+- Correct connected Insights article parents and add explicit permanent redirects from their incorrect service aliases.
+- Include the supplied approved Privacy Policy and Terms of Service exactly, with conditional footer links and readable business email.
+- Prevent duplicate reviews after WordPress typography processing and protect native Elementor buttons that open new tabs.
+- Correct the Elementor Canvas/Yoast duplicate-title conflict, fill missing SEO descriptions and replace only the identified obsolete stock Home description. Authored descriptions remain.
+- Upgrade same-host legacy stylesheet URLs to HTTPS on connected HTTPS Grant pages.
+- Improve existing image delivery and font discovery without replacing artwork or changing typography.
 
-## Install and review
+## Install and verify
 
-Replace the plugin on staging, then run **Tools → Grant Website Setup → Create missing pages and connect navigation** once to publish the three new service pages. It preserves existing content. Clear caches and verify `ver=4.3.0` assets. Do not bulk-convert or restore existing Elementor pages.
+Back up files and the database, test on staging, replace the plugin, then visit the WordPress dashboard as an administrator. The scoped repair runs once. Review **Tools → Grant Website Setup → Service and Insights route repair**. Resolve any reported draft or URL collision before retrying the repair. Do not bulk-convert or restore saved Elementor pages.
 
-Saved native layouts receive exact stock-copy updates, the matching image replacement and missing service/case features at render time. Authored copy and saved page data remain untouched; custom copy may need a manual positioning review. Existing site icon and private Web3Forms settings remain.
+The current installation has been audited read-only. This update **has not been installed on production**. Actual WordPress 7.0.7, Elementor 4.3.4 and Yoast 28.6 were tested locally through official Playground, including 22 pages, seven viewport widths, all ten service cards, forms and both legal texts. Provider calls were intercepted locally; inbox receipt still needs a live test.
 
-- [Screenshots and slide gallery](releases/4.3.0/GALLERY.md)
-- [Testing report and affected files](releases/4.3.0/TESTING-REPORT.md)
-- [Installation and rollback](releases/4.3.0/INSTALLATION.md)
-- [Brand implementation](docs/BRAND-IMPLEMENTATION.md)
+- [Testing report, affected files and verification limits](releases/4.3.1/TESTING-REPORT.md)
+- [Installation and rollback](releases/4.3.1/INSTALLATION.md)
+- [Desktop and mobile screenshots](releases/4.3.1/GALLERY.md)
+- [Checksums](releases/4.3.1/SHA256SUMS.txt)
 - [Development checks](qa/README.md)
-- [Evidence ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.3.0/grant-publishing-4.3.0-evidence.zip) and [checksums](releases/4.3.0/SHA256SUMS.txt)
+- [Actual WordPress reproduction instructions](releases/4.3.1/evidence/wordpress-runners/README.md)
 
-The release has not been installed on live WordPress. Browser checks use actual shared PHP markup, mocked WordPress APIs and approximated Elementor DOM. Actual theme/editor integration, other browsers, SEO plugin overrides and inbox receipt require staging checks. No real enquiry was sent and no real delivery key is included.
-
-Source is in `grant-publishing-site/`. [4.2.1](releases/4.2.1/) remains available for rollback.
+The pre-repair commit is `19c3db032a850ed5b5195806b1307dca2287b3ef`, tagged `backup/production-repair-2026-10-10`. [4.3.0](releases/4.3.0/) remains available. No real Web3Forms key, production credentials or database is included in source or downloads.

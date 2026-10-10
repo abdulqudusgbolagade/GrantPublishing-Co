@@ -1,0 +1,7 @@
+{
+  "preferredVersions": {
+    "php": "8.5",
+    "wp": "7.0.7"
+  },
+  "steps": []
+}

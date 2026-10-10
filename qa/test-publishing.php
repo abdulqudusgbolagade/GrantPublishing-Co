@@ -170,6 +170,10 @@ $case_url = 'https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Gr
 $case_result = gpc_native_client_proof($complete_feedback);
 check(substr($case_result, 0, strlen($complete_feedback)) === $complete_feedback && substr_count($case_result, 'href="' . $case_url . '"') === 1, 'Existing native Feedback gains one linked case study without replacing saved content');
 check(gpc_native_client_proof($case_result) === $case_result, 'Case-study rendering is idempotent');
+$texturized = str_replace("children's", 'children’s', $case_result);
+check(gpc_native_client_proof($texturized) === $texturized, 'WordPress smart apostrophes do not cause a duplicate John review');
+$encoded_apostrophe = str_replace('children’s', 'children&#8217;s', $texturized);
+check(gpc_native_client_proof($encoded_apostrophe) === $encoded_apostrophe, 'Encoded WordPress typography also preserves the single existing review');
 $case_complete = gpc_add_luma_case($complete_feedback) . '<a href="' . $case_url . '?ver=4.2.0">Existing authored case-study link</a>';
 check(gpc_native_client_proof($case_complete) === $case_complete, 'An existing authored PDF link with cache parameters prevents a duplicate card');
 check(gpc_native_client_proof(str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete)) === str_replace($case_url, str_replace('https:', 'http:', $case_url), $case_complete), 'The user-supplied HTTP PDF destination also prevents duplication');
@@ -182,6 +186,8 @@ $icons = gpc_render_contact_icons($contact_source);
 check(strpos($icons, 'href="mailto:custom@example.test"') !== false && strpos($icons, 'aria-label="Email the team"') !== false && strpos($icons, '<svg') !== false, 'Saved email destination and accessible meaning survive icon conversion');
 check(strpos($icons, 'aria-label="Read the review (opens in a new tab)"') !== false && strpos($icons, 'rel="noopener noreferrer"') !== false, 'External review icon keeps its exact URL and protected new-tab action');
 check(gpc_render_contact_icons($icons) === $icons, 'Repeated content filters do not replace existing SVG controls');
+$readable_email = '<a class="gp-footer-email" href="mailto:hello@grantpublishingco.com">hello@grantpublishingco.com</a>';
+check(gpc_render_contact_icons($readable_email) === $readable_email, 'Footer business email stays readable in shortcode and native page output');
 $cover_link = '<a href="https://www.linkedin.com/services/page/example/">' . image_markup($luma) . '</a>';
 check(gpc_render_contact_icons($cover_link) === $cover_link, 'A book cover linked to LinkedIn is never converted to a social icon');
 foreach (array('admin', 'feed', 'preview') as $flag) {

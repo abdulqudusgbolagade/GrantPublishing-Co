@@ -1,0 +1,20 @@
+[
+  {
+    "source": "http://127.0.0.1:9401/services/connected-catalog/?utm_source=qa",
+    "status": 301,
+    "destination": "http://127.0.0.1:9401/insights/connected-catalog/?utm_source=qa",
+    "destination_status": 200
+  },
+  {
+    "source": "http://127.0.0.1:9401/services/book-discovery/?utm_source=qa",
+    "status": 301,
+    "destination": "http://127.0.0.1:9401/insights/book-discovery/?utm_source=qa",
+    "destination_status": 200
+  },
+  {
+    "source": "http://127.0.0.1:9401/services/book-product-page/?utm_source=qa",
+    "status": 301,
+    "destination": "http://127.0.0.1:9401/insights/book-product-page/?utm_source=qa",
+    "destination_status": 200
+  }
+]

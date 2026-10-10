@@ -1,18 +1,24 @@
 # Development checks
 
-These checks are for plugin development. WordPress HTTP, mail and database APIs are mocked; no real enquiry or key is used. Native PHP 7.4+ can run the three PHP suites directly. Otherwise use the pinned official WordPress Playground runtime:
+These checks are for plugin development. WordPress HTTP, mail and database APIs are mocked; no real enquiry or key is used. Native PHP 7.4+ can run the five PHP suites directly. Otherwise use the pinned official WordPress Playground runtime:
 
 ```bash
 npm ci --prefix qa --ignore-scripts --cache /workspace/grant-qa/npm-cache
 PHP=7.4 node qa/php.mjs qa/test-web3forms.php
 PHP=7.4 node qa/php.mjs qa/test-publishing.php
 PHP=7.4 node qa/php.mjs qa/test-upgrades.php
+PHP=7.4 node qa/php.mjs qa/test-structure.php
+PHP=7.4 node qa/php.mjs qa/test-legal.php
 PHP=8.2 node qa/php.mjs qa/test-web3forms.php
 PHP=8.2 node qa/php.mjs qa/test-publishing.php
 PHP=8.2 node qa/php.mjs qa/test-upgrades.php
+PHP=8.2 node qa/php.mjs qa/test-structure.php
+PHP=8.2 node qa/php.mjs qa/test-legal.php
 PHP=8.3 node qa/php.mjs qa/test-web3forms.php
 PHP=8.3 node qa/php.mjs qa/test-publishing.php
 PHP=8.3 node qa/php.mjs qa/test-upgrades.php
+PHP=8.3 node qa/php.mjs qa/test-structure.php
+PHP=8.3 node qa/php.mjs qa/test-legal.php
 node qa/php-lint.cjs
 node qa/test-enquiry.cjs
 python3 qa/check-package.py
@@ -20,11 +26,14 @@ python3 qa/check-package.py
 
 Use a writable npm cache; the cloud home cache is unavailable. Keep TLS and lockfile integrity verification enabled. The current runtime passed with Node 24.19 and npm 11.9 despite a package npm-version warning. Python checks require `lxml`; dependency files stay ignored.
 
-`test-web3forms.php` covers 72 delivery/settings/asset/prepublication assertions; `test-publishing.php` covers 92 positioning/showcase/review/cover/case-study compatibility, contact-icon preservation and header/footer rendering assertions; `test-upgrades.php` covers 14 version, concurrency, retry and scoped cache-refresh assertions. Each suite passed on PHP 7.4, 8.2 and 8.3. `php.mjs` preserves interpreter exit codes.
+`test-web3forms.php` covers 72 delivery/settings/prepublication assertions; `test-publishing.php` covers 95 positioning/showcase/review/contact/header/footer assertions; `test-upgrades.php` covers 14 migration/cache assertions; `test-structure.php` covers 69 route, permission, concurrency, backup, redirect, metadata, legal-link, image and compatibility assertions; `test-legal.php` covers 10 starter-policy preservation, backup, failure and WordPress template-carry-forward assertions. All 260 assertions passed on PHP 7.4, 8.2 and 8.3, totalling 780. `php.mjs` preserves interpreter exit codes.
 
-`check-package.py` verifies all 20 template/layout pairs, native content parity, routes/assets, forms, real anchors, markup/IDs and CSS markers. After intentionally editing templates, `python3 qa/sync-layouts.py` regenerates bundled new-install native JSON only; it never contacts WordPress or changes installed pages. Review generated diffs before committing.
+`check-package.py` verifies all 22 template/layout pairs, native content parity, routes/assets, forms, anchors, markup/IDs and CSS markers. After intentionally editing templates, `python3 qa/sync-layouts.py` regenerates bundled new-install native JSON only; it never contacts WordPress or changes installed pages. Review generated diffs before committing.
 
-Browser evidence and its limitations are in [the 4.3 testing report](../releases/4.3.0/TESTING-REPORT.md). The release evidence ZIP includes the fixture builder and browser runners used in the prepared cloud workspace. They approximate Elementor DOM and intercept submissions, rather than running a live WordPress installation.
+## Actual WordPress browser checks
 
+Release 4.3.1 also runs actual WordPress 7.0.7, Elementor 4.3.4 and Yoast 28.6 through official Playground CLI 3.1.57, PHP 8.5.10 and SQLite. This is an isolated test installation, never the production database. WordPress provider HTTP and mail are intercepted by a local-only MU plugin; the seed access key is fake. Do not copy the QA MU plugin, scripts, test users or database to production.
 
-The 4.3 browser workflow exports actual shared header/footer/contact/form/showcase markup through PHP with mocked WordPress APIs, then approximates native Elementor widget DOM. `build-legacy-4.3.py` additionally runs the real PHP compatibility filters on the previous release’s rendered native markup. Reproduction steps and helpers are in `releases/4.3.0/evidence/browser-runners/README.md`. The before baseline is the retained 4.2.1 ZIP. The 320-combination audit loads requested images while preserving deferred carousel images; the dedicated showcase suite exercises every slide, timing, keyboard focus and PDF bytes. No WordPress editor or actual provider delivery is implied. Final captures decode requested images; isolated component crops hide sticky navigation only during capture.
+[Reproduction instructions and retained runners](../releases/4.3.1/evidence/wordpress-runners/README.md) describe the prepared workspace, a clean bootstrap and safe restart. [The testing report](../releases/4.3.1/TESTING-REPORT.md) distinguishes the read-only live baseline from the local repaired installation. No inbox receipt or production installation is implied.
+
+The earlier 4.3.0 fixture checks remain documented in their own release. Those approximate Elementor DOM; the 4.3.1 audit uses actual Elementor output. Keep Playwright/axe dependencies and test WordPress outside the installable plugin. Preserve TLS and artifact checks; the cloud browser's missing proxy CA is handled through curl's configured trust store, without disabling certificate verification.

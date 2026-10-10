@@ -1,0 +1,1598 @@
+[
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/book-marketing-audit/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/about/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/client-feedback/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/contact/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [
+      "gpc-honeypot",
+      "",
+      ""
+    ],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-presentation/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/launch-promotion/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/author-platform/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-strategy/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/publishing-support/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-discovery/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/book-product-page/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/book-formatting/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/cover-design/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/services/amazon-ads/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/privacy-policy/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 1280,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 1024,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 480,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/terms-of-service/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  }
+]

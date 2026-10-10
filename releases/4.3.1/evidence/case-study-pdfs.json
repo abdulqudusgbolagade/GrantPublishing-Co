@@ -1,0 +1,14 @@
+[
+  {
+    "case": "grandfather",
+    "http_status": 200,
+    "bytes": 736855,
+    "sha256": "ba5afde8390d72b687306a09481d5b0256f8f0f6746b4b69723b6e52c4c46067"
+  },
+  {
+    "case": "luma",
+    "http_status": 200,
+    "bytes": 2562805,
+    "sha256": "f2bdb2dcf620a6784de1b0f213d1f04663c84df60b337a76383af9bf25b0bc5b"
+  }
+]

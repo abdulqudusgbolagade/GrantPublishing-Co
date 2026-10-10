@@ -1,0 +1,36 @@
+{
+    "php": "8.5.10",
+    "privacy_status": "publish",
+    "privacy_template": "gpc-full-page.php",
+    "privacy_shortcode": true,
+    "default_policy_backup": true,
+    "repair_results": [
+        "Privacy Policy: existing legal page preserved.",
+        "Terms of Service: existing legal page preserved."
+    ],
+    "legal_links": "<nav class=\"gp-footer-legal\" aria-label=\"Legal information\"><a href=\"http://127.0.0.1:9402/privacy-policy/\">Privacy Policy</a><a href=\"http://127.0.0.1:9402/terms-of-service/\">Terms of Service</a></nav>",
+    "all_routes": {
+        "home": "http://127.0.0.1:9402/",
+        "services": "http://127.0.0.1:9402/services/",
+        "enquiry": "http://127.0.0.1:9402/book-marketing-audit/",
+        "about": "http://127.0.0.1:9402/about/",
+        "feedback": "http://127.0.0.1:9402/client-feedback/",
+        "insights": "http://127.0.0.1:9402/insights/",
+        "contact": "http://127.0.0.1:9402/contact/",
+        "amazon-visibility": "http://127.0.0.1:9402/services/amazon-visibility/",
+        "book-presentation": "http://127.0.0.1:9402/services/book-presentation/",
+        "launch-promotion": "http://127.0.0.1:9402/services/launch-promotion/",
+        "author-platform": "http://127.0.0.1:9402/services/author-platform/",
+        "catalog-strategy": "http://127.0.0.1:9402/services/catalog-strategy/",
+        "book-strategy": "http://127.0.0.1:9402/services/book-strategy/",
+        "publishing-support": "http://127.0.0.1:9402/services/publishing-support/",
+        "book-discovery": "http://127.0.0.1:9402/insights/book-discovery/",
+        "book-product-page": "http://127.0.0.1:9402/insights/book-product-page/",
+        "connected-catalog": "http://127.0.0.1:9402/insights/connected-catalog/",
+        "book-formatting": "http://127.0.0.1:9402/services/book-formatting/",
+        "cover-design": "http://127.0.0.1:9402/services/cover-design/",
+        "amazon-ads": "http://127.0.0.1:9402/services/amazon-ads/",
+        "privacy-policy": "http://127.0.0.1:9402/privacy-policy/",
+        "terms-of-service": "http://127.0.0.1:9402/terms-of-service/"
+    }
+}

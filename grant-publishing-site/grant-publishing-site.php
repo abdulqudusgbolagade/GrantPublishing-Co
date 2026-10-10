@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 4.3.0
+ * Version: 4.3.1
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '4.3.0');
+define('GPC_VERSION', '4.3.1');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
@@ -17,6 +17,9 @@ require_once __DIR__ . '/includes/portfolio.php';
 require_once __DIR__ . '/includes/publishing.php';
 require_once __DIR__ . '/includes/web3forms.php';
 require_once __DIR__ . '/includes/setup.php';
+require_once __DIR__ . '/includes/repairs.php';
+require_once __DIR__ . '/includes/legal.php';
+require_once __DIR__ . '/includes/images.php';
 function gpc_services() {
     // Preserve old option values so existing service-prefill links still work.
     return array('Book formatting','Cover design','Book publishing and Amazon KDP setup','Amazon Ads campaign setup','Amazon Ads management','Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation','Not sure yet');

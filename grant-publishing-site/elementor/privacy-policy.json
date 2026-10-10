@@ -1,0 +1,878 @@
+{
+  "version": "0.4",
+  "type": "page",
+  "title": "Privacy Policy",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "6e047b6d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Page Hero Reading Hero",
+        "css_classes": "gp-page-hero gp-reading-hero",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "98e22f2e",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "51420260",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_title": "Page Title",
+                "_css_classes": "gp-page-title",
+                "title": "PRIVACY POLICY",
+                "header_size": "h1"
+              },
+              "elements": []
+            },
+            {
+              "id": "7251f959",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Small",
+                "_css_classes": "gp-small",
+                "editor": "<p>Last updated: October 10, 2026</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec91993d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading",
+        "css_classes": "gp-section gp-reading",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "2edd65c8",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "7906f913",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body Legal Body",
+                "css_classes": "gp-article-body gp-legal-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "51ec0956",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. respects your privacy and is committed to handling personal information responsibly.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c4538769",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>This Privacy Policy explains what information we may collect when you visit grantpublishingco.com, submit a form, contact us, or use our services, and how that information may be used.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8df9c85d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "1. INFORMATION WE MAY COLLECT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "33291f8d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Depending on how you interact with our website, we may collect information such as:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c94b18e2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Your name</li><li>Email address</li><li>Book title</li><li>Amazon or retailer links</li><li>Website links</li><li>Project information</li><li>Manuscript, synopsis, or book-related information you voluntarily provide</li><li>Messages and enquiries submitted through our forms</li><li>Technical information such as browser type, device type, referring page, and general website usage data where analytics tools are enabled</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6f4c69bc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We only request information that is reasonably relevant to responding to enquiries or providing our services.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9e23bbb7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "2. HOW WE USE YOUR INFORMATION",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "57b1bf9f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Information you provide may be used to:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "deefec30",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Respond to enquiries</li><li>Review book or publishing projects</li><li>Provide requested assessments</li><li>Prepare proposals or quotations</li><li>Deliver contracted services</li><li>Communicate about an active project</li><li>Improve our website and services</li><li>Diagnose technical or usability issues</li><li>Maintain appropriate business records</li><li>Protect the website from spam, fraud, or abuse</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f120ca09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Submitting an enquiry or assessment form does not automatically subscribe you to a marketing mailing list.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5ccf8146",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "3. FREE BOOK ASSESSMENTS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5be75458",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Any free preliminary assessment provided by Grant Publishing Co. is based primarily on information that is publicly available or voluntarily supplied by the author or publisher.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "baaa720f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where an assessment is based only on information visible on Amazon or another public platform, conclusions may be limited by the information available to us at the time.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b0c47528",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>More detailed recommendations may require access to additional information such as a manuscript, synopsis, publishing dashboard information, advertising data, or other relevant project materials.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8c83e451",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "4. FORMS AND THIRD-PARTY PROCESSORS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "39b948b2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Website forms may use third-party services such as Web3Forms to securely transmit enquiries.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "fd9cbf87",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>When you submit a form, information entered into that form may be processed by the relevant service provider for the purpose of delivering the submission to Grant Publishing Co.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5f8c2d90",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We do not authorize third-party processors to use enquiry information for unrelated marketing purposes.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f6f7af58",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "5. ANALYTICS AND COOKIES",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6167783d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The website may use cookies or privacy-conscious analytics tools to understand website performance and visitor behavior.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "56128521",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>These technologies may collect information such as:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9743ccfa",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Pages visited</li><li>Approximate location</li><li>Browser type</li><li>Device type</li><li>Referring website</li><li>Time spent on pages</li><li>General interaction patterns</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f2d70152",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where legally required, visitors may be given appropriate choices regarding non-essential cookies.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "34b7ca2b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "6. HOW WE SHARE INFORMATION",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d2f57980",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. does not sell personal information.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b7428e1a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Information may be shared only where reasonably necessary with:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5f3c4775",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Service providers used to operate the website</li><li>Contractors or collaborators involved in delivering an agreed service</li><li>Payment or communication providers</li><li>Hosting or website infrastructure providers</li><li>Authorities where disclosure is legally required</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9b8160af",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where third parties are involved in client work, only information reasonably necessary to complete the work should be shared.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "93c11a6d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "7. CLIENT FILES AND PROJECT MATERIALS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3ac4f047",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients may provide manuscripts, book files, cover files, publishing information, marketing materials, or other project assets.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e00943b1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>These materials are used for the purpose of completing the agreed work.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "50cb84c9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We will not intentionally publish or distribute private client materials outside the agreed scope without permission, except where disclosure is required by law.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "accba80b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "8. DATA RETENTION",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d94c9a6a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We may retain enquiry information, project communications, invoices, project files, and related business records for as long as reasonably necessary to:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0d65cbca",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Complete services</li><li>Maintain project history</li><li>Resolve disputes</li><li>Meet accounting or legal obligations</li><li>Support returning clients</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "06139425",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Information that is no longer reasonably required may be deleted.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6617a261",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "9. DATA SECURITY",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6487595f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We take reasonable steps to protect information entrusted to us.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7a8e9ec1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>However, no website, email service, cloud storage system, or internet transmission can be guaranteed to be completely secure.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4504be55",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients should avoid sending passwords, payment card information, or highly sensitive information through normal website forms.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1e925b78",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "10. YOUR RIGHTS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8453d6db",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Depending on where you live, you may have rights relating to your personal information, including the right to:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bd5d5bb5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Request access to information we hold about you</li><li>Request correction of inaccurate information</li><li>Request deletion of information where appropriate</li><li>Object to certain processing</li><li>Withdraw consent where processing is based on consent</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b707fdd3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>To make a privacy-related request, contact:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "35472d2d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>hello@grantpublishingco.com</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bfd265d2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We may need to verify your identity before processing certain requests.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c98020f2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "11. THIRD-PARTY LINKS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "492f4a87",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Our website may link to Amazon, social media platforms, publishing platforms, client websites, or other third-party websites.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4b0844de",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. is not responsible for the privacy practices, security, availability, or content of third-party websites.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3ec73b4d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "12. CHILDREN'S PRIVACY",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c393fb0d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. does not knowingly collect personal information directly from children through this website.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f8c9443b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Our services may involve children's books, but business enquiries should be submitted by an adult who is legally able to enter into an agreement.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "15069f8b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "13. CHANGES TO THIS POLICY",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "879df580",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We may update this Privacy Policy when our website, services, technology, or legal requirements change.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d0eb9ffd",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The latest version will be published on this page with an updated revision date.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c16dbbff",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "14. CONTACT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a7ef6a97",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>For privacy questions or requests, contact:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "79107ff9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co.<br>Email: hello@grantpublishingco.com<br>Website: grantpublishingco.com</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

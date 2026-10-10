@@ -1,0 +1,1365 @@
+{
+  "version": "0.4",
+  "type": "page",
+  "title": "Terms of Service",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "9fad2de2",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Page Hero Reading Hero",
+        "css_classes": "gp-page-hero gp-reading-hero",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "17298642",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "6b82705f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_title": "Page Title",
+                "_css_classes": "gp-page-title",
+                "title": "TERMS OF SERVICE",
+                "header_size": "h1"
+              },
+              "elements": []
+            },
+            {
+              "id": "788840fb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "_title": "Small",
+                "_css_classes": "gp-small",
+                "editor": "<p>Last updated: October 10, 2026</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "924df762",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "_title": "Section Reading",
+        "css_classes": "gp-section gp-reading",
+        "content_width": "full",
+        "flex_direction": "column",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        }
+      },
+      "elements": [
+        {
+          "id": "6f0ec7f1",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "_title": "Wrap",
+            "css_classes": "gp-wrap",
+            "content_width": "full",
+            "flex_direction": "column",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 0,
+              "column": "0",
+              "row": "0"
+            }
+          },
+          "elements": [
+            {
+              "id": "5ca62761",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "_title": "Article Body Legal Body",
+                "css_classes": "gp-article-body gp-legal-body",
+                "content_width": "full",
+                "flex_direction": "column",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0"
+                }
+              },
+              "elements": [
+                {
+                  "id": "8ea46fbb",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>These Terms of Service apply to the use of grantpublishingco.com and to services provided by Grant Publishing Co. unless different terms are agreed in writing for a specific project.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "eb86dc95",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>By using this website, requesting an assessment, accepting a proposal, or purchasing services from Grant Publishing Co., you agree to the terms that apply to your interaction with us.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7ccd0785",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "1. OUR SERVICES",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f1b328dc",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. provides publishing, book design, book marketing, Amazon visibility, and related services.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a3939df9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Services may include:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4108d689",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Book formatting</li><li>Book cover design</li><li>Kindle Direct Publishing support</li><li>Ebook, paperback, and hardcover publishing support</li><li>Amazon listing optimization</li><li>Keyword and category research</li><li>Book descriptions</li><li>A+ Content</li><li>Amazon advertising setup and management</li><li>Book marketing strategy</li><li>Launch and relaunch planning</li><li>Author platform support</li><li>Catalog strategy</li><li>Publishing consultation</li><li>Book visibility assessments</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "06bf2ebe",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The exact deliverables for a paid project are determined by the proposal, contract, order, or written agreement accepted by the client.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f7b9bb9a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "2. FREE ASSESSMENTS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c123388d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Free assessments are preliminary observations and do not represent a complete publishing, marketing, legal, financial, or commercial analysis.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f41920ec",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Unless otherwise stated, free assessments are based primarily on information publicly visible on Amazon or other publicly accessible sources.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7dd131e1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Because Grant Publishing Co. may not initially have access to the complete manuscript, publishing history, advertising data, sales information, or other internal information, preliminary observations may change when additional information becomes available.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e470e694",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "3. NO GUARANTEE OF SALES OR RANKINGS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "836f950e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Publishing and book marketing results depend on many factors outside our control.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0612787e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. does not guarantee:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "94f22903",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Book sales</li><li>Bestseller status</li><li>Search rankings</li><li>Category rankings</li><li>Advertising profitability</li><li>Specific return on advertising spend</li><li>Reviews or review ratings</li><li>Platform approval</li><li>Continued platform availability</li><li>Organic recommendations</li><li>Media coverage</li><li>Reader response</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "70c5c21a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Our responsibility is to provide the agreed research, strategy, design, publishing, optimization, advertising, or marketing work professionally and in good faith.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "eaff5177",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "4. AMAZON AND THIRD-PARTY PLATFORMS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f720ce86",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. is an independent service provider.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8c72c04f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Unless explicitly stated otherwise, we are not affiliated with, endorsed by, or employed by Amazon, Kindle Direct Publishing, Goodreads, IngramSpark, Barnes &amp; Noble, Apple Books, Kobo, or other publishing platforms.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b53972d9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Platform rules, algorithms, advertising systems, categories, specifications, and policies may change without notice.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "25fe3279",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients remain responsible for complying with the terms and policies of platforms they use.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9d74c72f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "5. CLIENT RESPONSIBILITIES",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e8bc7ed5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients are responsible for providing accurate and complete information required for their project.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "368ddb49",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Depending on the service, this may include:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "818d32db",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Manuscript</li><li>Synopsis</li><li>Book title and subtitle</li><li>Author name</li><li>ISBN information</li><li>Cover files</li><li>Book description</li><li>Publishing credentials or appropriate account access</li><li>Advertising information</li><li>Existing metadata</li><li>Images</li><li>Brand assets</li><li>Publisher information</li><li>Relevant project history</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ab5278d5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Delays in providing required materials may delay delivery.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c36f4ef7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients are responsible for reviewing final files and information before publication or approval.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "73e29a45",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "6. ACCOUNT ACCESS AND PASSWORDS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "30d36ba8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where work requires access to publishing or advertising platforms, Grant Publishing Co. may request appropriate access.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "07a87ff2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Whenever possible, clients should use official user-access, team-access, or permission systems instead of sharing permanent passwords.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "50923958",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. will never require payment card details through ordinary website forms.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "00a3ea84",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients remain responsible for maintaining control and security of their accounts.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d1065629",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "7. PROJECT SCOPE",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6ab164c7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Each project is limited to the work described in the accepted proposal, contract, order, or written agreement.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "01b115a2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Requests outside the agreed scope may require:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ce08280a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>An additional fee</li><li>A revised delivery date</li><li>A separate project</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0656edd8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Additional work will not automatically be included simply because it relates to the original project.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4d6d5756",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "8. REVISIONS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "53d91231",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The number and type of revisions included in a project will be stated in the applicable proposal or agreement.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c75ac21a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>A revision means a reasonable adjustment to work completed within the approved project direction.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "63c81d54",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>A major change in concept, manuscript, book size, design direction, marketing strategy, or project requirements after work has begun may be treated as additional work.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8f2b3f26",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "9. FEES AND PAYMENT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "26e602a8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Pricing may be provided as:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "15b86e52",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Fixed-price project fees</li><li>Hourly fees</li><li>Milestone payments</li><li>Retainers</li><li>Custom quotations</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "991a3f0f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Payment terms will be communicated before paid work begins.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1dadf44a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Third-party expenses such as:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "38dc2ba9",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Amazon advertising spend</li><li>ISBN purchases</li><li>Printing costs</li><li>Stock images</li><li>Premium fonts</li><li>Software</li><li>Website hosting</li><li>Paid plugins</li><li>Distribution charges</li><li>Platform fees</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f530ed12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>are not included unless specifically stated in writing.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "51e47578",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "10. AMAZON ADVERTISING",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8446f01c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>When Grant Publishing Co. provides Amazon advertising services, the client's advertising budget remains separate from our professional service fee unless explicitly stated otherwise.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "19322df5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Advertising involves financial risk.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "658f7081",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Campaign performance may be affected by:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3498dfde",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Competition</li><li>Book price</li><li>Reviews</li><li>Cover design</li><li>Listing quality</li><li>Seasonality</li><li>Conversion rate</li><li>Market demand</li><li>Amazon's advertising systems</li><li>Targeting availability</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d1526c95",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. does not guarantee advertising profitability.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0dd25f08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "11. INTELLECTUAL PROPERTY",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e1d17ed6",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients are responsible for ensuring they have the legal right to use any manuscript, images, illustrations, trademarks, logos, photographs, fonts, or other materials they provide.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "45ad7f9c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. is not responsible for infringement caused by materials supplied by the client without disclosure of applicable restrictions.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f5f16506",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Ownership of custom final deliverables will follow the applicable project agreement.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "446f2565",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Third-party assets, software, fonts, stock images, templates, or licensed materials remain subject to their own licenses.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "01ae20a1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "12. PORTFOLIO USE",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9a8e3dc5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Unless confidentiality or non-disclosure terms are agreed in writing, Grant Publishing Co. may display publicly released work in its portfolio, website, proposals, case studies, or professional profiles for the purpose of demonstrating completed work.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "51ee66b5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We will not intentionally publish private manuscripts, confidential business data, passwords, unpublished financial information, or other confidential materials as portfolio content.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bbdf69e5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Clients may request confidentiality before or during a project.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "cc236de7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "13. CASE STUDIES AND RESULTS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "791e0580",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where Grant Publishing Co. publishes a case study, we aim to distinguish between:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a0e48484",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Work we performed</li><li>Information provided by the client</li><li>Publicly observable data</li><li>Measured results</li><li>Correlation</li><li>Claims that cannot reasonably be proven</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "04ec1b1c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We do not intentionally present assumptions as verified sales results.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "90bd4155",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "14. CANCELLATIONS AND REFUNDS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9732a06c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Cancellation and refund terms may depend on:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "56f24d8d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Work already completed</li><li>Project stage</li><li>Platform rules</li><li>Custom work already produced</li><li>Expenses already incurred</li><li>The applicable project agreement</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e2b2663a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Where work is purchased through a third-party platform such as Upwork or Fiverr, that platform's payment, dispute, escrow, and refund procedures may also apply.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b74739fe",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "15. PROJECT DELAYS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f2704811",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Delivery dates are estimates unless a deadline is specifically agreed as fixed.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c45aa5eb",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. is not responsible for delays caused by:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "eca35889",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Late client feedback</li><li>Missing files</li><li>Platform outages</li><li>Amazon review or approval delays</li><li>Changes requested by the client</li><li>Third-party service interruptions</li><li>Events reasonably outside our control</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c71e2031",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We will communicate material delays where reasonably possible.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "92e3ba5b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "16. PROFESSIONAL JUDGMENT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0980da30",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Recommendations regarding positioning, keywords, categories, advertising, pricing, book presentation, or marketing are based on available information, research, professional judgment, and the conditions observed at the time.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e83f472d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Publishing markets and platform behavior can change.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d2005888",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>A recommendation that is appropriate at one point may need to be adjusted later.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "cb3e3d85",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "17. LIMITATION OF LIABILITY",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ce168e27",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>To the extent permitted by applicable law, Grant Publishing Co. will not be liable for indirect, incidental, special, or consequential losses resulting from the use of our website or services.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ca568216",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>This includes losses connected to:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "65a9a1fa",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<ul><li>Expected book sales</li><li>Advertising expenditure</li><li>Platform decisions</li><li>Lost rankings</li><li>Publishing delays</li><li>Third-party service interruptions</li><li>Changes to Amazon or other platform systems</li></ul>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0c7834e0",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Nothing in these terms excludes liability that cannot legally be excluded.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6a2b54f2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "18. WEBSITE CONTENT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a5d2bb18",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Information published on grantpublishingco.com is provided for general informational and commercial purposes.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "427f67c4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Publishing, marketing, advertising, and platform information may become outdated as industry practices and third-party systems change.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d8e23467",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Website content should not be considered legal, tax, accounting, or financial advice.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "974d21df",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "19. THIRD-PARTY LINKS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "46afad07",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Our website may contain links to third-party websites.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "cb8bdf4d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>We are not responsible for the content, security, terms, availability, or practices of third-party websites.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a239f10a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "20. CHANGES TO THESE TERMS",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9a75e484",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co. may update these Terms when services, business practices, technology, or legal requirements change.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3cbdca7c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>The current version will be published on this website with an updated revision date.</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c0dac54c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Subheading",
+                    "_css_classes": "gp-subheading",
+                    "title": "21. CONTACT",
+                    "header_size": "h2"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5c59a377",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Questions about these Terms may be sent to:</p>"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "efbb468e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "_title": "Copy",
+                    "_css_classes": "gp-copy",
+                    "editor": "<p>Grant Publishing Co.<br>Email: hello@grantpublishingco.com<br>Website: grantpublishingco.com</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "4.3.1",
+  "sha256": "783d339e520eb23393c47401f1e25e7af21408a6bc3d771b3bd21af0102c2dbe",
+  "bytes": 10592178,
+  "files": 105,
+  "root": "grant-publishing-site/",
+  "crc": "pass",
+  "source_bytes_match": true,
+  "regular_file_permissions": "0644",
+  "no_qa_helpers_or_real_keys": true
+}

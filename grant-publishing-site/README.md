@@ -1,32 +1,34 @@
-# Grant Publishing Co. 4.3.0
+# Grant Publishing Co. 4.3.1
 
 Requires WordPress 6.0+ and PHP 7.4+. Elementor 3.16+ is required for native editing; Grant shortcodes also work without Elementor.
 
-1. Back up the plugin and database and test on staging.
-2. Upload `grant-publishing-site-4.3.0.zip` under Plugins → Add New → Upload Plugin. Replace the existing plugin and activate if needed.
-3. Under Tools → Grant Website Setup, run **Create missing pages and connect navigation** once. It preserves existing pages and publishes missing pages, including `/services/book-formatting/`, `/services/cover-design/` and `/services/amazon-ads/`. Review the setup result if a slug already belongs to another page. The publishing page keeps `/services/publishing-support/`.
-4. Clear hosting/CDN/browser caches and regenerate Elementor CSS & Data if stale. Confirm `site.css`, `design.css` and `showcase.js` use `ver=4.3.0`. Keep Contact and Assessment outside full-page caching.
-5. Review broader positioning, all ten services, the two book showcases and both case studies while logged out on desktop and phone.
-6. Check reduced motion, keyboard and touch navigation, optional Amazon links, service preselection and a clearly labelled test enquiry in your actual inbox.
+1. Back up the plugin and WordPress database and test on staging.
+2. Upload `grant-publishing-site-4.3.1.zip` under Plugins → Add New → Upload Plugin. Replace the existing plugin and activate if needed.
+3. Visit the dashboard as an administrator who can publish pages. This update runs a scoped, locked repair once: it creates the three requested missing services, corrects connected Insights parents and publishes the supplied approved legal copy where the URLs are available. Saved page content and Elementor data remain intact.
+4. Review **Tools → Grant Website Setup → Service and Insights route repair**. Existing authored legal pages and service drafts are preserved. Review any reported collision or draft, then use **Repair service pages and Insights routes** to retry. Select the correct published legal pages under **Legal page links** if needed. Do not run bulk layout conversion or restoration.
+5. Clear WordPress, host and CDN page caches. If needed, regenerate Elementor CSS & Data. Confirm plugin assets use `ver=4.3.1`. Keep Contact and Free Book Assessment excluded from full-page caching so their form tokens remain usable.
+6. Check all ten services, the three Insights articles, both case studies, footer legal links and phone navigation while logged out. Send one clearly labelled test enquiry through each form and confirm receipt in the Web3Forms-connected inbox.
 
-Do not bulk-convert or restore existing Elementor pages. Exact bundled stock copy updates only on connected native pages at render time. Authored copy remains as saved and should be reviewed manually if it still uses narrower positioning. The stock studio image changes only on Home and Services. Missing service entries and the Luma case feature use duplicate guards. No saved page content, Elementor data, site icon or delivery configuration is overwritten.
+## Scope and preservation
 
-The three new pages initially use maintained Grant shortcodes. Matching new-install Elementor layouts are bundled for optional individual conversion. Preserve existing pages when editing or converting.
+The approved Grant design, homepage structure, compact header icon, full footer logo, existing site icon, typography, project artwork, testimonials, case studies, articles and private delivery settings remain. Five original reviews are preserved. New services use the maintained shared service template, with matching Elementor layouts available for optional individual conversion.
 
-## Book projects and PDFs
+The incorrect service aliases for Connected Catalog, Book Discovery and Book Product Page redirect permanently to their published Insights counterparts. The old parent and permalink are backed up before any move. Public requests never create or move pages. Drafts, authored content and conflicting URLs require review rather than overwrite.
 
-The Luma showcase uses the final book mockup extracted from the supplied case-study PDF. Its feature shows the full paperback cover wrap and explains cover redesign and interior formatting through file delivery. Supplied illustrations, KDP upload, publication, metadata and Kindle conversion are not claimed as work by Grant on this project.
+Both legal templates contain the exact copy supplied and approved by the owner, dated October 10, 2026. Only an untouched unpublished WordPress starter Privacy Policy may be replaced automatically, with a full backup; authored drafts remain private until reviewed and published. Footer links appear only for published pages with content.
 
-Luma’s unchanged seven-page PDF is bundled at `assets/luma-sleepy-star-case-study.pdf`, so its link does not depend on an unprovided WordPress upload. The displayed 2.44 MB is calculated from 2,562,805 bytes. My Dear Grandfather continues to use the supplied hosted WordPress PDF. Both buttons open a protected new tab. Luma’s book links still open John’s LinkedIn review; no Amazon product destination is invented.
+## Forms, books and performance
 
-## Forms and editing
+Web3Forms stays server-side using the existing private settings. Amazon URLs remain optional. Consent and the no-automatic-subscription wording remain. Provider acceptance does not prove inbox receipt. An uncertain submission keeps the message and asks the visitor to check before sending again. No real key is included, and isolated development checks sent no external messages.
 
-Design, formatting, publishing/KDP, Amazon Ads setup and ongoing management choices are available alongside all previous service values. An Amazon link is optional for project enquiries, including unpublished books. Free initial Amazon assessments retain their public-information disclaimer.
+The existing real-book carousel, linked cover destinations and project scopes remain. Luma's supplied 2,562,805-byte PDF and My Dear Grandfather's existing hosted PDF are preserved. Native new-tab controls receive `noopener noreferrer`. WordPress smart quotes no longer trigger an extra John Capon review.
 
-Existing private Web3Forms settings remain saved. If needed, configure them privately under Tools → Grant Website Setup → Enquiry delivery. Provider acceptance does not establish inbox receipt. No real key is included and development tests sent no messages. Shared contacts and navigation remain editable in their existing settings.
+Faithful WebP renditions improve the existing portrait and Luma review image. Kathryn's Beach uses its existing responsive renditions. Original files are retained. Font loading uses an enqueued stylesheet and preconnects instead of a CSS import. Same-host HTTP script/style URLs are upgraded only on HTTPS Grant pages.
 
-## Rollback and limits
+Yoast uses the established page titles. Missing descriptions and only the identified obsolete stock Home description use approved page metadata; authored descriptions remain. Insights canonicals reflect their corrected permalinks. A scoped Canvas compatibility hook prevents the duplicate browser title without changing saved templates.
 
-Replace with the retained 4.2.1 plugin and clear caches. Newly created service pages are not deleted by rollback; review their menu visibility separately. Saved edits and delivery settings remain. Restore a database backup only for separate manual changes that need reversal.
+## Rollback and verification limits
 
-This ZIP is published on GitHub and has not been installed live. Actual WordPress/Elementor/theme/editor integration, other browsers, SEO plugin output and inbox delivery require staging review.
+The backup point is commit `19c3db032a850ed5b5195806b1307dca2287b3ef`, tag `backup/production-repair-2026-10-10`, and the retained 4.3.0 ZIP. A plugin rollback alone does not undo new pages, parents or legal publication. Restore the pre-upgrade database backup for a full rollback. Otherwise preserve the new legal copy as normal page content before installing an older plugin that lacks its shortcodes. Never bulk-restore saved Elementor layouts to roll back a routing repair.
+
+This release has been tested in actual isolated WordPress/Elementor/Yoast and has not been installed on production. The live theme/plugin stack, host/CDN caching, production editor, Safari/Firefox, external account pages and actual Web3Forms inbox receipt still need deployment checks.

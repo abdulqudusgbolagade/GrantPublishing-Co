@@ -7,12 +7,19 @@ function gpc_setup_screen() {
     if (!current_user_can('manage_options')) { return; }
     $results = get_transient('gpc_setup_result_' . get_current_user_id());
     delete_transient('gpc_setup_result_' . get_current_user_id());
-    echo '<div class="wrap"><h1>Grant Website Setup</h1><p>Editorial website design, version ' . esc_html(GPC_VERSION) . '. Existing pages and Elementor edits are preserved when you update the plugin. To connect Web3Forms, use Enquiry delivery below; page creation and design conversion are not needed for this update.</p>';
+    echo '<div class="wrap"><h1>Grant Website Setup</h1><p>Grant website, version ' . esc_html(GPC_VERSION) . '. Existing content, Elementor edits and enquiry settings are preserved when you update the plugin.</p>';
     if (is_array($results)) {
         echo '<div class="notice notice-info"><ul>';
         foreach ($results as $result) { echo '<li>' . esc_html($result) . '</li>'; }
         echo '</ul></div>';
     }
+    echo '<h2>Service and Insights route repair</h2><p>The update creates only the three requested missing services and corrects connected Insights article parents on an administrator’s dashboard visit. Saved content and layouts are preserved. If a page needs review, resolve the issue below and retry.</p>';
+    $repair_results = get_option('gpc_structure_repair_results', array());
+    if (is_array($repair_results)) { echo '<ul>'; foreach ($repair_results as $result) { echo '<li>' . esc_html($result) . '</li>'; } echo '</ul>'; }
+    echo '<form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_repair_structure">';
+    wp_nonce_field('gpc_repair_structure');
+    submit_button('Repair service pages and Insights routes', 'secondary', 'submit', false);
+    echo '</form>';
     echo '<h2>1. Complete the page structure</h2><p>This publishes missing pages, keeps existing content, and connects the navigation.</p><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_setup_pages">';
     wp_nonce_field('gpc_setup_pages');
     submit_button('Create missing pages and connect navigation', 'secondary', 'submit', false);
@@ -51,6 +58,7 @@ function gpc_setup_screen() {
     submit_button('Save shared contact details');
     echo '</form>';
     gpc_delivery_settings_screen();
+    gpc_legal_settings_screen();
     $delivery = gpc_form_delivery_settings();
     $destination = $delivery['provider'] === 'web3forms' ? 'the inbox connected to your Web3Forms key' : $c['email'];
     echo '<h2>Finish the live checks</h2><ol><li>Clear your site cache. Check the home, service, article and contact pages on desktop and phone.</li><li>Edit navigation labels and order under Appearance > Menus, using the Grant Publishing primary navigation location.</li><li>Exclude Contact and Book Assessment from page caching, because their form tokens expire.</li><li>Send a clearly labelled test enquiry and confirm inbox delivery to ' . esc_html($destination) . '.</li></ol><p>The active delivery method is ' . ($delivery['provider'] === 'web3forms' ? 'Web3Forms' : 'WordPress email') . '. This plugin does not save message bodies in the WordPress database. Short-lived hashed identifiers support abuse and duplicate checks. A success message confirms acceptance for sending, not inbox delivery. If delivery cannot be confirmed, check with us before resending the same enquiry.</p></div>';

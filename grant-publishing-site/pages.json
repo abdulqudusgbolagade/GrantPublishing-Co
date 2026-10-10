@@ -131,5 +131,17 @@
     "parent": "services",
     "shortcode": "grant_amazon_ads",
     "description": "A clear campaign structure, relevant targeting and a practical handover, with optional ongoing management."
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy",
+    "slug": "privacy-policy",
+    "shortcode": "grant_privacy_policy",
+    "description": "How Grant Publishing Co. handles enquiries, project information and personal information."
+  },
+  "terms-of-service": {
+    "title": "Terms of Service",
+    "slug": "terms-of-service",
+    "shortcode": "grant_terms_of_service",
+    "description": "Approved terms for the Grant Publishing Co. website and services."
   }
 }

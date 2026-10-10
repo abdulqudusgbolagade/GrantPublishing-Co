@@ -60,7 +60,7 @@
           if (bookDetails) bookDetails.open = initialDetailsOpen;
         } catch (error) {
           status.dataset.state = 'error';
-          status.textContent = confirmedFailure ? error.message : 'We could not confirm whether your enquiry was received. Your details are still here. Please retry or contact ' + (form.dataset.contactEmail || 'hello@grantpublishingco.com') + ' if the problem continues.';
+          status.textContent = confirmedFailure ? error.message : 'We could not confirm whether your enquiry was received. Your details are still here. Please contact ' + (form.dataset.contactEmail || 'hello@grantpublishingco.com') + ' to check before sending it again.';
         } finally {
           clearTimeout(timeout);
           form.dataset.sending = '0';

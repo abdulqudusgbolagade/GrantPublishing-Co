@@ -1,0 +1,12 @@
+PASS: Untouched WordPress draft can publish the approved policy
+PASS: Approved copy uses the maintained page template
+PASS: Original default draft is backed up
+PASS: Shared shell is assigned after the WP update to prevent duplicate headers and H1s
+PASS: Published legal content is not overwritten
+PASS: An edited draft stays untouched
+PASS: An authored Elementor policy stays untouched
+PASS: Backup failure blocks publication
+PASS: Failed publication retains backup and original draft
+PASS: Interrupted publication can retry using its original backup
+
+10 legal assertions passed. No live policy changes occurred.

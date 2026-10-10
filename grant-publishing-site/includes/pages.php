@@ -51,6 +51,8 @@ function gpc_icon_link($channel, $url, $label, $external = false) {
 function gpc_iconize_contact_links($content) {
     if (!is_string($content)) { return $content; }
     return preg_replace_callback('~<a\b([^>]*)>(.*?)</a>~is', function($m) {
+        // The footer deliberately shows the business address beside its icon links.
+        if (preg_match('~\bclass\s*=\s*(["\x27])([^"\x27]*)\1~i', $m[1], $class) && in_array('gp-footer-email', preg_split('/\s+/', trim($class[2])), true)) { return $m[0]; }
         // Keep cover links, authored SVG icons and linked images intact.
         if (preg_match('/<(?:img|svg|picture)\b/i', $m[2]) || !preg_match('~\bhref\s*=\s*(["\x27])([^"\x27]+)\1~i', $m[1], $href)) { return $m[0]; }
         $url = html_entity_decode($href[2], ENT_QUOTES, 'UTF-8');
@@ -110,7 +112,24 @@ function gpc_footer() {
     foreach (array('services'=>'Services','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
         $links .= '<a href="' . esc_url(gpc_url($key)) . '">' . esc_html($label) . '</a>';
     }
-    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-intro"><h2>Books built to<br>be discovered.</h2><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div class="gp-footer-grid"><div class="gp-footer-identity"><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-footer-576.webp')) . '" alt="Grant Publishing Co." width="1448" height="1086" loading="lazy" decoding="async"></a><p>Book design, publishing and marketing<br>led by AbdulQudus Tella.</p></div><div class="gp-footer-explore"><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div class="gp-footer-contact"><h3>Let’s connect</h3><p>Share your book, your goals<br>and the support you need.</p>' . gpc_contact_links('gp-footer-socials') . '<p class="gp-footer-contact-note">Choose a channel to start<br>a direct conversation.</p></div></div><div class="gp-footer-bottom"><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p><p class="gp-footer-fine">Clear strategy. Thoughtful publishing.</p></div></div></footer>';
+    $contact = gpc_contact_details();
+    return '<footer class="gp-footer" id="contact"><div class="gp-wrap"><div class="gp-footer-intro"><h2>Books built to<br>be discovered.</h2><a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a></div><div class="gp-footer-grid"><div class="gp-footer-identity"><a class="gp-footer-brand" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-footer-576.webp')) . '" alt="Grant Publishing Co." width="1448" height="1086" loading="lazy" decoding="async"></a><p>Book design, publishing and marketing for authors and publishers.<br>Led by AbdulQudus Tella.</p></div><div class="gp-footer-explore"><h3>Explore</h3><nav aria-label="Footer navigation" class="gp-footer-links">' . $links . '</nav></div><div class="gp-footer-contact"><h3>Let’s connect</h3><p>Share your book, your goals<br>and the support you need.</p>' . gpc_contact_links('gp-footer-socials') . '<a class="gp-footer-email" href="mailto:' . esc_attr($contact['email']) . '">' . esc_html($contact['email']) . '</a><p class="gp-footer-contact-note">Choose a channel to start<br>a direct conversation.</p></div></div><div class="gp-footer-bottom"><p class="gp-footer-fine">© ' . esc_html(wp_date('Y')) . ' Grant Publishing Co. All rights reserved.</p>' . gpc_legal_footer_links() . '<p class="gp-footer-fine">Clear strategy. Thoughtful publishing.</p></div></div></footer>';
+}
+/** Legal links appear only for reviewed pages that have actually been published. */
+function gpc_legal_page($key) {
+    $saved = get_option('gpc_legal_pages', array());
+    $id = is_array($saved) ? (int) ($saved[$key] ?? 0) : 0;
+    if (!$id && $key === 'privacy-policy') { $id = (int) get_option('wp_page_for_privacy_policy', 0); }
+    return $id ? get_post($id) : get_page_by_path($key, OBJECT, 'page');
+}
+function gpc_legal_footer_links() {
+    $links = '';
+    foreach (array('privacy-policy'=>'Privacy Policy', 'terms-of-service'=>'Terms of Service') as $key=>$label) {
+        $page = gpc_legal_page($key);
+        if (!$page || $page->post_type !== 'page' || $page->post_status !== 'publish' || (trim($page->post_content) === '' && !get_post_meta($page->ID, '_elementor_data', true))) { continue; }
+        $links .= '<a href="' . esc_url(get_permalink($page->ID)) . '">' . esc_html($label) . '</a>';
+    }
+    return $links ? '<nav class="gp-footer-legal" aria-label="Legal information">' . $links . '</nav>' : '';
 }
 function gpc_resolve_string($text, $escape = false) {
     return preg_replace_callback('/\{\{(url|asset):([a-z0-9.\-]+)\}\}/', function($m) use ($escape) {
@@ -127,7 +146,9 @@ function gpc_site_page($key) {
     $html = preg_replace_callback('/\{\{form:(assessment|project)\}\}/', function($m) { return gpc_site_form($m[1]); }, $html);
     $html = preg_replace_callback('/\{\{showcase:(home|services)\}\}/', function($m) { return gpc_book_showcase($m[1]); }, $html);
     $html = gpc_resolve_string($html, true);
+    $html = gpc_responsive_project_images($html);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
+    if (!wp_style_is('gpc-fonts', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_font_url()) . '">'; }
     if (!wp_style_is('gpc-site', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('site.css') . '?ver=' . GPC_VERSION) . '">'; }
     if (!wp_style_is('gpc-design', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('design.css') . '?ver=' . GPC_VERSION) . '">'; }
     return $html;
@@ -154,13 +175,24 @@ function gpc_current_key() {
     return '';
 }
 function gpc_enqueue_assets($key = '') {
-    $deps = wp_style_is('elementor-frontend', 'registered') ? array('elementor-frontend') : array();
+    wp_enqueue_style('gpc-fonts', gpc_font_url(), array(), null);
+    $deps = wp_style_is('elementor-frontend', 'registered') ? array('gpc-fonts','elementor-frontend') : array('gpc-fonts');
     wp_enqueue_style('gpc-site', gpc_asset_url('site.css'), $deps, GPC_VERSION);
     wp_enqueue_style('gpc-design', gpc_asset_url('design.css'), array('gpc-site'), GPC_VERSION);
     wp_enqueue_script('gpc-interactions', gpc_asset_url('interactions.js'), array(), GPC_VERSION, true);
     // Cached native hero HTML still needs its interactive enhancement.
     if (in_array($key, array('home','services'), true)) { wp_enqueue_script('gpc-showcase', gpc_asset_url('showcase.js'), array(), GPC_VERSION, true); }
 }
+function gpc_font_url() {
+    return 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap';
+}
+add_filter('wp_resource_hints', function($urls, $relation) {
+    if ($relation === 'preconnect' && gpc_current_key()) {
+        $urls[] = 'https://fonts.googleapis.com';
+        $urls[] = array('href'=>'https://fonts.gstatic.com', 'crossorigin'=>'anonymous');
+    }
+    return $urls;
+}, 10, 2);
 add_action('wp_enqueue_scripts', function() { $key = gpc_current_key(); if ($key) { gpc_enqueue_assets($key); } }, 100);
 add_filter('theme_page_templates', function($templates) { $templates['gpc-full-page.php'] = 'Grant Publishing Full Page'; return $templates; });
 add_filter('template_include', function($template) {
@@ -181,10 +213,28 @@ add_action('template_redirect', function() {
         if ($page && $page->post_status === 'publish') { wp_safe_redirect(gpc_url($aliases[$path]), 301); exit; }
     }
 });
-add_filter('pre_get_document_title', function($title) {
+function gpc_document_title($title) {
     $key = gpc_current_key(); $defs = gpc_pages();
     return $key ? $defs[$key]['title'] . ($key === 'home' ? ' | Book Design, Publishing & Marketing' : ' | Grant Publishing Co.') : $title;
+}
+add_filter('pre_get_document_title', 'gpc_document_title', 20);
+add_filter('wpseo_title', 'gpc_document_title', 20);
+function gpc_seo_description($description) {
+    $key = gpc_current_key(); $defs = gpc_pages();
+    if (!$key) { return $description; }
+    // Keep authored descriptions; fill missing ones and the exact old Home stock text.
+    if (trim((string) $description) === '' || ($key === 'home' && strpos((string) $description, 'Uncover strategies employed by a Book Marketing specialist to boost your book') === 0)) { return $defs[$key]['description']; }
+    return $description;
+}
+add_filter('wpseo_metadesc', 'gpc_seo_description', 20);
+add_filter('wpseo_canonical', function($url) {
+    return in_array(gpc_current_key(), array('book-discovery','book-product-page','connected-catalog'), true) ? get_permalink(get_queried_object_id()) : $url;
 }, 20);
+add_action('template_redirect', function() {
+    // Canvas has its own fallback title. Let Yoast own the single title on
+    // connected Grant Canvas pages, without changing the theme or saved template.
+    if (defined('WPSEO_VERSION') && gpc_current_key() && get_page_template_slug() === 'elementor_canvas' && !current_theme_supports('title-tag')) { add_theme_support('title-tag'); }
+}, 0);
 add_action('wp_head', function() {
     $key = gpc_current_key(); $defs = gpc_pages();
     if ($key && !defined('WPSEO_VERSION') && !defined('RANK_MATH_VERSION') && !defined('AIOSEO_VERSION') && !defined('SEOPRESS_VERSION')) {

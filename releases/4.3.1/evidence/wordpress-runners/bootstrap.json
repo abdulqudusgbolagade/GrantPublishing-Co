@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "step": "activatePlugin",
+      "pluginPath": "elementor/elementor.php"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "wordpress-seo/wp-seo.php"
+    },
+    {
+      "step": "activatePlugin",
+      "pluginPath": "grant-publishing-site/grant-publishing-site.php"
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php\nrequire '/wordpress/wp-load.php'; require_once ABSPATH.'wp-admin/includes/plugin.php';\nwp_set_current_user(1);\nupdate_option('permalink_structure','/%postname%/');\n$map=array();$before=array();\nforeach(gpc_pages() as $key=>$def){\n if(in_array($key,array('book-formatting','cover-design','amazon-ads','privacy-policy','terms-of-service'),true))continue;\n $parent=empty($def['parent'])?0:$map[$def['parent']];\n if($key==='connected-catalog')$parent=$map['services'];\n $id=wp_insert_post(array('post_type'=>'page','post_status'=>'publish','post_title'=>$def['title'],'post_name'=>$def['slug']?:'home','post_parent'=>$parent,'post_content'=>'['.$def['shortcode'].']','meta_input'=>array('_gpc_page_key'=>$key,'_wp_page_template'=>'gpc-full-page.php')));\n $map[$key]=$id;\n if($key==='home'){update_option('show_on_front','page');update_option('page_on_front',$id);}\n update_option('gpc_page_ids',$map,false);\n $result=gpc_apply_editorial_layout(get_post($id),$key);\n if(!get_post_meta($id,'_gpc_elementor_layout',true))throw new Exception('Native setup failed: '.$key.' '.$result);\n $before[$id]=array('content'=>hash('sha256',get_post($id)->post_content),'native'=>hash('sha256',get_post_meta($id,'_elementor_data',true)));\n}\nupdate_option('gpc_form_delivery',array('provider'=>'web3forms','access_key'=>'00000000-0000-0000-0000-000000000001'),false);\n$before_delivery=hash('sha256',serialize(get_option('gpc_form_delivery')));\n$before_article=get_permalink($map['connected-catalog']);\ndo_action('admin_init');\n$preserved=true;foreach($before as $id=>$data){$preserved=$preserved && $data['content']===hash('sha256',get_post($id)->post_content) && $data['native']===hash('sha256',get_post_meta($id,'_elementor_data',true));}\n$report=array('wordpress'=>$GLOBALS['wp_version'],'elementor'=>ELEMENTOR_VERSION,'yoast'=>WPSEO_VERSION,'php'=>PHP_VERSION,'plugin'=>GPC_VERSION,'native_pages_before'=>count($before),'article_before'=>$before_article,'article_after'=>gpc_url('connected-catalog'),'saved_content_preserved'=>$preserved,'original_page_hashes'=>$before,'provider_settings_preserved'=>$before_delivery===hash('sha256',serialize(get_option('gpc_form_delivery'))),'created'=>get_option('gpc_structure_created_pages'),'repair_results'=>get_option('gpc_structure_repair_results'),'routes'=>array());\nforeach(gpc_pages() as $key=>$def){$p=gpc_find_page($key);$report['routes'][$key]=array('id'=>$p?$p->ID:0,'url'=>gpc_url($key),'native'=>$p?(bool)get_post_meta($p->ID,'_gpc_elementor_layout',true):false);}\n$report['repeat_noop']=!gpc_repair_page_structure();\nfile_put_contents('/wordpress/qa-result.json',json_encode($report,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));\nflush_rewrite_rules(false);\n"
+    }
+  ],
+  "preferredVersions": {
+    "php": "8.5",
+    "wp": "7.0.7"
+  }
+}

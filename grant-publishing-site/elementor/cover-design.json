@@ -114,7 +114,7 @@
                   "settings": {
                     "_title": "Lead",
                     "_css_classes": "gp-lead",
-                    "editor": "<p>Ebook covers and print cover layouts suited to your book’s genre, audience and format.</p>"
+                    "editor": "<p>Professional cover design and print-cover preparation aligned with your book’s genre, intended reader, format and publishing requirements.</p>"
                   },
                   "elements": []
                 },
@@ -356,7 +356,7 @@
                         "_title": "Deliverables",
                         "_element_id": "service-scope",
                         "_css_classes": "gp-deliverables",
-                        "editor": "<ul>\n<li>Cover direction and ebook front cover design</li>\n<li>Paperback or hardcover cover layout within the agreed specifications</li>\n<li>Title, author name, spine and back cover presentation</li>\n<li>Final cover files and agreed revisions</li>\n</ul>"
+                        "editor": "<ul>\n<li>Cover direction and ebook front cover design</li>\n<li>Paperback and hardcover wraps within the agreed specifications</li>\n<li>Title, author name, spine and back cover presentation</li>\n<li>Genre positioning and title readability at thumbnail size</li>\n<li>Print preparation to the agreed KDP or printer specifications, final files and revisions</li>\n</ul>"
                       },
                       "elements": []
                     },
@@ -567,6 +567,19 @@
             },
             {
               "id": "d088de6d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_title": "Heading",
+                "_css_classes": "gp-heading",
+                "title": "A considered cover, prepared for its format.",
+                "header_size": "h2"
+              },
+              "elements": []
+            },
+            {
+              "id": "fe05db7e",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -591,7 +604,7 @@
               },
               "elements": [
                 {
-                  "id": "e8bb14c9",
+                  "id": "5d4f4c4a",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -616,7 +629,7 @@
                   },
                   "elements": [
                     {
-                      "id": "4dcbd4a6",
+                      "id": "4bd91331",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -628,7 +641,7 @@
                       "elements": []
                     },
                     {
-                      "id": "455c7ca9",
+                      "id": "057f3429",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -641,21 +654,21 @@
                       "elements": []
                     },
                     {
-                      "id": "94c9ab7d",
+                      "id": "700fc473",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We review the book, your goal and the current concern.</p>"
+                        "editor": "<p>We review the synopsis, genre, intended reader, visual references and edition requirements.</p>"
                       },
                       "elements": []
                     }
                   ]
                 },
                 {
-                  "id": "8c0ca60e",
+                  "id": "dbb4af50",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -680,7 +693,7 @@
                   },
                   "elements": [
                     {
-                      "id": "8276f3c6",
+                      "id": "ba2c274e",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -692,7 +705,7 @@
                       "elements": []
                     },
                     {
-                      "id": "172484db",
+                      "id": "395f9fbc",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -705,21 +718,21 @@
                       "elements": []
                     },
                     {
-                      "id": "562741a4",
+                      "id": "4044e134",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We confirm deliverables, fees, timing and revision terms.</p>"
+                        "editor": "<p>We confirm the cover direction, licensed or supplied artwork, deliverables, fee and revision terms.</p>"
                       },
                       "elements": []
                     }
                   ]
                 },
                 {
-                  "id": "599ab68e",
+                  "id": "946501f1",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -744,7 +757,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9c15d288",
+                      "id": "c96a1c85",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -756,7 +769,7 @@
                       "elements": []
                     },
                     {
-                      "id": "fcf9132e",
+                      "id": "d6c68ea8",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -769,14 +782,14 @@
                       "elements": []
                     },
                     {
-                      "id": "e612b4bd",
+                      "id": "8549d752",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>You receive the agreed work and clear next steps.</p>"
+                        "editor": "<p>We develop the agreed design, review it together and prepare the final front cover or print wrap.</p>"
                       },
                       "elements": []
                     }

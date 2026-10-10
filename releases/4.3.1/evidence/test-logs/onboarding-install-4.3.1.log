@@ -1,0 +1,349 @@
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/cli-util@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/logger@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-5-2@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-7-4@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-0@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-1@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-2@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-3@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-4@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/node-8-5@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/progress@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/universal@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/util@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+npm warn EBADENGINE Unsupported engine {
+npm warn EBADENGINE   package: '@php-wasm/xdebug-bridge@3.1.57',
+npm warn EBADENGINE   required: { node: '>=24.18.0', npm: '>=11.16.0' },
+npm warn EBADENGINE   current: { node: 'v24.19.0', npm: '11.9.0' }
+npm warn EBADENGINE }
+
+added 50 packages in 4s
+PASS: Existing installs default to WordPress mail
+PASS: WordPress email failure remains visible
+PASS: Web3Forms sends once without email fallback
+PASS: Fixed HTTPS provider endpoint, TLS and no redirect
+PASS: Server JSON transport completes before browser timeout
+PASS: Name, email, reply address and message included
+PASS: Every optional field and consent included
+PASS: Confirmed duplicate submission does not send again
+PASS: HTTP 400 rejection is visible without fallback
+PASS: HTTP 400 confirmed rejection permits intentional retry
+PASS: HTTP 401 rejection is visible without fallback
+PASS: HTTP 401 confirmed rejection permits intentional retry
+PASS: HTTP 403 rejection is visible without fallback
+PASS: HTTP 403 confirmed rejection permits intentional retry
+PASS: HTTP 422 rejection is visible without fallback
+PASS: HTTP 422 confirmed rejection permits intentional retry
+PASS: HTTP 429 rejection is visible without fallback
+PASS: HTTP 429 confirmed rejection permits intentional retry
+PASS: Provider negative success is confirmed rejection
+PASS: Uncertain response 500/{"success":false} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 503/<html>Unavailable</html> preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/not json preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/{"success":"true"} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 200/{} preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Uncertain response 302/ preserves uncertainty
+PASS: Uncertain duplicate is held, never silently retried
+PASS: Transport error/timeout is uncertain
+PASS: Transport-error duplicate is held
+PASS: Missing key does not send or fall back
+PASS: Validation blocks invalid fax
+PASS: Validation blocks invalid consent
+PASS: Validation blocks invalid email
+PASS: Validation blocks invalid book_url
+PASS: Validation blocks invalid request
+PASS: Validation blocks invalid message
+PASS: Expired form nonce blocks send
+PASS: GET cannot submit enquiry
+PASS: Existing address rate limit retained
+PASS: Access key is absent from public form markup
+PASS: Active provider disclosed in form privacy text
+PASS: WordPress mode retains email disclosure
+PASS: Admin key field is masked and never prefilled
+PASS: Saving a valid key selects provider and disables autoload
+PASS: Blank key preserves existing credential
+PASS: Provider can be paused without removing key
+PASS: Removal clears credential and restores email delivery
+PASS: Invalid key cannot overwrite saved settings
+PASS: Web3Forms cannot be activated without credential
+PASS: Administrator capability protects delivery settings
+PASS: CSRF nonce protects delivery settings
+PASS: Delivery changes require POST
+PASS: Unsupported provider rejected
+PASS: No-JavaScript uncertain delivery preserves uncertainty in title and body
+PASS: Design layer enqueues after base styles with current cache version
+PASS: Design stylesheet exists in plugin source
+PASS: Shortcode rendered after wp_head includes both stylesheet links
+PASS: Already-printed styles do not add duplicate fallback links
+PASS: Prepublication enquiry retains Book formatting without an Amazon link
+PASS: Prepublication enquiry retains Cover design without an Amazon link
+PASS: Prepublication enquiry retains Book publishing and Amazon KDP setup without an Amazon link
+PASS: Prepublication enquiry retains Amazon Ads campaign setup without an Amazon link
+PASS: Prepublication enquiry retains Amazon Ads management without an Amazon link
+PASS: All broader service labels are exposed by the actual PHP form
+PASS: Amazon link remains optional in rendered form
+PASS: Both actual shortcode pages resolve the shared showcase
+PASS: Cached native home always queues the current showcase script
+PASS: Cached native services always queues the current showcase script
+
+72 backend assertions passed. No real HTTP request or email was sent.
+PASS: An unlinked bundled native Home cover links to the exact supplied Amazon destination
+PASS: Link has a descriptive new-tab name and preserves the complete original image
+PASS: Already linked rendered cover does not gain nested links
+PASS: Connected native Feedback cover receives the same correct link
+PASS: Unrelated services page remains untouched
+PASS: Unrelated about page remains untouched
+PASS: Unrelated contact page remains untouched
+PASS: Blank, external or edited image is preserved: (blank)
+PASS: Blank, external or edited image is preserved: https://other.test/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/uploads/kathryns-beach.jpg
+PASS: Blank, external or edited image is preserved: https://grant.test/wp-content/plugins/grant-publishing-site/assets/grant-logo.png
+PASS: Rendered replacement is preserved even when old settings retain the cover URL
+PASS: Existing custom or attachment link settings are preserved
+PASS: An existing author link is never replaced
+PASS: Multiple-image widget is not modified
+PASS: Only the image widget is eligible
+PASS: Optimiser picture structure is preserved without invalid nested picture markup
+PASS: Existing image-map interaction is not replaced
+PASS: Bundled URL cache parameters do not prevent the correct link
+PASS: Valid unquoted HTML source is handled
+PASS: admin rendering receives no automatic compatibility content
+PASS: feed rendering receives no automatic compatibility content
+PASS: preview rendering receives no automatic compatibility content
+PASS: Elementor editor rendering remains untouched
+PASS: Elementor preview rendering remains untouched
+PASS: Unmarked pages are not modified
+PASS: Wrong native page connection does not append proof
+PASS: Proof requires the singular main page loop: singular
+PASS: Proof requires the singular main page loop: main
+PASS: Proof requires the singular main page loop: loop
+PASS: Only the Grant full-page native template gets automatic proof
+PASS: Secondary post cannot receive the main page proof
+PASS: Old native content stays byte-for-byte intact with the supplied new review appended
+PASS: Real shared helper resolves proof asset and feedback route tokens
+PASS: Supplied client attribution, publisher and Amazon destination remain in proof
+PASS: Old work anchor is retained and appended proof gets a distinct ID
+PASS: Repeated filtering cannot duplicate the appended review
+PASS: Rendering leaves saved page content and Elementor data untouched
+PASS: Older connected native Feedback receives new proof
+PASS: Existing inline/line-wrapped reviews stay intact and receive only the missing Luma cover
+PASS: Entity-encoded updated review is recognised without repeating its quote
+PASS: Existing author proof ID is preserved without creating a duplicate ID
+PASS: A native page already containing Nadine receives only the missing John review
+PASS: John review has its supplied name, LinkedIn source and graphic-design context
+PASS: Both review guards prevent repeat additions
+PASS: Cover detection accepts the genuine bundled URL with HTML entities and cache parameters
+PASS: A same-name external image is not treated as the supplied cover
+PASS: User upload cover detection supports the actual HTTP source and unquoted markup
+PASS: A URL without a displayed image does not suppress the genuine cover
+PASS: Adding only the missing Luma cover is idempotent
+PASS: Missing Luma card has the confirmed LinkedIn destination and genuine alternative text
+PASS: Old native Feedback retains saved content and gains only its missing Grandfather card
+PASS: Cover compatibility does not repeat either existing client review
+PASS: Grandfather card has the confirmed Amazon destination, author and publisher
+PASS: Grandfather gallery is not duplicated on repeated rendering
+PASS: Already complete native reviews and covers stay intact while receiving the requested case study
+PASS: Already supplied WordPress-uploaded Luma cover is preserved without a duplicate gallery
+PASS: Actual PHP header renders the supplied responsive icon instead of the old logo
+PASS: Actual icon header retains company identification and square dimensions
+PASS: Actual PHP footer renders the supplied new full footer logo with original proportions
+PASS: Actual PHP footer uses the approved tagline and retains working enquiry navigation
+PASS: Existing native Feedback gains one linked case study without replacing saved content
+PASS: Case-study rendering is idempotent
+PASS: WordPress smart apostrophes do not cause a duplicate John review
+PASS: Encoded WordPress typography also preserves the single existing review
+PASS: An existing authored PDF link with cache parameters prevents a duplicate card
+PASS: The user-supplied HTTP PDF destination also prevents duplication
+PASS: Saved case-study ID is retained with a distinct appended card ID
+PASS: Case study is scoped to Feedback rather than Home
+PASS: Saved email destination and accessible meaning survive icon conversion
+PASS: External review icon keeps its exact URL and protected new-tab action
+PASS: Repeated content filters do not replace existing SVG controls
+PASS: Footer business email stays readable in shortcode and native page output
+PASS: A book cover linked to LinkedIn is never converted to a social icon
+PASS: admin content is not iconized
+PASS: feed content is not iconized
+PASS: preview content is not iconized
+PASS: Unconnected page content remains untouched
+PASS: Shared contact output contains four labelled icons and the configured email destination
+PASS: Compatibility hooks register image context and post-Elementor proof rendering
+PASS: Luma case study appears directly after the saved John review
+PASS: Luma case-study link prevents duplicate additions
+PASS: Displayed Luma size derives from the unchanged supplied PDF
+PASS: Luma scope ends at file delivery with exclusions visible
+PASS: Bundled native hero studio image becomes the actual-book showcase
+PASS: Showcase renders three verified projects and defers the later covers
+PASS: Actual project scopes remain distinct in showcase captions
+PASS: Unrelated book images remain unchanged
+PASS: Old native Services receives the three missing entries
+PASS: Custom service content stays intact while exact old publishing copy updates
+PASS: Service compatibility remains idempotent
+PASS: Exact saved stock headline updates and authored copy remains
+PASS: An authored service heading and its existing destination stay intact
+PASS: Stock homepage service title and action agree on the new detail route
+PASS: Editor and admin content stays untouched by the positioning update
+
+95 publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.
+PASS: Refresh registers after plugin initialization
+PASS: First version load refreshes connected pages
+PASS: Only unique published connected Grant page IDs are cleared
+PASS: LiteSpeed purge targets only exact Grant URLs including the front page
+PASS: Successful refresh stores the current version
+PASS: Completed refresh releases its lock
+PASS: Saved page edits, delivery credentials and contact options remain untouched
+PASS: Repeated requests at the same version do no cache work or writes
+PASS: Replacing an older asset version refreshes every connected page
+PASS: Concurrent refresher respects an active lock without releasing it
+PASS: A stale lock left by an interrupted request can recover
+PASS: Failed cache cleanup leaves its old marker and releases the lock
+PASS: A later request retries cache cleanup after a real failure
+PASS: A site with no connected Grant pages does not purge unrelated content
+
+14 upgrade assertions passed. No live cache operations or content saves occurred.
+PASS: Same-host legacy Elementor stylesheet uses HTTPS on a connected HTTPS page
+PASS: External stylesheet hosts are not rewritten
+PASS: An HTTP development installation keeps its resource scheme
+PASS: Missing SEO descriptions use the approved page metadata
+PASS: Exact obsolete homepage SEO copy uses the established broader positioning
+PASS: Authored SEO descriptions are preserved
+PASS: Repair completes
+PASS: Only three missing services and both approved legal pages are created
+PASS: Only the wrongly parented article is moved
+PASS: Article has the correct permalink
+PASS: Existing content and native data preserved for page 9
+PASS: Existing content and native data preserved for page 10
+PASS: Existing content and native data preserved for page 11
+PASS: Existing content and native data preserved for page 12
+PASS: Existing content and native data preserved for page 13
+PASS: Existing content and native data preserved for page 14
+PASS: Existing content and native data preserved for page 15
+PASS: Existing content and native data preserved for page 16
+PASS: Existing content and native data preserved for page 17
+PASS: Existing content and native data preserved for page 18
+PASS: Existing content and native data preserved for page 19
+PASS: Existing content and native data preserved for page 20
+PASS: Existing content and native data preserved for page 21
+PASS: Existing content and native data preserved for page 22
+PASS: Existing content and native data preserved for page 23
+PASS: Existing content and native data preserved for page 24
+PASS: Existing content and native data preserved for page 25
+PASS: Private delivery settings preserved
+PASS: Original parent and route are backed up
+PASS: Incorrect public URL has a permanent redirect target
+PASS: Redirect keeps attribution query
+PASS: Canonical article never redirects back
+PASS: Other editorial service aliases stay under Insights
+PASS: Other editorial service aliases stay under Insights
+PASS: A working service is never redirected as editorial content
+PASS: External links are preserved
+PASS: Saved links keep their query and fragment
+PASS: Rendered link repair preserves authored text and attributes
+PASS: Link correction is idempotent
+PASS: Native new-tab buttons gain protection without changing their destination or wording
+PASS: New-tab protection is idempotent
+PASS: Existing authored relationship tokens remain intact
+PASS: Completed version does no repeated writes
+PASS: Manual retry never duplicates pages or moves
+PASS: Unauthorised and public users do not mutate pages
+PASS: Concurrent repair respects active lock
+PASS: Stale interrupted lock can recover
+PASS: Failed update retains retry state and releases lock
+PASS: No redirect loop is introduced when the move fails
+PASS: Failed move retries without duplicate service pages
+PASS: Missing backup blocks the parent mutation
+PASS: Failed redirect persistence blocks the parent mutation
+PASS: Failed page creation is reported for retry
+PASS: Connected article can be recovered when its ID map is absent
+PASS: Subdirectory installs keep their canonical route
+PASS: Routes outside a subdirectory are left alone
+PASS: Already correct article parents need no changes
+PASS: An unrelated page occupying a requested service URL is preserved
+PASS: An existing draft service is neither duplicated nor published silently
+PASS: A disconnected service parent blocks new service and legal creation
+PASS: A canonical article collision blocks reparenting and preserves both pages
+PASS: Absent legal pages produce no dead footer links
+PASS: Both approved published legal pages appear in one footer group
+PASS: A draft legal page is not linked publicly
+PASS: An empty published legal page is not linked
+PASS: Verified book rendition gains responsive sources and reserved proportions
+PASS: Image optimisation keeps caption, retailer destination and lazy loading
+PASS: Modern image rendering is idempotent
+PASS: Unrelated external artwork is untouched
+
+69 structure assertions passed. No live WordPress writes occurred.
+PASS: Untouched WordPress draft can publish the approved policy
+PASS: Approved copy uses the maintained page template
+PASS: Original default draft is backed up
+PASS: Shared shell is assigned after the WP update to prevent duplicate headers and H1s
+PASS: Published legal content is not overwritten
+PASS: An edited draft stays untouched
+PASS: An authored Elementor policy stays untouched
+PASS: Backup failure blocks publication
+PASS: Failed publication retains backup and original draft
+PASS: Interrupted publication can retry using its original backup
+
+10 legal assertions passed. No live policy changes occurred.
+PASS: enquiry JS success, rejection, connection failure, malformed response, invalid input, and request/service selection. No emails sent.
+PASS: 22 matching HTML/Elementor pages, 1199 native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.

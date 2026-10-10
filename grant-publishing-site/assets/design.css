@@ -585,6 +585,9 @@
 .gpc-site .gp-article-body .gp-copy { margin-bottom: 25px; font-size: 18px; line-height: 1.95; }
 .gpc-site .gp-article-body .gp-copy p { color: var(--gp-muted); }
 .gpc-site .gp-article-body .gp-action { margin-top: 42px; }
+.gpc-site .gp-legal-body ul { padding-left:24px; }
+.gpc-site .gp-legal-body li + li { margin-top:8px; }
+.gpc-site .gp-legal-body .gp-subheading h2 { font-size:clamp(25px,3vw,34px); }
 
 /* The conversation starts with clear context; the form is its own uncluttered
    surface. Existing labels, consent, validation and status behaviour remain. */
@@ -878,6 +881,10 @@
 .gpc-site .gp-footer-bottom { display:flex; justify-content:space-between; gap:20px; margin-top:38px; padding-top:24px; border-top:1px solid #bd91f944; }
 .gpc-site .gp-footer-bottom .gp-footer-fine { margin:0; padding:0; border:0; font-size:11px; }
 .gpc-site .gp-footer a:focus-visible { outline-color:#bd91f9; }
+.gpc-site .gp-footer-email { display:inline-flex; align-items:center; min-height:44px; margin-top:12px; max-width:100%; overflow-wrap:anywhere; font-size:14px; color:var(--gp-panel); }
+.gpc-site .gp-footer-legal { display:flex; flex-wrap:wrap; gap:4px 20px; }
+.gpc-site .gp-footer-legal a { display:inline-flex; align-items:center; min-height:44px; font-size:12px; color:var(--gp-panel); }
+.gpc-site .gp-footer-bottom { flex-wrap:wrap; align-items:center; }
 .gpc-site .gp-case-study-grid { display:grid; grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr); gap:clamp(32px,7vw,90px); align-items:center; }
 .gpc-site .gp-case-study-intro .gp-label { margin-bottom:24px; }
 .gpc-site .gp-case-study-intro .gp-heading { margin-bottom:24px; }

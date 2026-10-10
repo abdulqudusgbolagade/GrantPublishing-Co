@@ -356,7 +356,7 @@
                         "_title": "Deliverables",
                         "_element_id": "service-scope",
                         "_css_classes": "gp-deliverables",
-                        "editor": "<ul>\n<li>Campaign structure and relevant keyword or product targeting research</li>\n<li>Initial bid and budget settings agreed with you</li>\n<li>Campaign setup and a clear handover of the structure and settings</li>\n<li>Optional ongoing management, reporting and adjustments within the agreed scope</li>\n</ul>"
+                        "editor": "<ul>\n<li>Campaign structure and relevant keyword, product and category targeting research</li>\n<li>Initial bid and budget settings agreed with you</li>\n<li>Campaign setup and a clear handover of the structure and settings</li>\n<li>Optional ongoing management, reporting and adjustments within the agreed scope</li>\n<li>Search term review, targeting tests and campaign optimisation during agreed management</li>\n<li>Performance review against the campaign goals and available data</li>\n</ul>"
                       },
                       "elements": []
                     },
@@ -503,7 +503,7 @@
                       "settings": {
                         "_title": "Small",
                         "_css_classes": "gp-small",
-                        "editor": "<p>No service guarantees sales, rankings or platform approval.</p>"
+                        "editor": "<p>Advertising results are not guaranteed. Ad spend is separate from service fees. No service guarantees sales, rankings or platform approval.</p>"
                       },
                       "elements": []
                     }
@@ -579,6 +579,19 @@
             },
             {
               "id": "7d8e6fbd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "_title": "Heading",
+                "_css_classes": "gp-heading",
+                "title": "Research, setup and a clear review plan.",
+                "header_size": "h2"
+              },
+              "elements": []
+            },
+            {
+              "id": "c40f1650",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -603,7 +616,7 @@
               },
               "elements": [
                 {
-                  "id": "4773a6c7",
+                  "id": "8a3e3463",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -628,7 +641,7 @@
                   },
                   "elements": [
                     {
-                      "id": "9d2c0060",
+                      "id": "35474ae4",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -640,7 +653,7 @@
                       "elements": []
                     },
                     {
-                      "id": "2bceaaab",
+                      "id": "4382de46",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -653,21 +666,21 @@
                       "elements": []
                     },
                     {
-                      "id": "e6f8edf5",
+                      "id": "4ae5d89e",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We review the book, your goal and the current concern.</p>"
+                        "editor": "<p>We review the listing, marketplace, advertising goals, account eligibility and budget.</p>"
                       },
                       "elements": []
                     }
                   ]
                 },
                 {
-                  "id": "fbc53425",
+                  "id": "6d43c22b",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -692,7 +705,7 @@
                   },
                   "elements": [
                     {
-                      "id": "ee85ac4d",
+                      "id": "4d153f3f",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -704,7 +717,7 @@
                       "elements": []
                     },
                     {
-                      "id": "d25153c1",
+                      "id": "98fe3f9b",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -717,21 +730,21 @@
                       "elements": []
                     },
                     {
-                      "id": "9653ae94",
+                      "id": "ec70714b",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>We confirm deliverables, fees, timing and revision terms.</p>"
+                        "editor": "<p>We agree campaign structure, targeting, bid settings and setup fees. Optional management is billed on a recurring basis.</p>"
                       },
                       "elements": []
                     }
                   ]
                 },
                 {
-                  "id": "e18fe93a",
+                  "id": "2f480e9a",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -756,7 +769,7 @@
                   },
                   "elements": [
                     {
-                      "id": "29974f98",
+                      "id": "1c249be2",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -768,7 +781,7 @@
                       "elements": []
                     },
                     {
-                      "id": "35380bc2",
+                      "id": "9a2e67d6",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -781,14 +794,14 @@
                       "elements": []
                     },
                     {
-                      "id": "4854ee6a",
+                      "id": "bdc25717",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
                       "settings": {
                         "_title": "Copy",
                         "_css_classes": "gp-copy",
-                        "editor": "<p>You receive the agreed work and clear next steps.</p>"
+                        "editor": "<p>We set up the campaigns and hand them over, or review search terms, targeting and performance during agreed ongoing management.</p>"
                       },
                       "elements": []
                     }

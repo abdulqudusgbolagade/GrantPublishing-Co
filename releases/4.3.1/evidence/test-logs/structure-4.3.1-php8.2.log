@@ -1,0 +1,71 @@
+PASS: Same-host legacy Elementor stylesheet uses HTTPS on a connected HTTPS page
+PASS: External stylesheet hosts are not rewritten
+PASS: An HTTP development installation keeps its resource scheme
+PASS: Missing SEO descriptions use the approved page metadata
+PASS: Exact obsolete homepage SEO copy uses the established broader positioning
+PASS: Authored SEO descriptions are preserved
+PASS: Repair completes
+PASS: Only three missing services and both approved legal pages are created
+PASS: Only the wrongly parented article is moved
+PASS: Article has the correct permalink
+PASS: Existing content and native data preserved for page 9
+PASS: Existing content and native data preserved for page 10
+PASS: Existing content and native data preserved for page 11
+PASS: Existing content and native data preserved for page 12
+PASS: Existing content and native data preserved for page 13
+PASS: Existing content and native data preserved for page 14
+PASS: Existing content and native data preserved for page 15
+PASS: Existing content and native data preserved for page 16
+PASS: Existing content and native data preserved for page 17
+PASS: Existing content and native data preserved for page 18
+PASS: Existing content and native data preserved for page 19
+PASS: Existing content and native data preserved for page 20
+PASS: Existing content and native data preserved for page 21
+PASS: Existing content and native data preserved for page 22
+PASS: Existing content and native data preserved for page 23
+PASS: Existing content and native data preserved for page 24
+PASS: Existing content and native data preserved for page 25
+PASS: Private delivery settings preserved
+PASS: Original parent and route are backed up
+PASS: Incorrect public URL has a permanent redirect target
+PASS: Redirect keeps attribution query
+PASS: Canonical article never redirects back
+PASS: Other editorial service aliases stay under Insights
+PASS: Other editorial service aliases stay under Insights
+PASS: A working service is never redirected as editorial content
+PASS: External links are preserved
+PASS: Saved links keep their query and fragment
+PASS: Rendered link repair preserves authored text and attributes
+PASS: Link correction is idempotent
+PASS: Native new-tab buttons gain protection without changing their destination or wording
+PASS: New-tab protection is idempotent
+PASS: Existing authored relationship tokens remain intact
+PASS: Completed version does no repeated writes
+PASS: Manual retry never duplicates pages or moves
+PASS: Unauthorised and public users do not mutate pages
+PASS: Concurrent repair respects active lock
+PASS: Stale interrupted lock can recover
+PASS: Failed update retains retry state and releases lock
+PASS: No redirect loop is introduced when the move fails
+PASS: Failed move retries without duplicate service pages
+PASS: Missing backup blocks the parent mutation
+PASS: Failed redirect persistence blocks the parent mutation
+PASS: Failed page creation is reported for retry
+PASS: Connected article can be recovered when its ID map is absent
+PASS: Subdirectory installs keep their canonical route
+PASS: Routes outside a subdirectory are left alone
+PASS: Already correct article parents need no changes
+PASS: An unrelated page occupying a requested service URL is preserved
+PASS: An existing draft service is neither duplicated nor published silently
+PASS: A disconnected service parent blocks new service and legal creation
+PASS: A canonical article collision blocks reparenting and preserves both pages
+PASS: Absent legal pages produce no dead footer links
+PASS: Both approved published legal pages appear in one footer group
+PASS: A draft legal page is not linked publicly
+PASS: An empty published legal page is not linked
+PASS: Verified book rendition gains responsive sources and reserved proportions
+PASS: Image optimisation keeps caption, retailer destination and lazy loading
+PASS: Modern image rendering is idempotent
+PASS: Unrelated external artwork is untouched
+
+69 structure assertions passed. No live WordPress writes occurred.

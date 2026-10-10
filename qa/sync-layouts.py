@@ -86,7 +86,7 @@ if __name__ == '__main__':
         document = html.fromstring((ROOT / 'templates' / (key + '.html')).read_text())
         main = document.xpath('.//main')[0]
         target = ROOT / 'elementor' / (key + '.json')
-        data = json.loads(target.read_text())
+        data = json.loads(target.read_text()) if target.exists() else {'version':'0.4', 'type':'page', 'title':PAGES[key]['title'], 'page_settings':{}}
         data['content'] = [build(child, key, str(i)) for i, child in enumerate(main)]
         data['title'] = PAGES[key]['title']
         target.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
