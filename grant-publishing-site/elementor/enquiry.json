@@ -346,6 +346,18 @@
                         "editor": "<p>The free initial assessment uses public Amazon information only. It does not include a manuscript review or private sales and advertising data.</p>"
                       },
                       "elements": []
+                    },
+                    {
+                      "id": "9e612b52",
+                      "elType": "widget",
+                      "widgetType": "shortcode",
+                      "isInner": false,
+                      "settings": {
+                        "_title": "Framework Assessment Slot",
+                        "_css_classes": "gp-framework-assessment-slot",
+                        "shortcode": "[grant_framework context=\"assessment\"]"
+                      },
+                      "elements": []
                     }
                   ]
                 }

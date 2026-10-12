@@ -1,0 +1,23 @@
+[
+  {
+    "state": "normal",
+    "stateColor": "rgb(247, 245, 242)",
+    "background": "rgba(0, 0, 0, 0)",
+    "outline": "rgb(247, 245, 242)",
+    "violations": []
+  },
+  {
+    "state": "hover",
+    "stateColor": "rgb(32, 27, 127)",
+    "background": "rgb(238, 233, 247)",
+    "outline": "rgb(32, 27, 127)",
+    "violations": []
+  },
+  {
+    "state": "keyboard-focus",
+    "stateColor": "rgb(247, 245, 242)",
+    "background": "rgba(0, 0, 0, 0)",
+    "outline": "rgb(189, 145, 249)",
+    "violations": []
+  }
+]

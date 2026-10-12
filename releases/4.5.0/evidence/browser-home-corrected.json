@@ -1,0 +1,52 @@
+[
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 1440,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 768,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 430,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 390,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  },
+  {
+    "url": "http://127.0.0.1:9401/",
+    "width": 360,
+    "overflow": false,
+    "overflowElements": [],
+    "h1": 1,
+    "brokenImages": [],
+    "violations": [],
+    "errors": []
+  }
+]

@@ -1,0 +1,488 @@
+[
+  {
+    "key": "home",
+    "url": "https://grantpublishingco.com/",
+    "status": 200,
+    "ttfb_seconds": 0.943823,
+    "total_seconds": 1.309173,
+    "html_bytes": 80112,
+    "titles": [
+      "Grant Publishing Co. | Book Publishing, Design & Marketing",
+      "Grant Publishing Co. | Book Publishing, Design & Marketing"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Professional book publishing, formatting, cover design, Amazon visibility, A+ Content, ads setup and marketing for independent authors and publishers."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/"
+    ]
+  },
+  {
+    "key": "services",
+    "url": "https://grantpublishingco.com/services/",
+    "status": 200,
+    "ttfb_seconds": 1.10283,
+    "total_seconds": 1.224586,
+    "html_bytes": 75518,
+    "titles": [
+      "Services Book Publishing & Marketing Services | Grant Publishing Co.",
+      "Services Book Publishing & Marketing Services | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Explore professional book publishing, formatting, cover design, Amazon visibility, A+ Content, Amazon ads and book marketing services for authors."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/"
+    ]
+  },
+  {
+    "key": "enquiry",
+    "url": "https://grantpublishingco.com/book-marketing-audit/",
+    "status": 200,
+    "ttfb_seconds": 2.716514,
+    "total_seconds": 2.875139,
+    "html_bytes": 72044,
+    "titles": [
+      "Free Book Marketing Audit for Authors | Grant Publishing Co.",
+      "Free Book Marketing Audit for Authors | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Request a free preliminary book marketing audit based on publicly visible information, with observations on visibility, positioning and Amazon presentation."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/book-marketing-audit/"
+    ]
+  },
+  {
+    "key": "about",
+    "url": "https://grantpublishingco.com/about/",
+    "status": 200,
+    "ttfb_seconds": 0.746764,
+    "total_seconds": 1.098307,
+    "html_bytes": 64990,
+    "titles": [
+      "About About Grant Publishing Co. | Book Publishing & Marketing Company",
+      "About About Grant Publishing Co. | Book Publishing & Marketing Company"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Learn about Grant Publishing Co., a publishing and book marketing company helping authors with design, publishing, Amazon visibility and strategic book growth."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/about/"
+    ]
+  },
+  {
+    "key": "feedback",
+    "url": "https://grantpublishingco.com/client-feedback/",
+    "status": 200,
+    "ttfb_seconds": 0.448062,
+    "total_seconds": 0.499894,
+    "html_bytes": 73474,
+    "titles": [
+      "Client Feedback Client Feedback & Publishing Testimonials | Grant Publishing Co.",
+      "Client Feedback Client Feedback & Publishing Testimonials | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Read feedback from authors and clients who have worked with Grant Publishing Co. on book publishing, design, Amazon visibility and marketing projects."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/client-feedback/"
+    ]
+  },
+  {
+    "key": "insights",
+    "url": "https://grantpublishingco.com/insights/",
+    "status": 200,
+    "ttfb_seconds": 0.463567,
+    "total_seconds": 0.511322,
+    "html_bytes": 64883,
+    "titles": [
+      "Insights Book Marketing Insights for Authors | Grant Publishing Co.",
+      "Insights Book Marketing Insights for Authors | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Practical book marketing insights for authors on Amazon visibility, positioning, reader behavior, book launches, catalog strategy and publishing growth."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/insights/"
+    ]
+  },
+  {
+    "key": "contact",
+    "url": "https://grantpublishingco.com/contact/",
+    "status": 200,
+    "ttfb_seconds": 1.387683,
+    "total_seconds": 1.546833,
+    "html_bytes": 71577,
+    "titles": [
+      "Contact Grant Publishing Co. | Book Publishing & Marketing Support",
+      "Contact Grant Publishing Co. | Book Publishing & Marketing Support"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Contact Grant Publishing Co. to discuss your book publishing, formatting, cover design, Amazon visibility, advertising or book marketing project."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/contact/"
+    ]
+  },
+  {
+    "key": "amazon-visibility",
+    "url": "https://grantpublishingco.com/services/amazon-visibility/",
+    "status": 200,
+    "ttfb_seconds": 0.364247,
+    "total_seconds": 0.398177,
+    "html_bytes": 67861,
+    "titles": [
+      "Amazon Book Visibility Amazon Book Optimization & Visibility | Grant Publishing Co.",
+      "Amazon Book Visibility Amazon Book Optimization & Visibility | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Improve your book\u2019s discoverability with Amazon keyword research, category strategy, metadata optimization, listing analysis and visibility-focused positioning."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/amazon-visibility/"
+    ]
+  },
+  {
+    "key": "book-presentation",
+    "url": "https://grantpublishingco.com/services/book-presentation/",
+    "status": 200,
+    "ttfb_seconds": 0.331151,
+    "total_seconds": 0.409791,
+    "html_bytes": 66762,
+    "titles": [
+      "Book Descriptions & A+ Content Amazon A+ Content & Book Description Services | Grant Publishing Co.",
+      "Book Descriptions & A+ Content Amazon A+ Content & Book Description Services | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Professional Amazon A+ Content and book description services designed to strengthen your book page, communicate value clearly and support reader decisions."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/book-presentation/"
+    ]
+  },
+  {
+    "key": "launch-promotion",
+    "url": "https://grantpublishingco.com/services/launch-promotion/",
+    "status": 200,
+    "ttfb_seconds": 0.242863,
+    "total_seconds": 0.275122,
+    "html_bytes": 66090,
+    "titles": [
+      "Book Launch & Promotion Book Launch Marketing & Promotion Services | Grant Publishing Co.",
+      "Book Launch & Promotion Book Launch Marketing & Promotion Services | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Strategic book launch and promotion support for authors, including launch planning, audience positioning, promotional campaigns and visibility-focused execution."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/launch-promotion/"
+    ]
+  },
+  {
+    "key": "author-platform",
+    "url": "https://grantpublishingco.com/services/author-platform/",
+    "status": 200,
+    "ttfb_seconds": 0.276871,
+    "total_seconds": 0.310375,
+    "html_bytes": 65640,
+    "titles": [
+      "Author Platform Author Platform Development | Build Your Author Brand & Audience",
+      "Author Platform Author Platform Development | Build Your Author Brand & Audience"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Build a stronger author platform with clear positioning, brand consistency, audience strategy and the digital foundations needed to support long-term book growth."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/author-platform/"
+    ]
+  },
+  {
+    "key": "catalog-strategy",
+    "url": "https://grantpublishingco.com/services/catalog-strategy/",
+    "status": 200,
+    "ttfb_seconds": 0.253414,
+    "total_seconds": 0.32445,
+    "html_bytes": 64086,
+    "titles": [
+      "Series & Catalog Strategy - grantpublishingco.com",
+      "Series & Catalog Strategy - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Think beyond a single book. Explore the scope and next step with Grant Publishing Co."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/catalog-strategy/"
+    ]
+  },
+  {
+    "key": "book-strategy",
+    "url": "https://grantpublishingco.com/services/book-strategy/",
+    "status": 200,
+    "ttfb_seconds": 0.303847,
+    "total_seconds": 0.338624,
+    "html_bytes": 66635,
+    "titles": [
+      "Book Marketing Strategy Book Marketing Strategy for Authors | Grant Publishing Co.",
+      "Book Marketing Strategy Book Marketing Strategy for Authors | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Build a practical book marketing strategy around positioning, visibility, audience, launch planning and long-term growth for your book or author brand."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/book-strategy/"
+    ]
+  },
+  {
+    "key": "publishing-support",
+    "url": "https://grantpublishingco.com/services/publishing-support/",
+    "status": 200,
+    "ttfb_seconds": 0.273421,
+    "total_seconds": 0.309119,
+    "html_bytes": 67631,
+    "titles": [
+      "Publishing Support KDP Publishing Services | Kindle, Paperback & Hardcover",
+      "Publishing Support KDP Publishing Services | Kindle, Paperback & Hardcover"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Professional KDP publishing support for Kindle, paperback and hardcover books, including file preparation, publishing setup and platform-ready guidance."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/publishing-support/"
+    ]
+  },
+  {
+    "key": "book-discovery",
+    "url": "https://grantpublishingco.com/insights/book-discovery/",
+    "status": 200,
+    "ttfb_seconds": 0.263115,
+    "total_seconds": 0.292057,
+    "html_bytes": 65010,
+    "titles": [
+      "Why Publishing a Book Does Not Guarantee Discovery | Grant Publishing Co.",
+      "Why Publishing a Book Does Not Guarantee Discovery | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Publishing makes your book available, but discoverability determines whether the right readers can find and recognize it. Learn what authors should look at next."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/insights/book-discovery/"
+    ]
+  },
+  {
+    "key": "book-product-page",
+    "url": "https://grantpublishingco.com/insights/book-product-page/",
+    "status": 200,
+    "ttfb_seconds": 0.418065,
+    "total_seconds": 0.447548,
+    "html_bytes": 64743,
+    "titles": [
+      "How to Build a Strong Amazon Book Product Page | Grant Publishing Co.",
+      "How to Build a Strong Amazon Book Product Page | Grant Publishing Co."
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Learn the key elements of a strong Amazon book product page, from cover and description to A+ Content, positioning and reader-focused presentation."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/insights/book-product-page/"
+    ]
+  },
+  {
+    "key": "connected-catalog",
+    "url": "https://grantpublishingco.com/insights/connected-catalog/",
+    "status": 200,
+    "ttfb_seconds": 0.3888,
+    "total_seconds": 0.417687,
+    "html_bytes": 64703,
+    "titles": [
+      "Author Catalog Strategy: Why Your Second Book Changes Marketing",
+      "Author Catalog Strategy: Why Your Second Book Changes Marketing"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Learn why publishing a second book changes your marketing strategy, reader journey and catalog opportunities, and how authors can connect multiple titles."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/insights/connected-catalog/"
+    ]
+  },
+  {
+    "key": "book-formatting",
+    "url": "https://grantpublishingco.com/services/book-formatting/",
+    "status": 200,
+    "ttfb_seconds": 0.245424,
+    "total_seconds": 0.274804,
+    "html_bytes": 58741,
+    "titles": [
+      "Book Formatting Book Formatting Services | Kindle, Paperback & Hardcover"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Professional book formatting for Kindle, paperback and hardcover editions, with clean interiors, proper trim sizes and KDP-ready files."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/book-formatting/"
+    ]
+  },
+  {
+    "key": "cover-design",
+    "url": "https://grantpublishingco.com/services/cover-design/",
+    "status": 200,
+    "ttfb_seconds": 0.245125,
+    "total_seconds": 0.271408,
+    "html_bytes": 58504,
+    "titles": [
+      "Book Cover Design Book Cover Design Services | Professional Covers for Authors"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Professional book cover design for ebook, paperback and hardcover editions, created around genre, reader expectations and publishing requirements."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/cover-design/"
+    ]
+  },
+  {
+    "key": "amazon-ads",
+    "url": "https://grantpublishingco.com/services/amazon-ads/",
+    "status": 200,
+    "ttfb_seconds": 0.245427,
+    "total_seconds": 0.273192,
+    "html_bytes": 58628,
+    "titles": [
+      "Amazon Ads Setup & Management Amazon Ads for Authors | Book Advertising & Campaign Management"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Amazon Ads setup and management for authors, including keyword targeting, product targeting, campaign structure, bid strategy and performance review."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/services/amazon-ads/"
+    ]
+  },
+  {
+    "key": "privacy-policy",
+    "url": "https://grantpublishingco.com/privacy-policy/",
+    "status": 200,
+    "ttfb_seconds": 0.37181,
+    "total_seconds": 0.406441,
+    "html_bytes": 66877,
+    "titles": [
+      "Privacy Policy - grantpublishingco.com",
+      "Privacy Policy - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "How Grant Publishing Co. handles enquiries, project information and personal information."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/privacy-policy/"
+    ]
+  },
+  {
+    "key": "terms-of-service",
+    "url": "https://grantpublishingco.com/terms-of-service/",
+    "status": 200,
+    "ttfb_seconds": 0.240996,
+    "total_seconds": 0.264145,
+    "html_bytes": 63147,
+    "titles": [
+      "Terms of Service - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Approved terms for the Grant Publishing Co. website and services."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/terms-of-service/"
+    ]
+  },
+  {
+    "key": "case-studies",
+    "url": "https://grantpublishingco.com/case-studies/",
+    "status": 200,
+    "ttfb_seconds": 0.278891,
+    "total_seconds": 0.297855,
+    "html_bytes": 53252,
+    "titles": [
+      "Case Studies - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "See documented book design, formatting and Amazon listing projects for My Dear Grandfather and Luma the Sleepy Star."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/case-studies/"
+    ]
+  },
+  {
+    "key": "case-grandfather",
+    "url": "https://grantpublishingco.com/case-studies/my-dear-grandfather/",
+    "status": 200,
+    "ttfb_seconds": 0.251393,
+    "total_seconds": 0.281327,
+    "html_bytes": 58947,
+    "titles": [
+      "My Dear Grandfather: Amazon Listing Optimisation - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "An evidence-based case study of description work, keyword research and category review for Barsha Rai\u2019s My Dear Grandfather."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/case-studies/my-dear-grandfather/"
+    ]
+  },
+  {
+    "key": "case-luma",
+    "url": "https://grantpublishingco.com/case-studies/luma-the-sleepy-star/",
+    "status": 200,
+    "ttfb_seconds": 0.251344,
+    "total_seconds": 0.27004,
+    "html_bytes": 59208,
+    "titles": [
+      "Luma the Sleepy Star: Cover Design & Formatting - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "John Capon\u2019s picture-book cover redesign and 35-page paperback interior, documented through delivery of the final print PDFs."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/case-studies/luma-the-sleepy-star/"
+    ]
+  },
+  {
+    "key": "faq",
+    "url": "https://grantpublishingco.com/faq/",
+    "status": 200,
+    "ttfb_seconds": 0.290191,
+    "total_seconds": 0.310459,
+    "html_bytes": 55438,
+    "titles": [
+      "Frequently Asked Questions - grantpublishingco.com"
+    ],
+    "h1": 1,
+    "descriptions": [
+      "Clear answers about Grant Publishing Co.\u2019s book design, publishing, assessments, revisions and Amazon Ads services."
+    ],
+    "canonicals": [
+      "https://grantpublishingco.com/faq/"
+    ]
+  }
+]

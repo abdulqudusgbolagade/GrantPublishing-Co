@@ -1,0 +1,48 @@
+[
+  {
+    "form": "contact",
+    "url": "https://grantpublishingco.com/contact/",
+    "owner": "AbdulQudus Tella",
+    "owner_email": "hello@grantpublishingco.com",
+    "label": "OWNER DELIVERY TEST ONLY: contact form, 12 October 2026",
+    "attempted_at": "2026-10-12T17:09:08.362Z",
+    "post_attempts": 1,
+    "inbox_receipt": "Not verified; no authorised inbox access",
+    "post_started_at": "2026-10-12T17:09:15.858Z",
+    "server_response": {
+      "success": true,
+      "data": {
+        "message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp."
+      }
+    },
+    "http_status": 200,
+    "response_at": "2026-10-12T17:09:17.158Z",
+    "browser_state": "success",
+    "browser_message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp.",
+    "provider_acceptance": true,
+    "fields_reset": true
+  },
+  {
+    "form": "assessment",
+    "url": "https://grantpublishingco.com/book-marketing-audit/",
+    "owner": "AbdulQudus Tella",
+    "owner_email": "hello@grantpublishingco.com",
+    "label": "OWNER DELIVERY TEST ONLY: assessment form, 12 October 2026",
+    "attempted_at": "2026-10-12T17:09:17.454Z",
+    "post_attempts": 1,
+    "inbox_receipt": "Not verified; no authorised inbox access",
+    "post_started_at": "2026-10-12T17:09:20.324Z",
+    "server_response": {
+      "success": true,
+      "data": {
+        "message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp."
+      }
+    },
+    "http_status": 200,
+    "response_at": "2026-10-12T17:09:21.296Z",
+    "browser_state": "success",
+    "browser_message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp.",
+    "provider_acceptance": true,
+    "fields_reset": true
+  }
+]

@@ -61,6 +61,7 @@ function fixture($bad=true) {
 }
 function check($value,$label){if(!$value)throw new Exception('FAIL: '.$label);$GLOBALS['checks']++;echo 'PASS: '.$label."\n";}
 
+function add_query_arg($args,$url){return $url.'?'.http_build_query($args);}
 function plugins_url($path,$file){return home_url('/plugin/'.$path);}
 function esc_attr($text){return htmlspecialchars($text,ENT_QUOTES,'UTF-8');}
 function wp_strip_all_tags($s){return strip_tags($s);}
@@ -74,6 +75,8 @@ require dirname(__DIR__).'/grant-publishing-site/includes/portfolio.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/case-studies.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/faq.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/journey.php';
+require dirname(__DIR__).'/grant-publishing-site/includes/framework.php';
+require dirname(__DIR__).'/grant-publishing-site/includes/production-audit.php';
 function missing_evidence_fixture(){
  fixture(false);
  foreach(array('case-studies','case-grandfather','case-luma','faq') as $key){$id=$GLOBALS['options']['gpc_page_ids'][$key];unset($GLOBALS['posts'][$id],$GLOBALS['meta'][$id],$GLOBALS['options']['gpc_page_ids'][$key]);}
@@ -111,7 +114,7 @@ $contracts=array(
  'publishing-support'=>array('book-formatting','cover-design','amazon-visibility','case-luma'),
  'catalog-strategy'=>array('author-platform','book-strategy','launch-promotion'),
 );
-foreach($contracts as $key=>$targets){$html=gpc_service_journey($key);foreach(array_merge($targets,array('enquiry')) as $target)check(strpos($html,esc_url(gpc_url($target)))!==false,'Required next step: '.$key.' to '.$target);}
+foreach($contracts as $key=>$targets){$html=gpc_service_journey($key);foreach(array_merge($targets,array(in_array($key,array('book-formatting','cover-design','publishing-support'),true)?'contact':'enquiry')) as $target)check(strpos($html,esc_url(gpc_url($target)))!==false,'Required next step: '.$key.' to '.$target);}
 check(strpos(gpc_service_journey('amazon-ads'),'gp-work-card')===false,'No unsupported advertising project is presented as proof');
 check(strpos(gpc_service_journey('publishing-support'),'KDP upload and publication were not part')!==false,'Publishing proof explains Luma file-delivery boundary');
 check(substr_count(gpc_faq_group(),'<details')===13 && substr_count(gpc_faq_group(),'<summary>')===13,'All thirteen FAQs use native keyboard-accessible disclosures');

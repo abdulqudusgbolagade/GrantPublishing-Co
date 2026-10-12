@@ -43,6 +43,7 @@ function wp_remote_post(...$args) { throw new \Exception('No network request is 
 require dirname(__DIR__) . '/grant-publishing-site/includes/pages.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/portfolio.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/publishing.php';
+require dirname(__DIR__) . '/grant-publishing-site/includes/framework.php';
 class ImageWidget {
     public $name; public $image; public $link;
     function __construct($url, $link = 'none', $name = 'image') { $this->image = array('url' => $url); $this->link = $link; $this->name = $name; }
@@ -200,7 +201,7 @@ fixture();
 $contacts = gpc_contact_links();
 check(substr_count($contacts, 'class="gp-social-link"') === 4 && substr_count($contacts, 'aria-hidden="true"') === 4 && strpos($contacts, 'mailto:hello@grantpublishingco.com') !== false, 'Shared contact output contains four labelled icons and the configured email destination');
 
-$registered = array_values(array_filter($GLOBALS['filters'], function($filter) { return in_array($filter[0], array('elementor/widget/render_content', 'the_content'), true); }));
+$registered = array_values(array_filter($GLOBALS['filters'], function($filter) { return in_array($filter[0], array('elementor/widget/render_content', 'the_content'), true) && $filter[1] !== 'gpc_framework_content'; }));
 check($registered === array(array('the_content', 'gpc_render_contact_icons', 35), array('elementor/widget/render_content', 'gpc_native_book_showcase', 25, 2), array('the_content', 'gpc_native_service_copy', 28), array('elementor/widget/render_content', 'gpc_link_native_client_book', 20, 2), array('the_content', 'gpc_native_client_proof', 30)), 'Compatibility hooks register image context and post-Elementor proof rendering');
 fixture('feedback');
 $luma_case = gpc_add_luma_case('<div id="john-capon-review"><div><p>Saved John review</p></div></div><p>Next review</p>');

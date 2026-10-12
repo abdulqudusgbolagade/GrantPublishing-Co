@@ -1,6 +1,6 @@
 # Development checks
 
-These checks are for plugin development. WordPress HTTP, mail and database APIs are mocked; no real enquiry or key is used. Native PHP 7.4+ can run the six PHP suites directly. Otherwise use the pinned official WordPress Playground runtime:
+These checks are for plugin development. WordPress HTTP, mail and database APIs are mocked; no real enquiry or key is used. Native PHP 7.4+ can run the seven PHP suites directly. Otherwise use the pinned official WordPress Playground runtime:
 
 ```bash
 npm ci --prefix qa --ignore-scripts --cache /workspace/grant-qa/npm-cache
@@ -10,18 +10,21 @@ PHP=7.4 node qa/php.mjs qa/test-upgrades.php
 PHP=7.4 node qa/php.mjs qa/test-structure.php
 PHP=7.4 node qa/php.mjs qa/test-legal.php
 PHP=7.4 node qa/php.mjs qa/test-journey.php
+PHP=7.4 node qa/php.mjs qa/test-framework.php
 PHP=8.2 node qa/php.mjs qa/test-web3forms.php
 PHP=8.2 node qa/php.mjs qa/test-publishing.php
 PHP=8.2 node qa/php.mjs qa/test-upgrades.php
 PHP=8.2 node qa/php.mjs qa/test-structure.php
 PHP=8.2 node qa/php.mjs qa/test-legal.php
 PHP=8.2 node qa/php.mjs qa/test-journey.php
+PHP=8.2 node qa/php.mjs qa/test-framework.php
 PHP=8.3 node qa/php.mjs qa/test-web3forms.php
 PHP=8.3 node qa/php.mjs qa/test-publishing.php
 PHP=8.3 node qa/php.mjs qa/test-upgrades.php
 PHP=8.3 node qa/php.mjs qa/test-structure.php
 PHP=8.3 node qa/php.mjs qa/test-legal.php
 PHP=8.3 node qa/php.mjs qa/test-journey.php
+PHP=8.3 node qa/php.mjs qa/test-framework.php
 node qa/php-lint.cjs
 node qa/test-enquiry.cjs
 python3 qa/check-package.py
@@ -29,7 +32,7 @@ python3 qa/check-package.py
 
 Use a writable npm cache; the cloud home cache is unavailable. Keep TLS and lockfile integrity verification enabled. The current runtime passed with Node 24.19 and npm 11.9 despite a package npm-version warning. Python checks require `lxml`; dependency files stay ignored.
 
-`test-web3forms.php` covers 72 delivery/settings/prepublication assertions; `test-publishing.php` covers 95 positioning/showcase/review/contact/header/footer assertions; `test-upgrades.php` covers 14 migration/cache assertions; `test-structure.php` covers 73 route, permission, concurrency, backup, redirect, metadata, legal-link, image and compatibility assertions; `test-legal.php` covers 10 starter-policy preservation, backup, failure and WordPress template-carry-forward assertions. `test-journey.php` covers 85 scoped page-creation, preservation, contextual-link, FAQ, conversion and Yoast-priority assertions. The current six suites total 349 assertions per runtime, with 1,047 passing across PHP 7.4, 8.2 and 8.3. `php.mjs` preserves interpreter exit codes.
+`test-web3forms.php` covers 72 delivery/settings/prepublication assertions; `test-publishing.php` covers 95 positioning/showcase/review/contact/header/footer assertions; `test-upgrades.php` covers 14 migration/cache assertions; `test-structure.php` covers 73 route, permission, concurrency, backup, redirect, metadata, legal-link, image and compatibility assertions; `test-legal.php` covers 10 starter-policy preservation, backup, failure and WordPress template-carry-forward assertions. `test-journey.php` covers 85 scoped page-creation, preservation, contextual-link, FAQ, conversion and Yoast-priority assertions. `test-framework.php` covers 61 framework, title ownership, scoped starter cleanup, preservation, protected-draft creation and owner-publication-gate assertions. The current seven suites total 410 assertions per runtime, with 1,230 passing across PHP 7.4, 8.2 and 8.3. `php.mjs` preserves interpreter exit codes.
 
 `check-package.py` verifies all 26 template/layout pairs, native content parity, routes/assets, forms, anchors, markup/IDs and CSS markers. After intentionally editing templates, `python3 qa/sync-layouts.py` regenerates bundled new-install native JSON only; it never contacts WordPress or changes installed pages. Review generated diffs before committing.
 
@@ -42,3 +45,5 @@ Release 4.4.0 also runs actual WordPress 7.0.7, Elementor 4.3.4 and Yoast 28.6 t
 The earlier 4.3.0 fixture checks remain documented in their own release. Those approximate Elementor DOM; the 4.3.1 audit uses actual Elementor output. Keep Playwright/axe dependencies and test WordPress outside the installable plugin. Preserve TLS and artifact checks; the cloud browser's missing proxy CA is handled through curl's configured trust store, without disabling certificate verification.
 
 Release 4.4.0 adds [the internal-linking, Case Studies and FAQ integration checks](../releases/4.4.0/evidence/wordpress-runners/README.md). It preserves the 22 existing template/layout pairs and tests four new pairs, 26 pages at seven widths, native and shortcode project rendering, manual Yoast overrides, FAQ keyboard/no-JavaScript behaviour and full conversion paths. Do not use the QA endpoints or provider-interception code on production.
+
+Release 4.5.0 adds [GRANT Framework and audit checks](../releases/4.5.0/evidence/wordpress-runners/README.md). The actual local stack uses Twenty Twenty-Five and Yoast forced title rewriting **disabled**, reproducing the late block-title/Canvas conflict that the earlier setting masked. Final results cover 26 pages at eight widths, 77 additional framework/enquiry/privacy/draft checks, 45 carousel/PDF checks, 43 FAQ/journey checks, 36 form/navigation checks and manual Yoast priority. Two explicit live owner tests reported provider acceptance; do not repeat them without fresh authorisation. No production deployment or inbox receipt is implied. Saved cloud setup/start instructions include all seven suites and the verified restart workflow.

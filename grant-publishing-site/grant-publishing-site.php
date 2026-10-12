@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 4.4.0
+ * Version: 4.5.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '4.4.0');
+define('GPC_VERSION', '4.5.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
@@ -23,6 +23,9 @@ require_once __DIR__ . '/includes/images.php';
 require_once __DIR__ . '/includes/case-studies.php';
 require_once __DIR__ . '/includes/faq.php';
 require_once __DIR__ . '/includes/journey.php';
+require_once __DIR__ . '/includes/framework.php';
+require_once __DIR__ . '/includes/production-audit.php';
+require_once __DIR__ . '/includes/drafts.php';
 function gpc_services() {
     // Preserve old option values so existing service-prefill links still work.
     return array('Book formatting','Cover design','Book publishing and Amazon KDP setup','Amazon Ads campaign setup','Amazon Ads management','Amazon listing optimization','Book descriptions and A+ Content','Book launch or relaunch','Author platform','Series and catalog strategy','Book marketing strategy','Publishing consultation','Not sure yet');
@@ -75,6 +78,7 @@ function gpc_site_form($default = 'project') {
         </details>
         <p class="gpc-audit-form-disclaimer">Free initial assessments use publicly available information on Amazon. Please include your Amazon book link if you are requesting an assessment. They do not include a manuscript review or access to your private sales data. For paid work, we may request a synopsis or manuscript to understand the book more fully.</p>
         <div class="gpc-audit-field"><label class="gpc-consent" for="gpc-consent"><input id="gpc-consent" name="consent" type="checkbox" value="yes" required><span>I agree that Grant Publishing Co. may use these details to respond to my enquiry. *</span></label></div>
+        <p class="gpc-policy-link"><a href="<?php echo esc_url(gpc_url('privacy-policy')); ?>" target="_blank" rel="noopener noreferrer">Privacy Policy<span class="gpc-sr-only"> (opens in a new tab)</span></a></p>
         <button class="gpc-audit-submit" type="submit"><?php echo $request === 'assessment' ? 'Request free assessment' : 'Send project enquiry'; ?></button>
         <p class="gpc-form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
         <p>Prefer a direct conversation?</p>

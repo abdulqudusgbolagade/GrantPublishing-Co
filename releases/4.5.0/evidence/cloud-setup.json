@@ -1,0 +1,13 @@
+{
+  "saved_fields": [
+    "install_script",
+    "start_skill"
+  ],
+  "status": "saved",
+  "environment_publication": "Pending user publication in environment settings",
+  "installer_executed": true,
+  "wordpress_restart_verified": true,
+  "retained_files_dependencies_restored": true,
+  "production_deployment": false,
+  "network_policy_and_credentials": "Preserved, no secret values saved"
+}

@@ -1,0 +1,23 @@
+[
+  "grant-publishing-site/README.md",
+  "grant-publishing-site/assets/design.css",
+  "grant-publishing-site/elementor/about.json",
+  "grant-publishing-site/elementor/case-luma.json",
+  "grant-publishing-site/elementor/enquiry.json",
+  "grant-publishing-site/elementor/home.json",
+  "grant-publishing-site/grant-publishing-site.php",
+  "grant-publishing-site/includes/journey.php",
+  "grant-publishing-site/includes/pages.php",
+  "grant-publishing-site/includes/setup.php",
+  "grant-publishing-site/templates/about.html",
+  "grant-publishing-site/templates/case-luma.html",
+  "grant-publishing-site/templates/enquiry.html",
+  "grant-publishing-site/templates/home.html",
+  "grant-publishing-site/assets/kathryns-beach-aplus-600.webp",
+  "grant-publishing-site/drafts/ads-readiness.php",
+  "grant-publishing-site/drafts/listing-analysis.php",
+  "grant-publishing-site/includes/draft-page.php",
+  "grant-publishing-site/includes/drafts.php",
+  "grant-publishing-site/includes/framework.php",
+  "grant-publishing-site/includes/production-audit.php"
+]

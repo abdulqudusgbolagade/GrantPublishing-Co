@@ -915,9 +915,9 @@
                       "settings": {
                         "_title": "Action",
                         "_css_classes": "gp-action",
-                        "text": "Request a free book assessment",
+                        "text": "Discuss cover design",
                         "link": {
-                          "url": "{{url:enquiry}}?request=assessment#gpc-enquiry",
+                          "url": "{{url:contact}}?request=project&service=Cover%20design#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
                         }
@@ -932,9 +932,9 @@
                       "settings": {
                         "_title": "Action Secondary",
                         "_css_classes": "gp-action gp-secondary",
-                        "text": "Explore all services",
+                        "text": "Discuss book formatting",
                         "link": {
-                          "url": "{{url:services}}",
+                          "url": "{{url:contact}}?request=project&service=Book%20formatting#gpc-enquiry",
                           "is_external": "",
                           "nofollow": ""
                         }

@@ -1,0 +1,14 @@
+{
+  "one_title": true,
+  "manual_title": true,
+  "manual_description": true,
+  "manual_canonical": true,
+  "manual_social_title": true,
+  "manual_social_description": true,
+  "manual_social_image": true,
+  "manual_twitter_title": true,
+  "manual_twitter_description": true,
+  "manual_twitter_image": true,
+  "focus_keyphrase_preserved": true,
+  "canvas_one_title_after_late_title_support_removal": true
+}

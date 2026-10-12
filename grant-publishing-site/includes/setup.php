@@ -27,6 +27,20 @@ function gpc_setup_screen() {
     wp_nonce_field('gpc_evidence_pages');
     submit_button('Create missing Case Studies and FAQ pages', 'secondary', 'submit', false);
     echo '</form>';
+    echo '<h2>Production audit follow-up</h2><p>Only untouched WordPress starter content is moved to Draft, with a private backup. Legitimate posts and discussions are preserved. Empty associated archives are excluded and noindexed only while unused. The two new Insights articles are saved as drafts for review.</p>';
+    foreach (array('gpc_default_cleanup_results','gpc_editorial_draft_results') as $option) {
+        $items = get_option($option, array());
+        if (is_array($items)) { echo '<ul>'; foreach ($items as $item) { echo '<li>' . esc_html($item) . '</li>'; } echo '</ul>'; }
+    }
+    foreach (array('gpc_default_cleanup'=>'Review and retry starter-content cleanup','gpc_prepare_drafts'=>'Create missing Insights drafts') as $action=>$label) {
+        echo '<form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="' . esc_attr($action) . '">';
+        wp_nonce_field($action); submit_button($label, 'secondary', 'submit', false); echo '</form>';
+    }
+    $draft_ids = get_option('gpc_editorial_draft_ids', array());
+    if (is_array($draft_ids)) { echo '<ul>'; foreach ($draft_ids as $id) { $p = get_post((int) $id); if ($p) { echo '<li><a href="' . esc_url(get_edit_post_link($p->ID)) . '">' . esc_html($p->post_title) . '</a> (' . esc_html($p->post_status) . ')</li>'; } } echo '</ul>'; }
+    echo '<h3>Yoast title review</h3><p>Manual Yoast fields are preserved. If a repeated page name is stored in a title or title template, review it here before changing it. The update removes competing core title output; it does not rewrite saved SEO copy.</p><table class="widefat striped"><thead><tr><th>Page</th><th>Saved manual Yoast title</th></tr></thead><tbody>';
+    foreach (gpc_pages() as $key=>$def) { $p = gpc_find_page($key); if ($p) { echo '<tr><td>' . esc_html($def['title']) . '</td><td><code>' . esc_html(get_post_meta($p->ID, '_yoast_wpseo_title', true) ?: 'Uses the Yoast title template') . '</code></td></tr>'; } }
+    echo '</tbody></table>';
     echo '<h2>1. Complete the page structure</h2><p>This publishes missing pages, keeps existing content, and connects the navigation.</p><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="gpc_setup_pages">';
     wp_nonce_field('gpc_setup_pages');
     submit_button('Create missing pages and connect navigation', 'secondary', 'submit', false);

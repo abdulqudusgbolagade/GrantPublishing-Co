@@ -1022,3 +1022,35 @@
    uses the existing paper/lilac modes only on the new case-study pages. */
 .gpc-site:is(.gp-page-case-grandfather,.gp-page-case-luma) .gp-reading.gp-tone-paper { background: var(--gp-paper) !important; }
 .gpc-site:is(.gp-page-case-grandfather,.gp-page-case-luma,.gp-page-case-studies) .gp-reading.gp-tone-lilac { background: var(--gp-panel) !important; }
+
+/* GRANT uses the established process columns and static step typography. */
+.gpc-site .gp-framework>.gp-copy { max-width: 86ch; margin-bottom: 28px; }
+.gpc-site .gp-framework-stage+.gp-framework-stage { margin-top: 30px; }
+.gpc-site .gp-framework-stage .gp-label { margin-bottom: 10px; }
+.gpc-site .gp-framework-stage .gp-item-title { margin-bottom: 12px; }
+.gpc-site .gp-framework-scope { margin-top: 30px; }
+.gpc-site .gp-framework-stage-ref { display: block; font-weight: 600; margin-block: 6px; }
+.gpc-site .gp-framework-fit { margin: 28px 0; padding-top: 22px; border-top: 1px solid var(--gp-line); }
+.gpc-site .gp-framework-fit p, .gpc-site .gp-framework-assessment { line-height: 1.8; }
+.gpc-site .gp-framework-assessment { margin-top: 22px; }
+.gpc-site .gp-framework :is(a:not(.elementor-button),.gp-framework-scope a), .gpc-site .gp-framework-fit a, .gpc-site .gp-framework-assessment a, .gpc-site .gpc-policy-link a, .gpc-site .gp-reading-meta a { text-decoration: underline; text-underline-offset: 3px; }
+.gpc-site .gp-tone-indigo .gp-framework :is(p,h3) { color: var(--gp-paper); }
+.gpc-site .gp-tone-indigo .gp-framework .elementor-button { color: var(--gp-paper); }
+.gpc-site .gp-tone-indigo .gp-framework .elementor-button-text { color: inherit; }
+.gpc-site .gp-tone-indigo .gp-framework .elementor-button:hover { color: var(--gp-blue); }
+.gpc-site .gpc-policy-link { margin-block: 14px 24px; font-size: 14px; }
+.gpc-site .gpc-policy-link a { display: inline-flex; align-items: center; min-height: 44px; color: var(--gp-blue); }
+.gpc-site .gp-aplus-example { display: grid; grid-template-columns: minmax(0,240px) minmax(0,1fr); gap: 32px; padding: 28px; margin-top: 36px; background: var(--gp-white); border: 1px solid var(--gp-line); border-radius: 6px; }
+.gpc-site .gp-aplus-example figure { margin: 0; }
+.gpc-site .gp-aplus-example img { display: block; width: 100%; height: auto; }
+.gpc-site .gp-aplus-example figcaption { font-size: 12px; line-height: 1.7; margin-top: 12px; }
+.gpc-site .gp-aplus-example h3 { font: 500 32px/1.2 'Cormorant Garamond',Georgia,serif; margin-bottom: 16px; }
+.gpc-site .gp-aplus-example p { margin-bottom: 20px; line-height: 1.8; }
+.gpc-site .gp-aplus-example a:not(:has(img)) { color: var(--gp-blue); text-decoration: underline; text-underline-offset: 3px; }
+.gpc-site .gp-reading-meta { line-height: 1.9; }
+@media(max-width:720px) {
+  .gpc-site .gp-aplus-example { grid-template-columns: minmax(0,1fr); padding: 22px; gap: 24px; }
+  .gpc-site .gp-aplus-example figure { max-width: 260px; }
+  .gpc-site .gp-framework-stage+.gp-framework-stage { margin-top: 24px; }
+}
+.gpc-site .gp-approved-article .gp-article-info { grid-column: 2 / -1; }

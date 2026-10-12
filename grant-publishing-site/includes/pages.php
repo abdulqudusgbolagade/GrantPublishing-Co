@@ -147,6 +147,7 @@ function gpc_site_page($key) {
     $html = preg_replace_callback('/\{\{showcase:(home|services)\}\}/', function($m) { return gpc_book_showcase($m[1]); }, $html);
     if (strpos($html, '{{cases:hub}}') !== false) { $html = str_replace('{{cases:hub}}', gpc_case_cards(), $html); }
     if (strpos($html, '{{faq:general}}') !== false) { $html = str_replace('{{faq:general}}', gpc_faq_group(), $html); }
+    $html = preg_replace_callback('/\{\{framework:(home|about|assessment)\}\}/', function($m) { return $m[1] === 'assessment' ? gpc_framework_assessment() : gpc_framework_grid($m[1]); }, $html);
     $html = gpc_resolve_string($html, true);
     $html = gpc_responsive_project_images($html);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
@@ -172,7 +173,7 @@ function gpc_matches_page($post, $key) {
 }
 function gpc_current_key() {
     if (!is_singular('page')) { return ''; }
-    $post = get_post();
+    $post = function_exists('get_queried_object_id') && get_queried_object_id() ? get_post(get_queried_object_id()) : get_post();
     foreach (gpc_pages() as $key=>$def) { if (gpc_matches_page($post, $key)) { return $key; } }
     return '';
 }
@@ -236,17 +237,6 @@ add_filter('wpseo_canonical', function($url) {
     if (trim((string) get_post_meta(get_queried_object_id(), '_yoast_wpseo_canonical', true)) !== '') { return $url; }
     return in_array(gpc_current_key(), array('book-discovery','book-product-page','connected-catalog'), true) ? get_permalink(get_queried_object_id()) : $url;
 }, 20);
-add_action('template_redirect', function() {
-    // Canvas has its own fallback title. Let Yoast own the single title on
-    // connected Grant Canvas pages, without changing the theme or saved template.
-    if (defined('WPSEO_VERSION') && gpc_current_key() && get_page_template_slug() === 'elementor_canvas' && !current_theme_supports('title-tag')) { add_theme_support('title-tag'); }
-}, 0);
-// Some integrations remove title support after template_redirect. Ensure Canvas
-// does not emit its fallback title immediately before Yoast emits the same tag.
-add_filter('template_include', function($template) {
-    if (defined('WPSEO_VERSION') && gpc_current_key() && get_page_template_slug() === 'elementor_canvas' && basename($template) === 'canvas.php' && !current_theme_supports('title-tag')) { add_theme_support('title-tag'); }
-    return $template;
-}, 1000);
 add_action('wp_head', function() {
     $key = gpc_current_key(); $defs = gpc_pages();
     if ($key && !defined('WPSEO_VERSION') && !defined('RANK_MATH_VERSION') && !defined('AIOSEO_VERSION') && !defined('SEOPRESS_VERSION')) {
@@ -255,7 +245,7 @@ add_action('wp_head', function() {
 });
 // Keep form nonces and shared contact details dynamic when Elementor output caching is enabled.
 add_filter('elementor/element/is_dynamic_content', function($dynamic, $data) {
-    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links|book_showcase|case_cards|faqs)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
+    if (($data['widgetType'] ?? '') === 'shortcode' && preg_match('/\[grant_(enquiry_form|contact_links|book_showcase|case_cards|faqs|framework)\b/', $data['settings']['shortcode'] ?? '')) { return true; }
     // Older native image widgets become server-rendered showcases, too.
     if (($data['widgetType'] ?? '') === 'image' && preg_replace('/[?#].*$/', '', $data['settings']['image']['url'] ?? '') === gpc_asset_url('publishing-studio.webp')) { return true; }
     return $dynamic;

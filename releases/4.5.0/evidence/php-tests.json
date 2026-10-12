@@ -1,0 +1,131 @@
+{
+  "results": [
+    {
+      "runtime": "7.4",
+      "suite": "web3forms",
+      "assertions": 72,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "publishing",
+      "assertions": 95,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "upgrades",
+      "assertions": 14,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "structure",
+      "assertions": 73,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "legal",
+      "assertions": 10,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "journey",
+      "assertions": 85,
+      "pass": true
+    },
+    {
+      "runtime": "7.4",
+      "suite": "framework",
+      "assertions": 61,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "web3forms",
+      "assertions": 72,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "publishing",
+      "assertions": 95,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "upgrades",
+      "assertions": 14,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "structure",
+      "assertions": 73,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "legal",
+      "assertions": 10,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "journey",
+      "assertions": 85,
+      "pass": true
+    },
+    {
+      "runtime": "8.2",
+      "suite": "framework",
+      "assertions": 61,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "web3forms",
+      "assertions": 72,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "publishing",
+      "assertions": 95,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "upgrades",
+      "assertions": 14,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "structure",
+      "assertions": 73,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "legal",
+      "assertions": 10,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "journey",
+      "assertions": 85,
+      "pass": true
+    },
+    {
+      "runtime": "8.3",
+      "suite": "framework",
+      "assertions": 61,
+      "pass": true
+    }
+  ],
+  "unique_assertions_across_runtimes": 1230
+}

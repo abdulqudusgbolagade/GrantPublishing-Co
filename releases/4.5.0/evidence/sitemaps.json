@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "sitemap_index_200": true,
+    "all_core_urls_in_page_sitemap": true,
+    "hello_world_not_in_sitemaps": true,
+    "unused_default_archives_not_in_sitemaps": true,
+    "both_drafts_excluded": true,
+    "author_url_noindex": true,
+    "category_url_noindex": true
+  },
+  "sitemaps": [
+    "http://127.0.0.1:9401/page-sitemap.xml"
+  ],
+  "page_sitemap_urls": 43,
+  "archives": [
+    {
+      "url": "http://127.0.0.1:9401/author/admin/",
+      "status": 200,
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "url": "http://127.0.0.1:9401/category/uncategorized/",
+      "status": 200,
+      "robots": [
+        "noindex, follow"
+      ]
+    }
+  ]
+}

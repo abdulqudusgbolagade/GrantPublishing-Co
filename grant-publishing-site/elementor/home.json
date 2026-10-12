@@ -1562,7 +1562,7 @@
                   "settings": {
                     "_title": "Label",
                     "_css_classes": "gp-label",
-                    "editor": "<p>THE WORKING RELATIONSHIP</p>"
+                    "editor": "<p>THE GRANT FRAMEWORK</p>"
                   },
                   "elements": []
                 },
@@ -1583,222 +1583,15 @@
             },
             {
               "id": "64956ec8",
-              "elType": "container",
+              "elType": "widget",
+              "widgetType": "shortcode",
               "isInner": false,
               "settings": {
-                "_title": "Three Columns",
-                "css_classes": "gp-three-columns",
-                "content_width": "full",
-                "flex_direction": "column",
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 0,
-                  "column": "0",
-                  "row": "0"
-                }
+                "_title": "Framework Slot",
+                "_css_classes": "gp-framework-slot",
+                "shortcode": "[grant_framework context=\"home\"]"
               },
-              "elements": [
-                {
-                  "id": "19311de2",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "_title": "Step",
-                    "css_classes": "gp-step",
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 0,
-                      "column": "0",
-                      "row": "0"
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "0c1a9308",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Label",
-                        "_css_classes": "gp-label",
-                        "editor": "<p>01</p>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "e6b83a13",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Item Title",
-                        "_css_classes": "gp-item-title",
-                        "title": "Understand your book",
-                        "header_size": "h3"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "ddd3a78b",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Copy",
-                        "_css_classes": "gp-copy",
-                        "editor": "<p>We begin with your manuscript or published book, your goals and the support you need. Free Amazon assessments use public listing information.</p>"
-                      },
-                      "elements": []
-                    }
-                  ]
-                },
-                {
-                  "id": "a95851bf",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "_title": "Step",
-                    "css_classes": "gp-step",
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 0,
-                      "column": "0",
-                      "row": "0"
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "3d6fa6ba",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Label",
-                        "_css_classes": "gp-label",
-                        "editor": "<p>02</p>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "e6b408db",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Item Title",
-                        "_css_classes": "gp-item-title",
-                        "title": "Set a clear direction",
-                        "header_size": "h3"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "9173d7bd",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Copy",
-                        "_css_classes": "gp-copy",
-                        "editor": "<p>We explain the priorities and agree the scope, fee and delivery plan before paid work begins.</p>"
-                      },
-                      "elements": []
-                    }
-                  ]
-                },
-                {
-                  "id": "1f03ea2a",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "_title": "Step",
-                    "css_classes": "gp-step",
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 0,
-                      "column": "0",
-                      "row": "0"
-                    }
-                  },
-                  "elements": [
-                    {
-                      "id": "64c4c9bc",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Label",
-                        "_css_classes": "gp-label",
-                        "editor": "<p>03</p>"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "339ff153",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Item Title",
-                        "_css_classes": "gp-item-title",
-                        "title": "Put the plan to work",
-                        "header_size": "h3"
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "149d677f",
-                      "elType": "widget",
-                      "widgetType": "text-editor",
-                      "isInner": false,
-                      "settings": {
-                        "_title": "Copy",
-                        "_css_classes": "gp-copy",
-                        "editor": "<p>You receive the agreed work and clear next steps. A synopsis or manuscript may be requested for deeper paid work.</p>"
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
+              "elements": []
             }
           ]
         }

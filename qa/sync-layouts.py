@@ -65,6 +65,10 @@ def build(element, page, path):
     elif not children and '{{faq:general}}' in (element.text or ''):
         node['widgetType'] = 'shortcode'
         settings['shortcode'] = '[grant_faqs]'
+    elif not children and '{{framework:' in (element.text or ''):
+        node['widgetType'] = 'shortcode'
+        context = 'about' if '{{framework:about}}' in inner(element) else 'assessment' if '{{framework:assessment}}' in inner(element) else 'home'
+        settings['shortcode'] = '[grant_framework context=\"' + context + '\"]'
     elif not children and '{{contact_links}}' in (element.text or ''):
         node['widgetType'] = 'shortcode'
         settings['shortcode'] = '[grant_contact_links]'

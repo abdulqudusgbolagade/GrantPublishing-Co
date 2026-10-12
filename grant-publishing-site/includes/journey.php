@@ -49,11 +49,12 @@ function gpc_service_journey($key) {
     if (!isset($connections[$key])) { return ''; }
     $data = $connections[$key];
     $proof = isset($data['case']) ? gpc_case_card($data['case'], true, $data['context'] ?? '') : '';
-    $html = '<section class="gp-section gp-tone-paper gp-journey" data-gpc-journey="' . esc_attr($key) . '"><div class="gp-wrap"><div class="gp-label"><p>' . ($proof ? 'SEE THE WORK IN CONTEXT' : 'PLAN THE NEXT STEP') . '</p></div><div class="gp-heading"><h2>' . ($proof ? 'How this works in practice' : 'Where this service fits') . '</h2></div><div class="gp-journey-grid' . ($proof ? '' : ' gp-journey-single') . '">' . $proof . '<div class="gp-journey-copy"><h3>Connect the right support</h3><p>' . $data['copy'] . '</p>';
+    $html = '<section class="gp-section gp-tone-paper gp-journey" data-gpc-journey="' . esc_attr($key) . '"><div class="gp-wrap"><div class="gp-label"><p>' . ($proof ? 'SEE THE WORK IN CONTEXT' : 'PLAN THE NEXT STEP') . '</p></div><div class="gp-heading"><h2>' . ($proof ? 'How this works in practice' : 'Where this service fits') . '</h2></div><div class="gp-journey-grid' . ($proof ? '' : ' gp-journey-single') . '">' . $proof . '<div class="gp-journey-copy"><h3>Connect the right support</h3><p>' . $data['copy'] . '</p>' . gpc_framework_fit($key);
     if (isset($data['insight'])) { $html .= '<p>Related insight: ' . gpc_journey_link($data['insight'], gpc_pages()[$data['insight']]['title']) . '.</p>'; }
-    $html .= '<p>A free preliminary assessment is based on public information and details you choose to share. For an unpublished book, tell us its stage and the help you need.</p>' . gpc_journey_assessment();
+    $project_cta = gpc_service_project_cta($key);
+    $html .= $project_cta ? '<p>For an unpublished book, tell us its stage, intended formats and the support you need. An Amazon link is optional for this project enquiry.</p>' . $project_cta : '<p>The free assessment reviews public Amazon-visible information to identify possible weaknesses and useful next steps. It does not include private sales data or a complete five-stage engagement.</p>' . gpc_journey_assessment();
     if (!empty($data['faq'])) { $html .= '<h3 class="gp-journey-faq-heading">Before you begin</h3>' . gpc_faq_group($data['faq']); }
-    return $html . '<p class="gp-small">' . gpc_journey_link('faq','Read all frequently asked questions') . '</p></div></div></div></section>';
+    return $html . '<p class="gp-small">' . gpc_journey_link('faq','Read all frequently asked questions') . '</p></div></div>' . ($key === 'book-presentation' ? gpc_aplus_example() : '') . '</div></section>';
 }
 function gpc_article_connections($content, $key) {
     $link = 'gpc_journey_link';
