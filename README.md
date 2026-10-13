@@ -8,7 +8,7 @@ If downloading fails, [open the ZIP on GitHub](https://github.com/abdulqudusgbol
 
 **Production installation is pending.** The update is tested in actual WordPress, Elementor and Yoast. Saved existing pages/layouts, manual Yoast fields, legal copy, testimonials, logos/favicon and private form settings are preserved. No bulk Elementor conversion is required. An eligible administrator visit after installation safely drafts only untouched starter content with a private backup and creates the two authority drafts; it does not publish the articles.
 
-Exactly one authorised owner test was sent through each live form on 12 October 2026. Both returned Web3Forms acceptance. **Inbox receipt is unverified.**
+Exactly one authorised owner test was sent through each live form on 12 October 2026. Both returned Web3Forms acceptance. **The owner confirmed receipt of both emails on 13 October 2026.**
 
 - [Complete changes, testing results and limits](releases/4.5.0/TESTING-REPORT.md)
 - [Installation, live checklist and rollback](releases/4.5.0/INSTALLATION.md)

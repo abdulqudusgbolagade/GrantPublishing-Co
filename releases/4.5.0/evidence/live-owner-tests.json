@@ -7,7 +7,7 @@
     "label": "OWNER DELIVERY TEST ONLY: contact form, 12 October 2026",
     "attempted_at": "2026-10-12T17:09:08.362Z",
     "post_attempts": 1,
-    "inbox_receipt": "Not verified; no authorised inbox access",
+    "inbox_receipt": "Confirmed by the website owner on 13 October 2026",
     "post_started_at": "2026-10-12T17:09:15.858Z",
     "server_response": {
       "success": true,
@@ -20,7 +20,14 @@
     "browser_state": "success",
     "browser_message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp.",
     "provider_acceptance": true,
-    "fields_reset": true
+    "fields_reset": true,
+    "inbox_confirmation": {
+      "date": "2026-10-13",
+      "timezone": "Africa/Lagos",
+      "source": "Website owner confirmation in this conversation",
+      "statement": "received both Web3Forms test emails",
+      "independent_mailbox_access": false
+    }
   },
   {
     "form": "assessment",
@@ -30,7 +37,7 @@
     "label": "OWNER DELIVERY TEST ONLY: assessment form, 12 October 2026",
     "attempted_at": "2026-10-12T17:09:17.454Z",
     "post_attempts": 1,
-    "inbox_receipt": "Not verified; no authorised inbox access",
+    "inbox_receipt": "Confirmed by the website owner on 13 October 2026",
     "post_started_at": "2026-10-12T17:09:20.324Z",
     "server_response": {
       "success": true,
@@ -43,6 +50,13 @@
     "browser_state": "success",
     "browser_message": "Thank you. Web3Forms has accepted your enquiry for delivery to Grant Publishing Co. If you do not hear back, please contact us by email or WhatsApp.",
     "provider_acceptance": true,
-    "fields_reset": true
+    "fields_reset": true,
+    "inbox_confirmation": {
+      "date": "2026-10-13",
+      "timezone": "Africa/Lagos",
+      "source": "Website owner confirmation in this conversation",
+      "statement": "received both Web3Forms test emails",
+      "independent_mailbox_access": false
+    }
   }
 ]

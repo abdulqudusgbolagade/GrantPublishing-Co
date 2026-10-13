@@ -1,12 +1,12 @@
 # Grant Publishing Co. 4.5.0 testing report
 
-12 October 2026. This is a focused repair and GRANT Framework integration, preserving the approved website design.
+12 October 2026 implementation and checks; delivery confirmation updated 13 October 2026. This is a focused repair and GRANT Framework integration, preserving the approved website design.
 
 ## Delivery status
 
 - **Implemented and tested in isolated WordPress:** the plugin update below, including runtime changes to installed Elementor pages without rewriting their saved content.
 - **Prepared, not published:** two complete authority article drafts. Installation prepares editable WordPress drafts under the existing Insights parent. They do not appear in the public index or sitemap until the owner publishes them.
-- **Live testing completed:** the current 4.4.0 site was inspected, including all 26 core URLs and 55 browser/viewport combinations. Exactly one labelled owner test was submitted through each live form. Both returned HTTP 200, a successful browser state and Web3Forms acceptance for delivery. **Inbox receipt is unverified.**
+- **Live testing completed:** the current 4.4.0 site was inspected, including all 26 core URLs and 55 browser/viewport combinations. Exactly one labelled owner test was submitted through each live form. Both returned HTTP 200, a successful browser state and Web3Forms acceptance for delivery. **The website owner confirmed receipt of both test emails on 13 October 2026.** This receipt confirmation comes from the owner; the agent has no mailbox access.
 - **Production installation remains pending:** this environment has no authenticated production WordPress administrator, hosting deployment connection, mailbox or Search Console connection. Publishing source and the ZIP to GitHub does not install WordPress changes. No production SEO settings or Search Console connections were changed.
 
 ## Important changes
@@ -104,9 +104,10 @@ Both legal templates and installed legal copy are preserved exactly. Header/foot
 ## Remaining limits and owner actions
 
 1. Back up production files/database, install the ZIP through the existing WordPress plugin replacement workflow, visit the dashboard and review Tools → Grant Website Setup. The administrator visit performs scoped starter cleanup and draft preparation. Clear relevant caches and verify the live checklist in [installation instructions](INSTALLATION.md). No bulk Elementor conversion is needed.
-2. Confirm receipt of the two **OWNER DELIVERY TEST ONLY** messages sent at approximately **18:09 WAT on 12 October 2026**, one Contact and one Assessment. Provider acceptance is established; inbox receipt is not.
-3. Review the six proposed title-wording corrections against raw Yoast fields. Review the two complete articles and their intended bylines before publication. These are not blocked by missing source assets.
-4. The existing public Hostinger/brand-agent injection requests an external translation JSON that returned **404** from this cloud environment. Live audit console also contains deliberately blocked analytics POSTs. No Grant JavaScript exception or visible floating-widget obstruction was reproduced in the checked layouts. Production third-party widget settings/loading and Search Console health cannot be fully verified without authorised access. No reconnection or guessed configuration was attempted.
+2. Review the six proposed title-wording corrections against raw Yoast fields. Review the two complete articles and their intended bylines before publication. These are not blocked by missing source assets.
+3. The existing public Hostinger/brand-agent injection requests an external translation JSON that returned **404** from this cloud environment. Live audit console also contains deliberately blocked analytics POSTs. No Grant JavaScript exception or visible floating-widget obstruction was reproduced in the checked layouts. Production third-party widget settings/loading and Search Console health cannot be fully verified without authorised access. No reconnection or guessed configuration was attempted.
+
+**Delivery follow-up:** on 13 October 2026 the owner stated, “received both Web3Forms test emails.” Both Contact and Assessment now have confirmed browser success, provider acceptance and owner-confirmed inbox receipt for the authorised tests. No further messages were sent. This follow-up does not establish production installation of 4.5.0. The installable ZIP and its original checksum remain unchanged.
 
 There is no missing asset request for this implementation. Higher-resolution separate A+ modules would be optional future material, not a condition of this release.
 
