@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "runtime": "8.2",
+      "suite": "web3forms",
+      "pass": true,
+      "assertions": 72
+    },
+    {
+      "runtime": "8.2",
+      "suite": "publishing",
+      "pass": true,
+      "assertions": 95
+    },
+    {
+      "runtime": "8.2",
+      "suite": "upgrades",
+      "pass": true,
+      "assertions": 14
+    },
+    {
+      "runtime": "8.2",
+      "suite": "structure",
+      "pass": true,
+      "assertions": 73
+    },
+    {
+      "runtime": "8.2",
+      "suite": "legal",
+      "pass": true,
+      "assertions": 10
+    },
+    {
+      "runtime": "8.2",
+      "suite": "journey",
+      "pass": true,
+      "assertions": 85
+    },
+    {
+      "runtime": "8.2",
+      "suite": "framework",
+      "pass": true,
+      "assertions": 61
+    },
+    {
+      "runtime": "7.4",
+      "suite": "publishing",
+      "pass": true,
+      "assertions": 95
+    },
+    {
+      "runtime": "7.4",
+      "suite": "journey",
+      "pass": true,
+      "assertions": 85
+    }
+  ],
+  "total": 590
+}

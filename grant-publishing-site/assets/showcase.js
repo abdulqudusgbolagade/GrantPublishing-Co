@@ -7,13 +7,16 @@
     const indicators = Array.from(root.querySelectorAll('[data-indicator]'));
     const toggle = root.querySelector('[data-toggle]');
     const status = root.querySelector('.gp-showcase-status');
-    if (slides.length < 2 || !toggle) return;
+    const position = root.querySelector('[data-current]');
+    const stopOnBrowse = root.hasAttribute('data-stop-on-browse');
+    if (slides.length < 2) return;
     root.dataset.showcaseReady = 'true';
     root.querySelector('.gp-showcase-controls').hidden = false;
     const motion = matchMedia('(prefers-reduced-motion: reduce)');
     let current = 0, timer, request = 0, hovered = false, focused = false;
     let paused = false, visible = true;
     const updateToggle = () => {
+      if (!toggle) return;
       toggle.disabled = motion.matches;
       toggle.setAttribute('aria-label', motion.matches ? 'Automatic rotation disabled for reduced motion' : paused ? 'Play automatic book rotation' : 'Pause automatic book rotation');
       toggle.firstElementChild.innerHTML = '<svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="' + (motion.matches || paused ? 'M4 2l10 6-10 6z' : 'M3 2h4v12H3zM10 2h4v12h-4z') + '"/></svg>';
@@ -24,6 +27,9 @@
     };
     const load = async slide => {
       const img = slide.querySelector('img');
+      // WordPress may add loading=lazy even to source-less hidden slides.
+      // Fetch only this requested image before revealing it for the crossfade.
+      img.loading = 'eager';
       if (img.dataset.src) {
         if (img.dataset.srcset) img.srcset = img.dataset.srcset;
         img.src = img.dataset.src;
@@ -37,13 +43,15 @@
     };
     const show = async (index, announce = true) => {
       clearTimeout(timer);
+      const newlyStopped = announce && stopOnBrowse && !paused;
+      if (announce && stopOnBrowse) paused = true;
       const next = (index + slides.length) % slides.length;
       const pending = ++request;
       if (next === current) { schedule(); return; }
       try { await load(slides[next]); }
       catch (_) {
         if (pending !== request) return;
-        if (announce) status.textContent = 'This cover could not load. The current book remains visible.';
+        if (announce) status.textContent = 'This image could not load. The current image remains visible.';
         paused = true; updateToggle(); return;
       }
       if (pending !== request) return;
@@ -59,13 +67,14 @@
       if (moveFocus) slides[next].querySelector('a').focus({preventScroll:true});
       setTimeout(() => { if (previous !== slides[current]) previous.hidden = true; }, motion.matches ? 0 : 650);
       indicators.forEach((button, i) => button.setAttribute('aria-pressed', String(i === current)));
-      if (announce) status.textContent = slides[current].getAttribute('aria-label');
+      if (position) position.textContent = String(current + 1);
+      if (announce) status.textContent = (newlyStopped ? 'Automatic rotation stopped. ' : '') + slides[current].getAttribute('aria-label');
       schedule();
     };
     root.querySelector('[data-previous]').addEventListener('click', () => show(current - 1));
     root.querySelector('[data-next]').addEventListener('click', () => show(current + 1));
     indicators.forEach((button, i) => button.addEventListener('click', () => show(i)));
-    toggle.addEventListener('click', () => { paused = !paused; updateToggle(); schedule(); });
+    if (toggle) toggle.addEventListener('click', () => { paused = !paused; updateToggle(); schedule(); });
     root.addEventListener('keydown', event => {
       if (event.altKey || event.ctrlKey || event.metaKey) return;
       if (!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
@@ -73,7 +82,7 @@
     });
     root.addEventListener('mouseenter', () => { hovered = true; schedule(); });
     root.addEventListener('mouseleave', () => { hovered = false; schedule(); });
-    root.addEventListener('focusin', () => { focused = true; schedule(); });
+    root.addEventListener('focusin', () => { focused = true; if (stopOnBrowse) paused = true; schedule(); });
     root.addEventListener('focusout', event => { focused = root.contains(event.relatedTarget); schedule(); });
     document.addEventListener('visibilitychange', schedule);
     const changed = () => { updateToggle(); schedule(); };

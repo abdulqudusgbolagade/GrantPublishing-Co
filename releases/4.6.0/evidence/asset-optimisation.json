@@ -1,0 +1,91 @@
+[
+  {
+    "id": "seventh-title-pages",
+    "source": "Screenshot-2026-10-20-095233.png",
+    "source_bytes": 347382,
+    "lossless_bytes": 164872,
+    "width": 727,
+    "height": 542,
+    "pixel_equality": true,
+    "asset_sha256": "527b646e5c3798674b96a95baa264acc5768bb38542b2e0fa60c30a7574407e2",
+    "asset_file": "assets/formatting-seventh-title-pages.webp"
+  },
+  {
+    "id": "seventh-chapter-one",
+    "source": "Screenshot-2026-10-20-095257.png",
+    "source_bytes": 112013,
+    "lossless_bytes": 53024,
+    "width": 359,
+    "height": 538,
+    "pixel_equality": true,
+    "asset_sha256": "395f3d2b49b6bd481efea2683304e7b96d86856dc465e4f0b0c2bece893b5303",
+    "asset_file": "assets/formatting-seventh-chapter-one.webp"
+  },
+  {
+    "id": "seventh-chapter-two",
+    "source": "Screenshot-2026-10-20-095746.png",
+    "source_bytes": 164047,
+    "lossless_bytes": 71176,
+    "width": 723,
+    "height": 539,
+    "pixel_equality": true,
+    "asset_sha256": "a7236020fc88a0b69b4bdd8dd4b4451080c3f968a7bcadf08cfc943f6a9838f6",
+    "asset_file": "assets/formatting-seventh-chapter-two.webp"
+  },
+  {
+    "id": "seventh-text-spread",
+    "source": "Screenshot-2026-10-20-095350.png",
+    "source_bytes": 63889,
+    "lossless_bytes": 23452,
+    "width": 729,
+    "height": 535,
+    "pixel_equality": true,
+    "asset_sha256": "fed250dc875fe82cbac30af5fa468c1ec5262eb572696a1929c83e9198e6ef62",
+    "asset_file": "assets/formatting-seventh-text-spread.webp"
+  },
+  {
+    "id": "names-title-page",
+    "source": "Screenshot-2026-10-16-002003.png",
+    "source_bytes": 15757,
+    "lossless_bytes": 5404,
+    "width": 289,
+    "height": 434,
+    "pixel_equality": true,
+    "asset_sha256": "19aabca11d37579fc8690392cc349205dc2c591a6b60d774e4759ba1f28e8d42",
+    "asset_file": "assets/formatting-names-title-page.webp"
+  },
+  {
+    "id": "names-front-matter",
+    "source": "Screenshot-2026-10-16-001815.png",
+    "source_bytes": 19643,
+    "lossless_bytes": 5304,
+    "width": 584,
+    "height": 434,
+    "pixel_equality": true,
+    "asset_sha256": "22d92a697c0a64a4163dc99ec22a6ba4285afe197dc4fde74ec92a83606a6315",
+    "asset_file": "assets/formatting-names-front-matter.webp"
+  },
+  {
+    "id": "names-chapter-one",
+    "source": "Screenshot-2026-10-16-001452.png",
+    "source_bytes": 96385,
+    "lossless_bytes": 29194,
+    "width": 584,
+    "height": 433,
+    "pixel_equality": true,
+    "asset_sha256": "bb4f785090d91fb9663d76043e908d3748da15c74abbc841cca2b21c718112b2",
+    "asset_file": "assets/formatting-names-chapter-one.webp"
+  },
+  {
+    "id": "open-book-mockup",
+    "source": "A-Name-I-Didnt-Write.png",
+    "source_bytes": 2155430,
+    "lossless_bytes": 1287624,
+    "width": 1536,
+    "height": 1024,
+    "pixel_equality": true,
+    "asset_sha256": "b924c1375b79949038defadd3e46ccc4b056926841c0ab8db6413c03a22a3c3d",
+    "preview_bytes": 332868,
+    "asset_file": "assets/formatting-open-book-mockup.webp"
+  }
+]

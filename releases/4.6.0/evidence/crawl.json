@@ -1,0 +1,4977 @@
+{
+  "pages": [
+    {
+      "key": "home",
+      "url": "http://127.0.0.1:9401/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Explore our expertise",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Read John\u2019s review on LinkedIn: Luma the Sleepy Star, John Capon (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "Explore the formatting sample: The Seventh Binding, Title-page spread",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-seventh-title-pages"
+        },
+        {
+          "label": "View the book on Amazon: My Dear Grandfather, Barsha Rai \u00b7 Cactus Rain Publishing (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646117"
+        },
+        {
+          "label": "Explore the formatting sample: Open-book formatting sample, Chapter 3: A Name I Didn\u2019t Write",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-open-book-mockup"
+        },
+        {
+          "label": "View the book on Amazon: Kathryn\u2019s Beach, Nadine Laman \u00b7 Cactus Rain Publishing (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646168"
+        },
+        {
+          "label": "Explore the formatting sample: The Seventh Binding, Chapter one",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-seventh-chapter-one"
+        },
+        {
+          "label": "Explore the formatting sample: The Seventh Binding, Chapter two and facing page",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-seventh-chapter-two"
+        },
+        {
+          "label": "Explore the formatting sample: The Seventh Binding, Body-text spread",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-seventh-text-spread"
+        },
+        {
+          "label": "Explore the formatting sample: The Names She Kept, Title page",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-names-title-page"
+        },
+        {
+          "label": "Explore the formatting sample: The Names She Kept, Copyright and quotation",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-names-front-matter"
+        },
+        {
+          "label": "Explore the formatting sample: The Names She Kept, Chapter one and facing page",
+          "href": "http://127.0.0.1:9401/services/book-formatting/#formatting-sample-names-chapter-one"
+        },
+        {
+          "label": "View Kathryn\u2019s Beach by Nadine Laman on Amazon (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646168"
+        },
+        {
+          "label": "View the book on Amazon",
+          "href": "https://www.amazon.com/dp/1947646168"
+        },
+        {
+          "label": "Explore the client feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Read John Capon\u2019s review of Luma the Sleepy Star on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "Read John\u2019s review on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "Book Design & Formatting",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Publishing & Launch Support",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "Book Marketing & Amazon Ads",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "View all services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Explore the GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "About Grant Publishing Co.",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Why publishing a book does not guarantee discovery",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "The pieces of a strong book product page",
+          "href": "http://127.0.0.1:9401/insights/book-product-page/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/book-product-page/"
+        },
+        {
+          "label": "Your second book changes the marketing equation",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "services",
+      "url": "http://127.0.0.1:9401/services/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read John\u2019s review on LinkedIn: Luma the Sleepy Star, John Capon (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "View the book on Amazon: My Dear Grandfather, Barsha Rai \u00b7 Cactus Rain Publishing (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646117"
+        },
+        {
+          "label": "View the book on Amazon: Kathryn\u2019s Beach, Nadine Laman \u00b7 Cactus Rain Publishing (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646168"
+        },
+        {
+          "label": "Book Formatting",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Amazon Ads Setup & Management",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Descriptions & A+ Content",
+          "href": "http://127.0.0.1:9401/services/book-presentation/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/book-presentation/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "Author Platform",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "Series & Catalog Strategy",
+          "href": "http://127.0.0.1:9401/services/catalog-strategy/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/catalog-strategy/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Publishing & Amazon KDP Setup",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "Explore service",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "Discuss a design, formatting or publishing project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Request an initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "our documented case studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "enquiry",
+      "url": "http://127.0.0.1:9401/book-marketing-audit/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/book-marketing-audit/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Privacy Policy (opens in a new tab)",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "about",
+      "url": "http://127.0.0.1:9401/about/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/about/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read the client feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "our book design, publishing and marketing services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "documented client projects",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "feedback",
+      "url": "http://127.0.0.1:9401/client-feedback/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/client-feedback/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read John Capon\u2019s review of Luma the Sleepy Star on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "Read the review on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/services/page/a29863343146852122/"
+        },
+        {
+          "label": "Read the case study",
+          "href": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/luma-sleepy-star-case-study.pdf"
+        },
+        {
+          "label": "Read the Luma the Sleepy Star project online",
+          "href": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+        },
+        {
+          "label": "View My Dear Grandfather by Barsha Rai on Amazon (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646117"
+        },
+        {
+          "label": "Read the case study",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Grandfather-Listing-Case-Study.pdf"
+        },
+        {
+          "label": "Read the My Dear Grandfather project online",
+          "href": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+        },
+        {
+          "label": "View Kathryn\u2019s Beach by Nadine Laman on Amazon (opens in a new tab)",
+          "href": "https://www.amazon.com/dp/1947646168"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "insights",
+      "url": "http://127.0.0.1:9401/insights/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/insights/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Why publishing a book does not guarantee discovery",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "The pieces of a strong book product page",
+          "href": "http://127.0.0.1:9401/insights/book-product-page/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/book-product-page/"
+        },
+        {
+          "label": "Your second book changes the marketing equation",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Read article",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "contact",
+      "url": "http://127.0.0.1:9401/contact/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/contact/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Privacy Policy (opens in a new tab)",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "amazon-visibility",
+      "url": "http://127.0.0.1:9401/services/amazon-visibility/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/amazon-visibility/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Amazon%20listing%20optimization#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Amazon%20listing%20optimization#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "View My Dear Grandfather case study",
+          "href": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Amazon Ads Setup & Management",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Why publishing a book does not guarantee discovery",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "book-presentation",
+      "url": "http://127.0.0.1:9401/services/book-presentation/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/book-presentation/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20descriptions%20and%20A%2B%20Content#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20descriptions%20and%20A%2B%20Content#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "View My Dear Grandfather case study",
+          "href": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "The pieces of a strong book product page",
+          "href": "http://127.0.0.1:9401/insights/book-product-page/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "View the approved Kathryn\u2019s Beach A+ Content screenshot (opens in a new tab)",
+          "href": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/kathryns-beach-aplus-600.webp"
+        },
+        {
+          "label": "View the approved A+ example (opens in a new tab)",
+          "href": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/kathryns-beach-aplus-600.webp"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "launch-promotion",
+      "url": "http://127.0.0.1:9401/services/launch-promotion/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/launch-promotion/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20launch%20or%20relaunch#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20launch%20or%20relaunch#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Amazon Ads Setup & Management",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "Author Platform",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Your second book changes the marketing equation",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "author-platform",
+      "url": "http://127.0.0.1:9401/services/author-platform/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/author-platform/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Author%20platform#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Author%20platform#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Your second book changes the marketing equation",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "catalog-strategy",
+      "url": "http://127.0.0.1:9401/services/catalog-strategy/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/catalog-strategy/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Series%20and%20catalog%20strategy#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Series%20and%20catalog%20strategy#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Author Platform",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Your second book changes the marketing equation",
+          "href": "http://127.0.0.1:9401/insights/connected-catalog/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "book-strategy",
+      "url": "http://127.0.0.1:9401/services/book-strategy/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/book-strategy/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20marketing%20strategy#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20marketing%20strategy#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "View My Dear Grandfather case study",
+          "href": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Amazon Ads Setup & Management",
+          "href": "http://127.0.0.1:9401/services/amazon-ads/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "Author Platform",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Why publishing a book does not guarantee discovery",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "publishing-support",
+      "url": "http://127.0.0.1:9401/services/publishing-support/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/publishing-support/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20publishing%20and%20Amazon%20KDP%20setup#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20publishing%20and%20Amazon%20KDP%20setup#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "View Luma the Sleepy Star case study",
+          "href": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+        },
+        {
+          "label": "Book Formatting",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Discuss publishing support",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20publishing%20and%20Amazon%20KDP%20setup#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "book-discovery",
+      "url": "http://127.0.0.1:9401/insights/book-discovery/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/insights/book-discovery/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "AbdulQudus Tella",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Start with the reader\u2019s decision",
+          "href": "#article-section-1"
+        },
+        {
+          "label": "Look for conflicting signals",
+          "href": "#article-section-2"
+        },
+        {
+          "label": "Separate observation from diagnosis",
+          "href": "#article-section-3"
+        },
+        {
+          "label": "Choose a testable next step",
+          "href": "#article-section-4"
+        },
+        {
+          "label": "Amazon Book Visibility service",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "All insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "book-product-page",
+      "url": "http://127.0.0.1:9401/insights/book-product-page/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/insights/book-product-page/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "AbdulQudus Tella",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Begin with the promise",
+          "href": "#article-section-1"
+        },
+        {
+          "label": "Give each element a job",
+          "href": "#article-section-2"
+        },
+        {
+          "label": "Check the path through the page",
+          "href": "#article-section-3"
+        },
+        {
+          "label": "Keep the claims grounded",
+          "href": "#article-section-4"
+        },
+        {
+          "label": "Book Descriptions & A+ Content",
+          "href": "http://127.0.0.1:9401/services/book-presentation/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Amazon Book Visibility service",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "All insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Book Descriptions & A+ Content",
+          "href": "http://127.0.0.1:9401/services/book-presentation/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "connected-catalog",
+      "url": "http://127.0.0.1:9401/insights/connected-catalog/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/insights/connected-catalog/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "AbdulQudus Tella",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Look beyond the individual listing",
+          "href": "#article-section-1"
+        },
+        {
+          "label": "Choose a useful entry point",
+          "href": "#article-section-2"
+        },
+        {
+          "label": "Check the connections",
+          "href": "#article-section-3"
+        },
+        {
+          "label": "Review the whole journey",
+          "href": "#article-section-4"
+        },
+        {
+          "label": "Author Platform",
+          "href": "http://127.0.0.1:9401/services/author-platform/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "All insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Series & Catalog Strategy",
+          "href": "http://127.0.0.1:9401/services/catalog-strategy/"
+        },
+        {
+          "label": "Discuss your book",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Free initial assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "book-formatting",
+      "url": "http://127.0.0.1:9401/services/book-formatting/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/book-formatting/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20formatting#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Explore book cover design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20formatting#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Title-page spreadDecorative title treatment and balanced front matter.View full-size image \u2197 of The Seventh Binding, Title-page spread (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095233.png"
+        },
+        {
+          "label": "Chapter oneAn illustrated opening, a clear chapter title and a drop cap.View full-size image \u2197 of The Seventh Binding, Chapter one (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095257.png"
+        },
+        {
+          "label": "Chapter two and facing pageAn illustrated chapter opening alongside the body-text layout.View full-size image \u2197 of The Seventh Binding, Chapter two and facing page (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095746.png"
+        },
+        {
+          "label": "Body-text spreadRunning heads, page numbers and consistent text alignment.View full-size image \u2197 of The Seventh Binding, Body-text spread (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095350.png"
+        },
+        {
+          "label": "Title pageA restrained title hierarchy and generous spacing.View full-size image \u2197 of The Names She Kept, Title page (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-002003.png"
+        },
+        {
+          "label": "Copyright and quotationA clear front-matter layout with an opposing quotation page.View full-size image \u2197 of The Names She Kept, Copyright and quotation (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-001815.png"
+        },
+        {
+          "label": "Chapter one and facing pageChapter typography, a drop cap and a consistent reading layout.View full-size image \u2197 of The Names She Kept, Chapter one and facing page (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-001452.png"
+        },
+        {
+          "label": "Chapter 3: A Name I Didn\u2019t WriteAn open-book mockup showing chapter typography and a continuous spread.View full-size image \u2197 of Open-book formatting sample, Chapter 3: A Name I Didn\u2019t Write (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/A-Name-I-Didnt-Write.png"
+        },
+        {
+          "label": "View Luma the Sleepy Star case study",
+          "href": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Publishing Support",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Discuss book formatting",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20formatting#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "cover-design",
+      "url": "http://127.0.0.1:9401/services/cover-design/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/cover-design/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Cover%20design#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Cover%20design#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "View Luma the Sleepy Star case study",
+          "href": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+        },
+        {
+          "label": "Book Formatting",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Publishing Support",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Discuss cover design",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Cover%20design#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "amazon-ads",
+      "url": "http://127.0.0.1:9401/services/amazon-ads/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/services/amazon-ads/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Amazon%20Ads%20campaign%20setup#gpc-enquiry"
+        },
+        {
+          "label": "See the scope",
+          "href": "#service-scope"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Launch & Promotion",
+          "href": "http://127.0.0.1:9401/services/launch-promotion/"
+        },
+        {
+          "label": "Enquire about this service",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Amazon%20Ads%20campaign%20setup#gpc-enquiry"
+        },
+        {
+          "label": "All services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Why publishing a book does not guarantee discovery",
+          "href": "http://127.0.0.1:9401/insights/book-discovery/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Read all frequently asked questions",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "privacy-policy",
+      "url": "http://127.0.0.1:9401/privacy-policy/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/privacy-policy/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "terms-of-service",
+      "url": "http://127.0.0.1:9401/terms-of-service/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/terms-of-service/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "case-studies",
+      "url": "http://127.0.0.1:9401/case-studies/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/case-studies/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "View My Dear Grandfather case study",
+          "href": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+        },
+        {
+          "label": "View Luma the Sleepy Star case study",
+          "href": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Explore all services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "case-grandfather",
+      "url": "http://127.0.0.1:9401/case-studies/my-dear-grandfather/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/case-studies/my-dear-grandfather/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Amazon Book Visibility",
+          "href": "http://127.0.0.1:9401/services/amazon-visibility/"
+        },
+        {
+          "label": "Book Marketing Strategy",
+          "href": "http://127.0.0.1:9401/services/book-strategy/"
+        },
+        {
+          "label": "Book Descriptions & A+ Content",
+          "href": "http://127.0.0.1:9401/services/book-presentation/"
+        },
+        {
+          "label": "Read the original case study PDF (opens in a new tab)",
+          "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/My-Dear-Grandfather-Listing-Case-Study.pdf"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Explore all services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "case-luma",
+      "url": "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/case-studies/luma-the-sleepy-star/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "GRANT Framework",
+          "href": "http://127.0.0.1:9401/about/#grant-framework"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Book Cover Design",
+          "href": "http://127.0.0.1:9401/services/cover-design/"
+        },
+        {
+          "label": "Book Formatting",
+          "href": "http://127.0.0.1:9401/services/book-formatting/"
+        },
+        {
+          "label": "Publishing Support",
+          "href": "http://127.0.0.1:9401/services/publishing-support/"
+        },
+        {
+          "label": "Read the original case study PDF (opens in a new tab)",
+          "href": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/luma-sleepy-star-case-study.pdf"
+        },
+        {
+          "label": "Discuss cover design",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Cover%20design#gpc-enquiry"
+        },
+        {
+          "label": "Discuss book formatting",
+          "href": "http://127.0.0.1:9401/contact/?request=project&service=Book%20formatting#gpc-enquiry"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    },
+    {
+      "key": "faq",
+      "url": "http://127.0.0.1:9401/faq/",
+      "status": 200,
+      "h1_count": 1,
+      "header_count": 1,
+      "footer_count": 1,
+      "canonical": [
+        "http://127.0.0.1:9401/faq/"
+      ],
+      "links": [
+        {
+          "label": "Skip to content",
+          "href": "#gpc-main"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        },
+        {
+          "label": "Request a free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/?request=assessment#gpc-enquiry"
+        },
+        {
+          "label": "Explore all services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Discuss your project",
+          "href": "http://127.0.0.1:9401/contact/#gpc-enquiry"
+        },
+        {
+          "label": "Grant Publishing Co. home",
+          "href": "http://127.0.0.1:9401/"
+        },
+        {
+          "label": "Services",
+          "href": "http://127.0.0.1:9401/services/"
+        },
+        {
+          "label": "Case Studies",
+          "href": "http://127.0.0.1:9401/case-studies/"
+        },
+        {
+          "label": "About",
+          "href": "http://127.0.0.1:9401/about/"
+        },
+        {
+          "label": "Client Feedback",
+          "href": "http://127.0.0.1:9401/client-feedback/"
+        },
+        {
+          "label": "Insights",
+          "href": "http://127.0.0.1:9401/insights/"
+        },
+        {
+          "label": "FAQs",
+          "href": "http://127.0.0.1:9401/faq/"
+        },
+        {
+          "label": "Contact",
+          "href": "http://127.0.0.1:9401/contact/"
+        },
+        {
+          "label": "Free book assessment",
+          "href": "http://127.0.0.1:9401/book-marketing-audit/"
+        },
+        {
+          "label": "View AbdulQudus on LinkedIn (opens in a new tab)",
+          "href": "https://www.linkedin.com/in/abdulqudustella/"
+        },
+        {
+          "label": "View AbdulQudus on Upwork (opens in a new tab)",
+          "href": "https://www.upwork.com/freelancers/abdulqudust"
+        },
+        {
+          "label": "Message Grant Publishing Co. on WhatsApp",
+          "href": "https://wa.me/2349036016020"
+        },
+        {
+          "label": "Email hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "hello@grantpublishingco.com",
+          "href": "mailto:hello@grantpublishingco.com"
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "http://127.0.0.1:9401/privacy-policy/"
+        },
+        {
+          "label": "Terms of Service",
+          "href": "http://127.0.0.1:9401/terms-of-service/"
+        }
+      ]
+    }
+  ],
+  "named_link_checks": 1158,
+  "legal_copy_exact": true,
+  "service_cards": 10
+}

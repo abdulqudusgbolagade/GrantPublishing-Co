@@ -10,23 +10,44 @@ function gpc_portfolio_books() {
     );
 }
 
-/** First cover is useful without JavaScript; later images have no network src. */
-function gpc_book_showcase($context = 'home') {
-    $context = $context === 'services' ? 'services' : 'home';
-    wp_enqueue_script('gpc-showcase', gpc_asset_url('showcase.js'), array(), GPC_VERSION, true);
+/** Keep verified project scopes separate from the supplied layout samples. */
+function gpc_showcase_items($context) {
     $books = gpc_portfolio_books();
-    $html = '<section class="gp-book-showcase gp-showcase-' . $context . '" data-book-showcase role="region" aria-roledescription="carousel" aria-label="Books from our client projects"><div class="gp-showcase-stage">';
+    if ($context !== 'home') { return $books; }
+    $samples = array();
+    foreach (gpc_formatting_samples() as $sample) {
+        $file = gpc_formatting_sample_file($sample); $set = array();
+        if ($sample['width'] > 1000) { $set[gpc_formatting_sample_file($sample, true)] = 768; }
+        $set[$file] = $sample['width'];
+        $samples[] = array('title'=>$sample['book'],'author'=>$sample['view'],'scope'=>$sample['group'] === 'mockup' ? 'Interior formatting sample · mockup' : 'Interior formatting sample','file'=>$file,'set'=>$set,'width'=>$sample['width'],'height'=>$sample['height'],'url'=>gpc_url('book-formatting') . '#formatting-sample-' . $sample['id'],'destination'=>'Explore the formatting sample','internal'=>true,'alt'=>$sample['book'] . ': ' . $sample['view'] . '. ' . $sample['detail']);
+    }
+    return array_merge(array($books[0], $samples[0], $books[1], $samples[7], $books[2]), array_slice($samples, 1, 6));
+}
+
+/** First image remains useful without JS. Later images have no network src. */
+function gpc_book_showcase($context = 'home') {
+    $context = $context === 'services' ? 'services' : 'home'; $home = $context === 'home';
+    wp_enqueue_script('gpc-showcase', gpc_asset_url('showcase.js'), array(), GPC_VERSION, true);
+    $books = gpc_showcase_items($context);
+    $html = '<section class="gp-book-showcase gp-showcase-' . $context . '" data-book-showcase' . ($home ? ' data-stop-on-browse' : '') . ' role="region" aria-roledescription="carousel" aria-label="' . ($home ? 'Book projects and formatting samples' : 'Books from our client projects') . '"><div class="gp-showcase-stage">';
     foreach ($books as $i => $book) {
         $set = array();
         foreach ($book['set'] as $file => $width) { $set[] = gpc_asset_url($file) . ' ' . $width . 'w'; }
-        $html .= '<div class="gp-showcase-slide' . ($i === 0 ? ' is-active' : '') . '" data-slide role="group" aria-roledescription="slide" aria-label="' . esc_attr(($i + 1) . ' of ' . count($books) . ': ' . $book['title']) . '"' . ($i === 0 ? '' : ' hidden inert aria-hidden="true"') . '>';
-        $html .= '<a class="gp-showcase-book-link" href="' . esc_url($book['url']) . '" target="_blank" rel="noopener noreferrer"' . ($i === 0 ? '' : ' tabindex="-1"') . ' aria-label="' . esc_attr($book['destination'] . ': ' . $book['title'] . ' (opens in a new tab)') . '">';
-        $html .= '<img ' . ($i === 0 ? 'src' : 'data-src') . '="' . esc_url(gpc_asset_url($book['file'])) . '" ' . ($i === 0 ? 'srcset' : 'data-srcset') . '="' . esc_attr(implode(', ', $set)) . '" sizes="(max-width: 720px) calc(100vw - 64px), (max-width: 1120px) 42vw, 440px" width="' . (int) $book['width'] . '" height="' . (int) $book['height'] . '" alt="' . esc_attr($book['title'] . ' by ' . $book['author']) . '" decoding="async"' . ($i === 0 ? ' fetchpriority="high"' : '') . '></a>';
+        $new_tab = empty($book['internal']);
+        $html .= '<div class="gp-showcase-slide' . ($i === 0 ? ' is-active' : '') . '" data-slide role="group" aria-roledescription="slide" aria-label="' . esc_attr(($i + 1) . ' of ' . count($books) . ': ' . $book['title'] . ', ' . $book['author']) . '"' . ($i === 0 ? '' : ' hidden inert aria-hidden="true"') . '>';
+        $html .= '<a class="gp-showcase-book-link" href="' . esc_url($book['url']) . '"' . ($new_tab ? ' target="_blank" rel="noopener noreferrer"' : '') . ($i === 0 ? '' : ' tabindex="-1"') . ' aria-label="' . esc_attr($book['destination'] . ': ' . $book['title'] . ', ' . $book['author'] . ($new_tab ? ' (opens in a new tab)' : '')) . '">';
+        $html .= '<img ' . ($i === 0 ? 'src' : 'data-src') . '="' . esc_url(gpc_asset_url($book['file'])) . '" ' . ($i === 0 ? 'srcset' : 'data-srcset') . '="' . esc_attr(implode(', ', $set)) . '" sizes="(max-width: 720px) calc(100vw - 64px), (max-width: 1120px) 42vw, 520px" width="' . (int) $book['width'] . '" height="' . (int) $book['height'] . '" style="--gp-showcase-source-width:' . (int) $book['width'] . 'px;--gp-showcase-source-height:' . (int) $book['height'] . 'px" alt="' . esc_attr($book['alt'] ?? ($book['title'] . ' by ' . $book['author'])) . '" decoding="async"' . ($i === 0 ? ' fetchpriority="high"' : '') . '></a>';
         $html .= '<div class="gp-showcase-caption"><p class="gp-showcase-title">' . esc_html($book['title']) . '</p><p class="gp-showcase-author">' . esc_html($book['author']) . '</p><p class="gp-showcase-scope">' . esc_html($book['scope']) . '</p></div></div>';
     }
-    $html .= '</div><div class="gp-showcase-controls" hidden><button type="button" data-previous aria-label="Previous book">←</button><div class="gp-showcase-indicators" role="group" aria-label="Choose a book">';
-    foreach ($books as $i => $book) { $html .= '<button type="button" data-indicator="' . $i . '" aria-label="Show ' . esc_attr($book['title']) . '" aria-pressed="' . ($i === 0 ? 'true' : 'false') . '"><span aria-hidden="true"></span></button>'; }
-    return $html . '</div><button type="button" data-next aria-label="Next book">→</button><button type="button" class="gp-showcase-toggle" data-toggle aria-label="Pause automatic book rotation"><span aria-hidden="true">Ⅱ</span></button></div><p class="gp-showcase-status gpc-sr-only" role="status" aria-live="polite" aria-atomic="true"></p></section>';
+    $html .= '</div><div class="gp-showcase-controls" hidden><button type="button" data-previous aria-label="' . ($home ? 'Previous image' : 'Previous book') . '">←</button>';
+    if ($home) {
+        $html .= '<span class="gp-showcase-position" aria-hidden="true"><span data-current>1</span><span> / ' . count($books) . '</span></span><button type="button" data-next aria-label="Next image">→</button><p class="gp-showcase-help">Use either arrow to stop rotation and browse.</p>';
+    } else {
+        $html .= '<div class="gp-showcase-indicators" role="group" aria-label="Choose a book">';
+        foreach ($books as $i => $book) { $html .= '<button type="button" data-indicator="' . $i . '" aria-label="Show ' . esc_attr($book['title']) . '" aria-pressed="' . ($i === 0 ? 'true' : 'false') . '"><span aria-hidden="true"></span></button>'; }
+        $html .= '</div><button type="button" data-next aria-label="Next book">→</button><button type="button" class="gp-showcase-toggle" data-toggle aria-label="Pause automatic book rotation"><span aria-hidden="true">Ⅱ</span></button>';
+    }
+    return $html . '</div><p class="gp-showcase-status gpc-sr-only" role="status" aria-live="polite" aria-atomic="true"></p></section>';
 }
 add_shortcode('grant_book_showcase', function($atts) {
     return gpc_book_showcase(is_array($atts) && isset($atts['context']) ? $atts['context'] : 'home');

@@ -1,0 +1,11 @@
+{
+  "checks": 6,
+  "passed": [
+    "Keyboard Enter opens the exact full-size sample",
+    "Wide mockup selects full-resolution asset",
+    "Mobile menu opens beside the enlarged hero",
+    "Escape closes menu and restores focus",
+    "Mobile menu navigation still works",
+    "A failed later sample preserves the useful current cover"
+  ]
+}

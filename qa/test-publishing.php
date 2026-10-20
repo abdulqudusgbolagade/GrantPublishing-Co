@@ -42,6 +42,7 @@ function wp_update_post(...$args) { throw new \Exception('Saved page content mus
 function wp_remote_post(...$args) { throw new \Exception('No network request is expected'); }
 require dirname(__DIR__) . '/grant-publishing-site/includes/pages.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/portfolio.php';
+require dirname(__DIR__) . '/grant-publishing-site/includes/formatting-samples.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/publishing.php';
 require dirname(__DIR__) . '/grant-publishing-site/includes/framework.php';
 class ImageWidget {
@@ -213,7 +214,7 @@ fixture();
 $studio = gpc_asset_url('publishing-studio.webp');
 $showcase = gpc_native_book_showcase(image_markup($studio), new ImageWidget($studio));
 check(strpos($showcase,'data-book-showcase') !== false && strpos($showcase,'publishing-studio.webp') === false, 'Bundled native hero studio image becomes the actual-book showcase');
-check(substr_count($showcase,'data-slide') === 3 && substr_count($showcase,'data-src=') === 2, 'Showcase renders three verified projects and defers the later covers');
+check(substr_count($showcase,'data-slide ') === 11 && substr_count($showcase,'data-src=') === 10, 'Home combines three verified projects and eight supplied samples, deferring later images');
 check(strpos($showcase,'Cover redesign &amp; interior formatting') !== false && strpos($showcase,'Amazon assessment &amp; recommendations') !== false, 'Actual project scopes remain distinct in showcase captions');
 check(gpc_native_book_showcase(image_markup($url),new ImageWidget($url)) === image_markup($url), 'Unrelated book images remain unchanged');
 fixture('services');

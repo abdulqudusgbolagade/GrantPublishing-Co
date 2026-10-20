@@ -1,0 +1,545 @@
+{
+  "baseline_source": "Retained verified 4.5.0 isolated WordPress snapshot from 12 October 2026",
+  "checked_at": "20 October 2026",
+  "pages": 26,
+  "all_saved_content_elementor_yoast_dates_slugs_status_and_parents_unchanged": true,
+  "selected_form_contact_legal_settings_unchanged": true,
+  "before": {
+    "pages": {
+      "home": {
+        "id": 5,
+        "content": "2334d6bc48083af4f45cdd00ef7cc13db5fa70a0b33c50bead8f9d29746abf55",
+        "elementor": "e9f820446c905b4b54f89d1e26c463ad96f309a6b3b2208166c7841d64267617",
+        "seo": "ac4e8e92ed47e773d763fa0b094745b3ce21f57c4082d944504d433f63e5612e",
+        "date": "2026-10-10 09:20:45",
+        "status": "publish",
+        "parent": 0,
+        "slug": "home"
+      },
+      "services": {
+        "id": 8,
+        "content": "ed862ba79380d761b473656d3dfed66b55f58cd31ffdd64ec8ff3f1c6507bb80",
+        "elementor": "2ca135cd5b5f86c6599956dbf3dfe8ce062cc321a6a4c4d72abe2b43b8f61a67",
+        "seo": "570fe2692c3b4bae10367c88a6950088692bd4eb9a144741a9b2e5215ffd6c92",
+        "date": "2026-10-10 09:20:46",
+        "status": "publish",
+        "parent": 0,
+        "slug": "services"
+      },
+      "enquiry": {
+        "id": 11,
+        "content": "3de0391c3e81a55c5b11fc76037d329a908672076aadf524c637a68b575011db",
+        "elementor": "3c88d092bfcfe8341d600d07a9f947d3403ed2ea129779419acf9fad396a42c1",
+        "seo": "613e79fbcdfc089576c8d62ecde815d40b1eeede5e496723360a0ba3ea3cc8f7",
+        "date": "2026-10-10 09:20:47",
+        "status": "publish",
+        "parent": 0,
+        "slug": "book-marketing-audit"
+      },
+      "about": {
+        "id": 14,
+        "content": "0c1b363e05e47dcdb8bd43e789c7367611bdb92ea7c28bd65687640638c1278b",
+        "elementor": "459a0fde6d2fa1c7c66b3c0c6f8e631efd5e315692bc8602aefad64d4a028ef9",
+        "seo": "ebfa2942cc1009795cb101b4f39877e5ca765d841c24d3cdca6712028d7fd1d0",
+        "date": "2026-10-10 09:20:47",
+        "status": "publish",
+        "parent": 0,
+        "slug": "about"
+      },
+      "feedback": {
+        "id": 17,
+        "content": "04306eb46c9033ed799cf780e3657b852a03201c7092ea3c4ffafeff9493ccf2",
+        "elementor": "5d5328cdf3354bf9d8255ebf93abd1c1b6de42996f39b5f489d824afa01f282f",
+        "seo": "2316e1f0f2f0c1c37d1e8f52f694d836a11df0fab211e6f96a90b6c31293c855",
+        "date": "2026-10-10 09:20:48",
+        "status": "publish",
+        "parent": 0,
+        "slug": "client-feedback"
+      },
+      "insights": {
+        "id": 20,
+        "content": "55351dd1d5ec262086c3bc15035948f119423ce5ea6b92bef84ec9ca543554b3",
+        "elementor": "daff047937b30347435ffeb8ece98b6f10a87af670a4b9a1c5120651dda719d3",
+        "seo": "abdf35127f835062cfa44673441f192584ddc6635172f366482f40f4302af500",
+        "date": "2026-10-10 09:20:48",
+        "status": "publish",
+        "parent": 0,
+        "slug": "insights"
+      },
+      "contact": {
+        "id": 23,
+        "content": "307d995a2cbd213b538c343ccdd439f5d17ddbb6384fc1bd6927d398a72f4dd9",
+        "elementor": "a25f2db38bef70ee11176881d4a98f4edd0f732462411c1e4f67c6dc6622501d",
+        "seo": "8cb63c03f41bf3603d555e5bb9659ab05fd720311f98d55c5d05120f476d8790",
+        "date": "2026-10-10 09:20:49",
+        "status": "publish",
+        "parent": 0,
+        "slug": "contact"
+      },
+      "amazon-visibility": {
+        "id": 26,
+        "content": "9c2224d7daa7403aad47383e8c9300deaae6a1c22ffdcc7950bf245a646dea40",
+        "elementor": "560095e824136a20197ea692004aab3c4c9eae9d39d571ac07c60aade22a7ca7",
+        "seo": "060823a9337785efe872226c02d73555c478b2582318aa96d58241595f2cc40c",
+        "date": "2026-10-10 09:20:49",
+        "status": "publish",
+        "parent": 8,
+        "slug": "amazon-visibility"
+      },
+      "book-presentation": {
+        "id": 29,
+        "content": "c580015aaf5b074b3a472c500b892cd2e0a8c4dd4dd74791f4b4a0b79da70f69",
+        "elementor": "72c4d2366cf8bbc8e47c24bf548220594fc16a3da3e82a9fa597853ccb6d4340",
+        "seo": "62ce790de52071f18deb8a89220436b806c73c204c9832049fe1a32d35c4f15f",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-presentation"
+      },
+      "launch-promotion": {
+        "id": 32,
+        "content": "2ff4d03a522a9343c4c4b9a58aeb0285822918d5031b3e777b149ea35366d684",
+        "elementor": "10fb398455f26234bb2606c459deb67063e4f1573ff7808a15cfb9a4bbd7e5eb",
+        "seo": "b3876c12e6033479fa4a464fff8b23afc0331b4d11cd53d660c7270046433bdf",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "launch-promotion"
+      },
+      "author-platform": {
+        "id": 35,
+        "content": "6dbc40715c814b4bf40d08abed41f919e24ce29ec4a319cb278987f4d6d8a95a",
+        "elementor": "6db86fc41c9f01ceb3bf6c7b10a27d817c1bc861a3d6cb306328c1b5e474202a",
+        "seo": "07a51db9c9172395846e9bdb6059a6079778965fb71a5ff5971fcb4a439e8ebc",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "author-platform"
+      },
+      "catalog-strategy": {
+        "id": 38,
+        "content": "d5d8f2821dd3fec1d854dc16a0394f603ed7186a3ffaf91c6b3eafcdfa739015",
+        "elementor": "ac176b18c5fc41de51beb13f4177e1637245b3dcf8f74cd6ff8a2cf2cdcc055e",
+        "seo": "c0079f01d912620f6d80bf4475b513996e306c37a47e7faf1f1a0bb5da1e3cbc",
+        "date": "2026-10-10 09:20:51",
+        "status": "publish",
+        "parent": 8,
+        "slug": "catalog-strategy"
+      },
+      "book-strategy": {
+        "id": 41,
+        "content": "a91d50f3ca5b7dbc9b5274d892504c9293cec1f90cb13e03806e9287953643a1",
+        "elementor": "7e82e71a91f29d248e74b5287cb3b05fbc635ab7a8731f506f84597b9561c9b1",
+        "seo": "245a571ef3b736a523f1f6b4048eb4708af3cfaabec3750ef1b44d6e01ab3060",
+        "date": "2026-10-10 09:20:51",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-strategy"
+      },
+      "publishing-support": {
+        "id": 44,
+        "content": "b1a227474f1a11ccc171c787df31ec42c2a83b9613cd3a5ecf1fc3aee6bc4f7f",
+        "elementor": "901a2ef9618e85459240021dc7b240f16d5997955e77eeea506e277be3e8e13a",
+        "seo": "6e4825afcb70d8d915ac777e151f31974cbe8be1dd12a118a5fad56fe32b8de1",
+        "date": "2026-10-10 09:20:52",
+        "status": "publish",
+        "parent": 8,
+        "slug": "publishing-support"
+      },
+      "book-discovery": {
+        "id": 47,
+        "content": "807ecb2a62101e6e0730b20fb408a72e5d3e23c2ede3dc50c3e02c6fdade4ce4",
+        "elementor": "57eb6d9ab45834f73321dc63bb49f62d7c7dabd8dcee68e455d844d0dd022015",
+        "seo": "bcd04b3a9ee274134b918ba616ae63fa4325ff9f2ff3705f045e5d2af21136d5",
+        "date": "2026-10-07 15:14:06",
+        "status": "publish",
+        "parent": 20,
+        "slug": "book-discovery"
+      },
+      "book-product-page": {
+        "id": 50,
+        "content": "10cb147fd5dbbdeaef77c4b21d7fbe22f19c86543b2a4510bcfbfad05cf08ed0",
+        "elementor": "23fa2d34ef5893c6d79d17a8aaf6bb2ae983e42c2e3260c3c0e4a7db6a3a2f69",
+        "seo": "ade5df2df05e41fdf17fcf2c757335469894231861a11388728c4a91ac001323",
+        "date": "2026-10-07 15:16:45",
+        "status": "publish",
+        "parent": 20,
+        "slug": "book-product-page"
+      },
+      "connected-catalog": {
+        "id": 53,
+        "content": "21f3073e080576a51a4881f36e19e1092c7e01eb74f0488053983e4bb903cfed",
+        "elementor": "d1bcffdeaec58a33405a9008064cc47db58c8ac82a43fdc59321dd3ce3a66b2f",
+        "seo": "148fad55f12eb18d6bf709fddb97f768001e3a74a542e3d77ae000c7be39cbc4",
+        "date": "2026-10-07 15:19:45",
+        "status": "publish",
+        "parent": 20,
+        "slug": "connected-catalog"
+      },
+      "book-formatting": {
+        "id": 56,
+        "content": "e31275687f3a10517ded5e639ef3dbbe18689b9dc42180edfd69ee5dcbee89f2",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "3d0da6f84cead88f6e0e94c843956c0718740e29bd2ba36e3b8126dd64314d39",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-formatting"
+      },
+      "cover-design": {
+        "id": 57,
+        "content": "dfd66b42d108845f5e213d939fd7d0c72c9ff01aba8cd37152d39dc7511bf2dd",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "d0657e0ca0761ff77a38ac38d853488830efac4ee4d6ed202feedf52b49c8d09",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "cover-design"
+      },
+      "amazon-ads": {
+        "id": 58,
+        "content": "55cc631a69a25466cc05b8de3f9dd42f5c354a2998ef6bfed8960b0341898e96",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "cc7bfcc0516cab63ec1f3abdf50ce38f6149053954e80b7728ffee8d2377a47c",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "amazon-ads"
+      },
+      "privacy-policy": {
+        "id": 3,
+        "content": "3943440978511bdb98c1b1cd1926f1588e7df7af064a53de61cebc120eeac967",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "31f17da4374c98504349b1c784d9626a9e0fba2feb5bb5ccf59b0069a2376034",
+        "date": "2026-10-10 09:20:34",
+        "status": "publish",
+        "parent": 0,
+        "slug": "privacy-policy"
+      },
+      "terms-of-service": {
+        "id": 60,
+        "content": "230abb5c0d56bef21528c961497809274ac87b0206672d1ba4f9aae7785fe968",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "00b67a8b0f72b7b73d85fc221202bbad1c04f285cb94e7d7f5db9212a5989274",
+        "date": "2026-10-10 09:20:55",
+        "status": "publish",
+        "parent": 0,
+        "slug": "terms-of-service"
+      },
+      "case-studies": {
+        "id": 66,
+        "content": "3b251a4f78b9dd2e71481b6f34ff2388f84e8a9fb963e2303e3f3611b885c5a4",
+        "elementor": "42a687df6db335345416d36cea85e80420928d596d8b8d4cf15dc27d8d99e468",
+        "seo": "a1a0f75d8fefd98e21f4cb0f6547d0a4718666e4ca531fbee867487cc4416fd2",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 0,
+        "slug": "case-studies"
+      },
+      "case-grandfather": {
+        "id": 68,
+        "content": "d67a44ae0dfdec43f05f3c6859b29ef149f77904034417d13d9cc0c8bc7f5fbc",
+        "elementor": "a9cf93e111689598fe38b65771dd2ac0e743a8ca1811da668ab9885a36a30b46",
+        "seo": "d8504ab1aac8f662fece690992a8e6fc3c7ef9b70b1fb0316f50cebd5e753788",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 66,
+        "slug": "my-dear-grandfather"
+      },
+      "case-luma": {
+        "id": 69,
+        "content": "5024d06285cf4feacb166f7255b8fe1a9310a74b96e2a157d6a3043d94935399",
+        "elementor": "7f5eccb7cd349fa78b91f14f8630c08b853b678ca1b9d3cb3cea02a30877979a",
+        "seo": "5cb445c3bf5377716fd6f5e42012a97dbe07b6d2e78a852121fd4fbbbeab13cb",
+        "date": "2026-10-10 14:45:10",
+        "status": "publish",
+        "parent": 66,
+        "slug": "luma-the-sleepy-star"
+      },
+      "faq": {
+        "id": 67,
+        "content": "20365c24b3065d5094f2829d319a0b69e4bb8ed0ce07e567b5bda761c5de0807",
+        "elementor": "d309c8e823aa11481fc0899f90f00dbeb61ded2442653717551ed221dec4ee78",
+        "seo": "18db3b7edd50273f1bb0fb181d4288b1563b733b2e22ffa9c77762fcbc9078be",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 0,
+        "slug": "faq"
+      }
+    },
+    "settings": {
+      "gpc_form_delivery": "96f7276d12ff1edce1388b4891e5a1939a191fd4730b79cf7ebc6f1f92fa0913",
+      "gpc_contact_details": "d7558fd9aaedfc894dc306ac51a78789346aa9bc93e6a7d3505decf02cedd0d7",
+      "gpc_legal_pages": "d7558fd9aaedfc894dc306ac51a78789346aa9bc93e6a7d3505decf02cedd0d7"
+    }
+  },
+  "after": {
+    "pages": {
+      "home": {
+        "id": 5,
+        "content": "2334d6bc48083af4f45cdd00ef7cc13db5fa70a0b33c50bead8f9d29746abf55",
+        "elementor": "e9f820446c905b4b54f89d1e26c463ad96f309a6b3b2208166c7841d64267617",
+        "seo": "ac4e8e92ed47e773d763fa0b094745b3ce21f57c4082d944504d433f63e5612e",
+        "date": "2026-10-10 09:20:45",
+        "status": "publish",
+        "parent": 0,
+        "slug": "home"
+      },
+      "services": {
+        "id": 8,
+        "content": "ed862ba79380d761b473656d3dfed66b55f58cd31ffdd64ec8ff3f1c6507bb80",
+        "elementor": "2ca135cd5b5f86c6599956dbf3dfe8ce062cc321a6a4c4d72abe2b43b8f61a67",
+        "seo": "570fe2692c3b4bae10367c88a6950088692bd4eb9a144741a9b2e5215ffd6c92",
+        "date": "2026-10-10 09:20:46",
+        "status": "publish",
+        "parent": 0,
+        "slug": "services"
+      },
+      "enquiry": {
+        "id": 11,
+        "content": "3de0391c3e81a55c5b11fc76037d329a908672076aadf524c637a68b575011db",
+        "elementor": "3c88d092bfcfe8341d600d07a9f947d3403ed2ea129779419acf9fad396a42c1",
+        "seo": "613e79fbcdfc089576c8d62ecde815d40b1eeede5e496723360a0ba3ea3cc8f7",
+        "date": "2026-10-10 09:20:47",
+        "status": "publish",
+        "parent": 0,
+        "slug": "book-marketing-audit"
+      },
+      "about": {
+        "id": 14,
+        "content": "0c1b363e05e47dcdb8bd43e789c7367611bdb92ea7c28bd65687640638c1278b",
+        "elementor": "459a0fde6d2fa1c7c66b3c0c6f8e631efd5e315692bc8602aefad64d4a028ef9",
+        "seo": "ebfa2942cc1009795cb101b4f39877e5ca765d841c24d3cdca6712028d7fd1d0",
+        "date": "2026-10-10 09:20:47",
+        "status": "publish",
+        "parent": 0,
+        "slug": "about"
+      },
+      "feedback": {
+        "id": 17,
+        "content": "04306eb46c9033ed799cf780e3657b852a03201c7092ea3c4ffafeff9493ccf2",
+        "elementor": "5d5328cdf3354bf9d8255ebf93abd1c1b6de42996f39b5f489d824afa01f282f",
+        "seo": "2316e1f0f2f0c1c37d1e8f52f694d836a11df0fab211e6f96a90b6c31293c855",
+        "date": "2026-10-10 09:20:48",
+        "status": "publish",
+        "parent": 0,
+        "slug": "client-feedback"
+      },
+      "insights": {
+        "id": 20,
+        "content": "55351dd1d5ec262086c3bc15035948f119423ce5ea6b92bef84ec9ca543554b3",
+        "elementor": "daff047937b30347435ffeb8ece98b6f10a87af670a4b9a1c5120651dda719d3",
+        "seo": "abdf35127f835062cfa44673441f192584ddc6635172f366482f40f4302af500",
+        "date": "2026-10-10 09:20:48",
+        "status": "publish",
+        "parent": 0,
+        "slug": "insights"
+      },
+      "contact": {
+        "id": 23,
+        "content": "307d995a2cbd213b538c343ccdd439f5d17ddbb6384fc1bd6927d398a72f4dd9",
+        "elementor": "a25f2db38bef70ee11176881d4a98f4edd0f732462411c1e4f67c6dc6622501d",
+        "seo": "8cb63c03f41bf3603d555e5bb9659ab05fd720311f98d55c5d05120f476d8790",
+        "date": "2026-10-10 09:20:49",
+        "status": "publish",
+        "parent": 0,
+        "slug": "contact"
+      },
+      "amazon-visibility": {
+        "id": 26,
+        "content": "9c2224d7daa7403aad47383e8c9300deaae6a1c22ffdcc7950bf245a646dea40",
+        "elementor": "560095e824136a20197ea692004aab3c4c9eae9d39d571ac07c60aade22a7ca7",
+        "seo": "060823a9337785efe872226c02d73555c478b2582318aa96d58241595f2cc40c",
+        "date": "2026-10-10 09:20:49",
+        "status": "publish",
+        "parent": 8,
+        "slug": "amazon-visibility"
+      },
+      "book-presentation": {
+        "id": 29,
+        "content": "c580015aaf5b074b3a472c500b892cd2e0a8c4dd4dd74791f4b4a0b79da70f69",
+        "elementor": "72c4d2366cf8bbc8e47c24bf548220594fc16a3da3e82a9fa597853ccb6d4340",
+        "seo": "62ce790de52071f18deb8a89220436b806c73c204c9832049fe1a32d35c4f15f",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-presentation"
+      },
+      "launch-promotion": {
+        "id": 32,
+        "content": "2ff4d03a522a9343c4c4b9a58aeb0285822918d5031b3e777b149ea35366d684",
+        "elementor": "10fb398455f26234bb2606c459deb67063e4f1573ff7808a15cfb9a4bbd7e5eb",
+        "seo": "b3876c12e6033479fa4a464fff8b23afc0331b4d11cd53d660c7270046433bdf",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "launch-promotion"
+      },
+      "author-platform": {
+        "id": 35,
+        "content": "6dbc40715c814b4bf40d08abed41f919e24ce29ec4a319cb278987f4d6d8a95a",
+        "elementor": "6db86fc41c9f01ceb3bf6c7b10a27d817c1bc861a3d6cb306328c1b5e474202a",
+        "seo": "07a51db9c9172395846e9bdb6059a6079778965fb71a5ff5971fcb4a439e8ebc",
+        "date": "2026-10-10 09:20:50",
+        "status": "publish",
+        "parent": 8,
+        "slug": "author-platform"
+      },
+      "catalog-strategy": {
+        "id": 38,
+        "content": "d5d8f2821dd3fec1d854dc16a0394f603ed7186a3ffaf91c6b3eafcdfa739015",
+        "elementor": "ac176b18c5fc41de51beb13f4177e1637245b3dcf8f74cd6ff8a2cf2cdcc055e",
+        "seo": "c0079f01d912620f6d80bf4475b513996e306c37a47e7faf1f1a0bb5da1e3cbc",
+        "date": "2026-10-10 09:20:51",
+        "status": "publish",
+        "parent": 8,
+        "slug": "catalog-strategy"
+      },
+      "book-strategy": {
+        "id": 41,
+        "content": "a91d50f3ca5b7dbc9b5274d892504c9293cec1f90cb13e03806e9287953643a1",
+        "elementor": "7e82e71a91f29d248e74b5287cb3b05fbc635ab7a8731f506f84597b9561c9b1",
+        "seo": "245a571ef3b736a523f1f6b4048eb4708af3cfaabec3750ef1b44d6e01ab3060",
+        "date": "2026-10-10 09:20:51",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-strategy"
+      },
+      "publishing-support": {
+        "id": 44,
+        "content": "b1a227474f1a11ccc171c787df31ec42c2a83b9613cd3a5ecf1fc3aee6bc4f7f",
+        "elementor": "901a2ef9618e85459240021dc7b240f16d5997955e77eeea506e277be3e8e13a",
+        "seo": "6e4825afcb70d8d915ac777e151f31974cbe8be1dd12a118a5fad56fe32b8de1",
+        "date": "2026-10-10 09:20:52",
+        "status": "publish",
+        "parent": 8,
+        "slug": "publishing-support"
+      },
+      "book-discovery": {
+        "id": 47,
+        "content": "807ecb2a62101e6e0730b20fb408a72e5d3e23c2ede3dc50c3e02c6fdade4ce4",
+        "elementor": "57eb6d9ab45834f73321dc63bb49f62d7c7dabd8dcee68e455d844d0dd022015",
+        "seo": "bcd04b3a9ee274134b918ba616ae63fa4325ff9f2ff3705f045e5d2af21136d5",
+        "date": "2026-10-07 15:14:06",
+        "status": "publish",
+        "parent": 20,
+        "slug": "book-discovery"
+      },
+      "book-product-page": {
+        "id": 50,
+        "content": "10cb147fd5dbbdeaef77c4b21d7fbe22f19c86543b2a4510bcfbfad05cf08ed0",
+        "elementor": "23fa2d34ef5893c6d79d17a8aaf6bb2ae983e42c2e3260c3c0e4a7db6a3a2f69",
+        "seo": "ade5df2df05e41fdf17fcf2c757335469894231861a11388728c4a91ac001323",
+        "date": "2026-10-07 15:16:45",
+        "status": "publish",
+        "parent": 20,
+        "slug": "book-product-page"
+      },
+      "connected-catalog": {
+        "id": 53,
+        "content": "21f3073e080576a51a4881f36e19e1092c7e01eb74f0488053983e4bb903cfed",
+        "elementor": "d1bcffdeaec58a33405a9008064cc47db58c8ac82a43fdc59321dd3ce3a66b2f",
+        "seo": "148fad55f12eb18d6bf709fddb97f768001e3a74a542e3d77ae000c7be39cbc4",
+        "date": "2026-10-07 15:19:45",
+        "status": "publish",
+        "parent": 20,
+        "slug": "connected-catalog"
+      },
+      "book-formatting": {
+        "id": 56,
+        "content": "e31275687f3a10517ded5e639ef3dbbe18689b9dc42180edfd69ee5dcbee89f2",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "3d0da6f84cead88f6e0e94c843956c0718740e29bd2ba36e3b8126dd64314d39",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "book-formatting"
+      },
+      "cover-design": {
+        "id": 57,
+        "content": "dfd66b42d108845f5e213d939fd7d0c72c9ff01aba8cd37152d39dc7511bf2dd",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "d0657e0ca0761ff77a38ac38d853488830efac4ee4d6ed202feedf52b49c8d09",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "cover-design"
+      },
+      "amazon-ads": {
+        "id": 58,
+        "content": "55cc631a69a25466cc05b8de3f9dd42f5c354a2998ef6bfed8960b0341898e96",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "cc7bfcc0516cab63ec1f3abdf50ce38f6149053954e80b7728ffee8d2377a47c",
+        "date": "2026-10-10 09:20:54",
+        "status": "publish",
+        "parent": 8,
+        "slug": "amazon-ads"
+      },
+      "privacy-policy": {
+        "id": 3,
+        "content": "3943440978511bdb98c1b1cd1926f1588e7df7af064a53de61cebc120eeac967",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "31f17da4374c98504349b1c784d9626a9e0fba2feb5bb5ccf59b0069a2376034",
+        "date": "2026-10-10 09:20:34",
+        "status": "publish",
+        "parent": 0,
+        "slug": "privacy-policy"
+      },
+      "terms-of-service": {
+        "id": 60,
+        "content": "230abb5c0d56bef21528c961497809274ac87b0206672d1ba4f9aae7785fe968",
+        "elementor": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "seo": "00b67a8b0f72b7b73d85fc221202bbad1c04f285cb94e7d7f5db9212a5989274",
+        "date": "2026-10-10 09:20:55",
+        "status": "publish",
+        "parent": 0,
+        "slug": "terms-of-service"
+      },
+      "case-studies": {
+        "id": 66,
+        "content": "3b251a4f78b9dd2e71481b6f34ff2388f84e8a9fb963e2303e3f3611b885c5a4",
+        "elementor": "42a687df6db335345416d36cea85e80420928d596d8b8d4cf15dc27d8d99e468",
+        "seo": "a1a0f75d8fefd98e21f4cb0f6547d0a4718666e4ca531fbee867487cc4416fd2",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 0,
+        "slug": "case-studies"
+      },
+      "case-grandfather": {
+        "id": 68,
+        "content": "d67a44ae0dfdec43f05f3c6859b29ef149f77904034417d13d9cc0c8bc7f5fbc",
+        "elementor": "a9cf93e111689598fe38b65771dd2ac0e743a8ca1811da668ab9885a36a30b46",
+        "seo": "d8504ab1aac8f662fece690992a8e6fc3c7ef9b70b1fb0316f50cebd5e753788",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 66,
+        "slug": "my-dear-grandfather"
+      },
+      "case-luma": {
+        "id": 69,
+        "content": "5024d06285cf4feacb166f7255b8fe1a9310a74b96e2a157d6a3043d94935399",
+        "elementor": "7f5eccb7cd349fa78b91f14f8630c08b853b678ca1b9d3cb3cea02a30877979a",
+        "seo": "5cb445c3bf5377716fd6f5e42012a97dbe07b6d2e78a852121fd4fbbbeab13cb",
+        "date": "2026-10-10 14:45:10",
+        "status": "publish",
+        "parent": 66,
+        "slug": "luma-the-sleepy-star"
+      },
+      "faq": {
+        "id": 67,
+        "content": "20365c24b3065d5094f2829d319a0b69e4bb8ed0ce07e567b5bda761c5de0807",
+        "elementor": "d309c8e823aa11481fc0899f90f00dbeb61ded2442653717551ed221dec4ee78",
+        "seo": "18db3b7edd50273f1bb0fb181d4288b1563b733b2e22ffa9c77762fcbc9078be",
+        "date": "2026-10-10 14:45:09",
+        "status": "publish",
+        "parent": 0,
+        "slug": "faq"
+      }
+    },
+    "settings": {
+      "gpc_form_delivery": "96f7276d12ff1edce1388b4891e5a1939a191fd4730b79cf7ebc6f1f92fa0913",
+      "gpc_contact_details": "d7558fd9aaedfc894dc306ac51a78789346aa9bc93e6a7d3505decf02cedd0d7",
+      "gpc_legal_pages": "d7558fd9aaedfc894dc306ac51a78789346aa9bc93e6a7d3505decf02cedd0d7"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "key": "home",
+    "width": 1440,
+    "geometry": {
+      "containerHeight": 530,
+      "imageWidth": 350,
+      "imageHeight": 350
+    }
+  },
+  {
+    "key": "home",
+    "width": 390,
+    "geometry": {
+      "containerHeight": 320,
+      "imageWidth": 140,
+      "imageHeight": 140
+    }
+  },
+  {
+    "key": "services",
+    "width": 1440,
+    "geometry": {
+      "containerHeight": 350,
+      "imageWidth": 170,
+      "imageHeight": 170
+    }
+  },
+  {
+    "key": "services",
+    "width": 390,
+    "geometry": {
+      "containerHeight": 280,
+      "imageWidth": 100,
+      "imageHeight": 100
+    }
+  },
+  {
+    "key": "formatting",
+    "width": 1440,
+    "geometry": null
+  },
+  {
+    "key": "formatting",
+    "width": 390,
+    "geometry": null
+  }
+]

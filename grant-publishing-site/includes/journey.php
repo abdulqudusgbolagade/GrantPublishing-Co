@@ -54,7 +54,7 @@ function gpc_service_journey($key) {
     $project_cta = gpc_service_project_cta($key);
     $html .= $project_cta ? '<p>For an unpublished book, tell us its stage, intended formats and the support you need. An Amazon link is optional for this project enquiry.</p>' . $project_cta : '<p>The free assessment reviews public Amazon-visible information to identify possible weaknesses and useful next steps. It does not include private sales data or a complete five-stage engagement.</p>' . gpc_journey_assessment();
     if (!empty($data['faq'])) { $html .= '<h3 class="gp-journey-faq-heading">Before you begin</h3>' . gpc_faq_group($data['faq']); }
-    return $html . '<p class="gp-small">' . gpc_journey_link('faq','Read all frequently asked questions') . '</p></div></div>' . ($key === 'book-presentation' ? gpc_aplus_example() : '') . '</div></section>';
+    return ($key === 'book-formatting' ? gpc_formatting_gallery() : '') . $html . '<p class="gp-small">' . gpc_journey_link('faq','Read all frequently asked questions') . '</p></div></div>' . ($key === 'book-presentation' ? gpc_aplus_example() : '') . '</div></section>';
 }
 function gpc_article_connections($content, $key) {
     $link = 'gpc_journey_link';

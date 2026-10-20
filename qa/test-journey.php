@@ -72,6 +72,7 @@ function is_main_query(){return $GLOBALS['is_main'] ?? true;}
 function in_the_loop(){return true;}
 function get_queried_object_id(){return $GLOBALS['queried_id'] ?? 9;}
 require dirname(__DIR__).'/grant-publishing-site/includes/portfolio.php';
+require dirname(__DIR__) . '/grant-publishing-site/includes/formatting-samples.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/case-studies.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/faq.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/journey.php';
