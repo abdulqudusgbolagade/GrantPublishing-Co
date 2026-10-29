@@ -20,7 +20,7 @@ function set_transient($key, $value, $ttl) { $GLOBALS['test_transients'][$key] =
 function delete_transient($key) { unset($GLOBALS['test_transients'][$key]); return true; }
 function current_user_can(...$args) { return $GLOBALS['test_admin']; }
 function get_current_user_id() { return 42; }
-function wp_unslash($text) { return stripslashes($text); }
+function wp_unslash($text) { return is_array($text) ? array_map('wp_unslash', $text) : stripslashes($text); }
 function wp_verify_nonce(...$args) { return $GLOBALS['test_nonce']; }
 function check_admin_referer(...$args) { if (!$GLOBALS['test_nonce']) wp_die('Invalid nonce', '', array('response'=>403)); }
 function sanitize_text_field($text) { return trim(strip_tags(preg_replace('/[\r\n\t]+/', ' ', $text))); }
@@ -144,7 +144,7 @@ gpc_enqueue_assets();
 check(isset($GLOBALS['test_styles']['gpc-design']) && $GLOBALS['test_styles']['gpc-design'][1] === array('gpc-site') && $GLOBALS['test_styles']['gpc-design'][2] === GPC_VERSION, 'Design layer enqueues after base styles with current cache version');
 check(is_file(dirname(__DIR__) . '/grant-publishing-site/assets/design.css'), 'Design stylesheet exists in plugin source');
 $html = gpc_site_page('home');
-check(strpos($html, 'assets/site.css?ver=' . GPC_VERSION) !== false && strpos($html, 'assets/design.css?ver=' . GPC_VERSION) !== false, 'Shortcode rendered after wp_head includes both stylesheet links');
+check(strpos($html, 'assets/site.bundle.min.css?ver=' . GPC_VERSION) !== false && substr_count($html, 'assets/site.bundle.min.css?ver=') === 1, 'Late shortcode includes one complete ordered stylesheet');
 $GLOBALS['test_styles_done'] = true; $html = gpc_site_page('home');
 check(strpos($html, '<link rel="stylesheet"') === false, 'Already-printed styles do not add duplicate fallback links');
 
@@ -161,4 +161,22 @@ foreach (array('home','services') as $page) {
     $GLOBALS['test_scripts']=array(); gpc_enqueue_assets($page);
     check(isset($GLOBALS['test_scripts']['gpc-showcase']) && $GLOBALS['test_scripts']['gpc-showcase'][1]===gpc_asset_url('showcase.js') && $GLOBALS['test_scripts']['gpc-showcase'][3]===GPC_VERSION, 'Cached native ' . $page . ' always queues the current showcase script');
 }
+
+foreach (array('general','manuscript','published','publisher') as $stage) {
+    reset_test(); $_POST['request']='project'; $_POST['project_stage']=$stage; $_POST['book_url']='';
+    $_POST['word_count']='80000'; $_POST['title_count']='3'; $_POST['genre']='<b>Fiction</b>';
+    $_POST['marketplace']='Amazon.co.uk'; $_POST['formats']=array('Paperback','Ebook / Kindle'); $_POST['project_context']='luma';
+    $result=send_form(); $payload=json_decode($GLOBALS['test_remote'][0][1]['body'],true);
+    check($result->ok && $payload['project_stage']===gpc_project_fields()[$stage] && $payload['word_count']==='80000' && $payload['title_count']==='3', 'Optional project context delivered for '.$stage);
+    check($payload['genre']==='Fiction' && $payload['desired_formats']==='Paperback, Ebook / Kindle' && $payload['portfolio_context']==='luma', 'Sanitised genre, selected formats and known portfolio context delivered');
+}
+foreach (array(array('project_stage','invented'),array('word_count','1e8'),array('word_count','-3'),array('title_count','2.5'),array('formats','Paperback'),array('formats',array(array('Paperback'))),array('formats',array('Unsupported'))) as $invalid) {
+    reset_test(); $_POST[$invalid[0]]=$invalid[1]; $result=send_form();
+    check(!$result->ok && $result->status===400 && count($GLOBALS['test_remote'])===0, 'Invalid optional '.$invalid[0].' rejected before delivery');
+}
+reset_test(); $_POST['project_context']='https://untrusted.test/?email=private@example.test'; $result=send_form();
+$payload=json_decode($GLOBALS['test_remote'][0][1]['body'],true);
+check($result->ok && !isset($payload['portfolio_context']), 'Unrecognised URL or personal data is not portfolio attribution');
+reset_test(false); $_POST['project_stage']='publisher'; $_POST['title_count']='4'; $result=send_form();
+check($result->ok && strpos($GLOBALS['test_mail'][0][2], 'Number of titles: 4')!==false, 'Optional context is also included by the WordPress email path');
 echo "\n" . $GLOBALS['passed'] . " backend assertions passed. No real HTTP request or email was sent.\n";

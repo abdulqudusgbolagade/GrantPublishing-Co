@@ -69,6 +69,10 @@ def build(element, page, path):
         node['widgetType'] = 'shortcode'
         context = 'about' if '{{framework:about}}' in inner(element) else 'assessment' if '{{framework:assessment}}' in inner(element) else 'home'
         settings['shortcode'] = '[grant_framework context=\"' + context + '\"]'
+    elif not children and '{{premium:' in (element.text or ''):
+        node['widgetType'] = 'shortcode'
+        block = (element.text or '').split('{{premium:')[1].split('}}')[0]
+        settings['shortcode'] = '[grant_premium_block block="' + block + '"]'
     elif not children and '{{contact_links}}' in (element.text or ''):
         node['widgetType'] = 'shortcode'
         settings['shortcode'] = '[grant_contact_links]'

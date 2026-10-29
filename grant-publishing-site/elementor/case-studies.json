@@ -74,7 +74,7 @@
               "settings": {
                 "_title": "Page Title",
                 "_css_classes": "gp-page-title",
-                "title": "Case Studies",
+                "title": "Our Work",
                 "header_size": "h1"
               },
               "elements": []
@@ -282,6 +282,18 @@
     },
     {
       "id": "b8952cd8",
+      "elType": "widget",
+      "widgetType": "shortcode",
+      "isInner": false,
+      "settings": {
+        "_title": "Premium Work Slot",
+        "_css_classes": "gp-premium-work-slot",
+        "shortcode": "[grant_premium_block block=\"work-samples\"]"
+      },
+      "elements": []
+    },
+    {
+      "id": "80bfdb40",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -306,7 +318,7 @@
       },
       "elements": [
         {
-          "id": "ce309490",
+          "id": "8ace1277",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -331,7 +343,7 @@
           },
           "elements": [
             {
-              "id": "75afc7f2",
+              "id": "2f110f5b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -356,7 +368,7 @@
               },
               "elements": [
                 {
-                  "id": "4b5240eb",
+                  "id": "b4a1a844",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -381,7 +393,7 @@
                   },
                   "elements": [
                     {
-                      "id": "2d324094",
+                      "id": "4d49991d",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -393,7 +405,7 @@
                       "elements": []
                     },
                     {
-                      "id": "c4d5493c",
+                      "id": "93b17bbb",
                       "elType": "widget",
                       "widgetType": "heading",
                       "isInner": false,
@@ -406,7 +418,7 @@
                       "elements": []
                     },
                     {
-                      "id": "7948cd81",
+                      "id": "560083e3",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "isInner": false,
@@ -420,7 +432,7 @@
                   ]
                 },
                 {
-                  "id": "60583ed9",
+                  "id": "a82776f5",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -445,7 +457,7 @@
                   },
                   "elements": [
                     {
-                      "id": "799706d0",
+                      "id": "6fcab72a",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,
@@ -462,7 +474,7 @@
                       "elements": []
                     },
                     {
-                      "id": "60eec24e",
+                      "id": "4e3f1bda",
                       "elType": "widget",
                       "widgetType": "button",
                       "isInner": false,

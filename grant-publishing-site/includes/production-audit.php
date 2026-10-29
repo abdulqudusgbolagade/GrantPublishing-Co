@@ -47,7 +47,7 @@ function gpc_project_cta_url($service) {
     return add_query_arg(array('request'=>'project','service'=>$service), gpc_url('contact')) . '#gpc-enquiry';
 }
 function gpc_service_project_cta($key) {
-    $services = array('book-formatting'=>array('Book formatting','Discuss book formatting'), 'cover-design'=>array('Cover design','Discuss cover design'), 'publishing-support'=>array('Book publishing and Amazon KDP setup','Discuss publishing support'));
+    $services = array('book-formatting'=>array('Book formatting','Discuss book formatting'), 'cover-design'=>array('Cover design','Discuss cover design'), 'publishing-support'=>array('Book publishing and Amazon KDP setup','Discuss publishing support'), 'amazon-visibility'=>array('Amazon listing optimization','Discuss Amazon visibility'), 'book-presentation'=>array('Book descriptions and A+ Content','Discuss your book presentation'), 'amazon-ads'=>array('Amazon Ads campaign setup','Discuss Amazon Ads'), 'launch-promotion'=>array('Book launch or relaunch','Discuss your book launch'), 'author-platform'=>array('Author platform','Discuss your author platform'), 'catalog-strategy'=>array('Series and catalog strategy','Discuss your catalog'), 'book-strategy'=>array('Book marketing strategy','Discuss your book strategy'));
     if (!isset($services[$key])) { return ''; }
     return '<a class="gp-button" href="' . esc_url(gpc_project_cta_url($services[$key][0])) . '">' . esc_html($services[$key][1]) . '</a>';
 }

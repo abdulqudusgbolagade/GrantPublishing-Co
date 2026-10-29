@@ -1,0 +1,596 @@
+[
+  {
+    "width": 360,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 360,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 360,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 360,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 360,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 360,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 360,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 360,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 360,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 360,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 360,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 390,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 390,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 390,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 390,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 390,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 390,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 390,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 390,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 390,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 390,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 390,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 768,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 768,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 768,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 768,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 768,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 768,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 768,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 768,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 768,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 768,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 768,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1024,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 1024,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1024,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 1024,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 1024,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 1024,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1024,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1024,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1024,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1024,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1024,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1440,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 1440,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1440,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 1440,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 1440,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 1440,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1440,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1440,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1440,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1440,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1440,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1920,
+    "slide": 1,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Luma the Sleepy Star"
+  },
+  {
+    "width": 1920,
+    "slide": 2,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1920,
+    "slide": 3,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "My Dear Grandfather"
+  },
+  {
+    "width": 1920,
+    "slide": 4,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Open-book formatting sample"
+  },
+  {
+    "width": 1920,
+    "slide": 5,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "Kathryn’s Beach"
+  },
+  {
+    "width": 1920,
+    "slide": 6,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1920,
+    "slide": 7,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1920,
+    "slide": 8,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Seventh Binding"
+  },
+  {
+    "width": 1920,
+    "slide": 9,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1920,
+    "slide": 10,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  },
+  {
+    "width": 1920,
+    "slide": 11,
+    "loaded": true,
+    "noOverlap": true,
+    "captionFits": true,
+    "overflow": false,
+    "title": "The Names She Kept"
+  }
+]

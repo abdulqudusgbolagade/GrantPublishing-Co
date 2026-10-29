@@ -1,0 +1,184 @@
+{
+  "checks": 59,
+  "passed": [
+    "Home has three existing projects and eight formatting views",
+    "Homepage has no pause button or hidden pause button",
+    "Ten later large images are deferred",
+    "Navigation names include sample imagery",
+    "Persistent manual-stop behaviour is discoverable",
+    "Five-second auto-rotation reaches supplied formatting sample",
+    "Numeric indicator follows rotation",
+    "Active caption identifies the actual interior view",
+    "Hover holds the current sample",
+    "Rotation resumes after hover without manual browsing",
+    "Keyboard focus stops rotation",
+    "Home remains stopped after keyboard focus leaves",
+    "Open-book mockup is explicitly labelled",
+    "Home key selects first image",
+    "Slide 1 loads fully, preserves proportions and fits caption",
+    "Slide 1 preserves reserved showcase height",
+    "Slide 2 loads fully, preserves proportions and fits caption",
+    "Slide 2 preserves reserved showcase height",
+    "Slide 3 loads fully, preserves proportions and fits caption",
+    "Slide 3 preserves reserved showcase height",
+    "Slide 4 loads fully, preserves proportions and fits caption",
+    "Slide 4 preserves reserved showcase height",
+    "Slide 5 loads fully, preserves proportions and fits caption",
+    "Slide 5 preserves reserved showcase height",
+    "Slide 6 loads fully, preserves proportions and fits caption",
+    "Slide 6 preserves reserved showcase height",
+    "Slide 7 loads fully, preserves proportions and fits caption",
+    "Slide 7 preserves reserved showcase height",
+    "Slide 8 loads fully, preserves proportions and fits caption",
+    "Slide 8 preserves reserved showcase height",
+    "Slide 9 loads fully, preserves proportions and fits caption",
+    "Slide 9 preserves reserved showcase height",
+    "Slide 10 loads fully, preserves proportions and fits caption",
+    "Slide 10 preserves reserved showcase height",
+    "Slide 11 loads fully, preserves proportions and fits caption",
+    "Slide 11 preserves reserved showcase height",
+    "Only active slide is exposed",
+    "Inactive links are excluded from keyboard order",
+    "End key reaches final sample",
+    "Home sample opens the matching formatting-page anchor in the same tab",
+    "Sticky header clears the selected sample",
+    "Formatting page has one portfolio section",
+    "All eight samples appear",
+    "Named layouts and mockup are grouped without claiming eight clients",
+    "Existing Luma proof remains",
+    "Gallery links, alternatives, lazy loading and new-tab semantics are complete",
+    "Full-size action opens the exact supplied original",
+    "Existing enquiry path still preselects Book formatting",
+    "Unpublished-book URL remains optional",
+    "Services keeps three verified projects and its existing control layout",
+    "Existing service pause remains functional",
+    "Existing service play remains functional",
+    "Reduced motion disables automatic rotation",
+    "360px touch navigation works without a pause button",
+    "Home touch targets are at least 44 by 44 px",
+    "360px controls do not overflow",
+    "No JavaScript: static first slide and hidden inert controls",
+    "Gallery works without JavaScript",
+    "Changing motion preference stops automatic rotation"
+  ],
+  "geometry": [
+    {
+      "key": "home",
+      "width": 1440,
+      "geometry": {
+        "containerHeight": 610,
+        "imageWidth": 396,
+        "imageHeight": 396
+      }
+    },
+    {
+      "key": "home",
+      "width": 390,
+      "geometry": {
+        "containerHeight": 450,
+        "imageWidth": 236,
+        "imageHeight": 236
+      }
+    },
+    {
+      "key": "services",
+      "width": 1440,
+      "geometry": {
+        "containerHeight": 350,
+        "imageWidth": 170,
+        "imageHeight": 170
+      }
+    },
+    {
+      "key": "services",
+      "width": 390,
+      "geometry": {
+        "containerHeight": 280,
+        "imageWidth": 100,
+        "imageHeight": 100
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "id": "formatting-sample-seventh-title-pages",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Seventh Binding: Title-page spread. Decorative title treatment and balanced front matter.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-seventh-title-pages.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095233.png"
+    },
+    {
+      "id": "formatting-sample-seventh-chapter-one",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Seventh Binding: Chapter one. An illustrated opening, a clear chapter title and a drop cap.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-seventh-chapter-one.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095257.png"
+    },
+    {
+      "id": "formatting-sample-seventh-chapter-two",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Seventh Binding: Chapter two and facing page. An illustrated chapter opening alongside the body-text layout.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-seventh-chapter-two.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095746.png"
+    },
+    {
+      "id": "formatting-sample-seventh-text-spread",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Seventh Binding: Body-text spread. Running heads, page numbers and consistent text alignment.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-seventh-text-spread.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-20-095350.png"
+    },
+    {
+      "id": "formatting-sample-names-title-page",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Names She Kept: Title page. A restrained title hierarchy and generous spacing.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-names-title-page.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-002003.png"
+    },
+    {
+      "id": "formatting-sample-names-front-matter",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Names She Kept: Copyright and quotation. A clear front-matter layout with an opposing quotation page.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-names-front-matter.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-001815.png"
+    },
+    {
+      "id": "formatting-sample-names-chapter-one",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "The Names She Kept: Chapter one and facing page. Chapter typography, a drop cap and a consistent reading layout.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-names-chapter-one.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/Screenshot-2026-10-16-001452.png"
+    },
+    {
+      "id": "formatting-sample-open-book-mockup",
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "lightbox": "no",
+      "alt": "Open-book formatting sample: Chapter 3: A Name I Didn’t Write. An open-book mockup showing chapter typography and a continuous spread.",
+      "lazy": "lazy",
+      "src": "http://127.0.0.1:9401/wp-content/plugins/grant-publishing-site/assets/formatting-open-book-mockup-768.webp",
+      "href": "https://grantpublishingco.com/wp-content/uploads/2026/10/A-Name-I-Didnt-Write.png"
+    }
+  ]
+}

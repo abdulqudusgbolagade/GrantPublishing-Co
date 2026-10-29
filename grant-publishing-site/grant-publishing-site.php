@@ -2,13 +2,13 @@
 /**
  * Plugin Name: Grant Publishing Co. Website
  * Description: Grant Publishing Co. pages, navigation, setup and enquiry forms.
- * Version: 4.6.0
+ * Version: 4.7.0
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Grant Publishing Co.
  */
 if (!defined('ABSPATH')) { exit; }
-define('GPC_VERSION', '4.6.0');
+define('GPC_VERSION', '4.7.0');
 
 require_once __DIR__ . '/includes/pages.php';
 require_once __DIR__ . '/includes/editorial.php';
@@ -25,6 +25,7 @@ require_once __DIR__ . '/includes/case-studies.php';
 require_once __DIR__ . '/includes/faq.php';
 require_once __DIR__ . '/includes/journey.php';
 require_once __DIR__ . '/includes/framework.php';
+require_once __DIR__ . '/includes/premium.php';
 require_once __DIR__ . '/includes/production-audit.php';
 require_once __DIR__ . '/includes/drafts.php';
 function gpc_services() {
@@ -53,6 +54,8 @@ function gpc_site_form($default = 'project') {
         <div class="gpc-honeypot" aria-hidden="true"><label for="gpc-fax">Leave this field empty</label><input id="gpc-fax" name="fax" type="text" tabindex="-1" autocomplete="off"></div>
         <p class="gpc-required-note">Fields marked * are required.</p>
         <div class="gpc-audit-field"><label for="gpc-request">How can we help? *</label><select id="gpc-request" name="request" required><option value="project" <?php selected($request, 'project'); ?>>Discuss a project</option><option value="assessment" <?php selected($request, 'assessment'); ?>>Request a free initial book assessment</option></select></div>
+        <div class="gpc-audit-field gpc-project-stage"><label for="gpc-project-stage">Where are you with your book? (optional)</label><select id="gpc-project-stage" name="project_stage" aria-describedby="gpc-stage-help"><option value="general">General enquiry</option><option value="manuscript">I am preparing a manuscript</option><option value="published">My book is already published</option><option value="publisher">I manage publishing projects or multiple titles</option></select><p id="gpc-stage-help">Choose a stage to see relevant optional details. A general enquiry is always welcome.</p></div>
+        <?php $project = gpc_query_value('project'); if (in_array($project, array('luma','grandfather','kathryns','formatting-samples'), true)) { ?><input type="hidden" name="project_context" value="<?php echo esc_attr($project); ?>"><?php } ?>
         <fieldset class="gpc-form-group"><legend>Your details</legend>
         <div class="gpc-audit-form-row">
             <div class="gpc-audit-field"><label for="gpc-name">Your name *</label><input id="gpc-name" name="name" type="text" autocomplete="name" maxlength="120" required></div>
@@ -66,6 +69,9 @@ function gpc_site_form($default = 'project') {
         <details class="gpc-book-details" data-book-details<?php echo $request === 'assessment' || $service !== '' ? ' open' : ''; ?>>
             <summary>Book &amp; project details (optional)</summary>
         <fieldset class="gpc-form-group"><legend>Your book &amp; project</legend>
+        <div data-project-fields="manuscript"><div class="gpc-audit-form-row"><div class="gpc-audit-field"><label for="gpc-word-count">Approximate word count (optional)</label><input id="gpc-word-count" name="word_count" type="number" min="1" max="2000000" step="1" inputmode="numeric"></div><div class="gpc-audit-field"><label for="gpc-genre">Genre or subject (optional)</label><input id="gpc-genre" name="genre" type="text" maxlength="100"></div></div><fieldset><legend>Desired formats (optional)</legend><div class="gpc-format-options"><?php foreach (array('Ebook / Kindle','Paperback','Hardcover') as $format) { ?><label><input type="checkbox" name="formats[]" value="<?php echo esc_attr($format); ?>"> <?php echo esc_html($format); ?></label><?php } ?></div></fieldset></div>
+        <div class="gpc-audit-field" data-project-fields="published"><label for="gpc-marketplace">Primary marketplace (optional)</label><input id="gpc-marketplace" name="marketplace" type="text" maxlength="100" placeholder="For example, Amazon.com or Amazon.co.uk"></div>
+        <div class="gpc-audit-field" data-project-fields="publisher"><label for="gpc-title-count">Number of titles (optional)</label><input id="gpc-title-count" name="title_count" type="number" min="1" max="2000000" step="1" inputmode="numeric"></div>
         <div class="gpc-audit-form-row">
             <div class="gpc-audit-field"><label for="gpc-book">Book title (optional)</label><input id="gpc-book" name="book" type="text" maxlength="240"></div>
             <div class="gpc-audit-field"><label for="gpc-link">Amazon or book link (optional)</label><input id="gpc-link" name="book_url" type="url" placeholder="https://" maxlength="1000"></div>
@@ -80,6 +86,7 @@ function gpc_site_form($default = 'project') {
         <p class="gpc-audit-form-disclaimer">Free initial assessments use publicly available information on Amazon. Please include your Amazon book link if you are requesting an assessment. They do not include a manuscript review or access to your private sales data. For paid work, we may request a synopsis or manuscript to understand the book more fully.</p>
         <div class="gpc-audit-field"><label class="gpc-consent" for="gpc-consent"><input id="gpc-consent" name="consent" type="checkbox" value="yes" required><span>I agree that Grant Publishing Co. may use these details to respond to my enquiry. *</span></label></div>
         <p class="gpc-policy-link"><a href="<?php echo esc_url(gpc_url('privacy-policy')); ?>" target="_blank" rel="noopener noreferrer">Privacy Policy<span class="gpc-sr-only"> (opens in a new tab)</span></a></p>
+        <p class="gpc-next-step">We will review your enquiry and reply about the next step. Any paid work, deliverables, timing and fees are agreed before the project begins.</p>
         <button class="gpc-audit-submit" type="submit"><?php echo $request === 'assessment' ? 'Request free assessment' : 'Send project enquiry'; ?></button>
         <p class="gpc-form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
         <p>Prefer a direct conversation?</p>
@@ -129,6 +136,7 @@ function gpc_site_send() {
         }
         $values[$label] = esc_url_raw($url, array('http','https'));
     }
+    $values = array_merge($values, gpc_optional_project_values());
     // Basic per-address abuse protection. Never trust forwarded IP headers.
     $remote = isset($_SERVER['REMOTE_ADDR']) && is_string($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 'unknown';
     $rate_key = 'gpc_rate_' . hash_hmac('sha256', $remote, wp_salt('auth'));

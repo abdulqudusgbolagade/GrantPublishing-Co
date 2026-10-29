@@ -1,0 +1,762 @@
+[
+  {
+    "file": "grant-publishing-site/README.md",
+    "bytes": 2839,
+    "sha256": "45f330b5f1d199f33cf3a860e7082ad766df7227945aaa4a9c6bab5e9469deab"
+  },
+  {
+    "file": "grant-publishing-site/assets/abdulqudus-tella-500.webp",
+    "bytes": 26810,
+    "sha256": "6ae9dee753750b46d7146954e45bad8c2116fdab9396b4559c01a00811156ffc"
+  },
+  {
+    "file": "grant-publishing-site/assets/abdulqudus-tella.png",
+    "bytes": 240145,
+    "sha256": "e107a5fea240e821daa160450bd434cdb90df68ae64e1465f5ab1d95f9ca3710"
+  },
+  {
+    "file": "grant-publishing-site/assets/cormorant-garamond-latin-ext-italic.woff2",
+    "bytes": 34392,
+    "sha256": "cd5bf126b2c84ab41b254a6a9a1ffb5c326a0f9f82c22fb4704daa31c9aaa415"
+  },
+  {
+    "file": "grant-publishing-site/assets/cormorant-garamond-latin-ext-normal.woff2",
+    "bytes": 33736,
+    "sha256": "cfa9a397d86f66c5c51775a2500a712d5f632a04f0c5eca6930dfaf612d4566d"
+  },
+  {
+    "file": "grant-publishing-site/assets/cormorant-garamond-latin-italic.woff2",
+    "bytes": 39260,
+    "sha256": "6f2f5c3b1abc3d0bb035a927f66a90ca873f94fc31c4966c8d024142c2036e55"
+  },
+  {
+    "file": "grant-publishing-site/assets/cormorant-garamond-latin-normal.woff2",
+    "bytes": 37640,
+    "sha256": "d80df8ff5aecd299a61549f9e29ab1ed0b9b05f4ea71d50fe978e07d5240b235"
+  },
+  {
+    "file": "grant-publishing-site/assets/cormorantgaramond-OFL.txt",
+    "bytes": 4387,
+    "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+  },
+  {
+    "file": "grant-publishing-site/assets/design.css",
+    "bytes": 67264,
+    "sha256": "ec4d0a43247fe4660fcd3714a0f462aa69371c0fd0aaa9b71ff83956705c6dd9"
+  },
+  {
+    "file": "grant-publishing-site/assets/enquiry.js",
+    "bytes": 5309,
+    "sha256": "fb91e2bd01c44333fda14591e0fc974eacf863b3fd1ab7befba175f8b37d3db0"
+  },
+  {
+    "file": "grant-publishing-site/assets/fonts.css",
+    "bytes": 2458,
+    "sha256": "cc8b00bb557f470911dec4dbb5160a45ea6530717ffe4bf3ec502a4a50cd3679"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-names-chapter-one.webp",
+    "bytes": 29194,
+    "sha256": "bb4f785090d91fb9663d76043e908d3748da15c74abbc841cca2b21c718112b2"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-names-front-matter.webp",
+    "bytes": 5304,
+    "sha256": "22d92a697c0a64a4163dc99ec22a6ba4285afe197dc4fde74ec92a83606a6315"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-names-title-page.webp",
+    "bytes": 5404,
+    "sha256": "19aabca11d37579fc8690392cc349205dc2c591a6b60d774e4759ba1f28e8d42"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-open-book-mockup-768.webp",
+    "bytes": 332868,
+    "sha256": "12211b6ccd2088a0def9e8c66fa18a8efa29e86828fc391c7f464b53c78aa0ee"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-open-book-mockup.webp",
+    "bytes": 1287624,
+    "sha256": "b924c1375b79949038defadd3e46ccc4b056926841c0ab8db6413c03a22a3c3d"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-seventh-chapter-one.webp",
+    "bytes": 53024,
+    "sha256": "395f3d2b49b6bd481efea2683304e7b96d86856dc465e4f0b0c2bece893b5303"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-seventh-chapter-two.webp",
+    "bytes": 71176,
+    "sha256": "a7236020fc88a0b69b4bdd8dd4b4451080c3f968a7bcadf08cfc943f6a9838f6"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-seventh-text-spread.webp",
+    "bytes": 23452,
+    "sha256": "fed250dc875fe82cbac30af5fa468c1ec5262eb572696a1929c83e9198e6ef62"
+  },
+  {
+    "file": "grant-publishing-site/assets/formatting-seventh-title-pages.webp",
+    "bytes": 164872,
+    "sha256": "527b646e5c3798674b96a95baa264acc5768bb38542b2e0fa60c30a7574407e2"
+  },
+  {
+    "file": "grant-publishing-site/assets/grandfather-keyword-research-1103.webp",
+    "bytes": 74092,
+    "sha256": "a713964ecab739591f8168a712f23449a0fbd87274ee1c060f1ab852674d20c5"
+  },
+  {
+    "file": "grant-publishing-site/assets/grandfather-keyword-research-720.webp",
+    "bytes": 42524,
+    "sha256": "ecc952f6178b23a50e0a84e9f41859998abc110dff4daec56b61e479b3789965"
+  },
+  {
+    "file": "grant-publishing-site/assets/grandfather-original-kindle-767.webp",
+    "bytes": 46264,
+    "sha256": "91f687f6f4ce41c12d7e80c3f2a9ecf75c832ba8a964bcbd22d214e1bca2a93a"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-footer-576.webp",
+    "bytes": 41260,
+    "sha256": "1c75a24f15d729f8750f8dd1ef71d2aae07dcb25114cdaed1405c18831654c8d"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-footer-logo.png",
+    "bytes": 1090953,
+    "sha256": "b28e27b3b880566f22130c4638c24adfd36b270e199a89f386c4da7a334f65e4"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-header-128.webp",
+    "bytes": 5482,
+    "sha256": "9a1d6c7b0504c3d987f9a28f04f954c0521494d709194dd11148a9538bf187b5"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-header-256.webp",
+    "bytes": 13784,
+    "sha256": "daad30df484438029b4ff74e4aeb117510991e59cb83369ab4870c4da829b508"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-header-logo.png",
+    "bytes": 1250431,
+    "sha256": "3960c771f3f89db175ce03c23e4e3bc507f710db2b3ee020f53222800683a687"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-icon-192.webp",
+    "bytes": 7474,
+    "sha256": "e7d94e392a0d99a095bf95684b7aab48d2ede9f875d09d8565e69c90e2c7f31f"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-icon-96.webp",
+    "bytes": 3102,
+    "sha256": "25e23f4783d2ed7c369a87af46b2baf4617e85ad1f8367a8735b7b7a91e86366"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-icon.png",
+    "bytes": 2016272,
+    "sha256": "abfc854627e48a7942f10a83e598d8b8572af0395c61cdf867c268c068370ce5"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-logo.png",
+    "bytes": 10995,
+    "sha256": "e2a286b0b8cbad7588d54cbdbd2d6d1bf89b254676fdef4b7a08f6bded9cdbfe"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-primary-logo.png",
+    "bytes": 819144,
+    "sha256": "7a73e578eb3843d00a7d319b2535b978f25cf3bb51f20fe725491853f8e76db5"
+  },
+  {
+    "file": "grant-publishing-site/assets/grant-primary-reverse.png",
+    "bytes": 12418,
+    "sha256": "16139eb1b72432475337d30d11db486982b686e1562d248da9410bbc89116a4a"
+  },
+  {
+    "file": "grant-publishing-site/assets/icons/email.svg",
+    "bytes": 278,
+    "sha256": "10848563325c184902360c0d6b8fbd17d831187cec4aca212d477f814bf1919e"
+  },
+  {
+    "file": "grant-publishing-site/assets/icons/linkedin.svg",
+    "bytes": 645,
+    "sha256": "73325e74c854eb34374093a7c71fe1f98ff3820fc5d341e27a0e1b2e5103abce"
+  },
+  {
+    "file": "grant-publishing-site/assets/icons/upwork.svg",
+    "bytes": 706,
+    "sha256": "5a86c8a00709cdb31c198cf75510ce0d551315be721b3f897fc35cbb728e8e69"
+  },
+  {
+    "file": "grant-publishing-site/assets/icons/whatsapp.svg",
+    "bytes": 1251,
+    "sha256": "d50ec2f31ad47ddc3a681964fa052e2f99b200096c478fd9b6395070d018648f"
+  },
+  {
+    "file": "grant-publishing-site/assets/interactions.js",
+    "bytes": 5263,
+    "sha256": "31bee9c260e0f71e9db120180c1025bc06d8492fbda5add4da68349df9da458f"
+  },
+  {
+    "file": "grant-publishing-site/assets/kathryns-beach-360.webp",
+    "bytes": 32050,
+    "sha256": "eeb31590918af78ff1cd1e1df9cc70030b1f208f0a0c9f9bc6b362720fabcc84"
+  },
+  {
+    "file": "grant-publishing-site/assets/kathryns-beach-640.webp",
+    "bytes": 75148,
+    "sha256": "b932e23626697ea4f810fd7883e7aeb96c39babb1324740c4f21e5a3fc07b797"
+  },
+  {
+    "file": "grant-publishing-site/assets/kathryns-beach-aplus-600.webp",
+    "bytes": 153192,
+    "sha256": "006cc08a37f2cdeac3c3bc6c41d20043075b471365ba12ed1084d1c7d9b6b2f6"
+  },
+  {
+    "file": "grant-publishing-site/assets/kathryns-beach.jpg",
+    "bytes": 371261,
+    "sha256": "86e28f2fe19bc6f481eb642ba6fdd8a57ef10d9a0c353a1bd8d38f1fc34afbca"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-cover-before-674.webp",
+    "bytes": 248528,
+    "sha256": "ed8a4d9e7c3ce278c8a1cbc20d6e42f50e6809be63bb5f3a320c1a359f6213a9"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-cover-wrap-1280.webp",
+    "bytes": 276848,
+    "sha256": "a6f2826b191d4da5d80b30a84c1fc24c6abe3b41ff351d9aab5a0889d1621210"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-cover-wrap-1900.webp",
+    "bytes": 484918,
+    "sha256": "d97db9c3558f5261c4b2bf99983270856165d98074168b37ced688499d129153"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-cover-wrap-760.webp",
+    "bytes": 123488,
+    "sha256": "bda5af68bad66ab721140a1bd704be091dd538f525f3cd1ffb4f2ac7be11a2dd"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-final-1000.webp",
+    "bytes": 143124,
+    "sha256": "eaba9692d42eb24dccd0346c4197c6fe60dcb843e63e2bf8fa335dd4f57fe1ca"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-final-480.webp",
+    "bytes": 46920,
+    "sha256": "66d6424a8c809e51523f693488a66450ba8b43befc726341a394b33e1362c885"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-final-800.webp",
+    "bytes": 102552,
+    "sha256": "70a525a652ef6205e7a73a3c02bce0ae2a89f264f3d593f78c0aab752b215f9d"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-interior-spread-1400.webp",
+    "bytes": 154458,
+    "sha256": "cee45959561035af35ce9ec802c453fbc2dbc3e4c6274d8efdef4296890f0987"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-interior-spread-720.webp",
+    "bytes": 50386,
+    "sha256": "c6ecf690b8358967839bdb60b7015746108b685b32c3ec3076bae7d79704187e"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-review-426-optimized.webp",
+    "bytes": 77860,
+    "sha256": "9e021cfcacc1d47ebfc66dc04dc0a54888734cf25fd4aaf0c96bc8e329f8946b"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-review-426.webp",
+    "bytes": 315250,
+    "sha256": "57f415d9b7900797f1f358ea9e4b56f120ac72fa9ca041cf252f61faee17a3cf"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-sleepy-star-case-study.pdf",
+    "bytes": 2562805,
+    "sha256": "f2bdb2dcf620a6784de1b0f213d1f04663c84df60b337a76383af9bf25b0bc5b"
+  },
+  {
+    "file": "grant-publishing-site/assets/luma-the-sleepy-star.png",
+    "bytes": 433824,
+    "sha256": "1ed3dcb7119413bb465700616aee58e456bfc9725f3d0de08f1da6d58de85fa8"
+  },
+  {
+    "file": "grant-publishing-site/assets/manrope-OFL.txt",
+    "bytes": 4387,
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b"
+  },
+  {
+    "file": "grant-publishing-site/assets/manrope-latin-ext-normal.woff2",
+    "bytes": 15160,
+    "sha256": "2f7335119075b2079f1d882530bbc18728461612bf90743203d73a74a48f4d9b"
+  },
+  {
+    "file": "grant-publishing-site/assets/manrope-latin-normal.woff2",
+    "bytes": 24532,
+    "sha256": "8c2def024c1bf31aacf3624ae3c4d701269b4ec3dc765c04830839f0d36b2d9e"
+  },
+  {
+    "file": "grant-publishing-site/assets/my-dear-grandfather-302.webp",
+    "bytes": 17314,
+    "sha256": "7ff24efebebcd087ea99a9188aed7b9692fd55e8f12a099513530a5cfb9cc8ce"
+  },
+  {
+    "file": "grant-publishing-site/assets/my-dear-grandfather.jpg",
+    "bytes": 17625,
+    "sha256": "922dd23f5842f138804f44f9dde438cc87c0a97cc0ae6338dceee73ad156b30e"
+  },
+  {
+    "file": "grant-publishing-site/assets/premium.css",
+    "bytes": 18748,
+    "sha256": "0c247b5289a148e332e54f66ad1f395c90a0e10a0764efad71f4632bebaec2c7"
+  },
+  {
+    "file": "grant-publishing-site/assets/publishing-studio-540.webp",
+    "bytes": 21284,
+    "sha256": "8585178fa36f4394069861f7cd66ccf14676f9cf79853a7ba591b17eac0b09ef"
+  },
+  {
+    "file": "grant-publishing-site/assets/publishing-studio-900.webp",
+    "bytes": 49164,
+    "sha256": "35aa55a6d1c9b75002db6fc68b059dd14b8cf94793f59e8759477ea49dbc6ba2"
+  },
+  {
+    "file": "grant-publishing-site/assets/publishing-studio.webp",
+    "bytes": 108250,
+    "sha256": "aa68558079dc3b713332ad1065280d9aed11d2fa8cc703714099f49fe6353ce8"
+  },
+  {
+    "file": "grant-publishing-site/assets/showcase.js",
+    "bytes": 5971,
+    "sha256": "3b70a80dd67e854fe720355a7ac84bb5edde1ce5f5e58e15d7ca3e27a7287336"
+  },
+  {
+    "file": "grant-publishing-site/assets/site.bundle.min.css",
+    "bytes": 102537,
+    "sha256": "d121066e93449c210cf6999e7aa4d870e0481a75ce8c02c483b2bd1f80f29f23"
+  },
+  {
+    "file": "grant-publishing-site/assets/site.css",
+    "bytes": 27846,
+    "sha256": "4b22ef883c2f7468f0105db2f2892a8a35cfc04298af126b9a7aac6159ef1679"
+  },
+  {
+    "file": "grant-publishing-site/drafts/ads-readiness.php",
+    "bytes": 6731,
+    "sha256": "48e1dcbc88c56a94df8256478ac79862458f94e8f5fe9e498f6da5c1445a801a"
+  },
+  {
+    "file": "grant-publishing-site/drafts/listing-analysis.php",
+    "bytes": 7563,
+    "sha256": "6fdc7fa30fde5784c98bd2b11b03e9e8d39aa968830816fe57354d6f49dcb033"
+  },
+  {
+    "file": "grant-publishing-site/elementor/about.json",
+    "bytes": 18048,
+    "sha256": "ae1d69e4d169a1e8ac0109a1a86791112217b91d36f149ced7d057aec98798a4"
+  },
+  {
+    "file": "grant-publishing-site/elementor/amazon-ads.json",
+    "bytes": 29983,
+    "sha256": "f8474ff4f9a63d71e8d223ea3d8ce76177615b95033a576c77fd5a866fbfd981"
+  },
+  {
+    "file": "grant-publishing-site/elementor/amazon-visibility.json",
+    "bytes": 28114,
+    "sha256": "5a77921cb44b5fe02c97f283afcee484fb8a877d2b8198c89300bda618cbbb00"
+  },
+  {
+    "file": "grant-publishing-site/elementor/author-platform.json",
+    "bytes": 28019,
+    "sha256": "f430a6284fcf034147fec86075721394df9d3ebc46647556851b5f90fe8de6cf"
+  },
+  {
+    "file": "grant-publishing-site/elementor/book-discovery.json",
+    "bytes": 23681,
+    "sha256": "be2734a7d1f70a6b15d8881ec8484c6aaadacfb07678cbb62d351ef0e516d23a"
+  },
+  {
+    "file": "grant-publishing-site/elementor/book-formatting.json",
+    "bytes": 29368,
+    "sha256": "f5812af077cdedd2ce1c589d13133124ef42f4ddf10a0f3f633be84cc805c10e"
+  },
+  {
+    "file": "grant-publishing-site/elementor/book-presentation.json",
+    "bytes": 28130,
+    "sha256": "7c4a24994e5476a7f6f9aab615262e6e1603d78bae84482a6c3f8bd2c5916b73"
+  },
+  {
+    "file": "grant-publishing-site/elementor/book-product-page.json",
+    "bytes": 23516,
+    "sha256": "47edde9a0c24800af5e22807598f61724285b3a0b213ec6d50b20a4974bd39a8"
+  },
+  {
+    "file": "grant-publishing-site/elementor/book-strategy.json",
+    "bytes": 28102,
+    "sha256": "24527ef706d185d6e11ff66260f80d80c7a53c1a8b030d6dcb33804f9567772d"
+  },
+  {
+    "file": "grant-publishing-site/elementor/case-grandfather.json",
+    "bytes": 33799,
+    "sha256": "2a5fccf9c4cc320ee7de8100c93696e64e69bc82d356afe61ebbce32733e16a1"
+  },
+  {
+    "file": "grant-publishing-site/elementor/case-luma.json",
+    "bytes": 33602,
+    "sha256": "2bf610a8bc471af164f81aa8baef2c523be349dad8d577c58b38e2e0d4a0f20f"
+  },
+  {
+    "file": "grant-publishing-site/elementor/case-studies.json",
+    "bytes": 15348,
+    "sha256": "aec8898da9941b1fd03762de35a789ec981bfad34727f83da2185882cc68e2a4"
+  },
+  {
+    "file": "grant-publishing-site/elementor/catalog-strategy.json",
+    "bytes": 28042,
+    "sha256": "2f665d436f87750544a35519a1d6829ccf45d2a96d5eeb6307b730c5c646af8a"
+  },
+  {
+    "file": "grant-publishing-site/elementor/connected-catalog.json",
+    "bytes": 23502,
+    "sha256": "5ddc5a3d157d1edf5cd01ce89fac6f0a7a72ed0d53748897c175c58e87c6daa5"
+  },
+  {
+    "file": "grant-publishing-site/elementor/contact.json",
+    "bytes": 10895,
+    "sha256": "09ef6ea23f2c070dd5d204fbb0eca063b2dc2f33fe7671e9a3f751f2ecd73cb0"
+  },
+  {
+    "file": "grant-publishing-site/elementor/cover-design.json",
+    "bytes": 28847,
+    "sha256": "ff0546860bef1c17e4f59b128928753354ae81b934a6bcae7e080e31aa0b2c94"
+  },
+  {
+    "file": "grant-publishing-site/elementor/enquiry.json",
+    "bytes": 12472,
+    "sha256": "edee5274a8c052d503ca603ab202b818e7cac67bcf4b0ccce7ac8fe2e94c2ce2"
+  },
+  {
+    "file": "grant-publishing-site/elementor/faq.json",
+    "bytes": 13156,
+    "sha256": "ddd772fa2f6c745c078140ce6d7ed982d4a7be9b23391bab81d3a8b1403fc2a0"
+  },
+  {
+    "file": "grant-publishing-site/elementor/feedback.json",
+    "bytes": 73249,
+    "sha256": "e8cfd390a34504d5f2d0828ea0373735d7274301add0e4cfdb4168d845e3d6d1"
+  },
+  {
+    "file": "grant-publishing-site/elementor/home.json",
+    "bytes": 68406,
+    "sha256": "6a03d65f8b865a05edcab78a8f8d2a6dbcec6e028d252ee2d819b2a90c3c65e7"
+  },
+  {
+    "file": "grant-publishing-site/elementor/insights.json",
+    "bytes": 28555,
+    "sha256": "7453caf8a4287aa9aad34ae8e6f87ea06e0c5dac79fa058cf5fcefefc90780bd"
+  },
+  {
+    "file": "grant-publishing-site/elementor/launch-promotion.json",
+    "bytes": 28050,
+    "sha256": "79885525012be575bf59a17f1527dabd70d70fa72da11bed2f3ab451a0e7d37c"
+  },
+  {
+    "file": "grant-publishing-site/elementor/privacy-policy.json",
+    "bytes": 34498,
+    "sha256": "d4a4035ac9687e8f0404567858d946e246c65ef301870ccc58dcaebdd55a30ff"
+  },
+  {
+    "file": "grant-publishing-site/elementor/publishing-support.json",
+    "bytes": 28299,
+    "sha256": "1226beaa1b8ffdb6ed50c99b28c78f34a453581f64bd236604c685afaedbfd38"
+  },
+  {
+    "file": "grant-publishing-site/elementor/services.json",
+    "bytes": 83643,
+    "sha256": "87c577239c72f6124747e342299e52378359403ee2022fdfa08b5578ca01b50a"
+  },
+  {
+    "file": "grant-publishing-site/elementor/terms-of-service.json",
+    "bytes": 55005,
+    "sha256": "50cc5332a382bc87b980e138d1a83ad71c6ade0fd702ab46545f90876deff926"
+  },
+  {
+    "file": "grant-publishing-site/grant-publishing-site.php",
+    "bytes": 16324,
+    "sha256": "f4d74cbc3d6f0a381e05ff022617b70f80f6d0fe490404edb0d1ce5b34b67a3b"
+  },
+  {
+    "file": "grant-publishing-site/includes/case-studies.php",
+    "bytes": 7887,
+    "sha256": "d545c51af00a639e6e759fd2033e660b98523cb21a2d1e8dc47a98940a5580f6"
+  },
+  {
+    "file": "grant-publishing-site/includes/draft-page.php",
+    "bytes": 559,
+    "sha256": "7a98c7d410a77615dd3c70f97ace548ce78bb7859feefc06f3fe9f7c64421551"
+  },
+  {
+    "file": "grant-publishing-site/includes/drafts.php",
+    "bytes": 6124,
+    "sha256": "3f7cc985790af2de100650d02a15ceb9f7df479c1c2426a9e991e13d5c3b1ed1"
+  },
+  {
+    "file": "grant-publishing-site/includes/editorial.php",
+    "bytes": 9428,
+    "sha256": "f257a6d58447d1ae2368adc47ec9f72f2636f1c5636a1dccd346c36683ba8a6e"
+  },
+  {
+    "file": "grant-publishing-site/includes/faq.php",
+    "bytes": 4055,
+    "sha256": "3e94b1b25dec77ed37157e0582f9ce9647c894074c14d0e9095fa9c0159c1f88"
+  },
+  {
+    "file": "grant-publishing-site/includes/formatting-samples.php",
+    "bytes": 5219,
+    "sha256": "eeb6875cb2f644058dc606463731684f4dc9a3c3aa12be2a3b437abb2cbbbf5d"
+  },
+  {
+    "file": "grant-publishing-site/includes/framework.php",
+    "bytes": 13898,
+    "sha256": "9bc0c45971b06d7b25c4aa2e5f8aa080e624328262bce22ed81528551d1eeee2"
+  },
+  {
+    "file": "grant-publishing-site/includes/full-page.php",
+    "bytes": 967,
+    "sha256": "792d58eb435dd4c52f530c72b3f27c1dbdc302d55ecbfc55542c564d3b437227"
+  },
+  {
+    "file": "grant-publishing-site/includes/images.php",
+    "bytes": 2210,
+    "sha256": "fb9ead8b6e7e1236748b30ec61628a66ea15341560bd9c522b687e31ab5c3c4e"
+  },
+  {
+    "file": "grant-publishing-site/includes/journey.php",
+    "bytes": 15470,
+    "sha256": "ed6692d4157e0f2207583dccc445799eb3d0cfda7f3d89123c73fc300122554b"
+  },
+  {
+    "file": "grant-publishing-site/includes/legal.php",
+    "bytes": 3468,
+    "sha256": "5c727c684ffe95cfaf468f77c19ae27cd91ab3ba839feb85101c8ffc2dbe500c"
+  },
+  {
+    "file": "grant-publishing-site/includes/pages.php",
+    "bytes": 19520,
+    "sha256": "c391f969cba16ea8c4a5e8d621a85da42ca14b69472efe37b753bab4911d92e4"
+  },
+  {
+    "file": "grant-publishing-site/includes/portfolio.php",
+    "bytes": 12236,
+    "sha256": "a3f9023ccf9871687e1dd1f65ebde58827d8465221f57bc2a84030f2cc9bc123"
+  },
+  {
+    "file": "grant-publishing-site/includes/premium.php",
+    "bytes": 21317,
+    "sha256": "c47b9ff3d3a88c30bdf23ec74016f5a888410ecb5a9d5cc4a85d79a6859e0508"
+  },
+  {
+    "file": "grant-publishing-site/includes/production-audit.php",
+    "bytes": 12806,
+    "sha256": "fad727d2c4efadd1462c81387a08e960541ee8f03c128fdd37c4157a53f57708"
+  },
+  {
+    "file": "grant-publishing-site/includes/publishing.php",
+    "bytes": 8756,
+    "sha256": "bed476aa4c476b86c5db245a68a3eeb47ca046412c72195da1249c98f1dfd3b4"
+  },
+  {
+    "file": "grant-publishing-site/includes/repairs.php",
+    "bytes": 13424,
+    "sha256": "aecee54b14f59fa04e68fee594666dd69a3cee4dd532c34c0cea4a804723cff4"
+  },
+  {
+    "file": "grant-publishing-site/includes/setup.php",
+    "bytes": 13381,
+    "sha256": "f7776c3e70bea80e3b38b19ade4e695c8edc2672069425e2de6a22f4c8683a70"
+  },
+  {
+    "file": "grant-publishing-site/includes/upgrades.php",
+    "bytes": 2627,
+    "sha256": "d7d71fbd6faec6e59bc19343e303d304f3ac0636cc5ae7f290caf616e1be1e49"
+  },
+  {
+    "file": "grant-publishing-site/includes/web3forms.php",
+    "bytes": 8644,
+    "sha256": "5f2e684ebbe1250e0ab14ac65a6d1f55fec4af6e6ef6bb2eacbfe1609435ac60"
+  },
+  {
+    "file": "grant-publishing-site/native-copy-updates.json",
+    "bytes": 7351,
+    "sha256": "2189d29d97612f1858a9ac93d89bec618cc04e96ce3f8068df13797da6ce7f94"
+  },
+  {
+    "file": "grant-publishing-site/pages.json",
+    "bytes": 7452,
+    "sha256": "afae50452af597391ae06399450ede4ae252bf0726b36c8aa104e27cac17b54a"
+  },
+  {
+    "file": "grant-publishing-site/partials/client-book-grandfather.html",
+    "bytes": 738,
+    "sha256": "452ad6044347de81fb5da646a84887c94abdd37bc6e61be217a9676158d3573e"
+  },
+  {
+    "file": "grant-publishing-site/partials/client-book-luma.html",
+    "bytes": 1560,
+    "sha256": "d4fa84a1450c7b33fc92178783667cd3d09269b22fbc5959a3e73d58a5931075"
+  },
+  {
+    "file": "grant-publishing-site/partials/client-case-study.html",
+    "bytes": 1273,
+    "sha256": "be6df8c5f53560efc18c3697ee540952fb749f3373dc86310758e1c49b813b57"
+  },
+  {
+    "file": "grant-publishing-site/partials/client-design-proof.html",
+    "bytes": 2357,
+    "sha256": "69ab22cafa890b15f9999f8ac8702fc6692c7fce65fa17ebddd3102d0a9f8df2"
+  },
+  {
+    "file": "grant-publishing-site/partials/client-proof.html",
+    "bytes": 1854,
+    "sha256": "456ae7d2f0a590a248c4fb5d371d680f10ff5d1fe2468bfc75f6c6eb506aa339"
+  },
+  {
+    "file": "grant-publishing-site/partials/luma-case-study.html",
+    "bytes": 2186,
+    "sha256": "b8d78d6165a1ecac0be782c4296842e80fe819111b2e7344af7a177b4b56e5e0"
+  },
+  {
+    "file": "grant-publishing-site/partials/new-service-entries.html",
+    "bytes": 2232,
+    "sha256": "ec563efa44172bb63704d1503965348c37d97bea86b623e35fcf0aa85c4a9759"
+  },
+  {
+    "file": "grant-publishing-site/templates/about.html",
+    "bytes": 2809,
+    "sha256": "7c2e2c855602785881a88afbd13573a6e0289a8b0b77b76bd1270c406625fb16"
+  },
+  {
+    "file": "grant-publishing-site/templates/amazon-ads.html",
+    "bytes": 5356,
+    "sha256": "4d194b9cd8fa136453af9411f687d9baffa34f83b89b48f7c90a4247da6bf1e3"
+  },
+  {
+    "file": "grant-publishing-site/templates/amazon-visibility.html",
+    "bytes": 4271,
+    "sha256": "a0fb0a659b63dcbbb6c84601383b9e831e79493d3b45b5e034e87309fd1d4c91"
+  },
+  {
+    "file": "grant-publishing-site/templates/author-platform.html",
+    "bytes": 4181,
+    "sha256": "700462a3dafb4aa830b96feabedc5d0b008e8c98d95b123ff6c9aef3f6819541"
+  },
+  {
+    "file": "grant-publishing-site/templates/book-discovery.html",
+    "bytes": 5224,
+    "sha256": "7265215bb7d562de348c06ed4659047c9723b32117c9d64709f5b3ae170fea39"
+  },
+  {
+    "file": "grant-publishing-site/templates/book-formatting.html",
+    "bytes": 4761,
+    "sha256": "f8135817a9f0d9a1903fdc8a82bf28250aaef526653fe549ee13a80b7d58c4ab"
+  },
+  {
+    "file": "grant-publishing-site/templates/book-presentation.html",
+    "bytes": 4283,
+    "sha256": "f8e6841c16a9c9975987af974ee24e23c1e9d296947e594e63ced5808d0ae291"
+  },
+  {
+    "file": "grant-publishing-site/templates/book-product-page.html",
+    "bytes": 5072,
+    "sha256": "7928a143585c8119d6488288799bf6a3c7d76b8083e4b224faa29fca7f090a25"
+  },
+  {
+    "file": "grant-publishing-site/templates/book-strategy.html",
+    "bytes": 4254,
+    "sha256": "8d605c3834132d57ec48911b9df05288361b2b5262e8059c5f0b7337f61e92d7"
+  },
+  {
+    "file": "grant-publishing-site/templates/case-grandfather.html",
+    "bytes": 8460,
+    "sha256": "e87e5727ab7152e485d807c653ba4b9fc4f186df283577512cd4336b8163bb2a"
+  },
+  {
+    "file": "grant-publishing-site/templates/case-luma.html",
+    "bytes": 8241,
+    "sha256": "cae34fb05c5a49f4792b050a4cf9646fecaf76890b796192971b940057d7bcdd"
+  },
+  {
+    "file": "grant-publishing-site/templates/case-studies.html",
+    "bytes": 2109,
+    "sha256": "280fbfe46a54725f5e14f076e5b138c6d760a2ce8662ec9baa6543b852e176c6"
+  },
+  {
+    "file": "grant-publishing-site/templates/catalog-strategy.html",
+    "bytes": 4199,
+    "sha256": "6db0fbf5c9704347f4a8ad8b6e3a413fb42b811748ad49ed78ecd7ecd4eaf7fc"
+  },
+  {
+    "file": "grant-publishing-site/templates/connected-catalog.html",
+    "bytes": 5051,
+    "sha256": "3a0e658ecfc441d554cae908a86d51ca0fe60b83a355370f33f4186137efd1f0"
+  },
+  {
+    "file": "grant-publishing-site/templates/contact.html",
+    "bytes": 1396,
+    "sha256": "0bddfaf85fb000504492521661298aea7bcfa45fcdee1cc92b8ff1b3e64c2e89"
+  },
+  {
+    "file": "grant-publishing-site/templates/cover-design.html",
+    "bytes": 4655,
+    "sha256": "e38578622e7ed3067a13cf103354b8f51db5ade39c74489e8a75acddb83edd6b"
+  },
+  {
+    "file": "grant-publishing-site/templates/enquiry.html",
+    "bytes": 1642,
+    "sha256": "d97f0fbc9e6232204e5426879257fbc2577080658061f9225257d587d7d26565"
+  },
+  {
+    "file": "grant-publishing-site/templates/faq.html",
+    "bytes": 1692,
+    "sha256": "cb2472bdeb1134e1f7d82139c3e0054235e967416a0b3efa0546e886c6170355"
+  },
+  {
+    "file": "grant-publishing-site/templates/feedback.html",
+    "bytes": 12267,
+    "sha256": "66b2cb0ed42f1e105d7a3ce5f19f20b39ebaf876820b6ece0ef422984768b136"
+  },
+  {
+    "file": "grant-publishing-site/templates/home.html",
+    "bytes": 11153,
+    "sha256": "f5369fd5a07c72f45b1a06603c71c225156ae3c84414dac04d92221d4161693f"
+  },
+  {
+    "file": "grant-publishing-site/templates/insights.html",
+    "bytes": 4797,
+    "sha256": "7e1e739540a58e77b37101e6ae87b6dc672d370658f54b4d46f7335f81f7d9bb"
+  },
+  {
+    "file": "grant-publishing-site/templates/launch-promotion.html",
+    "bytes": 4209,
+    "sha256": "d5cb50c2f7f95d074cd4d5888be6188fa2626cb5377649343f91ecadff9d5e03"
+  },
+  {
+    "file": "grant-publishing-site/templates/privacy-policy.html",
+    "bytes": 8619,
+    "sha256": "9af22815796b73ad502992014303684a2616e3a2ac4a60cda8c5e671f2faad46"
+  },
+  {
+    "file": "grant-publishing-site/templates/publishing-support.html",
+    "bytes": 4449,
+    "sha256": "520d4bd96f43081c24b9c97c32c3745e19aab31c78f56e715f428d86c336e8a2"
+  },
+  {
+    "file": "grant-publishing-site/templates/services.html",
+    "bytes": 9637,
+    "sha256": "d23c0617dc3aab809d2155db35eff8e137417ae925d8514a1111df064faebd6d"
+  },
+  {
+    "file": "grant-publishing-site/templates/terms-of-service.html",
+    "bytes": 14060,
+    "sha256": "7122b3cdedbca386140ced7430e508df2dd9c0ba5b03eec7dfe916d75bb11ac2"
+  }
+]

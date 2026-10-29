@@ -47,6 +47,9 @@ function gpc_social_icon($channel) {
 function gpc_icon_link($channel, $url, $label, $external = false) {
     return '<a class="gp-social-link" href="' . esc_url($url) . '" aria-label="' . esc_attr($label) . '" title="' . esc_attr($label) . '"' . ($external ? ' target="_blank" rel="noopener noreferrer"' : '') . '>' . gpc_social_icon($channel) . '</a>';
 }
+function gpc_direction_icon() {
+    return '<svg class="gp-direction-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 18 18 6M6 6h12v12"/></svg>';
+}
 /** Replace text contact links in older native layouts at render time only. */
 function gpc_iconize_contact_links($content) {
     if (!is_string($content)) { return $content; }
@@ -93,10 +96,13 @@ add_shortcode('grant_contact_links', function() { return gpc_contact_links(); })
 add_action('after_setup_theme', function() { register_nav_menu('gpc_primary', 'Grant Publishing primary navigation'); });
 function gpc_navigation($current) {
     if (has_nav_menu('gpc_primary')) {
-        return wp_nav_menu(array('theme_location'=>'gpc_primary', 'container'=>false, 'menu_id'=>'', 'echo'=>false, 'fallback_cb'=>false, 'depth'=>1, 'items_wrap'=>'<ul>%3$s</ul>'));
+        $nav = wp_nav_menu(array('theme_location'=>'gpc_primary', 'container'=>false, 'menu_id'=>'', 'echo'=>false, 'fallback_cb'=>false, 'depth'=>1, 'items_wrap'=>'<ul>%3$s</ul>'));
+        // Honour the owner's menu and ensure the requested direct portfolio path.
+        if (strpos(html_entity_decode($nav, ENT_QUOTES, 'UTF-8'), gpc_url('case-studies')) === false) { $nav = str_replace('</ul>', '<li><a href="' . esc_url(gpc_url('case-studies')) . '">Our Work</a></li></ul>', $nav); }
+        return $nav;
     }
     $defs = gpc_pages(); $links = '';
-    foreach (array('home'=>'Home','services'=>'Services','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','contact'=>'Contact') as $key=>$label) {
+    foreach (array('services'=>'Services','case-studies'=>'Our Work','about'=>'About','insights'=>'Insights','contact'=>'Contact') as $key=>$label) {
         $active = $key === $current || (!empty($defs[$current]['parent']) && $defs[$current]['parent'] === $key);
         $links .= '<a href="' . esc_url(gpc_url($key)) . '"' . ($active ? ' aria-current="' . ($key === $current ? 'page' : 'true') . '"' : '') . '>' . esc_html($label) . '</a>';
     }
@@ -104,12 +110,12 @@ function gpc_navigation($current) {
 }
 function gpc_header($key) {
     $nav = gpc_navigation($key);
-    $cta = '<a class="gp-button" href="' . esc_url(add_query_arg('request', 'assessment', gpc_url('enquiry')) . '#gpc-enquiry') . '">Free book assessment</a>';
+    $cta = '<a class="gp-button" href="' . esc_url(gpc_url('contact') . '#gpc-enquiry') . '">Discuss your project</a>';
     return '<a class="gpc-skip-link" href="#gpc-main">Skip to content</a><header class="gp-header"><div class="gp-wrap gp-header-inner"><a class="gp-wordmark" href="' . esc_url(gpc_url('home')) . '" aria-label="Grant Publishing Co. home"><img class="gp-logo" src="' . esc_url(gpc_asset_url('grant-header-128.webp')) . '" srcset="' . esc_url(gpc_asset_url('grant-header-128.webp')) . ' 128w, ' . esc_url(gpc_asset_url('grant-header-256.webp')) . ' 256w" sizes="(max-width: 720px) 56px, 64px" alt="Grant Publishing Co." width="64" height="64" decoding="async"></a><nav class="gp-nav" aria-label="Main navigation">' . $nav . '</nav><div class="gp-header-cta">' . $cta . '</div><details class="gp-mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation">' . $nav . $cta . '</nav></details></div></header>';
 }
 function gpc_footer() {
     $links = '';
-    foreach (array('services'=>'Services','case-studies'=>'Case Studies','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','faq'=>'FAQs','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
+    foreach (array('services'=>'Services','case-studies'=>'Our Work','about'=>'About','feedback'=>'Client Feedback','insights'=>'Insights','faq'=>'FAQs','contact'=>'Contact','enquiry'=>'Free book assessment') as $key=>$label) {
         $links .= '<a href="' . esc_url(gpc_url($key)) . '">' . esc_html($label) . '</a>';
     }
     $contact = gpc_contact_details();
@@ -148,12 +154,12 @@ function gpc_site_page($key) {
     if (strpos($html, '{{cases:hub}}') !== false) { $html = str_replace('{{cases:hub}}', gpc_case_cards(), $html); }
     if (strpos($html, '{{faq:general}}') !== false) { $html = str_replace('{{faq:general}}', gpc_faq_group(), $html); }
     $html = preg_replace_callback('/\{\{framework:(home|about|assessment)\}\}/', function($m) { return $m[1] === 'assessment' ? gpc_framework_assessment() : gpc_framework_grid($m[1]); }, $html);
+    $html = preg_replace_callback('/\{\{premium:(selected|services|work-samples)\}\}/', function($m) { return $m[1] === 'selected' ? gpc_selected_work() : ($m[1] === 'services' ? gpc_home_service_overview() : gpc_selected_work(false) . gpc_work_samples_feature()); }, $html);
     $html = gpc_resolve_string($html, true);
     $html = gpc_responsive_project_images($html);
     // Shortcodes embedded in older Elementor Canvas pages can render after wp_head.
     if (!wp_style_is('gpc-fonts', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_font_url()) . '">'; }
-    if (!wp_style_is('gpc-site', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('site.css') . '?ver=' . GPC_VERSION) . '">'; }
-    if (!wp_style_is('gpc-design', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('design.css') . '?ver=' . GPC_VERSION) . '">'; }
+    if (!wp_style_is('gpc-site', 'done')) { $html .= '<link rel="stylesheet" href="' . esc_url(gpc_asset_url('site.bundle.min.css') . '?ver=' . GPC_VERSION) . '">'; }
     return $html;
 }
 foreach (gpc_pages() as $gpc_key=>$gpc_def) {
@@ -180,22 +186,24 @@ function gpc_current_key() {
 function gpc_enqueue_assets($key = '') {
     wp_enqueue_style('gpc-fonts', gpc_font_url(), array(), null);
     $deps = wp_style_is('elementor-frontend', 'registered') ? array('gpc-fonts','elementor-frontend') : array('gpc-fonts');
-    wp_enqueue_style('gpc-site', gpc_asset_url('site.css'), $deps, GPC_VERSION);
-    wp_enqueue_style('gpc-design', gpc_asset_url('design.css'), array('gpc-site'), GPC_VERSION);
+    wp_enqueue_style('gpc-site', gpc_asset_url('site.bundle.min.css'), $deps, GPC_VERSION);
+    // Retain public dependency handles while delivering one ordered stylesheet.
+    wp_enqueue_style('gpc-design', false, array('gpc-site'), GPC_VERSION);
+    wp_enqueue_style('gpc-premium', false, array('gpc-design'), GPC_VERSION);
     wp_enqueue_script('gpc-interactions', gpc_asset_url('interactions.js'), array(), GPC_VERSION, true);
     // Cached native hero HTML still needs its interactive enhancement.
     if (in_array($key, array('home','services'), true)) { wp_enqueue_script('gpc-showcase', gpc_asset_url('showcase.js'), array(), GPC_VERSION, true); }
 }
 function gpc_font_url() {
-    return 'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap';
+    return gpc_asset_url('fonts.css') . '?ver=' . GPC_VERSION;
 }
-add_filter('wp_resource_hints', function($urls, $relation) {
-    if ($relation === 'preconnect' && gpc_current_key()) {
-        $urls[] = 'https://fonts.googleapis.com';
-        $urls[] = array('href'=>'https://fonts.gstatic.com', 'crossorigin'=>'anonymous');
-    }
-    return $urls;
-}, 10, 2);
+add_action('wp_head', function() {
+    $key = gpc_current_key();
+    if (!$key) { return; }
+    $fonts = array('cormorant-garamond-latin-normal.woff2','manrope-latin-normal.woff2');
+    if ($key === 'home') { $fonts[] = 'cormorant-garamond-latin-italic.woff2'; }
+    foreach ($fonts as $font) { echo '<link rel="preload" href="' . esc_url(gpc_asset_url($font)) . '" as="font" type="font/woff2" crossorigin>' . "\n"; }
+}, 2);
 add_action('wp_enqueue_scripts', function() { $key = gpc_current_key(); if ($key) { gpc_enqueue_assets($key); } }, 100);
 add_filter('theme_page_templates', function($templates) { $templates['gpc-full-page.php'] = 'Grant Publishing Full Page'; return $templates; });
 add_filter('template_include', function($template) {

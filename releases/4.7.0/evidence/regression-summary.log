@@ -1,0 +1,9 @@
+89 backend assertions passed. No real HTTP request or email was sent.
+95 publishing compatibility assertions passed. No HTTP, page saves or real messages occurred.
+14 upgrade assertions passed. No live cache operations or content saves occurred.
+73 structure assertions passed. No live WordPress writes occurred.
+10 legal assertions passed. No live policy changes occurred.
+85 journey assertions passed. No production writes or messages occurred.
+87 framework/audit assertions passed. No real request or message was sent.
+PASS: enquiry JS success, rejection, connection failure, malformed response, invalid input, and request/service selection. No emails sent.
+PASS: 26 matching HTML/Elementor pages, 1289 native elements, heading and ID checks, all route/asset tokens, link anchors, service choices, fallback HTML balance and responsive/focus CSS markers.

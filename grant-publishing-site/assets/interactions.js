@@ -1,8 +1,35 @@
 (function () {
+  // No analytics script or identifier is installed here. The consent manager
+  // must grant statistics consent before events reach an existing GA4 instance.
+  let consentGranted = false;
+  document.addEventListener('grant:analytics-consent', function (event) { consentGranted = event.detail?.statistics === true; });
+  function track(name, fields) {
+    const allowed = typeof window.wp_has_consent === 'function' ? window.wp_has_consent('statistics') === true : consentGranted;
+    if (allowed && typeof window.gtag === 'function') window.gtag('event', name, fields);
+  }
   function setup() {
     document.querySelectorAll('.gpc-site').forEach(function (site) {
       if (site.dataset.interactionsReady) return;
       site.dataset.interactionsReady = '1';
+      const header = site.querySelector('.gp-header');
+      if (header) {
+        const updateHeader = function () { header.classList.toggle('is-scrolled', window.scrollY > 24); };
+        window.addEventListener('scroll', updateHeader, { passive: true });
+        updateHeader();
+      }
+      site.addEventListener('click', function (event) {
+        const link = event.target.closest('a');
+        if (!link || !link.matches('.gp-button,.elementor-button,.gp-text-link,.gp-selected-image')) return;
+        const target = new URL(link.href, location.href);
+        if (target.origin !== location.origin) return;
+        // No query strings, book URLs, names, emails or free text are sent.
+        track(target.pathname.includes('/case-studies/') ? 'view_work' : 'select_content', { content_type:'website_cta', destination:target.pathname });
+      });
+      site.addEventListener('grant:enquiry-accepted', function (event) {
+        const request = event.detail?.request === 'assessment' ? 'assessment' : 'project';
+        const project = ['luma','grandfather','kathryns','formatting-samples'].includes(event.detail?.project) ? event.detail.project : '';
+        track('generate_lead', { request_type:request, portfolio_context:project });
+      });
       const menu = site.querySelector('.gp-mobile-nav');
       if (menu) {
         const summary = menu.querySelector('summary');

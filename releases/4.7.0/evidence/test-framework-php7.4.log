@@ -1,0 +1,89 @@
+PASS: Exact stage name: G
+PASS: Exact stage name: R
+PASS: Exact stage name: A
+PASS: Exact stage name: N
+PASS: Exact stage name: T
+PASS: One exact stage name in home: Ground the book in the right market.
+PASS: One exact stage name in home: Refine the positioning.
+PASS: One exact stage name in home: Align the listing and presentation.
+PASS: One exact stage name in home: Navigate visibility channels.
+PASS: One exact stage name in home: Track growth and improve performance.
+PASS: Five individually readable framework stages on home
+PASS: Monitoring scope explicit on home
+PASS: One exact stage name in about: Ground the book in the right market.
+PASS: One exact stage name in about: Refine the positioning.
+PASS: One exact stage name in about: Align the listing and presentation.
+PASS: One exact stage name in about: Navigate visibility channels.
+PASS: One exact stage name in about: Track growth and improve performance.
+PASS: Five individually readable framework stages on about
+PASS: Monitoring scope explicit on about
+PASS: Home framework replaces the existing process in place
+PASS: Unrelated homepage section preserved
+PASS: Home method replacement idempotent
+PASS: About framework is linkable and founder content stays intact
+PASS: About method replacement idempotent
+PASS: Supported framework stage on case-luma: A
+PASS: No tracked-growth stage claimed for case-luma
+PASS: Case method connection idempotent: case-luma
+PASS: Supported framework stage on case-grandfather: R
+PASS: Supported framework stage on case-grandfather: A
+PASS: No tracked-growth stage claimed for case-grandfather
+PASS: Case method connection idempotent: case-grandfather
+PASS: Production closing enquiry reaches Contact: book-formatting
+PASS: Production closing enquiry reaches Contact: cover-design
+PASS: Production closing enquiry reaches Contact: publishing-support
+PASS: Assessment limitations are explicit
+PASS: Approved A+ evidence has restrained scope
+PASS: Obsolete core title output is removed when Yoast owns the head
+PASS: Title integration leaves all saved SEO fields untouched
+PASS: Late-removed support uses one Canvas fallback, without duplicate block output
+PASS: A custom shell without title capability retains one core fallback
+PASS: Untouched WordPress defaults are cleaned
+PASS: Starter post drafted without rewriting content
+PASS: Only the sample comment is held
+PASS: Original starter state backed up before mutation
+PASS: Associated empty archives identified
+PASS: Archive exclusions automatically stop when genuine posts exist
+PASS: Edited welcome article preserved
+PASS: Genuine discussion prevents automatic cleanup
+PASS: Public users cannot change default content
+PASS: Concurrent default cleanup respects active lock
+PASS: Failed mutation keeps original content and its backup
+PASS: Two editorial drafts prepared
+PASS: Only the two requested drafts inserted
+PASS: New authority article stays unpublished under Insights: 30
+PASS: New authority article stays unpublished under Insights: 31
+PASS: Existing core content and metadata preserved by draft creation
+PASS: Repeated draft preparation does not duplicate or overwrite
+PASS: Unpublished drafts are absent from the public Insights index
+PASS: Only an owner-published article joins the existing index
+PASS: Published draft index row is not duplicated
+PASS: Unverified page markers do not enter the public Insights index
+PASS: Legacy Home receives selected work and four real service categories once
+PASS: Existing testimonials move intact between services and the original process
+PASS: Approved review and process content preserved
+PASS: Premium rendering is idempotent
+PASS: Custom service copy and original testimonial are preserved
+PASS: Historical role descriptions are not rewritten
+PASS: Work hub does not duplicate its two existing case studies
+PASS: Service-specific enquiry available for book-formatting
+PASS: Service-specific enquiry available for cover-design
+PASS: Service-specific enquiry available for publishing-support
+PASS: Service-specific enquiry available for amazon-visibility
+PASS: Service-specific enquiry available for book-presentation
+PASS: Service-specific enquiry available for amazon-ads
+PASS: Service-specific enquiry available for launch-promotion
+PASS: Service-specific enquiry available for author-platform
+PASS: Service-specific enquiry available for catalog-strategy
+PASS: Service-specific enquiry available for book-strategy
+PASS: Static publishing layouts do not require Elementor runtime
+PASS: Elementor runtime retained for accordion
+PASS: Elementor runtime retained for video
+PASS: Elementor runtime retained for form
+PASS: Elementor runtime retained for image-carousel
+PASS: Elementor runtime retained for custom-widget
+PASS: Authored animation keeps Elementor runtime
+PASS: Existing image lightboxes keep Elementor runtime
+PASS: Unknown shortcode keeps Elementor runtime
+
+87 framework/audit assertions passed. No real request or message was sent.

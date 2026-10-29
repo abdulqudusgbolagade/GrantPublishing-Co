@@ -158,7 +158,7 @@
                 "image": {
                   "url": "{{asset:abdulqudus-tella.png}}",
                   "id": 0,
-                  "alt": "AbdulQudus Tella, Book Marketing Strategist"
+                  "alt": "AbdulQudus Tella, Book Publishing Specialist"
                 },
                 "image_size": "full",
                 "caption_source": "none",
@@ -187,7 +187,7 @@
               "settings": {
                 "_title": "Copy",
                 "_css_classes": "gp-copy",
-                "editor": "<p>I’m AbdulQudus Tella, a Book Marketing Strategist. Through Grant Publishing Co., I offer cover design, ebook and print formatting, publishing and Amazon KDP setup, alongside Amazon visibility, marketing strategy and advertising support.</p>"
+                "editor": "<p>I’m AbdulQudus Tella, Book Publishing Specialist and Founder of Grant Publishing Co. I offer cover design, ebook and print formatting, publishing and Amazon KDP setup, alongside Amazon visibility, marketing strategy and advertising support.</p>"
               },
               "elements": []
             },

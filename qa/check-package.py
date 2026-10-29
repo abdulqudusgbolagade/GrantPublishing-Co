@@ -17,7 +17,7 @@ for k in defs:
  for tok in re.findall(r'\{\{([^}]+)\}\}',raw):
   if tok.startswith('url:'):assert tok[4:] in defs,(k,tok)
   elif tok.startswith('asset:'):assert (r/'assets'/tok[6:]).is_file(),tok
-  else:assert tok in ['header','footer','form:project','form:assessment','contact_links','showcase:home','showcase:services','cases:hub','faq:general','framework:home','framework:about','framework:assessment'],tok
+  else:assert tok in ['header','footer','form:project','form:assessment','contact_links','showcase:home','showcase:services','cases:hub','faq:general','framework:home','framework:about','framework:assessment','premium:selected','premium:services','premium:work-samples'],tok
  for href in doc.xpath('//a/@href'):
   assert href and href!='#',(k,href)
   m=re.match(r'\{\{url:([^}]+)\}\}(.*)',href)
@@ -47,6 +47,7 @@ for k in defs:
     elif 'grant_book_showcase' in st['shortcode']:parts.append('{{showcase:services}}' if 'services' in st['shortcode'] else '{{showcase:home}}')
     elif 'grant_case_cards' in st['shortcode']:parts.append('{{cases:hub}}')
     elif 'grant_faqs' in st['shortcode']:parts.append('{{faq:general}}')
+    elif 'grant_premium_block' in st['shortcode']:parts.append('{{premium:' + re.search(r'block="([^"]+)"', st['shortcode'])[1] + '}}')
     elif 'grant_framework' in st['shortcode']:parts.append('{{framework:about}}' if 'about' in st['shortcode'] else '{{framework:assessment}}' if 'assessment' in st['shortcode'] else '{{framework:home}}')
    parts.append(layout_text(n['elements']))
   return ''.join(parts)
@@ -60,7 +61,7 @@ for k in defs:
    if n['elType']=='widget':
     assert n['widgetType'] in ['heading','text-editor','button','image','shortcode'],n['widgetType']
     if n['widgetType']=='heading' and n['settings']['header_size']=='h1':headings.append(n)
-    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode'] or 'grant_book_showcase' in n['settings']['shortcode'] or 'grant_case_cards' in n['settings']['shortcode'] or 'grant_faqs' in n['settings']['shortcode'] or 'grant_framework' in n['settings']['shortcode']
+    if n['widgetType']=='shortcode':assert 'grant_enquiry_form' in n['settings']['shortcode'] or 'grant_contact_links' in n['settings']['shortcode'] or 'grant_book_showcase' in n['settings']['shortcode'] or 'grant_case_cards' in n['settings']['shortcode'] or 'grant_faqs' in n['settings']['shortcode'] or 'grant_framework' in n['settings']['shortcode'] or 'grant_premium_block' in n['settings']['shortcode']
    else:assert n['elType']=='container'
    visit(n['elements'])
  visit(data['content']);assert len(nativeids)==len(set(nativeids));assert len(headings)==1

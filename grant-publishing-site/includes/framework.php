@@ -18,13 +18,13 @@ function gpc_framework_reference($letter) {
 function gpc_framework_link() {
     return '<a href="' . esc_url(gpc_url('about') . '#grant-framework') . '">GRANT Framework</a>';
 }
-/** Keep the established three-column process layout: G/R, A, then N/T. */
+/** Five readable stages, sharing the exact approved names in both contexts. */
 function gpc_framework_grid($context = 'home', $anchor = false) {
     $context = $context === 'about' ? 'about' : 'home';
     $stages = gpc_framework_stages();
     $intro = $context === 'about' ? 'The GRANT Framework is our working method for diagnosing needs, recommending services and evaluating progress. Market fit informs positioning; positioning guides presentation; a clear book proposition helps us choose visibility channels. Review then informs the next decision where it is included.' : 'The GRANT Framework is our working method for finding your book’s next priority, from market fit and presentation to suitable visibility channels and agreed review.';
-    $html = '<div class="gp-framework gp-framework-' . $context . '" data-gpc-framework="' . $context . '"' . ($anchor ? ' id="grant-framework"' : '') . '><div class="gp-copy"><p>' . esc_html($intro) . '</p></div><div class="gp-three-columns">';
-    foreach (array(array('G','R'), array('A'), array('N','T')) as $group) {
+    $html = '<div class="gp-framework gp-framework-' . $context . '" data-gpc-framework="' . $context . '"' . ($anchor ? ' id="grant-framework"' : '') . '><div class="gp-copy"><p>' . esc_html($intro) . '</p></div><div class="gp-five-stage">';
+    foreach (array(array('G'), array('R'), array('A'), array('N'), array('T')) as $group) {
         $html .= '<div class="gp-step gp-framework-card">';
         foreach ($group as $letter) {
             $stage = $stages[$letter];
@@ -131,5 +131,5 @@ add_filter('the_content', 'gpc_framework_content', 37);
 /** One supplied, approved screenshot. No upload or sales outcome is inferred. */
 function gpc_aplus_example() {
     $url = gpc_asset_url('kathryns-beach-aplus-600.webp');
-    return '<aside class="gp-aplus-example"><figure><a href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer" data-elementor-open-lightbox="no" aria-label="View the approved Kathryn’s Beach A+ Content screenshot (opens in a new tab)"><img src="' . esc_url($url) . '" width="600" height="606" alt="Kathryn’s Beach A+ Content example with story panels, Nadine Laman’s author panel and related titles" loading="lazy" decoding="async"></a><figcaption>Supplied and approved for public display.</figcaption></figure><div><p class="gp-label">A+ CONTENT EXAMPLE</p><h3>Kathryn’s Beach</h3><p>By Nadine Laman · Cactus Rain Publishing</p><p>This approved screenshot shows a coordinated story introduction, supporting panels, author information and related titles. It illustrates the A+ Content presentation deliverable, without claiming improved sales or advertising performance.</p><a href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer">View the approved A+ example<span class="gpc-sr-only"> (opens in a new tab)</span></a></div></aside>';
+    return '<aside class="gp-aplus-example" id="kathryns-aplus-example"><figure><a href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer" data-elementor-open-lightbox="no" aria-label="View the approved Kathryn’s Beach A+ Content screenshot (opens in a new tab)"><img src="' . esc_url($url) . '" width="600" height="606" alt="Kathryn’s Beach A+ Content example with story panels, Nadine Laman’s author panel and related titles" loading="lazy" decoding="async"></a><figcaption>Supplied and approved for public display.</figcaption></figure><div><p class="gp-label">A+ CONTENT EXAMPLE</p><h3>Kathryn’s Beach</h3><p>By Nadine Laman · Cactus Rain Publishing</p><p>This approved screenshot shows a coordinated story introduction, supporting panels, author information and related titles. It illustrates the A+ Content presentation deliverable, without claiming improved sales or advertising performance.</p><a href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer">View the approved A+ example<span class="gpc-sr-only"> (opens in a new tab)</span></a></div></aside>';
 }

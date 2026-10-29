@@ -76,6 +76,9 @@ function gpc_web3forms_send($values, $message, $key) {
         'website' => $values['Author website'],
         'contact_permission' => 'Yes',
     );
+    foreach (array('Project stage'=>'project_stage','Word count'=>'word_count','Number of titles'=>'title_count','Genre'=>'genre','Marketplace'=>'marketplace','Desired formats'=>'desired_formats','Portfolio context'=>'portfolio_context') as $label=>$field) {
+        if (isset($values[$label]) && $values[$label] !== '') { $payload[$field] = $values[$label]; }
+    }
     $response = wp_remote_post('https://api.web3forms.com/submit', array(
         'timeout' => 18,
         'redirection' => 0,

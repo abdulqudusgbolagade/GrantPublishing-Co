@@ -6,7 +6,7 @@ function gpc_responsive_project_images($content) {
     if (!is_string($content)) { return $content; }
     $images = array(
         'abdulqudus-tella.png'=>array('file'=>'abdulqudus-tella-500.webp', 'width'=>500, 'height'=>500),
-        'luma-the-sleepy-star.png'=>array('file'=>'luma-review-426.webp', 'width'=>426, 'height'=>423),
+        'luma-the-sleepy-star.png'=>array('file'=>'luma-review-426-optimized.webp', 'width'=>426, 'height'=>423),
         'kathryns-beach.jpg'=>array('file'=>'kathryns-beach-640.webp', 'width'=>1287, 'height'=>2048, 'srcset'=>'kathryns-beach-360.webp 360w, kathryns-beach-640.webp 640w', 'sizes'=>'(max-width: 720px) 170px, 225px'),
     );
     return preg_replace_callback('~<img\b[^>]*>~i', function($match) use($images) {

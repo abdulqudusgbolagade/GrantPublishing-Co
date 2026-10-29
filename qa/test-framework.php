@@ -74,6 +74,7 @@ require dirname(__DIR__).'/grant-publishing-site/includes/faq.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/journey.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/framework.php';
 require dirname(__DIR__).'/grant-publishing-site/includes/production-audit.php';
+require dirname(__DIR__).'/grant-publishing-site/includes/premium.php';
 function missing_evidence_fixture(){
  fixture(false);
  foreach(array('case-studies','case-grandfather','case-luma','faq') as $key){$id=$GLOBALS['options']['gpc_page_ids'][$key];unset($GLOBALS['posts'][$id],$GLOBALS['meta'][$id],$GLOBALS['options']['gpc_page_ids'][$key]);}
@@ -95,7 +96,7 @@ require dirname(__DIR__).'/grant-publishing-site/includes/drafts.php';
 fixture(false);
 $exact=array('G'=>'Ground the book in the right market.','R'=>'Refine the positioning.','A'=>'Align the listing and presentation.','N'=>'Navigate visibility channels.','T'=>'Track growth and improve performance.');
 foreach($exact as $letter=>$name)check(gpc_framework_stages()[$letter]['name']===$name,'Exact stage name: '.$letter);
-foreach(array('home','about') as $key){$grid=gpc_framework_grid($key);foreach($exact as $name)check(substr_count($grid,$name)===1,'One exact stage name in '.$key.': '.$name);check(substr_count($grid,'gp-step gp-framework-card')===3,'Existing three-column grouping retained on '.$key);check(strpos($grid,'Ongoing monitoring is not included with every service.')!==false,'Monitoring scope explicit on '.$key);}
+foreach(array('home','about') as $key){$grid=gpc_framework_grid($key);foreach($exact as $name)check(substr_count($grid,$name)===1,'One exact stage name in '.$key.': '.$name);check(substr_count($grid,'gp-step gp-framework-card')===5,'Five individually readable framework stages on '.$key);check(strpos($grid,'Ongoing monitoring is not included with every service.')!==false,'Monitoring scope explicit on '.$key);}
 $old='<div class="gp-section" id="process"><div class="gp-wrap"><h2>Understand first.</h2><div class="gp-three-columns"><div class="gp-step">Old process</div></div></div></div><div class="gp-section">Unrelated approved section</div>';
 $new=gpc_framework_process($old,'home');check(strpos($new,'data-gpc-framework="home"')!==false && substr_count($new,'id="process"')===1,'Home framework replaces the existing process in place');check(strpos($new,'Unrelated approved section')!==false,'Unrelated homepage section preserved');check(gpc_framework_process($new,'home')===$new,'Home method replacement idempotent');
 $old='<div class="gp-section"><h2>Meet the founder</h2><p>Approved portrait and copy</p></div><div class="gp-section"><div class="gp-wrap"><h2>How we approach the work</h2><div class="gp-three-columns"><div>Old approach</div></div></div></div>';
@@ -128,4 +129,25 @@ check(substr_count($indexed,'data-gpc-approved-insight')===1 && strpos($indexed,
 check(gpc_index_approved_editorial($indexed)===$indexed,'Published draft index row is not duplicated');
 $GLOBALS['meta'][$id]['_gpc_editorial_draft']='unrecognised';
 check(gpc_index_approved_editorial($index)===$index,'Unverified page markers do not enter the public Insights index');
+fixture(false);$GLOBALS['queried_id']=9;$GLOBALS['loop_id']=9;
+$legacy='<main id="gpc-main"><div class="gp-home-hero"><h1>Bring your book to life.<br>Help it <em>reach readers.</em></h1></div><div class="gp-proof" id="work"><blockquote>Original approved review</blockquote></div><div class="gp-section" id="services"><h3>Book Design &amp; Formatting</h3></div><div class="gp-section" id="process">Original process</div></main>';
+$upgraded=gpc_premium_content($legacy);
+check(substr_count($upgraded,'data-gpc-selected-work')===1 && substr_count($upgraded,'class="gp-category"')===4,'Legacy Home receives selected work and four real service categories once');
+check(strpos($upgraded,'id="services"')<strpos($upgraded,'id="work"') && strpos($upgraded,'id="work"')<strpos($upgraded,'id="process"'),'Existing testimonials move intact between services and the original process');
+check(substr_count($upgraded,'Original approved review')===1 && substr_count($upgraded,'Original process')===1,'Approved review and process content preserved');
+check(gpc_premium_content($upgraded)===$upgraded,'Premium rendering is idempotent');
+$custom=str_replace('Book Design &amp; Formatting','My approved custom service offer',$legacy);
+$custom=gpc_premium_content($custom);
+check(strpos($custom,'My approved custom service offer')!==false && strpos($custom,'Original approved review')!==false,'Custom service copy and original testimonial are preserved');
+$history='<main id="gpc-main"><p>In 2020 I worked as a Book Marketing Strategist.</p></main>';
+check(strpos(gpc_premium_content($history),'In 2020 I worked as a Book Marketing Strategist.')!==false,'Historical role descriptions are not rewritten');
+check(strpos(gpc_selected_work(false),'My Dear Grandfather')===false && strpos(gpc_selected_work(false),'Luma the Sleepy Star')===false,'Work hub does not duplicate its two existing case studies');
+foreach(array('book-formatting','cover-design','publishing-support','amazon-visibility','book-presentation','amazon-ads','launch-promotion','author-platform','catalog-strategy','book-strategy') as $service){check(strpos(gpc_service_project_cta($service),'/contact/')!==false,'Service-specific enquiry available for '.$service);}
+
+$static=array(array('elType'=>'container','settings'=>array(),'elements'=>array(array('elType'=>'widget','widgetType'=>'heading','settings'=>array('title'=>'A real heading'),'elements'=>array()))));
+check(gpc_static_elementor_layout($static),'Static publishing layouts do not require Elementor runtime');
+foreach(array('accordion','video','form','image-carousel','custom-widget') as $widget){$fixture=$static;$fixture[0]['elements'][0]['widgetType']=$widget;check(!gpc_static_elementor_layout($fixture),'Elementor runtime retained for '.$widget);}
+$fixture=$static;$fixture[0]['settings']['_animation']='fadeIn';check(!gpc_static_elementor_layout($fixture),'Authored animation keeps Elementor runtime');
+$fixture=$static;$fixture[0]['elements'][0]=array('elType'=>'widget','widgetType'=>'image','settings'=>array('link_to'=>'file'),'elements'=>array());check(!gpc_static_elementor_layout($fixture),'Existing image lightboxes keep Elementor runtime');
+$fixture=$static;$fixture[0]['elements'][0]=array('elType'=>'widget','widgetType'=>'shortcode','settings'=>array('shortcode'=>'[third_party_widget]'),'elements'=>array());check(!gpc_static_elementor_layout($fixture),'Unknown shortcode keeps Elementor runtime');
 echo "\n".$GLOBALS['checks']." framework/audit assertions passed. No real request or message was sent.\n";

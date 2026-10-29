@@ -1,0 +1,87 @@
+PASS: Four requested pages created
+PASS: Only four missing pages inserted and no saved page is updated
+PASS: Correct case-study parent and canonical route: case-grandfather
+PASS: Correct case-study parent and canonical route: case-luma
+PASS: Saved content, Elementor data and all existing metadata preserved
+PASS: Provider configuration preserved
+PASS: New page has no forced manual Yoast fields: 26
+PASS: New page has no forced manual Yoast fields: 27
+PASS: New page has no forced manual Yoast fields: 28
+PASS: New page has no forced manual Yoast fields: 29
+PASS: Completed migration does not run again on dashboard visits
+PASS: Manual retry does not duplicate pages
+PASS: Public users cannot create pages
+PASS: Concurrent setup observes active lock
+PASS: Interrupted stale lock recovers
+PASS: Failed creation retains retry state and releases lock
+PASS: Failed creation can be retried
+PASS: Existing draft hub preserved; children wait and FAQ can be created
+PASS: Unrelated canonical hub is not overwritten or duplicated
+PASS: Required next step: amazon-visibility to book-strategy
+PASS: Required next step: amazon-visibility to amazon-ads
+PASS: Required next step: amazon-visibility to case-grandfather
+PASS: Required next step: amazon-visibility to enquiry
+PASS: Required next step: book-presentation to amazon-visibility
+PASS: Required next step: book-presentation to cover-design
+PASS: Required next step: book-presentation to case-grandfather
+PASS: Required next step: book-presentation to enquiry
+PASS: Required next step: book-formatting to publishing-support
+PASS: Required next step: book-formatting to cover-design
+PASS: Required next step: book-formatting to case-luma
+PASS: Required next step: book-formatting to contact
+PASS: Required next step: cover-design to book-formatting
+PASS: Required next step: cover-design to publishing-support
+PASS: Required next step: cover-design to case-luma
+PASS: Required next step: cover-design to contact
+PASS: Required next step: amazon-ads to amazon-visibility
+PASS: Required next step: amazon-ads to book-strategy
+PASS: Required next step: amazon-ads to enquiry
+PASS: Required next step: launch-promotion to amazon-visibility
+PASS: Required next step: launch-promotion to amazon-ads
+PASS: Required next step: launch-promotion to book-strategy
+PASS: Required next step: launch-promotion to author-platform
+PASS: Required next step: launch-promotion to enquiry
+PASS: Required next step: author-platform to book-strategy
+PASS: Required next step: author-platform to launch-promotion
+PASS: Required next step: author-platform to enquiry
+PASS: Required next step: book-strategy to amazon-visibility
+PASS: Required next step: book-strategy to amazon-ads
+PASS: Required next step: book-strategy to launch-promotion
+PASS: Required next step: book-strategy to author-platform
+PASS: Required next step: book-strategy to enquiry
+PASS: Required next step: publishing-support to book-formatting
+PASS: Required next step: publishing-support to cover-design
+PASS: Required next step: publishing-support to amazon-visibility
+PASS: Required next step: publishing-support to case-luma
+PASS: Required next step: publishing-support to contact
+PASS: Required next step: catalog-strategy to author-platform
+PASS: Required next step: catalog-strategy to book-strategy
+PASS: Required next step: catalog-strategy to launch-promotion
+PASS: Required next step: catalog-strategy to enquiry
+PASS: No unsupported advertising project is presented as proof
+PASS: Publishing proof explains Luma file-delivery boundary
+PASS: All thirteen FAQs use native keyboard-accessible disclosures
+PASS: Advertising FAQ is short and scoped
+PASS: Ad spend remains separate
+PASS: Contextual links added to book-discovery
+PASS: Article links idempotent: book-discovery
+PASS: Contextual links added to book-product-page
+PASS: Article links idempotent: book-product-page
+PASS: Contextual links added to connected-catalog
+PASS: Article links idempotent: connected-catalog
+PASS: Edited article copy is preserved while related links are added separately
+PASS: Proof sits before final CTA inside the existing main
+PASS: Feedback retains PDF and gains HTML case destination
+PASS: Feedback links idempotent
+PASS: Editor and dashboard content are unaffected
+PASS: Secondary loop content is unaffected
+PASS: Legal-page body is unchanged
+PASS: Connected Canvas or native page can receive proof
+PASS: Public service enhancement is idempotent
+PASS: Yoast manual description overrides page fallback
+PASS: New case study has a social-description fallback
+PASS: Existing social description remains authoritative
+PASS: Explicit manual social field is never replaced even when its incoming rendering is empty
+PASS: Yoast owns the final title
+
+85 journey assertions passed. No production writes or messages occurred.

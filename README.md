@@ -1,21 +1,24 @@
 # Grant Publishing Co.
 
-WordPress plugin **4.6.0** adds all eight supplied book-formatting samples to the existing Formatting page and includes them in a larger homepage showcase. The approved layout, brand, copy, existing projects, metadata and forms are preserved.
+WordPress plugin **4.7.0 review build** upgrades the existing publishing website's presentation, real-project portfolio, service journeys, optional enquiry fields and performance. Existing URLs, brand assets, genuine reviews, PDFs, legal copy, manual Yoast metadata and server-side Web3Forms settings are preserved.
 
-**[Download the installable plugin ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.6.0/grant-publishing-site-4.6.0.zip)**
+**[Download the installable review ZIP](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/raw/refs/heads/main/releases/4.7.0/grant-publishing-site-4.7.0.zip)**
 
-If downloading fails, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.6.0/grant-publishing-site-4.6.0.zip) and choose **Download raw file**. Upload this plugin ZIP, not the repository ZIP.
+If downloading fails, [open the ZIP on GitHub](https://github.com/abdulqudusgbolagade/GrantPublishing-Co/blob/main/releases/4.7.0/grant-publishing-site-4.7.0.zip) and choose **Download raw file**. Upload the plugin ZIP, not the repository ZIP.
 
-The homepage has no pause button. Its arrows stop automatic rotation for manual browsing, with keyboard, hover and reduced-motion support retained. All eight formatting images have matching gallery anchors and full-size original links. The Services showcase retains its existing layout and controls.
+**Not deployed to production.** The latest brief requires review and approval before installation on the live WordPress site.
 
-**Production installation is pending.** The public pages inspected on 20 October were running 4.5.0. No bulk Elementor conversion or SEO rewrite is required.
-
-- [Complete testing report and preservation results](releases/4.6.0/TESTING-REPORT.md)
-- [Installation and rollback](releases/4.6.0/INSTALLATION.md)
-- [Desktop and mobile screenshots](releases/4.6.0/GALLERY.md)
-- [Source image inventory](releases/4.6.0/evidence/sources.json)
-- [Checksums](releases/4.6.0/SHA256SUMS.txt)
+- [Changes, testing results, limitations and owner checklist](releases/4.7.0/TESTING-REPORT.md)
+- [Before-and-after desktop/mobile screenshots](releases/4.7.0/GALLERY.md)
+- [Installation and rollback after approval](releases/4.7.0/INSTALLATION.md)
+- [Existing analytics, consent and conversion setup](releases/4.7.0/ANALYTICS.md)
+- [Exact source files changed](releases/4.7.0/FILES-CHANGED.txt)
+- [ZIP checksum](releases/4.7.0/SHA256SUMS.txt)
 - [Development checks](qa/README.md)
-- [Previous framework/audit release and article drafts](releases/4.5.0/TESTING-REPORT.md)
+- [Previous formatting/showcase release](releases/4.6.0/TESTING-REPORT.md)
 
-Source rollback point: `4ee3c87`, tag `backup/formatting-showcase-2026-10-20`. Both live forms’ email receipt was confirmed by the owner on 13 October 2026; no new live test messages were sent. The installable ZIP includes no real Web3Forms key, production credential, QA endpoint or database.
+The final local audit covers 26 pages at six widths, all 11 homepage slides, 50 form/navigation/consent checks, 59 carousel/gallery interactions, and 1,359 PHP assertions across 7.4/8.2/8.3. Mobile Lighthouse performance changed from 65 to 79 and desktop from 96 to 97 in the isolated test installation; final measured layout shift was zero. These are lab measurements, not production field scores.
+
+The homepage still has no pause button. Its arrows stop rotation for manual browsing, keyboard focus stops it, hover pauses it and reduced-motion preferences disable automatic rotation. All eight owner-supplied formatting views remain available with full-size original links. No invented projects or results have been added.
+
+Rollback source: `a588056`, tag `backup/premium-upgrade-2026-10-28`. Both earlier real Web3Forms test emails were confirmed received by the owner on 13 October 2026. No new external enquiries or analytics were transmitted during this release's testing. The installable ZIP includes no real key, production credential, QA endpoint or database.

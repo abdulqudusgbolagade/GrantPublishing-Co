@@ -10,6 +10,18 @@
       if (service && Array.from(form.elements.service.options).some(function (option) { return option.value === service; })) form.elements.service.value = service;
       const button = form.querySelector('button[type="submit"]');
       const bookDetails = form.querySelector('[data-book-details]');
+      const projectStage = form.elements.project_stage;
+      function updateProjectFields(openDetails) {
+        if (!projectStage) return;
+        form.querySelectorAll('[data-project-fields]').forEach(function (group) {
+          const visible = group.dataset.projectFields === projectStage.value;
+          group.hidden = !visible;
+          group.querySelectorAll('input,select,textarea').forEach(function (field) { field.disabled = !visible; });
+        });
+        if (openDetails && bookDetails && projectStage.value !== 'general') bookDetails.open = true;
+      }
+      if (projectStage) projectStage.addEventListener('change', function () { updateProjectFields(true); });
+      updateProjectFields(false);
       if (bookDetails) {
         const hasDetails = Array.from(bookDetails.querySelectorAll('input,select')).some(function (field) { return field.value !== ''; });
         if (hasDetails || form.elements.request.value === 'assessment') bookDetails.open = true;
@@ -54,10 +66,15 @@
           if (typeof result.data?.message !== 'string') throw new Error('Unexpected response');
           status.textContent = result.data.message;
           status.dataset.state = 'success';
+          // Provider-accepted only. A repeated enquiry is not a new conversion.
+          if (!result.data.message.startsWith('This enquiry has already been submitted')) {
+            form.dispatchEvent(new CustomEvent('grant:enquiry-accepted', { bubbles: true, detail: { request: data.get('request'), project: data.get('project_context') || '' } }));
+          }
           form.reset();
           form.elements.request.value = initialRequest;
           form.elements.service.value = initialService;
           if (bookDetails) bookDetails.open = initialDetailsOpen;
+          updateProjectFields(false);
         } catch (error) {
           status.dataset.state = 'error';
           status.textContent = confirmedFailure ? error.message : 'We could not confirm whether your enquiry was received. Your details are still here. Please contact ' + (form.dataset.contactEmail || 'hello@grantpublishingco.com') + ' to check before sending it again.';
